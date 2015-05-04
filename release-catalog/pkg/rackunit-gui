@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "cdcc3edf080ec98c1d4de222bc3545e3aa013ea9")
+(dependencies . ("rackunit-lib" "data-lib" "gui-lib" "unstable-list-lib" "base"))
+(description . "RackUnit test runner GUI")
+(name . "rackunit-gui")
+(source . "git://github.com/racket/rackunit/?path=rackunit-gui"))

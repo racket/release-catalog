@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "1ee942f44aebf69a45edc255dc17b9c0d2027c16")
+(dependencies . ("srfi-lite-lib" "base"))
+(description . "implementation (no documentation) part of \"planet\"")
+(name . "planet-lib")
+(source . "git://github.com/racket/planet/?path=planet-lib"))

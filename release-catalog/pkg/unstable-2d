@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "db9d93c7ccb3e9cededd21f9a8a0b61b36ae114f")
+(dependencies . ("base" "scribble-lib" "syntax-color-lib"))
+(description . "Experimental 2d syntax")
+(name . "unstable-2d")
+(source . "git://github.com/racket/unstable-2d"))

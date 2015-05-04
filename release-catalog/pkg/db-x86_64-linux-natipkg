@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "13c23d8f80f64adc21aa3848ecfedda2cced36fc")
+(dependencies . ("base"))
+(description . "native libraries for \"base\" package")
+(name . "db-x86_64-linux-natipkg")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/13c23d8f80f64adc21aa3848ecfedda2cced36fc/db-x86_64-linux-natipkg.zip"))

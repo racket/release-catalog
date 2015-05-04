@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "97482e9f0d0c687f21814148683dee6e78cabb2a")
+(dependencies . ("base"))
+(description . "native libraries for \"math\" package")
+(name . "math-x86_64-linux-natipkg")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/97482e9f0d0c687f21814148683dee6e78cabb2a/math-x86_64-linux-natipkg.zip"))

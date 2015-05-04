@@ -1,0 +1,9 @@
+
+#hash(
+(author . "chrdimo@racket-lang.org robby@racket-lang.org")
+(authors . ("chrdimo@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "9bdcb40380945fecd0d4bd5f750e5b08d8ac9312")
+(dependencies . ("base"))
+(description . "Experimental libraries for option contracts")
+(name . "unstable-options-lib")
+(source . "git://github.com/racket/unstable-options-lib"))

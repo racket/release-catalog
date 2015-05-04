@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "7071d9a3ee0ad60f947c0a597ddd4b64bed3d94a")
+(dependencies . ("base" "scribble-lib" "unstable" "unstable-flonum-lib" "plot" "math-doc" "racket-doc"))
+(description . "Experimental libraries for flonum computations (documentation)")
+(name . "unstable-flonum-doc")
+(source . "git://github.com/racket/unstable-flonum/?path=unstable-flonum-doc"))

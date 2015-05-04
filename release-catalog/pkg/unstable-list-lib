@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org samth@racket-lang.org")
+(authors . ("ryanc@racket-lang.org" "samth@racket-lang.org"))
+(checksum . "9fdf23c873358410ac1ec5336dad568c68b123c2")
+(dependencies . ("base"))
+(description . "Experimental libraries for list operations")
+(name . "unstable-list-lib")
+(source . "git://github.com/racket/unstable-list-lib"))

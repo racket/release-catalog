@@ -1,0 +1,9 @@
+
+#hash(
+(author . "cce@racket-lang.org")
+(authors . ("cce@racket-lang.org"))
+(checksum . "5d6d24be2b0a9c773ac30a22c870b7817ce9f90a")
+(dependencies . ("base"))
+(description . "Experimental libraries for pretty printing")
+(name . "unstable-pretty-lib")
+(source . "git://github.com/racket/unstable-pretty-lib"))

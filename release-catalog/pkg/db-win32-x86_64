@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "63cb44ad2f7727cd39fb0543a694e972c49f8911")
+(dependencies . ("base"))
+(description . "native libraries for \"base\" package")
+(name . "db-win32-x86_64")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/63cb44ad2f7727cd39fb0543a694e972c49f8911/db-win32-x86_64.zip"))

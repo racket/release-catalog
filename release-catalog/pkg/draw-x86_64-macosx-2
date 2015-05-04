@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "d40c1da10647d317bedb262f459339bb4c033993")
+(dependencies . ("base"))
+(description . "native libraries for \"draw\" package")
+(name . "draw-x86_64-macosx-2")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/d40c1da10647d317bedb262f459339bb4c033993/draw-x86_64-macosx-2.zip"))
