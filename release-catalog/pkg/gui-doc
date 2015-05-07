@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "e150651d8d0b455ba1c46ad5d405cfd0d3fb2e41")
+(checksum . "175e29a762acb1519e950defc1452fab2a58a0a9")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" "scribble-lib" "snip-lib" "string-constants-lib" "syntax-color-lib" "wxme-lib" "gui-lib" "racket-doc" "string-constants-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")
-(source . "git://github.com/racket/gui/?path=gui-doc"))
+(source . "git://github.com/racket/gui/?path=gui-doc#release"))
