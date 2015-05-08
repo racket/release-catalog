@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "175e29a762acb1519e950defc1452fab2a58a0a9")
+(checksum . "75c08a2c41dcb8a02f3f24ac340f968551b62bb4")
 (dependencies . ("srfi-lite-lib" "data-lib" "base" "syntax-color-lib" "draw-lib" "snip-lib" "wxme-lib" "pict-lib" "scheme-lib" "scribble-lib" "string-constants-lib" "unstable-options-lib" "unstable-2d" "compatibility-lib" "tex-table" ("gui-i386-macosx" #:platform "i386-macosx") ("gui-x86_64-macosx" #:platform "x86_64-macosx") ("gui-ppc-macosx" #:platform "ppc-macosx") ("gui-win32-i386" #:platform "win32\\i386") ("gui-win32-x86_64" #:platform "win32\\x86_64") ("gui-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"gui\"")
 (name . "gui-lib")

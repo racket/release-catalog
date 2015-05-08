@@ -104,3 +104,25 @@
        .
        ("db66772ce8fe01c777277369bdb5be230e77f17d"
         "641ebff55a18abec80c13c0d1b1a41638540aca6")))
+;; ============================================================
+;; Appended 1431049039 : Thursday, May 7th, 2015 9:37:19pm
+#hash(("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("175e29a762acb1519e950defc1452fab2a58a0a9"
+        "75c08a2c41dcb8a02f3f24ac340f968551b62bb4"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("175e29a762acb1519e950defc1452fab2a58a0a9"
+        "75c08a2c41dcb8a02f3f24ac340f968551b62bb4"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("175e29a762acb1519e950defc1452fab2a58a0a9"
+        "75c08a2c41dcb8a02f3f24ac340f968551b62bb4"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("175e29a762acb1519e950defc1452fab2a58a0a9"
+        "75c08a2c41dcb8a02f3f24ac340f968551b62bb4"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("175e29a762acb1519e950defc1452fab2a58a0a9"
+        "75c08a2c41dcb8a02f3f24ac340f968551b62bb4")))
