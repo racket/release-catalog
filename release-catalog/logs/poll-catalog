@@ -126,3 +126,33 @@
        .
        ("175e29a762acb1519e950defc1452fab2a58a0a9"
         "75c08a2c41dcb8a02f3f24ac340f968551b62bb4")))
+;; ============================================================
+;; Appended 1431102218 : Friday, May 8th, 2015 12:23:38pm
+#hash(("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("a80f55946d0f221517bdbe47aa2dc72aab3fc4ba"
+        "38d7731d4cd1881396568034e0e1827905c4af76")))

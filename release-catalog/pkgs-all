@@ -1839,11 +1839,11 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
-(source . "git://github.com/racket/typed-racket/?path=source-syntax")))
+(source . "git://github.com/racket/typed-racket/?path=source-syntax#release")))
 ("srfi" . 
 #hash(
 (author . "mflatt@racket-lang.org noel@racket-lang.org chongkai@racket-lang.org jay@racket-lang.org")
@@ -1983,56 +1983,56 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("typed-racket-lib" "typed-racket-doc"))
 (description . "The implementation of the Typed Racket language")
 (name . "typed-racket")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket#release")))
 ("typed-racket-compatibility" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("scheme-lib" "typed-racket-lib" "base"))
 (description . "compatibility library for older Typed Racket-based languages")
 (name . "typed-racket-compatibility")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-compatibility")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release")))
 ("typed-racket-doc" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("base" "net-doc" "scheme-lib" "srfi-lite-lib" "r6rs-doc" "srfi-doc" "r6rs-lib" "sandbox-lib" "at-exp-lib" "scribble-lib" "pict-lib" "typed-racket-lib" "typed-racket-compatibility" "typed-racket-more" "racket-doc"))
 (description . "documentation part of \"typed-racket\"")
 (name . "typed-racket-doc")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-doc")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-doc#release")))
 ("typed-racket-lib" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . (("base" #:version "6.2.0.2") "pconvert-lib" "unstable-contract-lib" "unstable-list-lib" "source-syntax" "compatibility-lib" "string-constants-lib"))
 (description . "implementation (no documentation) part of \"typed-racket\"")
 (name . "typed-racket-lib")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-lib")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-lib#release")))
 ("typed-racket-more" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "draw-lib" "rackunit-lib" "rackunit-gui" "snip-lib" "typed-racket-lib" "gui-lib" "pict-lib" "racket-index" "sandbox-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-more")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-more#release")))
 ("typed-racket-test" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a80f55946d0f221517bdbe47aa2dc72aab3fc4ba")
+(checksum . "38d7731d4cd1881396568034e0e1827905c4af76")
 (dependencies . ("base" "typed-racket" "typed-racket-more" "typed-racket-compatibility" "unstable" "unstable-2d" "rackunit-lib" "racket-index" "pconvert-lib" "compatibility-lib" "unstable-flonum-lib" "unstable-list-lib" "scheme-lib" "base" "racket-benchmarks" "rackunit-lib" "compiler-lib" "redex-lib" "htdp-lib" "sandbox-lib" "unstable"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-test")))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-test#release")))
 ("unstable" . 
 #hash(
 (author . "jay@racket-lang.org samth@racket-lang.org cce@racket-lang.org ryanc@racket-lang.org")
