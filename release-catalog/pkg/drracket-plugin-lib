@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "660286fe1f3cec80bf0594b22b470586042ef0c3")
+(checksum . "ec2bfb1566b9a171fb593f787859f53d531c61b3")
 (dependencies . ("base"))
 (description . "DrRacket's plugin API")
 (name . "drracket-plugin-lib")
-(source . "git://github.com/racket/drracket/?path=drracket-plugin-lib"))
+(source . "git://github.com/racket/drracket/?path=drracket-plugin-lib#release"))
