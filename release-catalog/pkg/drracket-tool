@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "ec2bfb1566b9a171fb593f787859f53d531c61b3")
+(checksum . "51bd703c3aa8e2eb5fb2e88f0ffda3ce803dd293")
 (dependencies . ("drracket-tool-lib" "drracket-tool-doc"))
 (description . "Programmatic interface to some IDE tools that DrRacket supports")
 (name . "drracket-tool")
