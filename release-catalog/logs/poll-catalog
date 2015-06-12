@@ -406,3 +406,9 @@
        .
        ("463d803ae1d1d97a166422902acc3c3bc15b01d1"
         "fc19cf202e2d92ee96590bae0532b98c3437fd99")))
+;; ============================================================
+;; Appended 1434131950 : Friday, June 12th, 2015 1:59:10pm
+#hash(("git://github.com/racket/deinprogramm#release"
+       .
+       ("7fea36f70f388aed3a4484240a7749ff57a3b550"
+        "18bebc42d189fae308667a339c44ab952695d53c")))
