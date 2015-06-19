@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
-(source . "git://github.com/plt/racket/?path=pkgs/at-exp-lib#release"))
+(source . "git://github.com/plt/racket/?path=pkgs/at-exp-lib#v6.2"))

@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "errortrace-lib" "gui-lib" "pconvert-lib" "srfi-lib" "string-constants-lib" "trace" "wxme-lib" "drracket" "htdp" "racket-index" "at-exp-lib" "racket-doc" "rackunit-lib" "scribble-lib"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm#release"))
+(source . "git://github.com/racket/deinprogramm#v6.2"))

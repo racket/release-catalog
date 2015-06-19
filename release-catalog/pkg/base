@@ -6,4 +6,4 @@
 (dependencies . ("racket-lib" ("racket" #:version "6.2.0.2")))
 (description . "Racket libraries that are currently always available")
 (name . "base")
-(source . "git://github.com/plt/racket/?path=pkgs/base#release"))
+(source . "git://github.com/plt/racket/?path=pkgs/base#v6.2"))

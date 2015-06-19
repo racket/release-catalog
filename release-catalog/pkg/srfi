@@ -6,4 +6,4 @@
 (dependencies . ("srfi-lib" "srfi-doc"))
 (description . "Legacy SRFI (Scheme) libraries")
 (name . "srfi")
-(source . "git://github.com/racket/srfi/?path=srfi#release"))
+(source . "git://github.com/racket/srfi/?path=srfi#v6.2"))

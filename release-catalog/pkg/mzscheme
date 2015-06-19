@@ -6,4 +6,4 @@
 (dependencies . ("mzscheme-lib" "mzscheme-doc"))
 (description . "The legacy MzScheme language")
 (name . "mzscheme")
-(source . "git://github.com/racket/mzscheme/?path=mzscheme#release"))
+(source . "git://github.com/racket/mzscheme/?path=mzscheme#v6.2"))

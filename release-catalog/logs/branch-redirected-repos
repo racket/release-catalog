@@ -1,3 +1,15 @@
 ;; ============================================================
 ;; Appended 1430143713 : Monday, April 27th, 2015 10:08:33am
 (("plt" "racket"))
+;; ============================================================
+;; Appended 1434739110 : Friday, June 19th, 2015 2:38:30pm
+(("plt" "racket")
+ ("racket" "db")
+ ("racket" "deinprogramm")
+ ("racket" "drracket")
+ ("racket" "gui")
+ ("racket" "htdp")
+ ("racket" "mzscheme")
+ ("racket" "plot")
+ ("racket" "srfi")
+ ("racket" "typed-racket"))

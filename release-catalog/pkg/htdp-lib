@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "srfi-lite-lib" "base" "compatibility-lib" "draw-lib" "errortrace-lib" ("gui-lib" #:version "1.7") "htdp-doc" "html-lib" "images-lib" "images-gui-lib" "net-lib" "plai" "pconvert-lib" "r5rs-lib" "sandbox-lib" "scribble-lib" "slideshow-lib" "snip-lib" "string-constants-lib" "typed-racket-lib" "web-server-lib" "wxme-lib" "drracket" "deinprogramm" "racket-index" "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"htdp\"")
 (name . "htdp-lib")
-(source . "git://github.com/racket/htdp/?path=htdp-lib#release"))
+(source . "git://github.com/racket/htdp/?path=htdp-lib#v6.2"))

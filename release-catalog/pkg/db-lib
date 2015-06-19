@@ -6,4 +6,4 @@
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"db\"")
 (name . "db-lib")
-(source . "git://github.com/racket/db/?path=db-lib#release"))
+(source . "git://github.com/racket/db/?path=db-lib#v6.2"))

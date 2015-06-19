@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "srfi-lite-lib" "r6rs-lib" "compatibility-lib"))
 (description . "implementation (no documentation) part of \"srfi\"")
 (name . "srfi-lib")
-(source . "git://github.com/racket/srfi/?path=srfi-lib#release"))
+(source . "git://github.com/racket/srfi/?path=srfi-lib#v6.2"))
