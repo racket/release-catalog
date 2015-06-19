@@ -412,3 +412,41 @@
        .
        ("7fea36f70f388aed3a4484240a7749ff57a3b550"
         "18bebc42d189fae308667a339c44ab952695d53c")))
+;; ============================================================
+;; Appended 1434739070 : Friday, June 19th, 2015 2:37:50pm
+#hash(("git://github.com/plt/racket/?path=pkgs/racket-index#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/at-exp-lib#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-test#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-benchmarks#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-doc#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/base#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-test-core#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-lib#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92"))
+      ("git://github.com/plt/racket/?path=pkgs/racket-test-extra#release"
+       .
+       ("fcfe988631a05b647c7278aa366bafed01789de6"
+        "7f6683094942b9f7594781da0d36a30aabefbb92")))
