@@ -37,13 +37,6 @@
 
 ;; ============================================================
 
-;; The expected usage consists of the following steps
-;; - raco pkg catalog-copy https://pkg.racket-lang.org release-catalog
-;; - catalog-tool.rkt filter -fi release-catalog main-distribution main-distribution-test distro-build
-;; - catalog-tool.rkt branch -fi release-catalog -b release
-;; And then periodically (probably before each build):
-;; - catalog-tool.rkt checksums -fi release-catalog --from-branch release
-
 ;; FIXME: the repos to create a release branch on are logged as a side effect of
 ;; the branch subcommand. TODO: make it easier to extract them from the log?
 
