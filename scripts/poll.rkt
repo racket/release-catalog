@@ -63,8 +63,7 @@
 
 (define (poll-source** user repo kind)
   (define ref-infos
-    (github-api (build-url "https://api.github.com/repos"
-                           #:path (list user repo kind))))
+    (get/github (format "https://api.github.com/repos/~a/~a/~a" user repo kind)))
   (unless (and (list? ref-infos)
                (for/and ([ref-info ref-infos])
                  (and (hash? ref-info)

@@ -4,6 +4,7 @@
          racket/match
          net/url
          json
+         "net.rkt"
          (only-in pkg/util ;; pkg/private/stage on master
                   package-url->checksum
                   github-client_id
@@ -13,24 +14,46 @@
 ;; ============================================================
 ;; Github
 
-(define (github-api u #:query [query-parts null])
-  (define api-url (build-url u #:query (append (github-credentials) query-parts)))
-  (define result
-    (call/input-url+200
-     api-url port->bytes
-     #:headers (list (format "User-Agent: raco-pkg/~a" (version)))))
-  (unless result
-    (error 'github-api "could not connect to github ~s" (url->string api-url)))
-  (read-json (open-input-bytes result)))
+(define USER-AGENT (format "User-Agent: racket-catalog-tool/~a" (version)))
 
-(define (github-credentials)
-  (cond [(and (github-client_id)
-              (github-client_secret))
-         (list (cons 'client_id (github-client_id))
-               (cons 'client_secret (github-client_secret)))]
-        [else null]))
+(define (wrap/no-data who0 proc)
+  (lambda (url #:headers [headers null] #:handle [handle read-json]
+          #:fail [fail "failed"] #:who [who who0]
+          #:user-credentials? [user-credentials? #f])
+    (proc (add-credentials url user-credentials?)
+          #:headers (cons USER-AGENT headers)
+          #:handle handle #:fail fail #:who who)))
+
+(define (wrap/data who0 proc)
+  (lambda (url #:headers [headers null] #:handle [handle read-json]
+          #:fail [fail "failed"] #:who [who who0]
+          #:user-credentials? [user-credentials? #f]
+          #:data [data #f])
+    (proc (add-credentials url user-credentials?)
+          #:headers (cons USER-AGENT headers)
+          #:handle handle #:fail fail #:who who #:data data)))
+
+(define get/github (wrap/no-data 'get/github get/url))
+(define head/github (wrap/no-data 'head/github head/url))
+(define delete/github (wrap/no-data 'delete/github delete/url))
+
+(define post/github (wrap/data 'post/github post/url))
+(define put/github (wrap/data 'put/github put/url))
 
 ;; ----------------------------------------
+
+(define (add-credentials url user-credentials?)
+  (cond [(and user-credentials? github-user-credentials)
+         (url-add-query url (list (cons 'access_token github-user-credentials)))]
+        [user-credentials?
+         (error 'add-credentials "user credentials required but not available")]
+        [else
+         (url-add-query url (github-client-credentials))]))
+
+(define github-user-credentials
+  (let ([file (build-path (find-system-path 'pref-dir) "github-user-credentials.rktd")])
+    (and (file-exists? file)
+         (file->value file))))
 
 (let ([credentials-file
        (build-path (find-system-path 'pref-dir) "github-poll-client.rktd")])
@@ -41,19 +64,14 @@
         [else
          (eprintf "! No github credentials found.\n")]))
 
-;; ----------------------------------------
+(define (github-client-credentials)
+  (cond [(and (github-client_id)
+              (github-client_secret))
+         (list (cons 'client_id (github-client_id))
+               (cons 'client_secret (github-client_secret)))]
+        [else null]))
 
-(define (call/input-url+200 u fun
-                            #:headers [headers '()]
-                            #:failure [fail-k (lambda (s) #f)])
-  (define-values (ip hs)
-    (get-pure-port/headers u headers
-                           #:redirections 25
-                           #:status? #t))
-  (if (string=? "200" (substring hs 9 12))
-      (begin0 (fun ip)
-        (close-input-port ip))
-      (fail-k hs)))
+;; ----------------------------------------
 
 (define (build-url base
                    #:path [path-parts null]
