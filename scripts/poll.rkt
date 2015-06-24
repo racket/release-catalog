@@ -7,6 +7,12 @@
          "private/github.rkt")
 (provide (all-defined-out))
 
+;; For each pkg in the catalog, check for a new release branch or for
+;; an update to an existing release branch. In the case of a new
+;; release branch, redirect the pkg source to the release branch and
+;; update the checksum. In the case of a release branch update, update
+;; the checksum.
+
 ;; ============================================================
 ;; Poll for new release branches
 

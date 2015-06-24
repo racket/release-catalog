@@ -8,6 +8,9 @@
          "private/github.rkt")
 (provide (all-defined-out))
 
+;; For each src in the catalog matching <from-user>/*#<from-branch>,
+;; delete the branch <branch> if it exists.
+
 ;; delete-branches : Catalog String -> Void
 (define (delete-branches catalog branch from-user from-branch)
   (for ([user+repo (in-hash-keys (get-sources catalog from-user from-branch))])

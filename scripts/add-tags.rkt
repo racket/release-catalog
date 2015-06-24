@@ -8,6 +8,10 @@
          "private/github.rkt")
 (provide (all-defined-out))
 
+;; For each source in the catalog matching */*#<branch>, create an
+;; annotated tag named <tag> pointing to the source's stored checksum
+;; (which might be different than the current value of #<branch>).
+
 #|
 (define (my-name) "Ryan Culpepper")
 (define (my-email) "ryanc@racket-lang.org")

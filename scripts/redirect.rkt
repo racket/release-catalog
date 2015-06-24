@@ -6,6 +6,9 @@
          "private/util.rkt")
 (provide (all-defined-out))
 
+;; For each pkg in the catalog matching <from-user>/<from-repo>#<from-branch>,
+;; redirect the source to #<branch>.
+
 ;; ============================================================
 ;; Redirect branch/tag of selected pkg sources
 

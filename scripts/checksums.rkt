@@ -8,8 +8,10 @@
          "private/github.rkt")
 (provide (all-defined-out))
 
-;; ============================================================
-;; Update Checksums
+;; For each pkg in the catalog matching <from-user>/<from-repo>#<from-branch>,
+;; check for the current value of #<from-branch> and update the pkg's
+;; checksum field.
+
 ;; Adapted from pkg-index/official/update.rkt
 
 ;; checksum-updates : hash[ source  => (list old-checksum new-checksum) ]

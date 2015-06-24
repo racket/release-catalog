@@ -3,6 +3,9 @@
          "private/util.rkt")
 (provide (all-defined-out))
 
+;; Filter the catalog, retaining only pkg entries reachable by
+;; dependency edges from <roots>, and minimizing the pkg info hashes.
+
 ;; ============================================================
 ;; Filter catalog
 

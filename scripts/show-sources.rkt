@@ -4,6 +4,9 @@
          "private/util.rkt")
 (provide (all-defined-out))
 
+;; For each <user>, <repo> such that some pkg in the catalog has
+;; source <user>/<repo>/<from-branch>, print <user>/<repo> to stdout.
+
 ;; show-sources : Catalog -> Void
 (define (show-sources catalog from-branch)
   (define repos (sort (get-sources catalog from-branch) string<?))
