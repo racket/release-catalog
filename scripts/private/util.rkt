@@ -50,13 +50,16 @@
 ;; make-git-source : String String String String -> String
 ;; Compose a git source URL from parts.
 (define (make-git-source user repo path to-branch #:url-type [url-type 'git])
+  (define branch-part
+    (cond [(member to-branch '(#f "master")) ""]
+          [else (format "#~a" to-branch)]))
   (case url-type
     [(git)
-     (format "git://github.com/~a/~a~a#~a"
-             user repo (if path (format "/?path=~a" path) "") to-branch)]
+     (format "git://github.com/~a/~a~a~a"
+             user repo (if path (format "/?path=~a" path) "") branch-part)]
     [(https)
-     (format "https://github.com/~a/~a.git~a#~a"
-             user repo (if path (format "/?path=~a" path) "") to-branch)]))
+     (format "https://github.com/~a/~a.git~a~a"
+             user repo (if path (format "/?path=~a" path) "") branch-part)]))
 
 ;; A ParsedRepo is one of
 ;; - (list user repo branch path)
