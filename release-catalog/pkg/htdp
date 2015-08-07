@@ -2,7 +2,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "3bf9d632f190f2cad5069af09adaa1eb96fc475a")
+(checksum . "f4af51e1a9d11a3112c677f1eb79ab7dc7f8d26c")
 (dependencies . ("htdp-lib" "htdp-doc"))
 (description . "Teaching languages for _How to Design Programs_")
 (name . "htdp")
