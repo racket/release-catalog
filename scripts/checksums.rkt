@@ -40,7 +40,7 @@
 (define ((make-update-pkg? from-user from-repo from-branch) info)
   (define source (hash-ref info 'source))
   (define (skip [why ""])
-    (eprintf "! Not updating~a ~s\n" why source)
+    ;; (eprintf "! Not updating~a ~s\n" why source)
     #f)
   (match (parse-repo-url source)
     [(list user repo branch path)
