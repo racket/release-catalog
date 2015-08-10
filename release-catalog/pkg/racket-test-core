@@ -6,4 +6,4 @@
 (dependencies . ("base" "unstable-flonum-lib" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
-(source . "git://github.com/plt/racket/?path=pkgs/racket-test-core#release"))
+(source . "git://github.com/plt/racket/?path=pkgs/racket-test-core#v6.2.1"))

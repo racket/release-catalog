@@ -1,0 +1,6 @@
+;; ============================================================
+;; Appended 1439220302 : Monday, August 10th, 2015 11:25:02am
+(("plt" "racket")
+ ("racket" "drracket")
+ ("racket" "htdp")
+ ("racket" "string-constants"))
