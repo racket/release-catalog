@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "51bd703c3aa8e2eb5fb2e88f0ffda3ce803dd293")
+(checksum . "20b5c25c416ddc1f9148ec4eaa8329f3be10236f")
 (dependencies . ("scheme-lib" "data-lib" "compiler-lib" "base" "planet-lib" "compatibility-lib" "draw-lib" "errortrace-lib" "macro-debugger-text-lib" "parser-tools-lib" "pconvert-lib" "pict-lib" "profile-lib" "sandbox-lib" ("scribble-lib" #:version "1.11") "snip-lib" "string-constants-lib" "typed-racket-lib" "unstable-contract-lib" "wxme-lib" ("gui-lib" #:version "1.9") ("racket-index" #:version "1.2") "racket-doc" "html-lib" "images-lib" "icons" "typed-racket-more" "trace" "macro-debugger" "net-lib" "tex-table" "unstable-lib" "drracket-plugin-lib" "gui-pkg-manager-lib" "drracket-tool-lib" "drracket-tool-doc" "mzscheme-doc" "net-doc" "planet-doc" "compatibility-doc" "string-constants-doc" "draw-doc" "errortrace-doc" "gui-doc" "pict-doc" "profile-doc" "r5rs-doc" "at-exp-lib" "rackunit-lib"))
 (description . "The DrRacket programming environment")
 (name . "drracket")
-(source . "git://github.com/racket/drracket/?path=drracket#v6.2"))
+(source . "git://github.com/racket/drracket/?path=drracket#release"))
