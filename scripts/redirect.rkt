@@ -43,7 +43,7 @@
 ;; make-redirect-url : String/#f String/#f String/#f String -> String -> String
 (define ((make-redirect-url from-user from-repo from-branch to-branch) url)
   (define (skip [why ""])
-    (eprintf "! Not redirecting~a ~s\n" why url)
+    ;; (eprintf "! Not redirecting~a ~s\n" why url)
     url)
   (match (parse-repo-url url)
     [(list user repo branch path)
@@ -54,6 +54,7 @@
            [(and from-branch (not (equal? (or branch "master") from-branch)))
             (skip " (branch doesn't match)")]
            [else
+            (eprintf "! Redirecting ~a\n" url)
             (hash-set! (redirected-repos) (list user repo) #t)
             (make-git-source user repo path to-branch)])]
     ['native
