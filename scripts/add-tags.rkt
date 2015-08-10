@@ -49,7 +49,10 @@
 
 ;; add-tag : ... -> Void
 (define (add-tag user repo tag-name tag-message commit-sha)
-  (unless (tag-exists? user repo tag-name)
+  (define already-exists? (tag-exists? user repo tag-name))
+  (when already-exists?
+    (eprintf "! Tag ~s already exists for ~a/~a\n" tag-name user repo))
+  (unless already-exists?
     (define tag-result
       (post/github (format "https://api.github.com/repos/~a/~a/git/tags" user repo)
                    #:user-credentials? #t
