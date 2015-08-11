@@ -5,11 +5,12 @@
          net/url
          json
          "net.rkt"
-         (only-in pkg/util ;; pkg/private/stage on master
+         (only-in pkg/private/stage
                   package-url->checksum
                   github-client_id
                   github-client_secret))
-(provide (all-defined-out))
+(provide package-url->checksum
+         (all-defined-out))
 
 ;; ============================================================
 ;; Github

@@ -2,8 +2,6 @@
 (require racket/cmdline
          racket/match
          racket/pretty
-         (only-in pkg/util ;; pkg/private/stage on master
-                  package-url->checksum)
          "private/util.rkt"
          "private/github.rkt")
 (provide (all-defined-out))
