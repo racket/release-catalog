@@ -97,8 +97,9 @@
                                                 #:from-repo *from-repo
                                                 #:from-branch *from-branch))
                  (lambda (redirected-repos)
-                   (call/write-log *dest-dir "branch-redirected-repos"
-                                   (lambda () (pretty-write redirected-repos))))))
+                   (when (pair? redirected-repos)
+                     (call/write-log *dest-dir "branch-redirected-repos"
+                                     (lambda () (pretty-write redirected-repos)))))))
 
 (module+ main
   (command:branch (current-command-line-arguments)))

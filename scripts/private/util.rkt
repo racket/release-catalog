@@ -167,13 +167,19 @@
 
 (define (call/write-log dest-path log-file proc)
   (make-directory* (build-path dest-path "logs"))
-  (with-output-to-file (build-path dest-path "logs" log-file)
-    #:exists 'append
-    (lambda ()
-      (define now (current-seconds))
-      (printf ";; ~a\n" (make-string 60 #\=))
-      (printf ";; Appended ~s : ~a\n" now (date->string (seconds->date now) #t))
-      (proc))))
+  (define now (current-seconds))
+  (define out (open-output-string))
+  (begin0 (proc)
+    (maybe-write-log (build-path dest-path "logs" log-file) now (get-output-string out))))
+
+(define (maybe-write-log log-file now output)
+  (unless (zero? (string-length output))
+    (with-output-to-file log-file
+      #:exists 'append
+      (lambda ()
+        (printf ";; ~a\n" (make-string 60 #\=))
+        (printf ";; Appended ~s : ~a\n" now (date->string (seconds->date now) #t))
+        (write-string output)))))
 
 (define (copy-catalog src dest force? transform)
   (copy-catalog* src dest force? (lambda (c) (values (transform c) (void)))))

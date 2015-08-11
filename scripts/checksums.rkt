@@ -99,8 +99,10 @@
                                                 #:from-repo *from-repo
                                                 #:from-branch *from-branch))
                  (lambda (updates)
-                   (call/write-log *dest-dir "checksum-updates"
-                                   (lambda () (pretty-write updates))))))
+                   (unless (zero? (hash-count updates))
+                     (call/write-log *dest-dir "checksum-updates"
+                                     (lambda ()
+                                       (pretty-write updates)))))))
 
 (module+ main
   (command:checksums (current-command-line-arguments)))

@@ -94,8 +94,10 @@
   (copy-catalog* *src-dir *dest-dir *force?
                  (lambda (catalog) (poll-catalog catalog))
                  (lambda (updates)
-                   (call/write-log *dest-dir "poll-catalog"
-                                   (lambda () (pretty-write updates))))))
+                   (unless (zero? (hash-count updates))
+                     (call/write-log *dest-dir "poll-catalog"
+                                     (lambda ()
+                                       (pretty-write updates)))))))
 
 (module+ main
   (command:poll (current-command-line-arguments)))
