@@ -101,8 +101,7 @@
                  (lambda (updates)
                    (unless (zero? (hash-count updates))
                      (call/write-log *dest-dir "checksum-updates"
-                                     (lambda ()
-                                       (pretty-write updates)))))))
+                                     (lambda () (pretty-write updates)))))))
 
 (module+ main
   (command:checksums (current-command-line-arguments)))

@@ -169,8 +169,10 @@
   (make-directory* (build-path dest-path "logs"))
   (define now (current-seconds))
   (define out (open-output-string))
-  (begin0 (proc)
-    (maybe-write-log (build-path dest-path "logs" log-file) now (get-output-string out))))
+  (begin0 (parameterize ((current-output-port out)) (proc))
+    (maybe-write-log (build-path dest-path "logs" log-file)
+                     now
+                     (get-output-string out))))
 
 (define (maybe-write-log log-file now output)
   (unless (zero? (string-length output))
