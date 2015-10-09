@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org ntoronto@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "ntoronto@racket-lang.org"))
-(checksum . "ed6939ba26b708d8f04b2255d3a35ec272ff8e55")
-(dependencies . ("base"))
-(description . "Experimental libraries for parameter groups")
-(name . "unstable-parameter-group-lib")
-(source . "git://github.com/racket/unstable-parameter-group-lib"))

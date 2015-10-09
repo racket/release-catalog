@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "ba1b5d41463003740a24d769cd1f1706fe07f53d")
-(dependencies . ("base"))
-(description . "Experimental libraries for testing macros")
-(name . "unstable-macro-testing-lib")
-(source . "git://github.com/racket/unstable-macro-testing-lib"))

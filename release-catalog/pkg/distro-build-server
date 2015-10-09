@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "8047476af3274e4285e7687c48339fae1c9d6fd7")
-(dependencies . (("base" #:version "6.1.1.6") "distro-build-client" "web-server-lib" "ds-store-lib" "net-lib" "scribble-html-lib" "plt-web-lib" "remote-shell-lib" "at-exp-lib"))
-(description . "server-side part of \"distro-build\"")
-(name . "distro-build-server")
-(source . "git://github.com/racket/distro-build/?path=distro-build-server"))

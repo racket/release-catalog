@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "52e9db2315e8a8b1a79c4e63057592795ef94b9c")
-(dependencies . ("base" "pict-lib" "redex-gui-lib" "scribble-lib" "unstable-lib" "pict-doc" "redex-doc" "racket-doc" "unstable-doc"))
-(description . "Experimental libraries for typesetting PLT Redex models")
-(name . "unstable-redex")
-(source . "git://github.com/racket/unstable-redex"))

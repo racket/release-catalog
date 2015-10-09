@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org")
-(authors . ("jay@racket-lang.org"))
-(checksum . "f2b5dab3f35caf9d797a702d8f5e449a82b95726")
-(dependencies . ("scheme-lib" "srfi-lite-lib" "base" "gui-lib" "sandbox-lib" "web-server-lib" "at-exp-lib" "eli-tester" "pconvert-lib" "rackunit-lib" "racket-doc" "web-server-doc" "scribble-lib" "drracket-tool-lib"))
-(description . "Teaching languages for _Programming Languages: Application and Interpretation_")
-(name . "plai")
-(source . "git://github.com/racket/plai"))

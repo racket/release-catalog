@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org samth@racket-lang.org cce@racket-lang.org ryanc@racket-lang.org")
-(authors . ("jay@racket-lang.org" "samth@racket-lang.org" "cce@racket-lang.org" "ryanc@racket-lang.org"))
-(checksum . "ccf29e9d6abd88d32a7eb93225d1462474c3877e")
-(dependencies . ("base" "rackunit-doc" "scheme-lib" "at-exp-lib" "compatibility-lib" "draw-lib" "gui-lib" "pict-lib" "racket-doc" "rackunit-lib" "scribble-lib" "slideshow-lib" "typed-racket-lib" "unstable-contract-lib" "unstable-debug-lib" "unstable-lib" "unstable-list-lib" "unstable-macro-testing-lib" "unstable-options-lib" "unstable-parameter-group-lib" "unstable-pretty-lib" "unstable-2d" "draw-doc" "gui-doc" "pict-doc" "scribble-doc" "slideshow-doc"))
-(description . "documentation part of \"unstable\"")
-(name . "unstable-doc")
-(source . "git://github.com/racket/unstable/?path=unstable-doc"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org ntoronto@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "ntoronto@racket-lang.org"))
-(checksum . "d701f9e53cd87014a4ed0e32c8c853084292ad3a")
-(dependencies . ("base" "scribble-lib"))
-(description . "Experimental libraries for contracts at definitions")
-(name . "unstable-latent-contract-lib")
-(source . "git://github.com/racket/unstable-latent-contract-lib"))

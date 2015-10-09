@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org samth@racket-lang.org cce@racket-lang.org ryanc@racket-lang.org")
-(authors . ("jay@racket-lang.org" "samth@racket-lang.org" "cce@racket-lang.org" "ryanc@racket-lang.org"))
-(checksum . "ccf29e9d6abd88d32a7eb93225d1462474c3877e")
-(dependencies . ("unstable-lib" "unstable-doc"))
-(description . "Experimental libraries")
-(name . "unstable")
-(source . "git://github.com/racket/unstable/?path=unstable"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "samth@racket-lang.org")
-(authors . ("samth@racket-lang.org"))
-(checksum . "552ede72ab6d959be81a6ab2e15cc47cc25b002d")
-(dependencies . ("base" "unstable-pretty-lib"))
-(description . "Experimental libraries for debugging")
-(name . "unstable-debug-lib")
-(source . "git://github.com/racket/unstable-debug-lib"))

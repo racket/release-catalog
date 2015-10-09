@@ -1,9 +1,0 @@
-
-#hash(
-(author . "tewk@racket-lang.org")
-(authors . ("tewk@racket-lang.org"))
-(checksum . "242e015c2313180319f72af33f5e047dad3178e1")
-(dependencies . ("base"))
-(description . "implementation (no documentation) part of \"distributed-places\"")
-(name . "distributed-places-lib")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places-lib"))
