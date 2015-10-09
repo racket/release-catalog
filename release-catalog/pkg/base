@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "a6835422bfd8984bf078f5fd3f9e3af90969296a")
+(dependencies . ("racket-lib" ("racket" #:version "6.2.900.17")))
+(description . "Racket libraries that are currently always available")
+(name . "base")
+(source . "git://github.com/plt/racket/?path=pkgs/base"))

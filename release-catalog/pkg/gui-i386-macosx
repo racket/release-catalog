@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "1e55571e61fdbf82754902440526bad9874e1253")
+(dependencies . ("base"))
+(description . "native libraries for \"gui\" package")
+(name . "gui-i386-macosx")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/1e55571e61fdbf82754902440526bad9874e1253/gui-i386-macosx.zip"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org bfetscher@racket-lang.org")
+(authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
+(checksum . "ba99493f3f185b031ac2a50f78df9aa23238d18f")
+(dependencies . ("base" "rackunit-lib" "at-exp-lib" "compatibility-lib" "drracket" "gui-lib" "pict-lib" "redex-gui-lib" "redex-examples" "data-lib" "racket-index" "scheme-lib"))
+(description . "tests for \"redex\"")
+(name . "redex-test")
+(source . "git://github.com/racket/redex/?path=redex-test"))

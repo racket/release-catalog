@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "07f6230c81a57c499b89ad4d4ffb257e73c22b1f")
+(dependencies . ("base"))
+(description . "native libraries for \"gui\" package")
+(name . "gui-x86_64-linux-natipkg")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/07f6230c81a57c499b89ad4d4ffb257e73c22b1f/gui-x86_64-linux-natipkg.zip"))

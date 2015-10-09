@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "c6c2edb3e086033e24a8121d85675f1bc11b7705")
+(dependencies . ("base"))
+(description . "native libraries for \"draw\" package")
+(name . "draw-win32-x86_64-2")
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/c6c2edb3e086033e24a8121d85675f1bc11b7705/draw-win32-x86_64-2.zip"))

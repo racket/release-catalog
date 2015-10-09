@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "c57dc5af157005a8aa7517f5f547c464e811bb20")
+(dependencies . ("base" "compatibility-lib" "scheme-lib" "racket-doc" "mysterx" "scribble-lib"))
+(description . "COM control to instantate a Racket instance")
+(name . "mzcom")
+(source . "git://github.com/racket/mzcom"))

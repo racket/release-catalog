@@ -1,0 +1,9 @@
+
+#hash(
+(author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "4a1f039722fda9c8cabeb67a2a54cb31f8e21c60")
+(dependencies . ("htdp-lib" "htdp-doc"))
+(description . "Teaching languages for _How to Design Programs_")
+(name . "htdp")
+(source . "git://github.com/racket/htdp/?path=htdp"))
