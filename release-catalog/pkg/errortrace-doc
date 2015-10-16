@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "60e2e640fea32946bb11d169af7378225e25b930")
+(checksum . "0f8d441275735daaa7efff1603a5897ad8dcb6cf")
 (dependencies . ("racket-doc" "base" "errortrace-lib" "scribble-lib"))
 (description . "documentation part of \"errortrace\"")
 (name . "errortrace-doc")
-(source . "git://github.com/racket/errortrace/?path=errortrace-doc"))
+(source . "git://github.com/racket/errortrace/?path=errortrace-doc#release"))

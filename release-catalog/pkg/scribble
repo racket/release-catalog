@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "296e55d0e03d4c0eb79328c642a5146671f26f24")
+(checksum . "4e6dfe2dae14be2a08e17ca2614daccbfe336927")
 (dependencies . ("scribble-lib" "scribble-doc"))
 (description . "Racket documentatation and typesetting tool")
 (name . "scribble")
-(source . "git://github.com/racket/scribble/?path=scribble"))
+(source . "git://github.com/racket/scribble/?path=scribble#release"))
