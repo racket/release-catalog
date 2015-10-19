@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "4e6dfe2dae14be2a08e17ca2614daccbfe336927")
+(checksum . "6c6d4b4adfa0b4dda95279ea079b3d65874acff0")
 (dependencies . ("scheme-lib" "base" "at-exp-lib" "scribble-text-lib"))
 (description . "Language for HTML with embedded Racket code")
 (name . "scribble-html-lib")
