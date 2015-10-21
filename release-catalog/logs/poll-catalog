@@ -448,3 +448,61 @@
        .
        ("d2deefbaf32ecf9ece395b527425ddbbc3cb1a25"
         "093545057e13c3682cee53f57d0b05a52b746a33")))
+;; ============================================================
+;; Appended 1445451604 : Wednesday, October 21st, 2015 2:20:04pm
+#hash(("git://github.com/racket/racket/?path=pkgs/racket-test#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/racket/?path=pkgs/base#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/racket/?path=pkgs/at-exp-lib#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("0d9fdd4ca7d9a90db3956f88be9621421e3f5867"
+        "73ef7423da774d93d3fc3a9f356cb1c88b94b90f"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-extra#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-index#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("0d9fdd4ca7d9a90db3956f88be9621421e3f5867"
+        "73ef7423da774d93d3fc3a9f356cb1c88b94b90f"))
+      ("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("0d9fdd4ca7d9a90db3956f88be9621421e3f5867"
+        "73ef7423da774d93d3fc3a9f356cb1c88b94b90f"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-doc#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("0d9fdd4ca7d9a90db3956f88be9621421e3f5867"
+        "73ef7423da774d93d3fc3a9f356cb1c88b94b90f"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-lib#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-core#release"
+       .
+       ("8810fe8c0660042af420b5d96b00afbb0634121a"
+        "06a2fbd2776633170163328b912e70f7664dfd65"))
+      ("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("0d9fdd4ca7d9a90db3956f88be9621421e3f5867"
+        "73ef7423da774d93d3fc3a9f356cb1c88b94b90f")))
