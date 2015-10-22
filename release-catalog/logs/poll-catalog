@@ -544,3 +544,41 @@
        .
        ("06a2fbd2776633170163328b912e70f7664dfd65"
         "b9b8283d7a3237e9898fe280aee30cfdaec782aa")))
+;; ============================================================
+;; Appended 1445542933 : Thursday, October 22nd, 2015 3:42:13pm
+#hash(("git://github.com/racket/racket/?path=pkgs/racket-test#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/base#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/at-exp-lib#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-extra#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-index#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-doc#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-lib#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-core#release"
+       .
+       ("b9b8283d7a3237e9898fe280aee30cfdaec782aa"
+        "097953bc11e1c8c9a688742956b73146a684a6e7")))
