@@ -6,4 +6,4 @@
 (dependencies . (("data-enumerate-lib" #:version "1.2") "scheme-lib" ("base" #:version "6.2.900.6") "data-lib" "math-lib" "tex-table" "profile-lib" "typed-racket-lib" "2d-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\"")
 (name . "redex-lib")
-(source . "git://github.com/racket/redex/?path=redex-lib#release"))
+(source . "git://github.com/racket/redex/?path=redex-lib#v6.3"))

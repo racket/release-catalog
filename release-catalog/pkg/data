@@ -6,4 +6,4 @@
 (dependencies . ("data-lib" "data-enumerate-lib" "data-doc"))
 (description . "Data strucutures")
 (name . "data")
-(source . "git://github.com/racket/data/?path=data#release"))
+(source . "git://github.com/racket/data/?path=data#v6.3"))

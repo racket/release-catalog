@@ -6,4 +6,4 @@
 (dependencies . ("base" "draw-lib" "gui-lib" "snip-lib" "htdp-lib" "racket-doc" "htdp-doc" "scribble-lib"))
 (description . "Teaching libraries for _Picturing Programs_")
 (name . "picturing-programs")
-(source . "git://github.com/racket/picturing-programs#release"))
+(source . "git://github.com/racket/picturing-programs#v6.3"))

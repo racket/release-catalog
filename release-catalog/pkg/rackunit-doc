@@ -6,4 +6,4 @@
 (dependencies . ("base" "racket-index" "racket-doc" "rackunit-gui" "rackunit-lib" "scribble-lib"))
 (description . "RackUnit documentation")
 (name . "rackunit-doc")
-(source . "git://github.com/racket/rackunit/?path=rackunit-doc#release"))
+(source . "git://github.com/racket/rackunit/?path=rackunit-doc#v6.3"))

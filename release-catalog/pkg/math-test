@@ -6,4 +6,4 @@
 (dependencies . ("base" "math-lib" "racket-test" "rackunit-lib" "typed-racket-lib" "typed-racket-more"))
 (description . "Math library tests")
 (name . "math-test")
-(source . "git://github.com/racket/math/?path=math-test#release"))
+(source . "git://github.com/racket/math/?path=math-test#v6.3"))

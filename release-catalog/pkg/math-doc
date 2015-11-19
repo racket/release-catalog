@@ -6,4 +6,4 @@
 (dependencies . ("base" "at-exp-lib" "math-lib" "plot-doc" "plot-gui-lib" "racket-doc" "sandbox-lib" "scribble-lib" "typed-racket-doc" "typed-racket-lib" "2d-lib"))
 (description . "Math library documentation")
 (name . "math-doc")
-(source . "git://github.com/racket/math/?path=math-doc#release"))
+(source . "git://github.com/racket/math/?path=math-doc#v6.3"))

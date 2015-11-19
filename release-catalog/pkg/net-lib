@@ -6,4 +6,4 @@
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"net\"")
 (name . "net-lib")
-(source . "git://github.com/racket/net/?path=net-lib#release"))
+(source . "git://github.com/racket/net/?path=net-lib#v6.3"))

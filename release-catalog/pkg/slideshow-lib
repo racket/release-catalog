@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "gui-lib"))
 (description . "implementation (no documentation) part of \"slideshow\"")
 (name . "slideshow-lib")
-(source . "git://github.com/racket/slideshow/?path=slideshow-lib#release"))
+(source . "git://github.com/racket/slideshow/?path=slideshow-lib#v6.3"))

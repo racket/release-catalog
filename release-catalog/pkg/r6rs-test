@@ -6,4 +6,4 @@
 (dependencies . ("base" "r6rs-lib"))
 (description . "tests for \"r6rs\"")
 (name . "r6rs-test")
-(source . "git://github.com/racket/r6rs/?path=r6rs-test#release"))
+(source . "git://github.com/racket/r6rs/?path=r6rs-test#v6.3"))

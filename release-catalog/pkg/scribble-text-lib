@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "at-exp-lib"))
 (description . "Language for text with embedded Racket code")
 (name . "scribble-text-lib")
-(source . "git://github.com/racket/scribble/?path=scribble-text-lib#release"))
+(source . "git://github.com/racket/scribble/?path=scribble-text-lib#v6.3"))

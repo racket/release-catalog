@@ -6,4 +6,4 @@
 (dependencies . ("net-lib" "net-doc"))
 (description . "Networking libraries")
 (name . "net")
-(source . "git://github.com/racket/net/?path=net#release"))
+(source . "git://github.com/racket/net/?path=net#v6.3"))

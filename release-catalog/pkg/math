@@ -6,4 +6,4 @@
 (dependencies . ("math-lib" "math-doc"))
 (description . "Functions and data structures useful for working with numbers and collections of numbers, along with docs and tests")
 (name . "math")
-(source . "git://github.com/racket/math/?path=math#release"))
+(source . "git://github.com/racket/math/?path=math#v6.3"))

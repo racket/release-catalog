@@ -6,4 +6,4 @@
 (dependencies . ("base" "slideshow-lib" "pict-lib" "string-constants-lib" "compatibility-lib" "drracket-plugin-lib" "gui-lib"))
 (description . "Slideshow's DrRacket plugin")
 (name . "slideshow-plugin")
-(source . "git://github.com/racket/slideshow/?path=slideshow-plugin#release"))
+(source . "git://github.com/racket/slideshow/?path=slideshow-plugin#v6.3"))

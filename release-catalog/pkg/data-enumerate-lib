@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.1.1.8") "data-lib" "math-lib" "rackunit-lib"))
 (description . "implementation (no documentation) of \"data/enumerate\"")
 (name . "data-enumerate-lib")
-(source . "git://github.com/racket/data/?path=data-enumerate-lib#release"))
+(source . "git://github.com/racket/data/?path=data-enumerate-lib#v6.3"))
