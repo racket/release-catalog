@@ -2,8 +2,8 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "0957188c092f92e49b00c1f694390508ead6b479")
+(checksum . "087a053c494a9ebea7e5dc448a9a93622c463259")
 (dependencies . ("base" "rackunit-lib" "rackunit-gui"))
 (description . "Legacy SchemeUnit testing framework")
 (name . "schemeunit")
-(source . "git://github.com/racket/rackunit/?path=schemeunit"))
+(source . "git://github.com/racket/rackunit/?path=schemeunit#release"))
