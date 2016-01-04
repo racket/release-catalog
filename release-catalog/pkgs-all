@@ -409,11 +409,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a34be171b639c47217646488fdf9edb6d6284386")
+(checksum . "ecd61bfff1daa6e72ab14c73bfa480499717da29")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-i386-macosx-2")
-(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/a34be171b639c47217646488fdf9edb6d6284386/draw-i386-macosx-2.zip")))
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/ecd61bfff1daa6e72ab14c73bfa480499717da29/draw-i386-macosx-2.zip")))
 ("draw-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -490,11 +490,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "542cc6b6c61981af048575088c252b6f6ea92875")
+(checksum . "552725bedd421a4c9979c639b5082ea0352f9ee6")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-x86_64-macosx-2")
-(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/542cc6b6c61981af048575088c252b6f6ea92875/draw-x86_64-macosx-2.zip")))
+(source . "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/552725bedd421a4c9979c639b5082ea0352f9ee6/draw-x86_64-macosx-2.zip")))
 ("drracket" . 
 #hash(
 (author . "robby@racket-lang.org")
