@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "scheme-lib" "at-exp-lib"))
 (description . "Racket Documentation driver")
 (name . "racket-index")
-(source . "git://github.com/plt/racket/?path=pkgs/racket-index"))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-index"))
