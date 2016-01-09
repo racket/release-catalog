@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org")
-(authors . ("eli@racket-lang.org"))
-(checksum . "56af7d6445504e1da706d1ac0034539c78fa3b19")
-(dependencies . ("xrepl-lib" "xrepl-doc"))
-(description . "Console-oriented extended REPL for Racket")
-(name . "xrepl")
-(source . "git://github.com/racket/xrepl/?path=xrepl"))

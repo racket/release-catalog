@@ -1,9 +1,0 @@
-
-#hash(
-(author . "stamourv@racket-lang.org")
-(authors . ("stamourv@racket-lang.org"))
-(checksum . "3f182870076bee765f1999ae0eeaff6479d448cd")
-(dependencies . (("base" #:version "6.2.900.6") "profile-lib" "rackunit-lib" "drracket" "gui-lib" "data-lib" "source-syntax" "images-lib" "sandbox-lib" "string-constants-lib" "typed-racket-lib" "scribble-lib"))
-(description . "Optimization Coach Plug-In for DrRacket")
-(name . "optimization-coach")
-(source . "github://github.com/stamourv/optimization-coach/master"))

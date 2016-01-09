@@ -1,9 +1,0 @@
-
-#hash(
-(author . "stamourv@racket-lang.org")
-(authors . ("stamourv@racket-lang.org"))
-(checksum . "539b9cf7c0b2dcb7ae9c4e424ef9184df5959124")
-(dependencies . ("base" "profile-lib" "racket-doc" "scribble-lib" "rackunit-lib" "math-lib"))
-(description . "Profiling tool for contracts")
-(name . "contract-profile")
-(source . "git://github.com/racket/contract-profile"))

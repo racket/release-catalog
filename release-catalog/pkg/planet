@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "a6e18a46b677be378e56da50941079408078741a")
-(dependencies . ("planet-lib" "planet-doc"))
-(description . "Legacy support for automatic package distribution")
-(name . "planet")
-(source . "git://github.com/racket/planet/?path=planet"))
