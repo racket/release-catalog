@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "b89f3f0aae522030126a34181e920857759a019c")
+(dependencies . (("base" #:version "6.2.900.10")))
+(description . "Implementation (no documentation) for \"unix-socket\"")
+(name . "unix-socket-lib")
+(source . "git://github.com/racket/unix-socket?path=unix-socket-lib"))

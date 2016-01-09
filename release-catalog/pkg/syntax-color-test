@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "33cce4ca78c2014d564d86afcddf3cf770789388")
+(dependencies . ("base" "rackunit-lib" "scheme-lib" "syntax-color-lib"))
+(description . "tests for \"syntax-color-lib\"")
+(name . "syntax-color-test")
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-test"))
