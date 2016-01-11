@@ -194,3 +194,21 @@
        .
        ("5c8e696f4672555fc5bfc67c4bd5dafbf7e501e2"
         "c8e12ba406ca58b24d1ce1f8280c72c73db63cdb")))
+;; ============================================================
+;; Appended 1452533692 : Monday, January 11th, 2016 12:34:52pm
+#hash(("git://github.com/racket/draw/?path=draw-doc#release"
+       .
+       ("cb8dcb415e29641e42e6c3840642a12a5a7d1f80"
+        "122b7127217d5e9af504fd2c19e0e4a1832d214f"))
+      ("git://github.com/racket/draw/?path=draw-test#release"
+       .
+       ("cb8dcb415e29641e42e6c3840642a12a5a7d1f80"
+        "122b7127217d5e9af504fd2c19e0e4a1832d214f"))
+      ("git://github.com/racket/draw/?path=draw#release"
+       .
+       ("cb8dcb415e29641e42e6c3840642a12a5a7d1f80"
+        "122b7127217d5e9af504fd2c19e0e4a1832d214f"))
+      ("git://github.com/racket/draw/?path=draw-lib#release"
+       .
+       ("cb8dcb415e29641e42e6c3840642a12a5a7d1f80"
+        "122b7127217d5e9af504fd2c19e0e4a1832d214f")))

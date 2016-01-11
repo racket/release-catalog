@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cb8dcb415e29641e42e6c3840642a12a5a7d1f80")
+(checksum . "122b7127217d5e9af504fd2c19e0e4a1832d214f")
 (dependencies . (("base" #:version "6.2.0.5") ("draw-i386-macosx-2" #:platform "i386-macosx") ("draw-x86_64-macosx-2" #:platform "x86_64-macosx") ("draw-ppc-macosx-2" #:platform "ppc-macosx") ("draw-win32-i386-2" #:platform "win32\\i386") ("draw-win32-x86_64-2" #:platform "win32\\x86_64") ("draw-x86_64-linux-natipkg-2" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
 (description . "implementation (no documentation) part of \"draw\"")
 (name . "draw-lib")
