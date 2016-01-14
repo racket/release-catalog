@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "207840f167c9b462192738c025c3fad25c6cd123")
+(checksum . "7f9baa8436e48e8c6d098f48175455ce7e695a73")
 (dependencies . ("base" "compatibility-lib"))
 (description . "DrRacket's plugin API")
 (name . "drracket-plugin-lib")
