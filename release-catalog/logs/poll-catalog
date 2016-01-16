@@ -372,3 +372,61 @@
        .
        ("ee1358f16b7c3fed0876879593f00e3a3770ee60"
         "9579db1b157d9b8e98f9fff06a8c21ae60142258")))
+;; ============================================================
+;; Appended 1452968413 : Saturday, January 16th, 2016 1:20:13pm
+#hash(("git://github.com/racket/racket/?path=pkgs/racket-index#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/racket/?path=pkgs/at-exp-lib#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/racket/?path=pkgs/base#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("166b03c69daff2082bdc0e93d24b9004f07168ae"
+        "0d7aea319f52297c900a9af9143d8af600ba9801"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-doc#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("166b03c69daff2082bdc0e93d24b9004f07168ae"
+        "0d7aea319f52297c900a9af9143d8af600ba9801"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-lib#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-core#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("166b03c69daff2082bdc0e93d24b9004f07168ae"
+        "0d7aea319f52297c900a9af9143d8af600ba9801"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("166b03c69daff2082bdc0e93d24b9004f07168ae"
+        "0d7aea319f52297c900a9af9143d8af600ba9801"))
+      ("git://github.com/racket/racket/?path=pkgs/racket-test-extra#release"
+       .
+       ("3edddd4a67c6e491bf066b4d8c9d86db4dab8487"
+        "9e460408ab999c235fe01e13ab91f69105cf0690"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("166b03c69daff2082bdc0e93d24b9004f07168ae"
+        "0d7aea319f52297c900a9af9143d8af600ba9801")))
