@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "2666ef688ac2fce4c36e22324428efd2b53adc43")
+(checksum . "6c03564f9a5d312b381af648e86f7af61cbad5b8")
 (dependencies . ("base" "scribble-lib" "profile-lib" "errortrace-doc" "errortrace-lib" "racket-doc"))
 (description . "documentation part of \"profile\"")
 (name . "profile-doc")

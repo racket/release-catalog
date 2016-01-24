@@ -2,7 +2,7 @@
 #hash(
 (author . "stamourv@racket-lang.org")
 (authors . ("stamourv@racket-lang.org"))
-(checksum . "6b0b0e9a9ef6b0e4eb57ebfde88943bd726c7f02")
+(checksum . "831381e7f6d7d8491cf3dca2666c562a901f1ca2")
 (dependencies . ("base" "profile-lib" "racket-doc" "scribble-lib" "rackunit-lib" "math-lib"))
 (description . "Profiling tool for contracts")
 (name . "contract-profile")
