@@ -1,0 +1,14 @@
+;; ============================================================
+;; Appended 1454627974 : Thursday, February 4th, 2016 6:19:34pm
+(("racket" "contract-profile")
+ ("racket" "distro-build")
+ ("racket" "draw")
+ ("racket" "drracket")
+ ("racket" "gui")
+ ("racket" "htdp")
+ ("racket" "profile")
+ ("racket" "racket")
+ ("racket" "redex")
+ ("racket" "scribble")
+ ("racket" "string-constants")
+ ("racket" "typed-racket"))

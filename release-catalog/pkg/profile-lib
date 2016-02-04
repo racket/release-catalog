@@ -6,4 +6,4 @@
 (dependencies . ("base" "errortrace-lib" "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"profile\"")
 (name . "profile-lib")
-(source . "git://github.com/racket/profile/?path=profile-lib#release"))
+(source . "git://github.com/racket/profile/?path=profile-lib#v6.4"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "redex-lib" "scheme-lib"))
 (description . "Additional Racket test suites")
 (name . "racket-test-extra")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-extra#release"))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test-extra#v6.4"))

@@ -6,4 +6,4 @@
 (dependencies . ("distro-build-lib" "distro-build-doc"))
 (description . "Tools for constructing a distribution of Racket")
 (name . "distro-build")
-(source . "git://github.com/racket/distro-build/?path=distro-build#release"))
+(source . "git://github.com/racket/distro-build/?path=distro-build#v6.4"))

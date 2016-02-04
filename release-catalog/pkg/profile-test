@@ -6,4 +6,4 @@
 (dependencies . ("base" "eli-tester" "profile-lib"))
 (description . "tests for \"profile\"")
 (name . "profile-test")
-(source . "git://github.com/racket/profile/?path=profile-test#release"))
+(source . "git://github.com/racket/profile/?path=profile-test#v6.4"))

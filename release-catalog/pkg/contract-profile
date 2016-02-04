@@ -6,4 +6,4 @@
 (dependencies . ("base" "profile-lib" "racket-doc" "scribble-lib" "rackunit-lib" "math-lib"))
 (description . "Profiling tool for contracts")
 (name . "contract-profile")
-(source . "git://github.com/racket/contract-profile#release"))
+(source . "git://github.com/racket/contract-profile#v6.4"))
