@@ -2248,7 +2248,7 @@
 (dependencies . ("web-server-lib" "web-server-doc"))
 (description . "An HTTP server")
 (name . "web-server")
-(source . "git://github.com/racket/web-server/?path=web-server#release")))
+(source . "git://github.com/racket/web-server/?path=web-server#v6.4")))
 ("web-server-doc" . 
 #hash(
 (author . "jay@racket-lang.org")
@@ -2257,7 +2257,7 @@
 (dependencies . ("base" "net-doc" "rackunit-doc" "compatibility-doc" "db-doc" "scribble-doc" "compatibility-lib" "db-lib" "net-lib" "rackunit-lib" "sandbox-lib" "scribble-lib" "web-server-lib" "racket-doc"))
 (description . "documentation part of \"web-server\"")
 (name . "web-server-doc")
-(source . "git://github.com/racket/web-server/?path=web-server-doc#release")))
+(source . "git://github.com/racket/web-server/?path=web-server-doc#v6.4")))
 ("web-server-lib" . 
 #hash(
 (author . "jay@racket-lang.org")
@@ -2266,7 +2266,7 @@
 (dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.15") "net-lib" "compatibility-lib" "scribble-text-lib" "parser-tools-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"web-server\"")
 (name . "web-server-lib")
-(source . "git://github.com/racket/web-server/?path=web-server-lib#release")))
+(source . "git://github.com/racket/web-server/?path=web-server-lib#v6.4")))
 ("web-server-test" . 
 #hash(
 (author . "jay@racket-lang.org")
@@ -2275,7 +2275,7 @@
 (dependencies . ("base" "compatibility-lib" "eli-tester" "htdp-lib" "rackunit-lib" "web-server-lib"))
 (description . "tests for \"web-server\"")
 (name . "web-server-test")
-(source . "git://github.com/racket/web-server/?path=web-server-test#release")))
+(source . "git://github.com/racket/web-server/?path=web-server-test#v6.4")))
 ("wxme" . 
 #hash(
 (author . "mflatt@racket-lang.org")
