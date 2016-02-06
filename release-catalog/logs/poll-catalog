@@ -728,3 +728,21 @@
        .
        ("f2a060d4960d590d57e70f8191a408433c2a228e"
         "c71b8792e3c8744d11586b1bc2b9da6af159cc51")))
+;; ============================================================
+;; Appended 1454782337 : Saturday, February 6th, 2016 1:12:17pm
+#hash(("git://github.com/racket/web-server/?path=web-server-doc#release"
+       .
+       ("7c0d376d797442e990f9f626d09874a1806f1034"
+        "5006e3ca23cc5dd10c4c7284bc255d19830ef77c"))
+      ("git://github.com/racket/web-server/?path=web-server-lib#release"
+       .
+       ("7c0d376d797442e990f9f626d09874a1806f1034"
+        "5006e3ca23cc5dd10c4c7284bc255d19830ef77c"))
+      ("git://github.com/racket/web-server/?path=web-server#release"
+       .
+       ("7c0d376d797442e990f9f626d09874a1806f1034"
+        "5006e3ca23cc5dd10c4c7284bc255d19830ef77c"))
+      ("git://github.com/racket/web-server/?path=web-server-test#release"
+       .
+       ("7c0d376d797442e990f9f626d09874a1806f1034"
+        "5006e3ca23cc5dd10c4c7284bc255d19830ef77c")))

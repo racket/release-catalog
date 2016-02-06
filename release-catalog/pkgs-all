@@ -2244,38 +2244,38 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "7c0d376d797442e990f9f626d09874a1806f1034")
+(checksum . "5006e3ca23cc5dd10c4c7284bc255d19830ef77c")
 (dependencies . ("web-server-lib" "web-server-doc"))
 (description . "An HTTP server")
 (name . "web-server")
-(source . "git://github.com/racket/web-server/?path=web-server")))
+(source . "git://github.com/racket/web-server/?path=web-server#release")))
 ("web-server-doc" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "7c0d376d797442e990f9f626d09874a1806f1034")
+(checksum . "5006e3ca23cc5dd10c4c7284bc255d19830ef77c")
 (dependencies . ("base" "net-doc" "rackunit-doc" "compatibility-doc" "db-doc" "scribble-doc" "compatibility-lib" "db-lib" "net-lib" "rackunit-lib" "sandbox-lib" "scribble-lib" "web-server-lib" "racket-doc"))
 (description . "documentation part of \"web-server\"")
 (name . "web-server-doc")
-(source . "git://github.com/racket/web-server/?path=web-server-doc")))
+(source . "git://github.com/racket/web-server/?path=web-server-doc#release")))
 ("web-server-lib" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "7c0d376d797442e990f9f626d09874a1806f1034")
+(checksum . "5006e3ca23cc5dd10c4c7284bc255d19830ef77c")
 (dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.15") "net-lib" "compatibility-lib" "scribble-text-lib" "parser-tools-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"web-server\"")
 (name . "web-server-lib")
-(source . "git://github.com/racket/web-server/?path=web-server-lib")))
+(source . "git://github.com/racket/web-server/?path=web-server-lib#release")))
 ("web-server-test" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "7c0d376d797442e990f9f626d09874a1806f1034")
+(checksum . "5006e3ca23cc5dd10c4c7284bc255d19830ef77c")
 (dependencies . ("base" "compatibility-lib" "eli-tester" "htdp-lib" "rackunit-lib" "web-server-lib"))
 (description . "tests for \"web-server\"")
 (name . "web-server-test")
-(source . "git://github.com/racket/web-server/?path=web-server-test")))
+(source . "git://github.com/racket/web-server/?path=web-server-test#release")))
 ("wxme" . 
 #hash(
 (author . "mflatt@racket-lang.org")
