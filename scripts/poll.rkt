@@ -22,6 +22,8 @@
 ;;   - update 'checksum
 ;; - otherwise, do nothing
 
+(define only-repos (make-parameter #f))
+
 ;; poll-catalog : Catalog -> (values Catalog Hash[String => (cons String String)])
 (define (poll-catalog catalog)
   (parameterize ((checksum-updates (make-hash)))
@@ -43,7 +45,7 @@
   (match (parse-repo-url source)
     [(list user repo old-branch path)
      (define refs-info (poll-source user repo cache))
-     (cond [(hash-ref refs-info "release" #f)
+     (cond [(and refs-info (hash-ref refs-info "release" #f))
             => (lambda (release-commit)
                  (define source* (make-git-source user repo path "release"))
                  (unless (equal? old-branch "release")
@@ -59,7 +61,10 @@
 
 (define (poll-source user repo cache)
   (hash-ref! cache (list user repo)
-             (lambda () (poll-source* user repo))))
+             (lambda ()
+               (if (and (only-repos) (not (member (format "~a/~a" user repo) (only-repos))))
+                   #f
+                   (poll-source* user repo)))))
 
 (define (poll-source* user repo)
   (for*/hash ([kind '("branches" "tags")]
@@ -89,7 +94,8 @@
    #:once-each
    [("-f" "--force") "Overwrite contents of dest-dir" (set! *force? #t)]
    [("-i" "--in") src-dir "Read catalog from src-dir" (set! *src-dir src-dir)]
-   [("-o" "--out") dest-dir "Write catalog to dest-dir" (set! *dest-dir dest-dir)])
+   [("-o" "--out") dest-dir "Write catalog to dest-dir" (set! *dest-dir dest-dir)]
+   [("--only") repo "Only poll given repo" (only-repos (list repo))])
   (set! *dest-dir (normalize-dest *src-dir *dest-dir *force?))
   (copy-catalog* *src-dir *dest-dir *force?
                  (lambda (catalog) (poll-catalog catalog))
