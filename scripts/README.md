@@ -4,7 +4,7 @@
 
 Some of the scripts require Github credentials. The file at 
 
-    (build-path (find-system-path 'prefs-dir) "github-user-credentials.rktd")
+    (build-path (find-system-path 'pref-dir) "github-user-credentials.rktd")
 
 should contain a Github "personal access token" (see Settings,
 Personal access tokens) with the authority to manipulate the relevant
