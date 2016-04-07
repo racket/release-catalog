@@ -1,0 +1,18 @@
+;; ============================================================
+;; Appended 1460045834 : Thursday, April 7th, 2016 11:17:14am
+#hash(("git://github.com/racket/errortrace/?path=errortrace-test"
+       .
+       ("dadffc0b99791b8e2a1ec85634047246efbbd68a"
+        "c850a6cc7b1ab4ee62cb5ca812ab4e5ab7ab458f"))
+      ("git://github.com/racket/errortrace/?path=errortrace-lib"
+       .
+       ("dadffc0b99791b8e2a1ec85634047246efbbd68a"
+        "c850a6cc7b1ab4ee62cb5ca812ab4e5ab7ab458f"))
+      ("git://github.com/racket/errortrace/?path=errortrace"
+       .
+       ("dadffc0b99791b8e2a1ec85634047246efbbd68a"
+        "c850a6cc7b1ab4ee62cb5ca812ab4e5ab7ab458f"))
+      ("git://github.com/racket/errortrace/?path=errortrace-doc"
+       .
+       ("dadffc0b99791b8e2a1ec85634047246efbbd68a"
+        "c850a6cc7b1ab4ee62cb5ca812ab4e5ab7ab458f")))

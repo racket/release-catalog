@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org stamourv@racket-lang.org")
+(authors . ("eli@racket-lang.org" "stamourv@racket-lang.org"))
+(checksum . "81bb14ebf1ebb8fbefc3eb9db0ec919a42ed8044")
+(dependencies . ("base" "errortrace-lib" "at-exp-lib" "rackunit-lib"))
+(description . "implementation (no documentation) part of \"profile\"")
+(name . "profile-lib")
+(source . "git://github.com/racket/profile/?path=profile-lib"))
