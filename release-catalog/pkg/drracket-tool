@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org")
-(authors . ("robby@racket-lang.org"))
-(checksum . "ca6128c6deabfa4eae5a8bc5b6d86448fe8b25d1")
-(dependencies . ("drracket-tool-lib" "drracket-tool-doc"))
-(description . "Programmatic interface to some IDE tools that DrRacket supports")
-(name . "drracket-tool")
-(source . "git://github.com/racket/drracket/?path=drracket-tool#v6.4"))

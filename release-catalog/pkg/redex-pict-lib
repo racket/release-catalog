@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org bfetscher@racket-lang.org")
-(authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "f3f3ddff4560917386179725bb4342dd5943586c")
-(dependencies . ("scheme-lib" "base" "draw-lib" "data-lib" "profile-lib" "redex-lib" "pict-lib" "rackunit-lib"))
-(description . "implementation (no documentation) part of \"redex\" using picts")
-(name . "redex-pict-lib")
-(source . "git://github.com/racket/redex/?path=redex-pict-lib#v6.4"))
