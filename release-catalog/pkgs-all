@@ -778,11 +778,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "f9f8e73d28a7852c8dc05bba85a255286f27e87b")
+(checksum . "dc26e14fb93768a005136250f333fadf8cdf3bc0")
 (dependencies . ("base"))
 (description . "native libraries for \"gui\" package")
 (name . "gui-x86_64-macosx")
-(source . "https://pkg-sources.racket-lang.org/pkgs/f9f8e73d28a7852c8dc05bba85a255286f27e87b/gui-x86_64-macosx.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/dc26e14fb93768a005136250f333fadf8cdf3bc0/gui-x86_64-macosx.zip")))
 ("htdp" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
