@@ -152,3 +152,29 @@
        .
        ("76b3e13fa021d5d2d7ecde310484ac80d9e22d78"
         "271c882b1d8c0811da312597df3ba36207440388")))
+;; ============================================================
+;; Appended 1460571786 : Wednesday, April 13th, 2016 2:23:06pm
+#hash(("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("d36ba1bced3f9cf16936af49dd0737cc80bd05d1"
+        "9056c1dcbbffab6ddc39ee18a97478e3335bb0ca"))
+      ("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("d36ba1bced3f9cf16936af49dd0737cc80bd05d1"
+        "9056c1dcbbffab6ddc39ee18a97478e3335bb0ca"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("d36ba1bced3f9cf16936af49dd0737cc80bd05d1"
+        "9056c1dcbbffab6ddc39ee18a97478e3335bb0ca"))
+      ("git://github.com/racket/games#release"
+       .
+       ("e7005e06d64f81f71d34244dea50b6d09122b579"
+        "d0f349b6535b0faf6e3e84c6fdf4ca2f4b1800e0"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("d36ba1bced3f9cf16936af49dd0737cc80bd05d1"
+        "9056c1dcbbffab6ddc39ee18a97478e3335bb0ca"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("d36ba1bced3f9cf16936af49dd0737cc80bd05d1"
+        "9056c1dcbbffab6ddc39ee18a97478e3335bb0ca")))
