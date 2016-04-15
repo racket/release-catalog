@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "eb8d060f84069add440da5864440a49ee232831a")
+(checksum . "32f8bfd90e9230ed4698a0ecb8ad8695aaa92538")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"gui\"")
 (name . "gui-test")
