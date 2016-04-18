@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "c94fa35bc5be2503111c0cbdca03de7db4d74994")
+(checksum . "c843108e8da98fcf268743464958b16f7d7b465a")
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
