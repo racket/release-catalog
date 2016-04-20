@@ -28,19 +28,6 @@
       [(list user repo)
        (add-tag user repo tag-name tag-message checksum)])))
 
-;; get-sources : Catalog -> Hash[ (List String String) => String ]
-(define (get-sources catalog)
-  ;; repos : Hash[ (List String String) => String ]
-  (define repos (make-hash))
-  (for ([(pkg-name info) (in-hash catalog)])
-    (define src (hash-ref info 'source))
-    (match (parse-repo-url src)
-      [(list user repo branch path)
-       ;; Assume checksums consistent for all srcs w/ user/repo.
-       (hash-set! repos (list user repo) (hash-ref info 'checksum))]
-      [_ (void)]))
-  repos)
-
 (define (get-tag user repo tag-sha)
   (get/github (format "https://api.github.com/repos/~a/~a/git/tags/~a"
                       user repo tag-sha)

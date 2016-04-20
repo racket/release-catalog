@@ -1,7 +1,8 @@
 #lang racket/base
 (require racket/file
          racket/path
-         racket/date)
+         racket/date
+         racket/match)
 (provide (all-defined-out))
 
 ;; ============================================================
@@ -198,6 +199,19 @@
              src]
             [else
              (raise-user-error myself-sym "destination not give and force? not set")])))
+
+;; get-sources : Catalog -> Hash[ (List String String) => String ]
+(define (get-sources catalog)
+  ;; repos : Hash[ (List String String) => String ]
+  (define repos (make-hash))
+  (for ([(pkg-name info) (in-hash catalog)])
+    (define src (hash-ref info 'source))
+    (match (parse-repo-url src)
+      [(list user repo branch path)
+       ;; Assume checksums consistent for all srcs w/ user/repo.
+       (hash-set! repos (list user repo) (hash-ref info 'checksum))]
+      [_ (void)]))
+  repos)
 
 ;; ============================================================
 ;; Commands
