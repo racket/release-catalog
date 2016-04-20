@@ -22,14 +22,14 @@
 |#
 
 ;; add-tags : Catalog String String -> Void
-(define (add-tags catalog tag-name tag-message from-branch)
-  (for ([(user+repo checksum) (in-hash (get-sources catalog from-branch))])
+(define (add-tags catalog tag-name tag-message)
+  (for ([(user+repo checksum) (in-hash (get-sources catalog))])
     (match user+repo
       [(list user repo)
        (add-tag user repo tag-name tag-message checksum)])))
 
-;; get-sources : Catalog String -> Hash[ (List String String) => String ]
-(define (get-sources catalog from-branch)
+;; get-sources : Catalog -> Hash[ (List String String) => String ]
+(define (get-sources catalog)
   ;; repos : Hash[ (List String String) => String ]
   (define repos (make-hash))
   (for ([(pkg-name info) (in-hash catalog)])
@@ -101,7 +101,6 @@
   (define *src-dir (current-directory))
   (define *tag-name #f)
   (define *tag-message "")
-  (define *from-branch "release")
   (command-line
    #:argv args
    #:once-each
@@ -109,11 +108,10 @@
    [("-i" "--in") src-dir "Read catalog from src-dir" (set! *src-dir src-dir)]
    [("--tag") tag-name "Name of tag to create" (set! *tag-name tag-name)]
    [("-m" "--message") tag-message "Message" (set! *tag-message tag-message)]
-   [("--from-branch") from-branch "For pkgs with source from branch"
-    (set! *from-branch from-branch)])
+   [("--from-branch") from-branch "Does nothing (for backwards compatibility)" (void)])
   (unless *tag-name
     (error 'add-tags "tag name required"))
-  (add-tags (read-catalog *src-dir) *tag-name *tag-message *from-branch))
+  (add-tags (read-catalog *src-dir) *tag-name *tag-message))
 
 (module+ main
   (command:add-tags (current-command-line-arguments)))
