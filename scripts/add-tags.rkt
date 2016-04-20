@@ -36,9 +36,8 @@
     (define src (hash-ref info 'source))
     (match (parse-repo-url src)
       [(list user repo branch path)
-       (when (or (not from-branch) (equal? branch from-branch))
-         ;; Assume checksums consistent for all srcs w/ user/repo.
-         (hash-set! repos (list user repo) (hash-ref info 'checksum)))]
+       ;; Assume checksums consistent for all srcs w/ user/repo.
+       (hash-set! repos (list user repo) (hash-ref info 'checksum))]
       [_ (void)]))
   repos)
 
