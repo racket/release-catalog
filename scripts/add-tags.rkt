@@ -28,11 +28,6 @@
       [(list user repo)
        (add-tag user repo tag-name tag-message checksum)])))
 
-(define (get-tag user repo tag-sha)
-  (get/github (format "https://api.github.com/repos/~a/~a/git/tags/~a"
-                      user repo tag-sha)
-              #:handle read-json))
-
 ;; add-tag : ... -> Void
 (define (add-tag user repo tag-name tag-message commit-sha)
   (define already-exists? (tag-exists? user repo tag-name))
