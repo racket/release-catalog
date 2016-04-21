@@ -75,7 +75,7 @@
                          '(eprintf "tag-exists? : failed for ~a/~a, tag ~a:\n  ~a\n"
                                    user repo tag-name response-header)
                          #f)))
-  (and result))
+  (and result #t))
 
 ;; ------------------------------------------------------------
 
