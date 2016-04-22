@@ -6,4 +6,4 @@
 (dependencies . ("errortrace-lib" "errortrace-doc"))
 (description . "Instrumentation tools for debugging")
 (name . "errortrace")
-(source . "git://github.com/racket/errortrace/?path=errortrace#release"))
+(source . "git://github.com/racket/errortrace/?path=errortrace#v6.5"))

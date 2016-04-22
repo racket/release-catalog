@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.4.0.5") "pconvert-lib" "source-syntax" "compatibility-lib" "string-constants-lib"))
 (description . "implementation (no documentation) part of \"typed-racket\"")
 (name . "typed-racket-lib")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-lib#release"))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-lib#v6.5"))
