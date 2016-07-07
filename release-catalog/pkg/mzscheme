@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "f676bdf4bbd1d43a089ff60f1831a5bada5e6a07")
+(dependencies . ("mzscheme-lib" "mzscheme-doc"))
+(description . "The legacy MzScheme language")
+(name . "mzscheme")
+(source . "git://github.com/racket/mzscheme/?path=mzscheme"))

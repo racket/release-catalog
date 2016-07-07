@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org eli@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "eli@racket-lang.org"))
+(checksum . "d287727fef2c0353830942ca4ec2a3e1e5008257")
+(dependencies . ("at-exp-lib" "base" "eli-tester" "rackunit-lib" "sandbox-lib" "scribble-doc" "scribble-lib" "scribble-text-lib" "racket-index"))
+(description . "tests for \"scribble\"")
+(name . "scribble-test")
+(source . "git://github.com/racket/scribble/?path=scribble-test"))

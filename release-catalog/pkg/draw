@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "ef804dc8a256fd4296a630816e6d5feaf05fa521")
+(dependencies . ("draw-lib" "draw-doc"))
+(description . "Drawing libraries")
+(name . "draw")
+(source . "git://github.com/racket/draw/?path=draw"))

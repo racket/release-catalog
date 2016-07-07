@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "c3a388eaecd885f5db79a6f0e66e3323118d6172")
+(dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.15") "net-lib" "compatibility-lib" "scribble-text-lib" "parser-tools-lib" "rackunit-lib"))
+(description . "implementation (no documentation) part of \"web-server\"")
+(name . "web-server-lib")
+(source . "git://github.com/racket/web-server/?path=web-server-lib"))

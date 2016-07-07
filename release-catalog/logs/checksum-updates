@@ -1,0 +1,30 @@
+;; ============================================================
+;; Appended 1467921466 : Thursday, July 7th, 2016 2:57:46pm
+#hash(("git://github.com/racket/typed-racket/?path=typed-racket-more"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=source-syntax"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test"
+       .
+       ("39d6a6047a418a064a4dba47fae015f138d6a70a"
+        "e3f56c8a259659a3b37b06a8bb09d57ec014ecc7")))
