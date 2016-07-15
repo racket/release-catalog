@@ -49,7 +49,7 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
@@ -58,7 +58,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("racket-lib" ("racket" #:version "6.5.0.8")))
 (description . "Racket libraries that are currently always available")
 (name . "base")
@@ -139,7 +139,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("compiler-lib"))
 (description . "Racket compilation tools, such as `raco exe'")
 (name . "compiler")
@@ -148,7 +148,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . (("base" #:version "6.5.0.2") "scheme-lib" "rackunit-lib" "zo-lib"))
 (description . "implementation (no documentation) part of \"compiler\"")
 (name . "compiler-lib")
@@ -157,7 +157,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "compiler-lib" "eli-tester" "rackunit-lib" "net-lib" "scheme-lib" "compatibility-lib" "gui-lib" "htdp-lib" "plai-lib" "rackunit-lib"))
 (description . "tests for \"compiler-lib\"")
 (name . "compiler-test")
@@ -1101,7 +1101,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("net-lib" "net-doc"))
 (description . "Networking libraries")
 (name . "net")
@@ -1110,7 +1110,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "compatibility-lib" "net-lib" "racket-doc" "scribble-lib" "web-server-doc" "web-server-lib"))
 (description . "documentation part of \"net\"")
 (name . "net-doc")
@@ -1119,7 +1119,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"net\"")
 (name . "net-lib")
@@ -1128,7 +1128,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "at-exp-lib" "compatibility-lib" "eli-tester" "net-lib" "racket-test" "rackunit-lib" "sandbox-lib" "web-server-lib"))
 (description . "tests for \"net-lib\"")
 (name . "net-test")
@@ -1524,7 +1524,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "compatibility-lib" "r5rs-lib" "scheme-lib" "racket-test" "typed-racket-lib" "gui-lib"))
 (name . "racket-benchmarks")
 (source . "git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release")))
@@ -1541,7 +1541,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.14") "racket-index" "rackunit-doc" "compatibility" "errortrace-doc" "typed-racket-doc" "at-exp-lib" "rackunit-lib" "web-server-doc" "gui" "draw" "pict" "parser-tools-doc" "slideshow-doc" "r5rs-doc" "r6rs-doc" "xrepl" "readline" "syntax-color" "scribble-doc" "future-visualizer" "distributed-places" "serialize-cstruct-lib" "cext-lib" "data-doc" "net-doc" "planet-doc" "mzscheme-doc" "compiler-lib"))
 (description . "Base Racket documentation")
 (name . "racket-doc")
@@ -1559,7 +1559,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "scribble-lib" "scheme-lib" "at-exp-lib"))
 (description . "Racket Documentation driver")
 (name . "racket-index")
@@ -1568,7 +1568,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . (("racket-win32-i386-2" #:platform "win32\\i386") ("racket-win32-x86_64-2" #:platform "win32\\x86_64") ("racket-x86_64-linux-natipkg-2" #:platform "x86_64-linux-natipkg") ("racket-x86_64-macosx-2" #:platform "x86_64-macosx") ("racket-i386-macosx-2" #:platform "i386-macosx") ("racket-ppc-macosx-2" #:platform "ppc-macosx") ("db-ppc-macosx" #:platform "ppc-macosx") ("db-win32-i386" #:platform "win32\\i386") ("db-win32-x86_64" #:platform "win32\\x86_64") ("db-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("com-win32-i386" #:platform "win32\\i386") ("com-win32-x86_64" #:platform "win32\\x86_64")))
 (description . "Combines platform-specific native libraries that are useful for base Racket")
 (name . "racket-lib")
@@ -1586,7 +1586,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("compiler-lib" "sandbox-lib" "compatibility-lib" "eli-tester" "planet-lib" "net-lib" "net-test" "serialize-cstruct-lib" "cext-lib" "pconvert-lib" "racket-test-core" "web-server-lib" "rackunit-lib" "at-exp-lib" "option-contract-lib" "srfi-lib" "scribble-lib" "racket-index" "scheme-lib" "base" "data-lib"))
 (description . "Base Racket test suites")
 (name . "racket-test")
@@ -1595,7 +1595,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
@@ -1604,7 +1604,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base" "redex-lib" "scheme-lib" "rackunit-lib" "serialize-cstruct-lib"))
 (description . "Additional Racket test suites")
 (name . "racket-test-extra")
@@ -2009,7 +2009,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
@@ -2162,7 +2162,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("typed-racket-lib" "typed-racket-doc"))
 (description . "The implementation of the Typed Racket language")
 (name . "typed-racket")
@@ -2171,7 +2171,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("scheme-lib" "typed-racket-lib" "base"))
 (description . "compatibility library for older Typed Racket-based languages")
 (name . "typed-racket-compatibility")
@@ -2180,7 +2180,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("base" "net-doc" "scheme-lib" "srfi-lite-lib" "r6rs-doc" "srfi-doc" "r6rs-lib" "sandbox-lib" "at-exp-lib" ("scribble-lib" #:version "1.16") "pict-lib" ("typed-racket-lib" #:version "1.5") "typed-racket-compatibility" "typed-racket-more" "racket-doc" "draw-lib"))
 (description . "documentation part of \"typed-racket\"")
 (name . "typed-racket-doc")
@@ -2189,7 +2189,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . (("base" #:version "6.4.0.5") "source-syntax" "compatibility-lib" "string-constants-lib"))
 (description . "implementation (no documentation) part of \"typed-racket\"")
 (name . "typed-racket-lib")
@@ -2198,7 +2198,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "web-server-lib" "draw-lib" "rackunit-lib" "rackunit-gui" "snip-lib" "typed-racket-lib" "gui-lib" "pict-lib" "images-lib" "racket-index" "sandbox-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
@@ -2207,7 +2207,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "9f3cf01d2617dab9642d282ea567d820325f9e78")
+(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
 (dependencies . ("redex-lib" "sandbox-lib" ("base" #:version "6.2.900.16") ("typed-racket-lib" #:version "1.3") "typed-racket-more" "typed-racket-compatibility" "2d" "rackunit-lib" "racket-index" "compatibility-lib" "math-lib" "scheme-lib" "base" "racket-benchmarks" "rackunit-lib" "compiler-lib" "redex-lib" "htdp-lib" "sandbox-lib"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")
@@ -2342,7 +2342,7 @@
 #hash(
 (author . "mflatt@racket-lang.org jay@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "d8e8f8b49571183479b267539d9f1d8c06a6b412")
+(checksum . "72a70440cbb07087f69b571fd8b81bc3451195da")
 (dependencies . ("base"))
 (description . "Library for handling zo files")
 (name . "zo-lib")
