@@ -2009,7 +2009,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
@@ -2162,7 +2162,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("typed-racket-lib" "typed-racket-doc"))
 (description . "The implementation of the Typed Racket language")
 (name . "typed-racket")
@@ -2171,7 +2171,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("scheme-lib" "typed-racket-lib" "base"))
 (description . "compatibility library for older Typed Racket-based languages")
 (name . "typed-racket-compatibility")
@@ -2180,7 +2180,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("base" "net-doc" "scheme-lib" "srfi-lite-lib" "r6rs-doc" "srfi-doc" "r6rs-lib" "sandbox-lib" "at-exp-lib" ("scribble-lib" #:version "1.16") "pict-lib" ("typed-racket-lib" #:version "1.5") "typed-racket-compatibility" "typed-racket-more" "racket-doc" "draw-lib"))
 (description . "documentation part of \"typed-racket\"")
 (name . "typed-racket-doc")
@@ -2189,7 +2189,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . (("base" #:version "6.4.0.5") "source-syntax" "compatibility-lib" "string-constants-lib"))
 (description . "implementation (no documentation) part of \"typed-racket\"")
 (name . "typed-racket-lib")
@@ -2198,7 +2198,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "web-server-lib" "draw-lib" "rackunit-lib" "rackunit-gui" "snip-lib" "typed-racket-lib" "gui-lib" "pict-lib" "images-lib" "racket-index" "sandbox-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
@@ -2207,7 +2207,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "6acef79abf201393a8e3a1c443461019969f088d")
+(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
 (dependencies . ("redex-lib" "sandbox-lib" ("base" #:version "6.2.900.16") ("typed-racket-lib" #:version "1.3") "typed-racket-more" "typed-racket-compatibility" "2d" "rackunit-lib" "racket-index" "compatibility-lib" "math-lib" "scheme-lib" "base" "racket-benchmarks" "rackunit-lib" "compiler-lib" "redex-lib" "htdp-lib" "sandbox-lib"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")
