@@ -584,3 +584,13 @@
        .
        ("93994711accfb2036cb9207ac08644262908c53d"
         "6b37bf20ce5a7aff23cd5176f168780d0104afb1")))
+;; ============================================================
+;; Appended 1468949465 : Tuesday, July 19th, 2016 1:31:05pm
+#hash(("git://github.com/racket/macro-debugger/?path=macro-debugger-text-lib#release"
+       .
+       ("ff21bc82aef8ad3bf9ac0dcffad5b099580de424"
+        "46f8b5dc0dc0425aa581dd51cc78919988153e43"))
+      ("git://github.com/racket/macro-debugger/?path=macro-debugger#release"
+       .
+       ("ff21bc82aef8ad3bf9ac0dcffad5b099580de424"
+        "46f8b5dc0dc0425aa581dd51cc78919988153e43")))
