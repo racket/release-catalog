@@ -2,7 +2,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "cdbe3ce3837a3de166e26abd5fbf5e3da30e9a7b")
+(checksum . "6027cf92dad7ab1a8cf9a8b9fa67164e16ab42f0")
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "web-server-lib" "draw-lib" "rackunit-lib" "rackunit-gui" "snip-lib" "typed-racket-lib" "gui-lib" "pict-lib" "images-lib" "racket-index" "sandbox-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
