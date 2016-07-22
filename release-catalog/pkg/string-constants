@@ -6,4 +6,4 @@
 (dependencies . ("string-constants-lib" "string-constants-doc"))
 (description . "String constants to support internationalization, especially in DrRacket")
 (name . "string-constants")
-(source . "git://github.com/racket/string-constants/?path=string-constants#release"))
+(source . "git://github.com/racket/string-constants/?path=string-constants#v6.6"))
