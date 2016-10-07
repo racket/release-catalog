@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "a3f28d6f438a78f1c9ff22c9a9bd02b2e3fc42d6")
-(dependencies . ("base" "data-enumerate-lib" "racket-index" "data-lib" "rackunit-lib" "math-lib"))
-(description . "tests for \"data-lib\"")
-(name . "data-test")
-(source . "git://github.com/racket/data/?path=data-test"))

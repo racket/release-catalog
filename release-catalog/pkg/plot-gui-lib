@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "a8c1fcd0c7da18a62f5c59d106c6264c1cd9d64a")
-(dependencies . ("base" "plot-lib" ("gui-lib" #:version "1.18") "snip-lib" "typed-racket-lib" "typed-racket-more"))
-(description . "Plot GUI interface")
-(name . "plot-gui-lib")
-(source . "git://github.com/racket/plot/?path=plot-gui-lib"))

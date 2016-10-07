@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org noel@racket-lang.org chongkai@racket-lang.org jay@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "noel@racket-lang.org" "chongkai@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "fad23bc227c493c67b6548ea7cd377f3bdbbf0c4")
-(dependencies . ("scheme-lib" "base" "compatibility-lib" "rackunit-lib" "srfi-lib"))
-(description . "tests for \"srfi\"")
-(name . "srfi-test")
-(source . "git://github.com/racket/srfi/?path=srfi-test"))
