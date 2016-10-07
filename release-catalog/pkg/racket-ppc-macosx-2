@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "a36e58d540359092d684bd3a277d0068cff04afa")
+(dependencies . ("base"))
+(description . "native libraries for \"racket\" package")
+(name . "racket-ppc-macosx-2")
+(source . "https://pkg-sources.racket-lang.org/pkgs/a36e58d540359092d684bd3a277d0068cff04afa/racket-ppc-macosx-2.zip"))

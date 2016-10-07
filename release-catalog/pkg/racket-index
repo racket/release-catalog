@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
+(authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
+(checksum . "d171218215e9206327a7414f222fffbf5a3a4ba9")
+(dependencies . ("base" "scribble-lib" "scheme-lib" "at-exp-lib"))
+(description . "Racket Documentation driver")
+(name . "racket-index")
+(source . "git://github.com/racket/racket/?path=pkgs/racket-index"))

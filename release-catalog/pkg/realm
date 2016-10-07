@@ -1,0 +1,9 @@
+
+#hash(
+(author . "matthias@racket-lang.org")
+(authors . ("matthias@racket-lang.org"))
+(checksum . "26603958a3342cfcc7cfced12aa9badcbaf998a0")
+(dependencies . ("base" "htdp-lib" "rackunit-lib"))
+(description . "Sample code for _Realm of Racket_")
+(name . "realm")
+(source . "git://github.com/racket/realm"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "de574b338d9c473e4c87c0f5b09fa0ec046b466a")
+(dependencies . ("snip-lib" "gui-doc"))
+(description . "Text and graphics editor extension protocol")
+(name . "snip")
+(source . "git://github.com/racket/snip/?path=snip"))
