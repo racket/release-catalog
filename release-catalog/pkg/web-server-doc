@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "151538d596e94aea1299e7863b904f2b9868d473")
+(dependencies . ("base" "net-doc" "rackunit-doc" "compatibility-doc" "db-doc" "scribble-doc" "compatibility-lib" "db-lib" "net-lib" "rackunit-lib" "sandbox-lib" "scribble-lib" "web-server-lib" "racket-doc"))
+(description . "documentation part of \"web-server\"")
+(name . "web-server-doc")
+(source . "git://github.com/racket/web-server/?path=web-server-doc"))
