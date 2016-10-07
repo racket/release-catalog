@@ -1,9 +1,0 @@
-
-#hash(
-(author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6b37bf20ce5a7aff23cd5176f168780d0104afb1")
-(dependencies . ("base" "htdp-lib" "scheme-lib" "srfi-lite-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib"))
-(description . "tests for \"htdp\"")
-(name . "htdp-test")
-(source . "git://github.com/racket/htdp/?path=htdp-test#release"))

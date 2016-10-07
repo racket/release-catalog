@@ -1,9 +1,0 @@
-
-#hash(
-(author . "chrdimo@seas.harvard.edu robby@racket-lang.org")
-(authors . ("chrdimo@seas.harvard.edu" "robby@racket-lang.org"))
-(checksum . "cd4684194251fcc6c0aa34079426fc2eb94d554b")
-(dependencies . (("base" #:version "6.2.900.17")))
-(description . "Implementation (no documentation) for \"option-contract\"")
-(name . "option-contract-lib")
-(source . "git://github.com/racket/option-contract?path=option-contract-lib"))
