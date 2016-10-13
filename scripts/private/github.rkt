@@ -5,6 +5,7 @@
          net/url
          json
          "net.rkt"
+         "util.rkt"
          (only-in pkg/private/stage
                   package-url->checksum
                   github-client_id
@@ -93,3 +94,40 @@
 (define (build-path/param p)
   (cond [(path/param? p) p]
         [else (path/param p null)]))
+
+;; ----------------------------------------
+
+;; get-commits-since-last-release : Catalog Tag -> [Hashof repo [Listof commit]]
+;;   where commit is in github's json format
+;; Returns a hash table mapping the repos in `catalog` to the list of the
+;; commits that appear in them since `tag`.
+(define (get-commits-since-last-release catalog since-tag)
+  (for/hash ([(user+repo checksum) (in-hash (get-sources catalog))])
+    (match user+repo
+      [(list user repo)
+       (define per-page 250) ; github API says so
+       (define-values (commits-since-last-release _1 _2)
+         (for/fold ([commits '()]
+                    [end   checksum]
+                    [done?   #f])
+             ([page (in-naturals 1)]
+              #:break done?)
+           (define res
+             (hash-ref
+              (get/github
+               (format "https://api.github.com/repos/~a/~a/compare/~a...~a?per_page=~a;page=~a"
+                       user repo since-tag end per-page page)
+               #:handle read-json
+               #:fail (lambda _
+                        ;; fails on jeapostrophe/racket-cheat
+                        (eprintf "! failed to get commits for ~a/~a\n"
+                                 user repo)
+                        ;; safe to ignore and keep going
+                        (hash 'commits '())))
+              'commits))
+           (define d? (not (= (length res) per-page)))
+           (values (append res commits)
+                   (and (not d?)
+                        (hash-ref (car res) 'sha)) ; rest of range
+                   d?)))
+       (values repo commits-since-last-release)])))
