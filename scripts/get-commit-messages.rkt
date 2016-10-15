@@ -4,8 +4,10 @@
 ;; For release announcement composition purposes.
 
 (require racket/cmdline
+         racket/list
          racket/match
          racket/set
+         racket/string
          json
          "private/util.rkt"
          "private/github.rkt")
@@ -26,6 +28,9 @@
                 (hash-ref author 'name)
                 (hash-ref author 'email)
                 (hash-ref author 'date))
+        ;; the JSON doesn't have the raw sha...
+        (define sha (last (string-split (hash-ref commit 'url) "/")))
+        (displayln sha)
         (newline)
         (displayln message)
         (newline))
