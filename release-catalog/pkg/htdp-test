@@ -2,7 +2,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "0b8d1af35350248c3895db43bd56017d5e7756b9")
+(checksum . "08c737d298ebc8345fcf0c89eb81f03743e7ba89")
 (dependencies . ("base" "htdp-lib" "scheme-lib" "srfi-lite-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib"))
 (description . "tests for \"htdp\"")
 (name . "htdp-test")

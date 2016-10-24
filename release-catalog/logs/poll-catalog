@@ -812,3 +812,37 @@
        .
        ("2fc83b286844e88959a3eb053a58fb2fb61c246c"
         "6f8124cf082e17d65aa01c396fd3a319907105a6")))
+;; ============================================================
+;; Appended 1477333537 : Monday, October 24th, 2016 2:25:37pm
+#hash(("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("0b8d1af35350248c3895db43bd56017d5e7756b9"
+        "08c737d298ebc8345fcf0c89eb81f03743e7ba89"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("0b8d1af35350248c3895db43bd56017d5e7756b9"
+        "08c737d298ebc8345fcf0c89eb81f03743e7ba89"))
+      ("git://github.com/racket/compatibility/?path=compatibility#release"
+       .
+       ("64e3a1e7c5aeb7b5356994fd162cea2ec948c32d"
+        "c4635384fa781a09ffcb7e89d02dc571ec099e57"))
+      ("git://github.com/racket/compatibility/?path=compatibility-lib#release"
+       .
+       ("64e3a1e7c5aeb7b5356994fd162cea2ec948c32d"
+        "c4635384fa781a09ffcb7e89d02dc571ec099e57"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("0b8d1af35350248c3895db43bd56017d5e7756b9"
+        "08c737d298ebc8345fcf0c89eb81f03743e7ba89"))
+      ("git://github.com/racket/compatibility/?path=compatibility-doc#release"
+       .
+       ("64e3a1e7c5aeb7b5356994fd162cea2ec948c32d"
+        "c4635384fa781a09ffcb7e89d02dc571ec099e57"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("0b8d1af35350248c3895db43bd56017d5e7756b9"
+        "08c737d298ebc8345fcf0c89eb81f03743e7ba89"))
+      ("git://github.com/racket/compatibility/?path=compatibility-test#release"
+       .
+       ("64e3a1e7c5aeb7b5356994fd162cea2ec948c32d"
+        "c4635384fa781a09ffcb7e89d02dc571ec099e57")))
