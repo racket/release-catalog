@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3")
+(checksum . "093f4fce197f6bbc12697987ef39a565a2205d68")
 (dependencies . ("base" "scribble-lib" "compatibility-lib" "pconvert-lib" "sandbox-lib" "compiler-lib" "gui-lib" "racket-doc" "data-doc" "mzscheme-doc" "scheme-lib"))
 (description . "documentation part of \"compatibility\"")
 (name . "compatibility-doc")
