@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "c4635384fa781a09ffcb7e89d02dc571ec099e57")
+(checksum . "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3")
 (dependencies . ("compatibility-lib" "compatibility-doc"))
 (description . "Libraries that implement legacy interfaces")
 (name . "compatibility")

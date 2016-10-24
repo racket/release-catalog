@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "c4635384fa781a09ffcb7e89d02dc571ec099e57")
+(checksum . "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3")
 (dependencies . ("base" "racket-test"))
 (description . "tests for \"compatibility-lib\"")
 (name . "compatibility-test")

@@ -846,3 +846,21 @@
        .
        ("64e3a1e7c5aeb7b5356994fd162cea2ec948c32d"
         "c4635384fa781a09ffcb7e89d02dc571ec099e57")))
+;; ============================================================
+;; Appended 1477340190 : Monday, October 24th, 2016 4:16:30pm
+#hash(("git://github.com/racket/compatibility/?path=compatibility#release"
+       .
+       ("c4635384fa781a09ffcb7e89d02dc571ec099e57"
+        "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3"))
+      ("git://github.com/racket/compatibility/?path=compatibility-lib#release"
+       .
+       ("c4635384fa781a09ffcb7e89d02dc571ec099e57"
+        "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3"))
+      ("git://github.com/racket/compatibility/?path=compatibility-doc#release"
+       .
+       ("c4635384fa781a09ffcb7e89d02dc571ec099e57"
+        "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3"))
+      ("git://github.com/racket/compatibility/?path=compatibility-test#release"
+       .
+       ("c4635384fa781a09ffcb7e89d02dc571ec099e57"
+        "ed851ead2ff4dbd94913c2e19220ec30bf1cb0e3")))
