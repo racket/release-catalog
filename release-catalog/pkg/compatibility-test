@@ -6,4 +6,4 @@
 (dependencies . ("base" "racket-test"))
 (description . "tests for \"compatibility-lib\"")
 (name . "compatibility-test")
-(source . "git://github.com/racket/compatibility/?path=compatibility-test#release"))
+(source . "git://github.com/racket/compatibility/?path=compatibility-test#v6.7"))

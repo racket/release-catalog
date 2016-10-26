@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "net-lib" "sandbox-lib"))
 (description . "implementation (no documentation) part of \"compatibility\"")
 (name . "compatibility-lib")
-(source . "git://github.com/racket/compatibility/?path=compatibility-lib#release"))
+(source . "git://github.com/racket/compatibility/?path=compatibility-lib#v6.7"))
