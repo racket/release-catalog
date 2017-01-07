@@ -1,0 +1,9 @@
+
+#hash(
+(author . "samth@racket-lang.org stamourv@racket-lang.org")
+(authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
+(checksum . "e2be0382d12187c8b78261e47d31023faa33e8b0")
+(dependencies . ("srfi-lite-lib" "base" "net-lib" "web-server-lib" "db-lib" "draw-lib" "rackunit-lib" "rackunit-gui" "snip-lib" "typed-racket-lib" "gui-lib" "pict-lib" "images-lib" "racket-index" "sandbox-lib"))
+(description . "Types for various libraries")
+(name . "typed-racket-more")
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-more"))

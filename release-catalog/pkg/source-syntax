@@ -1,0 +1,9 @@
+
+#hash(
+(author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
+(authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
+(checksum . "e2be0382d12187c8b78261e47d31023faa33e8b0")
+(dependencies . ("base"))
+(description . "find mappings from expanded to source syntax")
+(name . "source-syntax")
+(source . "git://github.com/racket/typed-racket/?path=source-syntax"))
