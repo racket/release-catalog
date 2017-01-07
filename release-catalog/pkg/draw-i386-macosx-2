@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "ecd61bfff1daa6e72ab14c73bfa480499717da29")
-(dependencies . ("base"))
-(description . "native libraries for \"draw\" package")
-(name . "draw-i386-macosx-2")
-(source . "https://pkg-sources.racket-lang.org/pkgs/ecd61bfff1daa6e72ab14c73bfa480499717da29/draw-i386-macosx-2.zip"))
