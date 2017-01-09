@@ -82,3 +82,21 @@
        .
        ("12738aec77db30c7f4f34b3104974886ab0904f1"
         "622789a95562ba597e4d329097108567eb2d1c6b")))
+;; ============================================================
+;; Appended 1483938020 : Monday, January 9th, 2017 12:00:20am
+#hash(("git://github.com/racket/pict/?path=pict#release"
+       .
+       ("559b51bba1b3c73aaf7e45eb9cf497e97b63808e"
+        "16d913e1fa8c988b17f77e42a2ea279e4fa518a4"))
+      ("git://github.com/racket/pict/?path=pict-test#release"
+       .
+       ("559b51bba1b3c73aaf7e45eb9cf497e97b63808e"
+        "16d913e1fa8c988b17f77e42a2ea279e4fa518a4"))
+      ("git://github.com/racket/pict/?path=pict-lib#release"
+       .
+       ("559b51bba1b3c73aaf7e45eb9cf497e97b63808e"
+        "16d913e1fa8c988b17f77e42a2ea279e4fa518a4"))
+      ("git://github.com/racket/pict/?path=pict-doc#release"
+       .
+       ("559b51bba1b3c73aaf7e45eb9cf497e97b63808e"
+        "16d913e1fa8c988b17f77e42a2ea279e4fa518a4")))
