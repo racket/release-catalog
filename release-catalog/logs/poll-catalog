@@ -626,3 +626,53 @@
        .
        ("b0f707b576938f05e121d3b8f64bd61f371437f0"
         "c8e348777837fd9deadecfeb21a28e9a92059ecd")))
+;; ============================================================
+;; Appended 1484888421 : Friday, January 20th, 2017 12:00:21am
+#hash(("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("6c4aad05f9cc62ddee6f118654ab09b46fc23cea"
+        "c990312df8133abd32b3257f02a14dde6a42548e"))
+      ("git://github.com/racket/redex/?path=redex-doc#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("6c4aad05f9cc62ddee6f118654ab09b46fc23cea"
+        "c990312df8133abd32b3257f02a14dde6a42548e"))
+      ("git://github.com/racket/redex/?path=redex-examples#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/redex/?path=redex-gui-lib#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/redex/?path=redex#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("6c4aad05f9cc62ddee6f118654ab09b46fc23cea"
+        "c990312df8133abd32b3257f02a14dde6a42548e"))
+      ("git://github.com/racket/redex/?path=redex-benchmark#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/redex/?path=redex-test#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/redex/?path=redex-pict-lib#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("6c4aad05f9cc62ddee6f118654ab09b46fc23cea"
+        "c990312df8133abd32b3257f02a14dde6a42548e"))
+      ("git://github.com/racket/redex/?path=redex-lib#release"
+       .
+       ("7feb006c9fc8b5feb90fe9e3f9f0ff75072d6e7b"
+        "cf18ae9a7e715a9ae44da6badc91974e4b3335b7")))
