@@ -6,4 +6,4 @@
 (dependencies . ("base" "pict-lib" "rackunit-lib" "htdp-lib" "draw-lib"))
 (description . "tests for \"pict-lib\"")
 (name . "pict-test")
-(source . "git://github.com/racket/pict/?path=pict-test#release"))
+(source . "git://github.com/racket/pict/?path=pict-test#v6.8"))
