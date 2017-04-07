@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "a3819e2ae43a1e142019df4927a843c4263c8475")
+(dependencies . ("base" "racket-index" "eli-tester" "planet-lib" "rackunit-lib" "scheme-lib"))
+(description . "tests for \"planet-lib\"")
+(name . "planet-test")
+(source . "git://github.com/racket/planet/?path=planet-test"))

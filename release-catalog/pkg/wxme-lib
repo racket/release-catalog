@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "93ed84203f918c8d44cb9879b2498d4844589ced")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "snip-lib"))
+(description . "implementation (no documentation) part of \"wxme\"")
+(name . "wxme-lib")
+(source . "git://github.com/racket/wxme/?path=wxme-lib"))

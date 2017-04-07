@@ -1,0 +1,9 @@
+
+#hash(
+(author . "sstrickl@racket-lang.org")
+(authors . ("sstrickl@racket-lang.org"))
+(checksum . "51fa1edfa0f798a78b3e3d307a8fdf1cd9a10e7d")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-index" "eli-tester" "racket-doc" "scribble-lib"))
+(description . "SLaTeX (Scheme in LaTeX)")
+(name . "slatex")
+(source . "git://github.com/racket/slatex"))

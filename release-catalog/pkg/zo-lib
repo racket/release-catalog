@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org jay@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "jay@racket-lang.org"))
+(checksum . "5fb86dc55ec22dc06badc10c88c64397c2ecbaf4")
+(dependencies . ("base"))
+(description . "Library for handling zo files")
+(name . "zo-lib")
+(source . "git://github.com/racket/racket?path=pkgs/zo-lib"))
