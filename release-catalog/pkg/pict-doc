@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "16d913e1fa8c988b17f77e42a2ea279e4fa518a4")
-(dependencies . ("base" "mzscheme-doc" "draw-doc" "gui-doc" "slideshow-doc" "draw-lib" "gui-lib" "scribble-lib" "slideshow-lib" "pict-lib" "racket-doc" "scribble-doc"))
-(description . "documentation part of \"pict\"")
-(name . "pict-doc")
-(source . "git://github.com/racket/pict/?path=pict-doc#v6.8"))
