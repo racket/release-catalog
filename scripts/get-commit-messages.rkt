@@ -47,7 +47,7 @@
    [("-i" "--in") src-dir "Read catalog from src-dir" (set! *src-dir src-dir)]
    [("--since-tag") tag-name "Tag for last release" (set! *since-tag tag-name)])
   (unless *since-tag
-    (error 'add-tags "tag name required"))
+    (error 'get-commit-messages "tag name required"))
   (get-commit-messages (read-catalog *src-dir) *since-tag))
 
 (module+ main
