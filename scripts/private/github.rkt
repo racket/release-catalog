@@ -121,7 +121,6 @@
                        user repo since-tag end results-per-page page)
                #:handle read-json
                #:fail (lambda _
-                        ;; fails on jeapostrophe/racket-cheat
                         (eprintf "! failed to get commits for ~a/~a\n"
                                  user repo)
                         ;; safe to ignore and keep going
