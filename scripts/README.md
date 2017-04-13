@@ -14,7 +14,22 @@ string containing the token.
 Even scripts that don't write to repositories may need a token to
 avoid hitting the rate limit for unauthenticated applications.
 
+`scripts/poll.rkt` (and possibly others, too) instead use an application key
+(to be used from scripts on the build server with the build account,
+presumably --stamourv). It should live at
+
+    (build-path (find-system-path 'pref-dir) "github-poll-client.rktd")
+
+and contain a list of two strings, the client id and the client secret.
+(I'm not entirely sure where those come from, possibly generated when
+registering an application (here the release-catalog polling client)
+with GitHub. (The write aspects of the build script that also does the
+polling is handled differently, via a "deploy key" on the build server.)
+If you need them, I (and probably ryanc) have them. --stamourv)
+
 ## Typical usage
+
+(Full details are in the release checklist, master copy in the iplt repo.)
 
 The following outlines the usual use of the scripts.
 
