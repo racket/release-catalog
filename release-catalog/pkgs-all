@@ -499,7 +499,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("scheme-lib" "data-lib" "compiler-lib" ("base" #:version "6.2.900.15") "planet-lib" "compatibility-lib" ("draw-lib" #:version "1.7") "errortrace-lib" "macro-debugger-text-lib" "parser-tools-lib" "pconvert-lib" "pict-lib" "profile-lib" "sandbox-lib" ("scribble-lib" #:version "1.11") ("snip-lib" #:version "1.2") ("string-constants-lib" #:version "1.16") "typed-racket-lib" "wxme-lib" ("gui-lib" #:version "1.30") ("racket-index" #:version "1.2") "racket-doc" "html-lib" "images-lib" ("icons" #:version "1.2") "typed-racket-more" "trace" ("macro-debugger" #:version "1.1") "net-lib" "tex-table" "htdp-lib" ("drracket-plugin-lib" #:version "1.1") "gui-pkg-manager-lib" "drracket-tool-lib" "drracket-tool-doc" "pict-snip-lib" "option-contract-lib" "syntax-color-lib" "mzscheme-doc" "net-doc" "planet-doc" "compatibility-doc" "string-constants-doc" "draw-doc" "errortrace-doc" "gui-doc" "pict-doc" "profile-doc" "r5rs-doc" "at-exp-lib" "rackunit-lib"))
 (description . "The DrRacket programming environment")
 (name . "drracket")
@@ -508,7 +508,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("base" "compatibility-lib"))
 (description . "DrRacket's plugin API")
 (name . "drracket-plugin-lib")
@@ -517,7 +517,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("base" "htdp" "drracket" "racket-index" "scheme-lib" "at-exp-lib" "rackunit-lib" "compatibility-lib" "gui-lib" "htdp" "compiler-lib" "cext-lib" "string-constants-lib"))
 (description . "tests for \"drracket\"")
 (name . "drracket-test")
@@ -526,7 +526,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("drracket-tool-lib" "drracket-tool-doc"))
 (description . "Programmatic interface to some IDE tools that DrRacket supports")
 (name . "drracket-tool")
@@ -535,7 +535,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("base" "scribble-lib" "drracket-tool-lib" "racket-doc" "gui-doc" "gui-lib"))
 (description . "Docs for the programmatic interface to some IDE tools that DrRacket supports")
 (name . "drracket-tool-doc")
@@ -544,7 +544,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . (("base" #:version "6.2.900.10") "scribble-lib" ("string-constants-lib" #:version "1.12") "scribble-lib" "racket-index" "gui-lib" "at-exp-lib" "rackunit-lib"))
 (description . "Code implementing programmatic interfaces to some IDE tools that DrRacket supports")
 (name . "drracket-tool-lib")
@@ -553,7 +553,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "61c590ccef3d798edb46f0026fd3a2d383ee5053")
+(checksum . "3df18cf0ef749bb5443b3f59093d8bfab828156d")
 (dependencies . ("base" "rackunit-lib" "drracket-tool-lib"))
 (description . "Tests for IDE tools that DrRacket supports")
 (name . "drracket-tool-test")

@@ -1056,3 +1056,33 @@
        .
        ("3e3e7e35628ef13a58b60e92471f0cc280ccdc3e"
         "61c590ccef3d798edb46f0026fd3a2d383ee5053")))
+;; ============================================================
+;; Appended 1493219281 : Wednesday, April 26th, 2017 11:08:01am
+#hash(("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("61c590ccef3d798edb46f0026fd3a2d383ee5053"
+        "3df18cf0ef749bb5443b3f59093d8bfab828156d")))
