@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib"))
 (description . "implementation (no documentation) part of \"r5rs\"")
 (name . "r5rs-lib")
-(source . "git://github.com/racket/r5rs/?path=r5rs-lib#release"))
+(source . "git://github.com/racket/r5rs/?path=r5rs-lib#v6.9"))
