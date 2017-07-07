@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "3dff4171c999fbd84f8a4af38446502eeff0ec04")
-(dependencies . ("base"))
-(description . "native libraries for \"racket\" package")
-(name . "racket-x86_64-linux-natipkg-2")
-(source . "https://pkg-sources.racket-lang.org/pkgs/3dff4171c999fbd84f8a4af38446502eeff0ec04/racket-x86_64-linux-natipkg-2.zip"))
