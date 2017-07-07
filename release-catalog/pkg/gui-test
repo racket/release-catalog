@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "1821ec2722bf11dace7a1edbdc269261e3ab5ed0")
+(dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
+(description . "tests for \"gui\"")
+(name . "gui-test")
+(source . "git://github.com/racket/gui/?path=gui-test"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "fe990cf9fc0084c341416e2077eda2aba6cc0ba0")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "gui-lib"))
+(description . "implementation (no documentation) part of \"slideshow\"")
+(name . "slideshow-lib")
+(source . "git://github.com/racket/slideshow/?path=slideshow-lib"))

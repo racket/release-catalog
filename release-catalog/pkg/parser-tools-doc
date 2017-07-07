@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "80ea2be9e9a28f9d8e651439691b2fcbd79d301e")
+(dependencies . ("base" "scheme-lib" "racket-doc" "syntax-color-doc" "parser-tools-lib" "scribble-lib"))
+(description . "documentation part of \"parser-tools\"")
+(name . "parser-tools-doc")
+(source . "git://github.com/racket/parser-tools/?path=parser-tools-doc"))

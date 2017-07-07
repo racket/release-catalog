@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org")
+(authors . ("eli@racket-lang.org"))
+(checksum . "39b7bfdc93e213e111d3a67c672c610880cc5ec0")
+(dependencies . ("at-exp-lib" "base" "eli-tester" "xrepl-lib"))
+(description . "tests for \"xrepl\"")
+(name . "xrepl-test")
+(source . "git://github.com/racket/xrepl/?path=xrepl-test"))
