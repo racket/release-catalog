@@ -391,20 +391,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "60e72c01f14f3db4517d1a8d1bf97b1c51025dcc")
+(checksum . "4cfe00234dded96d1e9115f159172d041a86a3ab")
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")
-(source . "git://github.com/racket/draw/?path=draw")))
+(source . "git://github.com/racket/draw/?path=draw#release")))
 ("draw-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "60e72c01f14f3db4517d1a8d1bf97b1c51025dcc")
+(checksum . "4cfe00234dded96d1e9115f159172d041a86a3ab")
 (dependencies . ("gui-doc" "pict-doc" "at-exp-lib" "base" "gui-lib" "pict-lib" "scribble-lib" "draw-lib" "racket-doc"))
 (description . "documentation part of \"draw\"")
 (name . "draw-doc")
-(source . "git://github.com/racket/draw/?path=draw-doc")))
+(source . "git://github.com/racket/draw/?path=draw-doc#release")))
 ("draw-i386-macosx-2" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -418,11 +418,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "60e72c01f14f3db4517d1a8d1bf97b1c51025dcc")
+(checksum . "4cfe00234dded96d1e9115f159172d041a86a3ab")
 (dependencies . (("base" #:version "6.4") ("draw-i386-macosx-2" #:platform "i386-macosx") ("draw-x86_64-macosx-2" #:platform "x86_64-macosx") ("draw-ppc-macosx-2" #:platform "ppc-macosx") ("draw-win32-i386-2" #:platform "win32\\i386") ("draw-win32-x86_64-2" #:platform "win32\\x86_64") ("draw-x86_64-linux-natipkg-2" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
 (description . "implementation (no documentation) part of \"draw\"")
 (name . "draw-lib")
-(source . "git://github.com/racket/draw/?path=draw-lib")))
+(source . "git://github.com/racket/draw/?path=draw-lib#release")))
 ("draw-ppc-macosx-2" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -436,11 +436,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "60e72c01f14f3db4517d1a8d1bf97b1c51025dcc")
+(checksum . "4cfe00234dded96d1e9115f159172d041a86a3ab")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"draw\"")
 (name . "draw-test")
-(source . "git://github.com/racket/draw/?path=draw-test")))
+(source . "git://github.com/racket/draw/?path=draw-test#release")))
 ("draw-ttf-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
