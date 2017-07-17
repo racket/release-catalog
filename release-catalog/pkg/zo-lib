@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org jay@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "591fbbc24d3e1c2a0362ba5c7ab61dd03857d931")
+(checksum . "b9b084ca18620131fe31047012cf4a1c6a1be1b7")
 (dependencies . ("base"))
 (description . "Library for handling zo files")
 (name . "zo-lib")
