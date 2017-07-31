@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "drracket-tool-lib" "racket-doc" "gui-doc" "gui-lib"))
 (description . "Docs for the programmatic interface to some IDE tools that DrRacket supports")
 (name . "drracket-tool-doc")
-(source . "git://github.com/racket/drracket/?path=drracket-tool-doc#release"))
+(source . "git://github.com/racket/drracket/?path=drracket-tool-doc#v6.10"))
