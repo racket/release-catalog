@@ -6,4 +6,4 @@
 (dependencies . ("compiler-lib"))
 (description . "Racket compilation tools, such as `raco exe'")
 (name . "compiler")
-(source . "git://github.com/racket/racket/?path=pkgs/compiler#release"))
+(source . "git://github.com/racket/racket/?path=pkgs/compiler#v6.10.1"))

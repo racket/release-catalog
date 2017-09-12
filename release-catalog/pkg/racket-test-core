@@ -6,4 +6,4 @@
 (dependencies . ("base" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core#release"))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core#v6.10.1"))
