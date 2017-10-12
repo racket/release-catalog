@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jamesswaine@racket-lang.org")
+(authors . ("jamesswaine@racket-lang.org"))
+(checksum . "b72dd4ea59fff131cd3a60c1c2ab600fc341d758")
+(dependencies . ("base" "data-lib" "draw-lib" "pict-lib" "gui-lib" "scheme-lib" "scribble-lib" "racket-doc" "rackunit-lib"))
+(description . "Graphical performance tools for using futures")
+(name . "future-visualizer")
+(source . "git://github.com/racket/future-visualizer/?path=future-visualizer"))

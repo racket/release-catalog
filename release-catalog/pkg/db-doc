@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "2de902a539eb18cff99b71164dd18485c3517883")
+(dependencies . ("base" "data-doc" "srfi-lite-lib" "web-server-doc" "base" "scribble-lib" "sandbox-lib" "web-server-lib" "db-lib" "racket-doc"))
+(description . "documentation part of \"db\"")
+(name . "db-doc")
+(source . "git://github.com/racket/db/?path=db-doc"))

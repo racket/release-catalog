@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "8958f56a316b8f4d94721ad37603220b74cccb01")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "syntax-color-lib" "rackunit-lib"))
+(description . "implementation (no documentation) part of \"pict\"")
+(name . "pict-lib")
+(source . "git://github.com/racket/pict/?path=pict-lib"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jamesswaine@racket-lang.org")
+(authors . ("jamesswaine@racket-lang.org"))
+(checksum . "b72dd4ea59fff131cd3a60c1c2ab600fc341d758")
+(dependencies . ("base" "future-visualizer" "typed-racket-lib"))
+(description . "type declarations for \"future-visualizer\"")
+(name . "future-visualizer-typed")
+(source . "git://github.com/racket/future-visualizer/?path=future-visualizer-typed"))

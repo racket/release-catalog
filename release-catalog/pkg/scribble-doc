@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org eli@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "eli@racket-lang.org"))
+(checksum . "72785680409d2c89dc2cb0b9a2106c41070505af")
+(dependencies . ("racket-index" "mzscheme-doc" "net-doc" "scheme-lib" "draw-doc" "gui-doc" "slideshow-doc" "pict-doc" "typed-racket-doc" "at-exp-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "sandbox-lib" "slideshow-lib" "scribble-lib" "scribble-text-lib" "racket-doc"))
+(description . "documentation part of \"scribble\"")
+(name . "scribble-doc")
+(source . "git://github.com/racket/scribble/?path=scribble-doc"))

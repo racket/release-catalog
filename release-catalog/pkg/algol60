@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "0ed2dce096a041831ce074359629401d23b25c37")
+(dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "parser-tools-lib" "string-constants-lib" "at-exp-lib" "rackunit-lib" "racket-doc" "scribble-doc" "scribble-lib" "drracket-tool-lib" "drracket-plugin-lib"))
+(description . "An implementation of the Algol60 language")
+(name . "algol60")
+(source . "git://github.com/racket/algol60"))
