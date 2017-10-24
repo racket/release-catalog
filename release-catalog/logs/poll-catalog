@@ -348,3 +348,65 @@
        .
        ("c3008d83d780ed80f873f5d35f91fe0fff94fd86"
         "511250b1fc938f6c32bbe74af7481422351ebc98")))
+;; ============================================================
+;; Appended 1508882430 : Tuesday, October 24th, 2017 6:00:30pm
+#hash(("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/redex/?path=redex-doc#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/redex/?path=redex-examples#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/redex/?path=redex-gui-lib#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/redex/?path=redex#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/redex/?path=redex-benchmark#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/redex/?path=redex-test#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/redex/?path=redex-pict-lib#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3"))
+      ("git://github.com/racket/redex/?path=redex-lib#release"
+       .
+       ("5e9a7ffa28acd595cc9ed8d56d7e1dd8a4ae9666"
+        "e7e90ce797734276b751560fb33b72df2353c005"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("0cb653dba3983fa07d38950e1152fc4936b5c735"
+        "4a45bed12340a1aef35b7564300d13c2b9b1e5c3")))
