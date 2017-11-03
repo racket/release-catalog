@@ -4,6 +4,7 @@
 
 (require racket/cmdline
          racket/match
+         racket/runtime-path
          racket/set
          json
          "private/util.rkt"
@@ -23,8 +24,10 @@
 
 ;; ------------------------------------------------------------
 
+(define-runtime-path here ".")
+
 (define (command:get-contributors args)
-  (define *src-dir (current-directory))
+  (define *src-dir here)
   (define *since-tag #f)
   (command-line
    #:argv args

@@ -6,6 +6,7 @@
 (require racket/cmdline
          racket/list
          racket/match
+         racket/runtime-path
          racket/set
          racket/string
          json
@@ -38,8 +39,10 @@
 
 ;; ------------------------------------------------------------
 
+(define-runtime-path here ".")
+
 (define (command:get-commit-messages args)
-  (define *src-dir (current-directory))
+  (define *src-dir here)
   (define *since-tag #f)
   (command-line
    #:argv args
