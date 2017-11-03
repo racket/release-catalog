@@ -51,6 +51,9 @@
    [("--since-tag") tag-name "Tag for last release" (set! *since-tag tag-name)])
   (unless *since-tag
     (error 'get-commit-messages "tag name required"))
+  (parameterize ([current-directory here])
+    (unless (system "git pull")
+      (error 'get-commit-messages "git pull failed")))
   (get-commit-messages (read-catalog *src-dir) *since-tag))
 
 (module+ main

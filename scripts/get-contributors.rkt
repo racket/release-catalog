@@ -35,7 +35,10 @@
    [("-i" "--in") src-dir "Read catalog from src-dir" (set! *src-dir src-dir)]
    [("--since-tag") tag-name "Tag for last release" (set! *since-tag tag-name)])
   (unless *since-tag
-    (error 'add-tags "tag name required"))
+    (error 'get-contributors "tag name required"))
+  (parameterize ([current-directory here])
+    (unless (system "git pull")
+      (error 'get-contributors "git pull failed")))
   (get-contributors (read-catalog *src-dir) *since-tag))
 
 (module+ main
