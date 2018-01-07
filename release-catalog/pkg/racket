@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ying.twoh@gmail.com")
+(authors . ("ying.twoh@gmail.com"))
+(checksum . "")
+(dependencies . ())
+(description . "")
+(name . "racket")
+(source . "https://github.com/.git"))
