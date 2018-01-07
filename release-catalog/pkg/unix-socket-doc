@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "11117dc350be9edd8432b821d5c7caa55e00a890")
-(dependencies . (("base" #:version "6.4.0.9") ("unix-socket-lib" #:version "1.1") "scribble-lib" "racket-doc"))
-(description . "Documentation for \"unix-socket\"")
-(name . "unix-socket-doc")
-(source . "git://github.com/racket/unix-socket?path=unix-socket-doc"))
