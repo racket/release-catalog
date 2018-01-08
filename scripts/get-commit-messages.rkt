@@ -53,7 +53,7 @@
   (unless *since-tag
     (error 'get-commit-messages "tag name required"))
   (parameterize ([current-directory here])
-    (unless (system "git pull")
+    (unless (system "git pull &> /dev/null")
       (error 'get-commit-messages "git pull failed")))
   (get-commit-messages (read-catalog *src-dir) *since-tag))
 

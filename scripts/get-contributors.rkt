@@ -38,7 +38,7 @@
   (unless *since-tag
     (error 'get-contributors "tag name required"))
   (parameterize ([current-directory here])
-    (unless (system "git pull")
+    (unless (system "git pull &> /dev/null")
       (error 'get-contributors "git pull failed")))
   (get-contributors (read-catalog *src-dir) *since-tag))
 
