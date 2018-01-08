@@ -6,6 +6,7 @@
          racket/match
          racket/runtime-path
          racket/set
+         racket/system
          json
          "private/util.rkt"
          "private/github.rkt")

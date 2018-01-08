@@ -9,6 +9,7 @@
          racket/runtime-path
          racket/set
          racket/string
+         racket/system
          json
          "private/util.rkt"
          "private/github.rkt")
