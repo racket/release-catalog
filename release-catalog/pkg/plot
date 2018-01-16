@@ -2,8 +2,8 @@
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "701243f3b4f18c3545a951c6325ed18dc18a7dd5")
+(checksum . "65006c63385671cb05cd638c8e7a93e8e873f4f6")
 (dependencies . ("plot-lib" "plot-gui-lib" "plot-doc"))
 (description . "Functions (and docs and tests) for plotting")
 (name . "plot")
-(source . "git://github.com/racket/plot/?path=plot"))
+(source . "git://github.com/racket/plot/?path=plot#release"))

@@ -176,3 +176,45 @@
        .
        ("97076efbf4cd59251767b6c60c351a1d44568673"
         "df24f61384ff298e647a6209930b4d9f6af069e7")))
+;; ============================================================
+;; Appended 1516127494 : Tuesday, January 16th, 2018 1:31:34pm
+#hash(("git://github.com/racket/plot/?path=plot-gui-lib#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("df24f61384ff298e647a6209930b4d9f6af069e7"
+        "32fa07c6283fad2b2f515b5024e53e069ffb8e4e"))
+      ("git://github.com/racket/plot/?path=plot-doc#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("df24f61384ff298e647a6209930b4d9f6af069e7"
+        "32fa07c6283fad2b2f515b5024e53e069ffb8e4e"))
+      ("git://github.com/racket/plot/?path=plot-test#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6"))
+      ("git://github.com/racket/plot/?path=plot#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("df24f61384ff298e647a6209930b4d9f6af069e7"
+        "32fa07c6283fad2b2f515b5024e53e069ffb8e4e"))
+      ("git://github.com/racket/plot/?path=plot-lib#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("df24f61384ff298e647a6209930b4d9f6af069e7"
+        "32fa07c6283fad2b2f515b5024e53e069ffb8e4e"))
+      ("git://github.com/racket/plot/?path=plot-compat#release"
+       .
+       ("701243f3b4f18c3545a951c6325ed18dc18a7dd5"
+        "65006c63385671cb05cd638c8e7a93e8e873f4f6")))
