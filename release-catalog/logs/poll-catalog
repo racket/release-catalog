@@ -348,3 +348,9 @@
        .
        ("65006c63385671cb05cd638c8e7a93e8e873f4f6"
         "c8d9cc6a38c3b1e9840d6de37973a33a92676b6c")))
+;; ============================================================
+;; Appended 1516988613 : Friday, January 26th, 2018 11:43:33am
+#hash(("git://github.com/racket/serialize-cstruct-lib#release"
+       .
+       ("c9264f176c3aca815915b599ddfa539541e095a6"
+        "fbd6991a780f88682a15ff24e5b02fa8a4ab5689")))

@@ -2,8 +2,8 @@
 #hash(
 (author . "tobias.hammer@dlr.de")
 (authors . ("tobias.hammer@dlr.de"))
-(checksum . "c9264f176c3aca815915b599ddfa539541e095a6")
+(checksum . "fbd6991a780f88682a15ff24e5b02fa8a4ab5689")
 (dependencies . ("base"))
 (description . "serialization support for C structs")
 (name . "serialize-cstruct-lib")
-(source . "git://github.com/racket/serialize-cstruct-lib"))
+(source . "git://github.com/racket/serialize-cstruct-lib#release"))
