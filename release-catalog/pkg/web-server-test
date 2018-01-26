@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib" "eli-tester" "htdp-lib" "rackunit-lib" "web-server-lib" "net-cookies"))
 (description . "tests for \"web-server\"")
 (name . "web-server-test")
-(source . "git://github.com/racket/web-server/?path=web-server-test#release"))
+(source . "git://github.com/racket/web-server/?path=web-server-test#v6.12"))

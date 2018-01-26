@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"remote-shell\"")
 (name . "remote-shell-lib")
-(source . "git://github.com/racket/remote-shell/?path=remote-shell-lib#release"))
+(source . "git://github.com/racket/remote-shell/?path=remote-shell-lib#v6.12"))
