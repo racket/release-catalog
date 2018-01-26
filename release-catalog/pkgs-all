@@ -940,7 +940,7 @@
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
 (checksum . "a94ec086a48e7dad942d282662b94f66c8ea36c7")
-(dependencies . ("2d" "algol60" "at-exp-lib" "compatibility" "contract-profile" "compiler" "data" "datalog" "db" "deinprogramm" "draw" "draw-doc" "draw-lib" "drracket" "drracket-tool" "eopl" "errortrace" "future-visualizer" "future-visualizer-typed" "frtime" "games" "gui" "htdp" "html" "icons" "images" "lazy" "macro-debugger" "macro-debugger-text-lib" "make" "math" "mysterx" "mzcom" "mzscheme" "net" "net-cookies" "optimization-coach" "option-contract" "parser-tools" "pconvert-lib" "pict" "pict-snip" "picturing-programs" "plai" "planet" "plot" "preprocessor" "profile" "r5rs" "r6rs" "racket-doc" "distributed-places" "racket-cheat" "racket-index" "racket-lib" "racklog" "rackunit" "rackunit-typed" "readline" "realm" "redex" "sandbox-lib" "schemeunit" "scribble" "serialize-cstruct-lib" "sgl" "shell-completion" "slatex" "slideshow" "snip" "srfi" "string-constants" "swindle" "syntax-color" "trace" "typed-racket" "typed-racket-more" "unix-socket" "web-server" "wxme" "xrepl" "ds-store"))
+(dependencies . ("2d" "algol60" "at-exp-lib" "compatibility" "contract-profile" "compiler" "data" "datalog" "db" "deinprogramm" "draw" "draw-doc" "draw-lib" "drracket" "drracket-tool" "eopl" "errortrace" "future-visualizer" "future-visualizer-typed" "frtime" "games" "gui" "htdp" "html" "icons" "images" "lazy" "macro-debugger" "macro-debugger-text-lib" "make" "math" "mysterx" "mzcom" "mzscheme" "net" "net-cookies" "optimization-coach" "option-contract" "parser-tools" "pconvert-lib" "pict" "pict-snip" "picturing-programs" "plai" "planet" "plot" "preprocessor" "profile" "r5rs" "r6rs" "racket-doc" "distributed-places" "racket-cheat" "racket-index" "racket-lib" "racklog" "rackunit" "rackunit-typed" "readline" "realm" "redex" "sandbox-lib" "sasl" "schemeunit" "scribble" "serialize-cstruct-lib" "sgl" "shell-completion" "slatex" "slideshow" "snip" "srfi" "string-constants" "swindle" "syntax-color" "trace" "typed-racket" "typed-racket-more" "unix-socket" "web-server" "wxme" "xrepl" "ds-store"))
 (description . "A package that combines all of the packages in the main Racket distribution")
 (name . "main-distribution")
 (source . "git://github.com/racket/main-distribution#release")))
@@ -949,7 +949,7 @@
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
 (checksum . "c1a62206635d76f62447928ab46b732aadf20300")
-(dependencies . ("racket-test" "racket-test-extra" "rackunit-test" "draw-test" "gui-test" "db-test" "htdp-test" "html-test" "redex-test" "drracket-test" "profile-test" "srfi-test" "errortrace-test" "r6rs-test" "web-server-test" "typed-racket-test" "xrepl-test" "scribble-test" "compiler-test" "compatibility-test" "data-test" "net-test" "net-cookies-test" "pconvert-test" "planet-test" "syntax-color-test" "images-test" "plot-test" "pict-test" "pict-snip-test" "math-test" "racket-benchmarks" "drracket-tool-test" "2d-test" "option-contract-test" "unix-socket-test"))
+(dependencies . ("racket-test" "racket-test-extra" "rackunit-test" "draw-test" "gui-test" "db-test" "htdp-test" "html-test" "redex-test" "drracket-test" "profile-test" "srfi-test" "errortrace-test" "r6rs-test" "web-server-test" "typed-racket-test" "xrepl-test" "scribble-test" "compiler-test" "compatibility-test" "data-test" "net-test" "net-cookies-test" "pconvert-test" "planet-test" "syntax-color-test" "images-test" "plot-test" "pict-test" "pict-snip-test" "math-test" "racket-benchmarks" "drracket-tool-test" "2d-test" "option-contract-test" "sasl-test" "unix-socket-test"))
 (description . "tests for \"main-distribution\"")
 (name . "main-distribution-test")
 (source . "git://github.com/racket/main-distribution-test#release")))
@@ -1906,6 +1906,24 @@
 (description . "Library for sandboxing Racket programs")
 (name . "sandbox-lib")
 (source . "git://github.com/racket/sandbox-lib")))
+("sasl" . 
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "812f2553545fc3d2e6bcb0eb51a83b8e177ab693")
+(dependencies . (("base" #:version "6.10")))
+(description . "SASL authentication client support")
+(name . "sasl")
+(source . "https://github.com/racket/sasl.git?path=sasl")))
+("sasl-doc" . 
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "812f2553545fc3d2e6bcb0eb51a83b8e177ab693")
+(dependencies . (("base" #:version "6.10")))
+(description . "SASL authentication client support")
+(name . "sasl-doc")
+(source . "https://github.com/racket/sasl.git?path=sasl-doc")))
 ("sasl-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org")
@@ -1915,6 +1933,15 @@
 (description . "SASL authentication client support")
 (name . "sasl-lib")
 (source . "https://github.com/racket/sasl.git?path=sasl-lib")))
+("sasl-test" . 
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "812f2553545fc3d2e6bcb0eb51a83b8e177ab693")
+(dependencies . (("base" #:version "6.10")))
+(description . "SASL authentication client support")
+(name . "sasl-test")
+(source . "https://github.com/racket/sasl.git?path=sasl-test")))
 ("scheme-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")

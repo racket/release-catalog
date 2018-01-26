@@ -3,7 +3,7 @@
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
 (checksum . "c1a62206635d76f62447928ab46b732aadf20300")
-(dependencies . ("racket-test" "racket-test-extra" "rackunit-test" "draw-test" "gui-test" "db-test" "htdp-test" "html-test" "redex-test" "drracket-test" "profile-test" "srfi-test" "errortrace-test" "r6rs-test" "web-server-test" "typed-racket-test" "xrepl-test" "scribble-test" "compiler-test" "compatibility-test" "data-test" "net-test" "net-cookies-test" "pconvert-test" "planet-test" "syntax-color-test" "images-test" "plot-test" "pict-test" "pict-snip-test" "math-test" "racket-benchmarks" "drracket-tool-test" "2d-test" "option-contract-test" "unix-socket-test"))
+(dependencies . ("racket-test" "racket-test-extra" "rackunit-test" "draw-test" "gui-test" "db-test" "htdp-test" "html-test" "redex-test" "drracket-test" "profile-test" "srfi-test" "errortrace-test" "r6rs-test" "web-server-test" "typed-racket-test" "xrepl-test" "scribble-test" "compiler-test" "compatibility-test" "data-test" "net-test" "net-cookies-test" "pconvert-test" "planet-test" "syntax-color-test" "images-test" "plot-test" "pict-test" "pict-snip-test" "math-test" "racket-benchmarks" "drracket-tool-test" "2d-test" "option-contract-test" "sasl-test" "unix-socket-test"))
 (description . "tests for \"main-distribution\"")
 (name . "main-distribution-test")
 (source . "git://github.com/racket/main-distribution-test#release"))
