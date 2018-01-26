@@ -354,3 +354,13 @@
        .
        ("c9264f176c3aca815915b599ddfa539541e095a6"
         "fbd6991a780f88682a15ff24e5b02fa8a4ab5689")))
+;; ============================================================
+;; Appended 1516989205 : Friday, January 26th, 2018 11:53:25am
+#hash(("git://github.com/racket/main-distribution#release"
+       .
+       ("a3528fafaaea2fbba68f10f8405ae824519c517c"
+        "a94ec086a48e7dad942d282662b94f66c8ea36c7"))
+      ("git://github.com/racket/main-distribution-test#release"
+       .
+       ("413094ed57ad4af858daa51201373dc6554fb960"
+        "c1a62206635d76f62447928ab46b732aadf20300")))
