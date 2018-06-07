@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org stchang@racket-lang.org")
+(authors . ("eli@racket-lang.org" "stchang@racket-lang.org"))
+(checksum . "dc8138245197936b54290570880b2496ea9f9dbc")
+(dependencies . ("base" "drracket-plugin-lib" "htdp-lib" "string-constants-lib" "compatibility-lib" "mzscheme-doc" "scheme-lib" "eli-tester" "racket-doc" "scribble-lib"))
+(description . "The implementation of the Lazy Racket language")
+(name . "lazy")
+(source . "git://github.com/racket/lazy"))
