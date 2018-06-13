@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" "scribble-lib" "snip-lib" "string-constants-lib" "syntax-color-lib" "wxme-lib" "gui-lib" "pict-lib" "racket-doc" "string-constants-doc" "xrepl-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")

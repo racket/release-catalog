@@ -687,7 +687,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")
@@ -696,7 +696,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" "scribble-lib" "snip-lib" "string-constants-lib" "syntax-color-lib" "wxme-lib" "gui-lib" "pict-lib" "racket-doc" "string-constants-doc" "xrepl-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")
@@ -714,7 +714,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("srfi-lite-lib" "data-lib" ("base" #:version "6.11.0.1") "syntax-color-lib" ("draw-lib" #:version "1.13") ("snip-lib" #:version "1.2") "wxme-lib" "pict-lib" "scheme-lib" "scribble-lib" ("string-constants-lib" #:version "1.14") "option-contract-lib" "2d-lib" "compatibility-lib" "tex-table" ("gui-i386-macosx" #:platform "i386-macosx") ("gui-x86_64-macosx" #:platform "x86_64-macosx") ("gui-ppc-macosx" #:platform "ppc-macosx") ("gui-win32-i386" #:platform "win32\\i386") ("gui-win32-x86_64" #:platform "win32\\x86_64") ("gui-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"gui\"")
 (name . "gui-lib")
@@ -741,7 +741,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"gui\"")
 (name . "gui-test")
@@ -1703,11 +1703,11 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "37a23e22179efefbb5ec17808ba2322532839da2")
+(checksum . "01642e22d982275f651a364834e8818f44d98f17")
 (dependencies . ("base" "datalog" "eli-tester" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Racklog (embedded Prolog) language")
 (name . "racklog")
-(source . "git://github.com/racket/racklog")))
+(source . "git://github.com/racket/racklog#release")))
 ("rackunit" . 
 #hash(
 (author . "ryanc@racket-lang.org noel@racket-lang.org")
@@ -2261,7 +2261,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "04f04aff98ecae2cdcf492a8227298ec2afe04c7")
+(checksum . "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
@@ -2369,7 +2369,7 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "4bc4c26de4cc76f50a18c4774347c217a86556c9")
+(checksum . "c8a03eb891db5228ee2428ac8e2891520e4784b9")
 (dependencies . ("web-server-lib" "web-server-doc"))
 (description . "An HTTP server")
 (name . "web-server")
@@ -2378,7 +2378,7 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "4bc4c26de4cc76f50a18c4774347c217a86556c9")
+(checksum . "c8a03eb891db5228ee2428ac8e2891520e4784b9")
 (dependencies . ("base" "net-doc" "net-cookies-doc" "rackunit-doc" "compatibility-doc" "db-doc" "scribble-doc" "compatibility-lib" "db-lib" "net-lib" "net-cookies-lib" "rackunit-lib" "sandbox-lib" "scribble-lib" "web-server-lib" "racket-doc"))
 (description . "documentation part of \"web-server\"")
 (name . "web-server-doc")
@@ -2387,7 +2387,7 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "4bc4c26de4cc76f50a18c4774347c217a86556c9")
+(checksum . "c8a03eb891db5228ee2428ac8e2891520e4784b9")
 (dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.15") "net-lib" "net-cookies-lib" "compatibility-lib" "scribble-text-lib" "parser-tools-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"web-server\"")
 (name . "web-server-lib")
@@ -2396,7 +2396,7 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "4bc4c26de4cc76f50a18c4774347c217a86556c9")
+(checksum . "c8a03eb891db5228ee2428ac8e2891520e4784b9")
 (dependencies . ("base" "compatibility-lib" "eli-tester" "htdp-lib" "rackunit-lib" "web-server-lib" "net-cookies"))
 (description . "tests for \"web-server\"")
 (name . "web-server-test")

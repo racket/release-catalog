@@ -284,3 +284,45 @@
        .
        ("efe9cf61c57b1aa9013a4903665a8ebaab6c06e4"
         "efa2d23e5fc6e16fe975a03932deaed9e3c92c37")))
+;; ============================================================
+;; Appended 1528927227 : Wednesday, June 13th, 2018 6:00:27pm
+#hash(("git://github.com/racket/web-server/?path=web-server-doc#release"
+       .
+       ("4bc4c26de4cc76f50a18c4774347c217a86556c9"
+        "c8a03eb891db5228ee2428ac8e2891520e4784b9"))
+      ("git://github.com/racket/web-server/?path=web-server-lib#release"
+       .
+       ("4bc4c26de4cc76f50a18c4774347c217a86556c9"
+        "c8a03eb891db5228ee2428ac8e2891520e4784b9"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("04f04aff98ecae2cdcf492a8227298ec2afe04c7"
+        "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("04f04aff98ecae2cdcf492a8227298ec2afe04c7"
+        "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52"))
+      ("git://github.com/racket/racklog#release"
+       .
+       ("37a23e22179efefbb5ec17808ba2322532839da2"
+        "01642e22d982275f651a364834e8818f44d98f17"))
+      ("git://github.com/racket/web-server/?path=web-server#release"
+       .
+       ("4bc4c26de4cc76f50a18c4774347c217a86556c9"
+        "c8a03eb891db5228ee2428ac8e2891520e4784b9"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("04f04aff98ecae2cdcf492a8227298ec2afe04c7"
+        "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52"))
+      ("git://github.com/racket/web-server/?path=web-server-test#release"
+       .
+       ("4bc4c26de4cc76f50a18c4774347c217a86556c9"
+        "c8a03eb891db5228ee2428ac8e2891520e4784b9"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("04f04aff98ecae2cdcf492a8227298ec2afe04c7"
+        "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("04f04aff98ecae2cdcf492a8227298ec2afe04c7"
+        "44a0a21abcbe4de6e7844ff0c8220ca284e7ac52")))

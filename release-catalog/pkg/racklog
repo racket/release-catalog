@@ -2,8 +2,8 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "37a23e22179efefbb5ec17808ba2322532839da2")
+(checksum . "01642e22d982275f651a364834e8818f44d98f17")
 (dependencies . ("base" "datalog" "eli-tester" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Racklog (embedded Prolog) language")
 (name . "racklog")
-(source . "git://github.com/racket/racklog"))
+(source . "git://github.com/racket/racklog#release"))
