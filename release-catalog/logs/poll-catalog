@@ -1172,3 +1172,33 @@
        .
        ("c14c93cbcaaad79504c50d005e48fac8d291d207"
         "baa3cf90e23b59924c4979829fadb88b891463da")))
+;; ============================================================
+;; Appended 1532469625 : Tuesday, July 24th, 2018 6:00:25pm
+#hash(("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("daf30dd8e153a538942a4e39c0e8b24ddc40ddf9"
+        "b423485e21e13365956a1bb0a0c5fccdb901296e")))
