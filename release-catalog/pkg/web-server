@@ -6,4 +6,4 @@
 (dependencies . ("web-server-lib" "web-server-doc"))
 (description . "An HTTP server")
 (name . "web-server")
-(source . "git://github.com/racket/web-server/?path=web-server#release"))
+(source . "git://github.com/racket/web-server/?path=web-server#v7.0"))
