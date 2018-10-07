@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay.mccarthy@gmail.com")
+(authors . ("jay.mccarthy@gmail.com"))
+(checksum . "129fbb808cac7b9d761e92a44e8f7877bf05e282")
+(dependencies . ("base" "scribble-lib" "db-doc" "db-lib" "drracket" "net-doc" "net-lib" "parser-tools-doc" "parser-tools-lib" "pict-doc" "pict-lib" "racket-doc" "sandbox-lib" "slideshow-doc" "slideshow-lib"))
+(description . "a user-friendly index into the Racket documentation")
+(name . "racket-cheat")
+(source . "git://github.com/jeapostrophe/racket-cheat"))
