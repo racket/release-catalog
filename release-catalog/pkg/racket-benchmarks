@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "8366a2b11daa7a725fc78b46495aafae08ea55f9")
+(checksum . "eb9ef48325a28f04f0709d9099ee50053889a3d7")
 (dependencies . ("base" "compatibility-lib" "r5rs-lib" "scheme-lib" "racket-test" "typed-racket-lib" "gui-lib"))
 (name . "racket-benchmarks")
 (source . "git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release"))
