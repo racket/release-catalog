@@ -248,3 +248,53 @@
        .
        ("eb9ef48325a28f04f0709d9099ee50053889a3d7"
         "b32fdea5d865d0cefa3d50a537ea12f32b7b9bd8")))
+;; ============================================================
+;; Appended 1539813628 : Wednesday, October 17th, 2018 6:00:28pm
+#hash(("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("7df116355bb1b831081f12f882101b924b306016"
+        "965b4efbea49e7e76d95e379c24fc5f0b10c2066"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("7df116355bb1b831081f12f882101b924b306016"
+        "965b4efbea49e7e76d95e379c24fc5f0b10c2066"))
+      ("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("7df116355bb1b831081f12f882101b924b306016"
+        "965b4efbea49e7e76d95e379c24fc5f0b10c2066"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("7df116355bb1b831081f12f882101b924b306016"
+        "965b4efbea49e7e76d95e379c24fc5f0b10c2066"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("58ad3173d64bda0a45864bec7054a8dfdc9766d3"
+        "56f4f020e1945db165336adbc7a9f01d48f9c011"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("7df116355bb1b831081f12f882101b924b306016"
+        "965b4efbea49e7e76d95e379c24fc5f0b10c2066")))
