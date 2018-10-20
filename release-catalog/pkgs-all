@@ -786,38 +786,38 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "bba5bd7e3b515903404541eb4ad7df275a2dae70")
+(checksum . "b38860b1d9121f39008c36a1907dbaf3f11beaf4")
 (dependencies . ("htdp-lib" "htdp-doc"))
 (description . "Teaching languages for _How to Design Programs_")
 (name . "htdp")
-(source . "git://github.com/racket/htdp/?path=htdp")))
+(source . "git://github.com/racket/htdp/?path=htdp#release")))
 ("htdp-doc" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "bba5bd7e3b515903404541eb4ad7df275a2dae70")
+(checksum . "b38860b1d9121f39008c36a1907dbaf3f11beaf4")
 (dependencies . ("base" "scribble-lib" "at-exp-lib" "draw-lib" "gui-lib" "htdp-lib" "plai" "sandbox-lib" "pict-lib" "mzscheme-doc" "scheme-lib" "compatibility-doc" "draw-doc" "drracket" "gui-doc" "pict-doc" "racket-doc"))
 (description . "documentation part of \"htdp\"")
 (name . "htdp-doc")
-(source . "git://github.com/racket/htdp/?path=htdp-doc")))
+(source . "git://github.com/racket/htdp/?path=htdp-doc#release")))
 ("htdp-lib" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "bba5bd7e3b515903404541eb4ad7df275a2dae70")
+(checksum . "b38860b1d9121f39008c36a1907dbaf3f11beaf4")
 (dependencies . (("base" #:version "6.8.0.2") "compatibility-lib" "draw-lib" ("drracket-plugin-lib" #:version "1.1") "errortrace-lib" "html-lib" "images-gui-lib" "images-lib" "net-lib" "pconvert-lib" "plai-lib" "r5rs-lib" "sandbox-lib" "scheme-lib" "scribble-lib" "slideshow-lib" "snip-lib" "srfi-lite-lib" ("string-constants-lib" #:version "1.20") "typed-racket-lib" "typed-racket-more" "web-server-lib" "wxme-lib" ("gui-lib" #:version "1.7") "deinprogramm-signature" "pict-lib" "racket-index" "at-exp-lib" ("rackunit-lib" #:version "1.10")))
 (description . "implementation (no documentation) part of \"htdp\"")
 (name . "htdp-lib")
-(source . "git://github.com/racket/htdp/?path=htdp-lib")))
+(source . "git://github.com/racket/htdp/?path=htdp-lib#release")))
 ("htdp-test" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "bba5bd7e3b515903404541eb4ad7df275a2dae70")
+(checksum . "b38860b1d9121f39008c36a1907dbaf3f11beaf4")
 (dependencies . ("base" "htdp-lib" "scheme-lib" "srfi-lite-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib"))
 (description . "tests for \"htdp\"")
 (name . "htdp-test")
-(source . "git://github.com/racket/htdp/?path=htdp-test")))
+(source . "git://github.com/racket/htdp/?path=htdp-test#release")))
 ("html" . 
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
