@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
-(source . "git://github.com/racket/gui/?path=tex-table#release"))
+(source . "git://github.com/racket/gui/?path=tex-table#v7.1"))

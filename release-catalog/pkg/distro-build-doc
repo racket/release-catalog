@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.1.1.6") "distro-build-server" "distro-build-client" "web-server-lib" "at-exp-lib" "racket-doc" "scribble-lib"))
 (description . "documentation part of \"distro-build\"")
 (name . "distro-build-doc")
-(source . "git://github.com/racket/distro-build/?path=distro-build-doc#release"))
+(source . "git://github.com/racket/distro-build/?path=distro-build-doc#v7.1"))

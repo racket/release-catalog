@@ -6,4 +6,4 @@
 (dependencies . ("distro-build-client" "distro-build-server"))
 (description . "implementation (no documentation) part of \"distro-build\"")
 (name . "distro-build-lib")
-(source . "git://github.com/racket/distro-build/?path=distro-build-lib#release"))
+(source . "git://github.com/racket/distro-build/?path=distro-build-lib#v7.1"))
