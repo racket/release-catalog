@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org noel@racket-lang.org chongkai@racket-lang.org jay@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "noel@racket-lang.org" "chongkai@racket-lang.org" "jay@racket-lang.org"))
+(checksum . "7c1fd604cac07fb4f4a7480f4f45e1aefa78e69b")
+(dependencies . ("srfi-lib" "srfi-lib-nonfree" "srfi-doc" "srfi-doc-nonfree"))
+(description . "Legacy SRFI (Scheme) libraries")
+(name . "srfi")
+(source . "git://github.com/racket/srfi/?path=srfi"))

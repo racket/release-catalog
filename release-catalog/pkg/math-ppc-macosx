@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "e9a344e6ea31fd7aed860415b8f370d1f441f90a")
+(dependencies . ("base"))
+(description . "native libraries for \"math\" package")
+(name . "math-ppc-macosx")
+(source . "https://pkg-sources.racket-lang.org/pkgs/e9a344e6ea31fd7aed860415b8f370d1f441f90a/math-ppc-macosx.zip"))

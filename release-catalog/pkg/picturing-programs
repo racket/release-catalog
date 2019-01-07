@@ -1,0 +1,9 @@
+
+#hash(
+(author . "sbloch@racket-lang.org")
+(authors . ("sbloch@racket-lang.org"))
+(checksum . "b2be356e6ffbbc32eb052afe857993690e576c50")
+(dependencies . ("base" "draw-lib" "gui-lib" "snip-lib" "htdp-lib" "racket-doc" "htdp-doc" "scribble-lib"))
+(description . "Teaching libraries for _Picturing Programs_")
+(name . "picturing-programs")
+(source . "git://github.com/racket/picturing-programs"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "samth@racket-lang.org stamourv@racket-lang.org")
+(authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
+(checksum . "2b25615e31ab10f45df72ef5575b2bd1fd23a863")
+(dependencies . ("scheme-lib" "typed-racket-lib" "base"))
+(description . "compatibility library for older Typed Racket-based languages")
+(name . "typed-racket-compatibility")
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-compatibility"))
