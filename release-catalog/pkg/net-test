@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "53baa3f8ccc667426eef2835c85a727770add0c8")
+(checksum . "094a4ed7347e8f761c1b66aee234312deacec427")
 (dependencies . ("base" "at-exp-lib" "compatibility-lib" "eli-tester" "net-lib" "racket-test" "rackunit-lib" "sandbox-lib" "web-server-lib"))
 (description . "tests for \"net-lib\"")
 (name . "net-test")
-(source . "git://github.com/racket/racket?path=pkgs/net-test"))
+(source . "git://github.com/racket/racket/?path=pkgs/net-test#release"))
