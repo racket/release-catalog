@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "8f282bec2ba9e39d6f318ebcb1e3c4cf4479a7a6")
+(checksum . "e6947c8fec35ca2d5f28a691ea03dbab5c31ce82")
 (dependencies . (("base" #:version "6.2.900.9") "ds-store-lib" "at-exp-lib"))
 (description . "client-side part of \"distro-build\"")
 (name . "distro-build-client")
