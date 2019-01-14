@@ -158,3 +158,29 @@
        .
        ("8f282bec2ba9e39d6f318ebcb1e3c4cf4479a7a6"
         "e6947c8fec35ca2d5f28a691ea03dbab5c31ce82")))
+;; ============================================================
+;; Appended 1547437943 : Sunday, January 13th, 2019 9:52:23pm
+#hash(("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("e6947c8fec35ca2d5f28a691ea03dbab5c31ce82"
+        "2338b6dbb7c4b3c4ad35917a09eb173059387668"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("e6947c8fec35ca2d5f28a691ea03dbab5c31ce82"
+        "2338b6dbb7c4b3c4ad35917a09eb173059387668"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("e6947c8fec35ca2d5f28a691ea03dbab5c31ce82"
+        "2338b6dbb7c4b3c4ad35917a09eb173059387668"))
+      ("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("e6947c8fec35ca2d5f28a691ea03dbab5c31ce82"
+        "2338b6dbb7c4b3c4ad35917a09eb173059387668"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("e6947c8fec35ca2d5f28a691ea03dbab5c31ce82"
+        "2338b6dbb7c4b3c4ad35917a09eb173059387668"))
+      ("git://github.com/racket/sandbox-lib#release"
+       .
+       ("33a19dd62b23321152b594dfb4cf3a7320ce4d91"
+        "9ec0592d84c3d401605c77c6c4125e23d2c6f168")))
