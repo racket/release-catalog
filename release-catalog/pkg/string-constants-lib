@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "ad80fbd801b8f087ca8ef692c4cf0db481ad0ba1")
+(checksum . "11a99d7e194736924cc9881bbb0714daaff2990b")
 (dependencies . ("base"))
 (description . "String constants to support internationalization, especially in DrRacket")
 (name . "string-constants-lib")

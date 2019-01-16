@@ -250,3 +250,17 @@
        .
        ("d65651c371b328f320909bfd4b1e5c2f225f8cee"
         "ad80fbd801b8f087ca8ef692c4cf0db481ad0ba1")))
+;; ============================================================
+;; Appended 1547679634 : Wednesday, January 16th, 2019 6:00:34pm
+#hash(("git://github.com/racket/string-constants/?path=string-constants#release"
+       .
+       ("ad80fbd801b8f087ca8ef692c4cf0db481ad0ba1"
+        "11a99d7e194736924cc9881bbb0714daaff2990b"))
+      ("git://github.com/racket/string-constants/?path=string-constants-lib#release"
+       .
+       ("ad80fbd801b8f087ca8ef692c4cf0db481ad0ba1"
+        "11a99d7e194736924cc9881bbb0714daaff2990b"))
+      ("git://github.com/racket/string-constants/?path=string-constants-doc#release"
+       .
+       ("ad80fbd801b8f087ca8ef692c4cf0db481ad0ba1"
+        "11a99d7e194736924cc9881bbb0714daaff2990b")))
