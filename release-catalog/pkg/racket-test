@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "094a4ed7347e8f761c1b66aee234312deacec427")
+(checksum . "74a0269b178d47c78f485fc537b75c71a1616d6e")
 (dependencies . ("compiler-lib" "sandbox-lib" "compatibility-lib" "eli-tester" "planet-lib" "net-lib" "net-test" "serialize-cstruct-lib" "cext-lib" "pconvert-lib" "racket-test-core" "web-server-lib" "rackunit-lib" "at-exp-lib" "option-contract-lib" "srfi-lib" "scribble-lib" "racket-index" "scheme-lib" "base" "data-lib"))
 (description . "Base Racket test suites")
 (name . "racket-test")

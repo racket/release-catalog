@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "094a4ed7347e8f761c1b66aee234312deacec427")
+(checksum . "74a0269b178d47c78f485fc537b75c71a1616d6e")
 (dependencies . ("base" "at-exp-lib" "compatibility-lib" "eli-tester" "net-lib" "racket-test" "rackunit-lib" "sandbox-lib" "web-server-lib"))
 (description . "tests for \"net-lib\"")
 (name . "net-test")
