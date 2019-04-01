@@ -6,10 +6,10 @@ Some of the scripts require Github credentials. The file at
 
     (build-path (find-system-path 'pref-dir) "github-user-credentials.rktd")
 
-should contain a Github "personal access token" (see Settings,
-Personal access tokens) with the authority to manipulate the relevant
-repositories. Specifically, `read`ing from the file should produce a
-string containing the token.
+should contain a Github "personal access token" (see Settings, Developer
+Settings, Personal access tokens) with the authority to manipulate the
+relevant repositories. Specifically, `read`ing from the file should produce
+a string containing the token.
 
 Even scripts that don't write to repositories may need a token to
 avoid hitting the rate limit for unauthenticated applications.
