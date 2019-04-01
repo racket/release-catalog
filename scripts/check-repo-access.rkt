@@ -21,7 +21,7 @@
          (get/github
           (format "https://api.github.com/repos/~a/~a/collaborators?per_page=~a"
                   user repo results-per-page)
-          #:user-credentials? #t
+          #:credential-style 'user
           #:fail (lambda _
                    (no-write-access user repo)
                    '())))

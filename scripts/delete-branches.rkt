@@ -38,7 +38,7 @@
          (define delete-result
            (delete/github (format "https://api.github.com/repos/~a/~a/git/refs/heads/~a"
                                   user repo branch-name)
-                          #:user-credentials? #t))
+                          #:credential-style 'user))
          (eprintf "! Deleted branch ~s from ~a/~a\n" branch-name user repo)]
         [else
          (eprintf "! No branch ~s exists in ~a/~a\n" branch-name user repo)]))

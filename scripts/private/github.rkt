@@ -11,27 +11,40 @@
                   github-client_id
                   github-client_secret))
 (provide package-url->checksum
-         (all-defined-out))
+         USER-AGENT
+         get/github
+         head/github
+         delete/github
+         post/github
+         put/github
+         build-url
+         get-commits-since-last-release
+         results-per-page
+         )
 
 ;; ============================================================
 ;; Github
 
 (define USER-AGENT (format "User-Agent: racket-catalog-tool/~a" (version)))
 
+;; wrap a generic non-data-accepting getter with a default "who"
+;; and credentials added to the URL
 (define (wrap/no-data who0 proc)
   (lambda (url #:headers [headers null] #:handle [handle read-json]
           #:fail [fail "failed"] #:who [who who0]
-          #:user-credentials? [user-credentials? #f])
-    (proc (add-credentials url user-credentials?)
+          #:credential-style [credential-style 'client])
+    (proc (add-credentials url credential-style)
           #:headers (cons USER-AGENT headers)
           #:handle handle #:fail fail #:who who)))
 
+;; wrap a generic data-accepting getter with a default "who"
+;; and credentials added to the URL
 (define (wrap/data who0 proc)
   (lambda (url #:headers [headers null] #:handle [handle read-json]
           #:fail [fail "failed"] #:who [who who0]
-          #:user-credentials? [user-credentials? #f]
+          #:credential-style [credential-style 'client]
           #:data [data #f])
-    (proc (add-credentials url user-credentials?)
+    (proc (add-credentials url credential-style)
           #:headers (cons USER-AGENT headers)
           #:handle handle #:fail fail #:who who #:data data)))
 
@@ -44,28 +57,40 @@
 
 ;; ----------------------------------------
 
-(define (add-credentials url user-credentials?)
-  (cond [(and user-credentials? github-user-credentials)
-         (url-add-query url (list (cons 'access_token github-user-credentials)))]
-        [user-credentials?
-         (error 'add-credentials "user credentials required but not available")]
-        [else
-         (url-add-query url (github-client-credentials))]))
+;; given a url, add query terms representing either user credentials
+;; (if user-credentials? is 'user) or client credentials
+(define (add-credentials url credential-style)
+  (cond
+    [(equal? credential-style 'user)
+     (cond [github-user-credentials
+            (url-add-query url (list (cons 'access_token github-user-credentials)))]
+           [else
+            (error 'add-credentials "user credentials required but not available")])]
+    [(equal? credential-style 'client)
+     (url-add-query url (github-client-credentials))]
+    [else
+     (raise-argument-error 'add-credentials
+                           "'client or 'user"
+                           1 url credential-style)]))
 
+;; a personal access token, obtained from github>settings>developer settings
 (define github-user-credentials
   (let ([file (build-path (find-system-path 'pref-dir) "github-user-credentials.rktd")])
     (and (file-exists? file)
          (file->value file))))
 
+;; set the client & secret tokens
 (let ([credentials-file
        (build-path (find-system-path 'pref-dir) "github-poll-client.rktd")])
   (cond [(file-exists? credentials-file)
          (define credentials (file->value credentials-file))
+         ;; two parameters associated with the Github "Web App" protocol
          (github-client_id (car credentials))
          (github-client_secret (cadr credentials))]
         [else
-         (eprintf "! No github credentials found.\n")]))
+         (eprintf "! No github credentials for polling client App found.\n")]))
 
+;; return the client credentials
 (define (github-client-credentials)
   (cond [(and (github-client_id)
               (github-client_secret))

@@ -36,7 +36,7 @@
   (unless already-exists?
     (define tag-result
       (post/github (format "https://api.github.com/repos/~a/~a/git/tags" user repo)
-                   #:user-credentials? #t
+                   #:credential-style 'user
                    #:fail (lambda (response-header in)
                             (eprintf "creating tag failed for ~a/~a, tag ~a:\n  ~a\n"
                                      user repo tag-name response-header)
@@ -58,7 +58,7 @@
     (define tag-sha (hash-ref tag-result 'sha))
     (define tag-ref-result
       (post/github (format "https://api.github.com/repos/~a/~a/git/refs" user repo)
-                   #:user-credentials? #t
+                   #:credential-style 'user
                    #:data
                    (jsexpr->bytes
                     (hash 'ref (format "refs/tags/~a" tag-name)
