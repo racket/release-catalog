@@ -2,7 +2,7 @@
 (require racket/match
          racket/pretty
          racket/cmdline
-         unstable/hash
+         racket/hash
          "private/util.rkt")
 (provide (all-defined-out))
 
