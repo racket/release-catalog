@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "61d970cd49d621615f3f6660dd5382ef71eb10f4")
-(dependencies . ("base" "compiler-lib" "dynext-lib" "scheme-lib"))
-(description . "Tools for managing C extensions, such as `raco ctool`")
-(name . "cext-lib")
-(source . "git://github.com/racket/cext-lib?path=cext-lib"))
