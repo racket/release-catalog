@@ -14,6 +14,8 @@
     (printf "~a\n" repo)))
 
 ;; get-sources : Catalog String/#f -> (Listof String)
+;; given a catalog and an optional from-branch, return a list of the user/repo
+;; pairs that appear in the catalog (with the given branch, if specified)
 (define (get-sources catalog from-branch)
   ;; repos : Hash[ User/Repo-String => #t ]
   (define repos (make-hash))
