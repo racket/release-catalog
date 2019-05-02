@@ -301,20 +301,20 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "a60239a30f6dd6eb24efb91a03407212340d1ad6")
+(checksum . "77f84f766a2c04a571e62e5a6e500a20165c03d8")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "drracket" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "string-constants-lib" "trace" "wxme-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "rackunit-lib" "scribble-lib"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#release")))
 ("deinprogramm-signature" . 
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "a60239a30f6dd6eb24efb91a03407212340d1ad6")
+(checksum . "77f84f766a2c04a571e62e5a6e500a20165c03d8")
 (dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "htdp-lib" "scheme-lib" "srfi-lib" "string-constants-lib"))
 (description . "Signature support for teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm-signature")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm-signature")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release")))
 ("distributed-places" . 
 #hash(
 (author . "tewk@racket-lang.org")

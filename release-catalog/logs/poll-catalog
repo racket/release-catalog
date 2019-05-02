@@ -266,3 +266,13 @@
        .
        ("979e06b987601c32bb3b049d0f07040fa709f84e"
         "7621a53c97024d81e9d5e1a4c9c9fc296fb05bfb")))
+;; ============================================================
+;; Appended 1556769647 : Thursday, May 2nd, 2019 12:00:47am
+#hash(("git://github.com/racket/deinprogramm/?path=deinprogramm#release"
+       .
+       ("a60239a30f6dd6eb24efb91a03407212340d1ad6"
+        "77f84f766a2c04a571e62e5a6e500a20165c03d8"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release"
+       .
+       ("a60239a30f6dd6eb24efb91a03407212340d1ad6"
+        "77f84f766a2c04a571e62e5a6e500a20165c03d8")))
