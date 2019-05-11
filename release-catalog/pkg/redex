@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "d3a7df9367d5b8bda6733989d785d7f5c39f7b88")
+(checksum . "0efdaa37041786a8ca310194003b659e7821cda1")
 (dependencies . ("redex-doc" "redex-examples" "redex-lib" "redex-gui-lib"))
 (description . "PLT Redex libraries for practical semantics engineering")
 (name . "redex")
