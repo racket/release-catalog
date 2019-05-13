@@ -6,4 +6,4 @@
 (dependencies . ("htdp-lib" "htdp-doc"))
 (description . "Teaching languages for _How to Design Programs_")
 (name . "htdp")
-(source . "git://github.com/racket/htdp/?path=htdp#release"))
+(source . "git://github.com/racket/htdp/?path=htdp#v7.3"))

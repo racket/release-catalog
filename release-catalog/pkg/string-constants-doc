@@ -6,4 +6,4 @@
 (dependencies . ("string-constants-lib" "base" "racket-doc" "scribble-lib"))
 (description . "String constants documentation")
 (name . "string-constants-doc")
-(source . "git://github.com/racket/string-constants/?path=string-constants-doc#release"))
+(source . "git://github.com/racket/string-constants/?path=string-constants-doc#v7.3"))
