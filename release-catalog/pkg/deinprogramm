@@ -1,0 +1,9 @@
+
+#hash(
+(author . "sperber@racket-lang.org")
+(authors . ("sperber@racket-lang.org"))
+(checksum . "fc94205b29cdb40a064dc64b7b2b88524b836af7")
+(dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "drracket" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "string-constants-lib" "trace" "wxme-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "rackunit-lib" "scribble-lib"))
+(description . "Teaching languages for _Die Macht der Abstraktion_")
+(name . "deinprogramm")
+(source . "git://github.com/racket/deinprogramm?path=deinprogramm"))

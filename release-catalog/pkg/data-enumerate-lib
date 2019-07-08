@@ -1,0 +1,9 @@
+
+#hash(
+(author . "maxsnew@racket-lang.org jay@racket-lang.org")
+(authors . ("maxsnew@racket-lang.org" "jay@racket-lang.org"))
+(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(dependencies . (("base" #:version "6.8.0.2") "data-lib" "math-lib" "rackunit-lib"))
+(description . "implementation (no documentation) of \"data/enumerate\"")
+(name . "data-enumerate-lib")
+(source . "git://github.com/racket/data/?path=data-enumerate-lib"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "a1f0050acfc1b6501d45a813f2e8006ed03d5f38")
+(dependencies . ("base"))
+(description . "native libraries for \"racket\" package")
+(name . "racket-win32-x86_64-3")
+(source . "https://pkg-sources.racket-lang.org/pkgs/a1f0050acfc1b6501d45a813f2e8006ed03d5f38/racket-win32-x86_64-3.zip"))
