@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org noel@racket-lang.org chongkai@racket-lang.org jay@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "noel@racket-lang.org" "chongkai@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "1b59f8951a06389a45715e04446822bb286d1461")
-(dependencies . ("scheme-lib" "base" "r6rs-lib" "srfi-lib" "compatibility-lib"))
-(description . "parts of \"srfi\" implementation that are licensed restrictively")
-(name . "srfi-lib-nonfree")
-(source . "https://github.com/racket/srfi.git?path=srfi-lib-nonfree"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org")
-(authors . ("robby@racket-lang.org"))
-(checksum . "d2dbeec1ac6b484ebc5c63e4afdc32642aa01d6b")
-(dependencies . ("string-constants-lib" "string-constants-doc"))
-(description . "String constants to support internationalization, especially in DrRacket")
-(name . "string-constants")
-(source . "git://github.com/racket/string-constants/?path=string-constants#v7.3"))

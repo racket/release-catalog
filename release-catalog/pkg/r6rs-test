@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "6b08872cba68cab91e253cc047af7ffc443302bc")
-(dependencies . ("base" "r6rs-lib"))
-(description . "tests for \"r6rs\"")
-(name . "r6rs-test")
-(source . "git://github.com/racket/r6rs/?path=r6rs-test"))
