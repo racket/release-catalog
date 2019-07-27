@@ -332,3 +332,21 @@
        .
        ("35ebfb42ea1caa158efa2dbdd5b4cbea18f4a86a"
         "0a4f3445a2a90ad9a52192efcf3f1cc62e844c40")))
+;; ============================================================
+;; Appended 1564264835 : Saturday, July 27th, 2019 6:00:35pm
+#hash(("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("104024733cf435fbe59b0a4864d87e2cf27eecf8"
+        "214e4670b482c43cbe5523f18462533f0ef09484"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("104024733cf435fbe59b0a4864d87e2cf27eecf8"
+        "214e4670b482c43cbe5523f18462533f0ef09484"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("104024733cf435fbe59b0a4864d87e2cf27eecf8"
+        "214e4670b482c43cbe5523f18462533f0ef09484"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("104024733cf435fbe59b0a4864d87e2cf27eecf8"
+        "214e4670b482c43cbe5523f18462533f0ef09484")))
