@@ -350,3 +350,25 @@
        .
        ("104024733cf435fbe59b0a4864d87e2cf27eecf8"
         "214e4670b482c43cbe5523f18462533f0ef09484")))
+;; ============================================================
+;; Appended 1564351236 : Sunday, July 28th, 2019 6:00:36pm
+#hash(("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("90738a7abd7ed9170792dca9cc30ccb621010184"
+        "6763c874434c5f32a75c74ee355edbbe262ccf96"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("90738a7abd7ed9170792dca9cc30ccb621010184"
+        "6763c874434c5f32a75c74ee355edbbe262ccf96"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("90738a7abd7ed9170792dca9cc30ccb621010184"
+        "6763c874434c5f32a75c74ee355edbbe262ccf96"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("90738a7abd7ed9170792dca9cc30ccb621010184"
+        "6763c874434c5f32a75c74ee355edbbe262ccf96"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("90738a7abd7ed9170792dca9cc30ccb621010184"
+        "6763c874434c5f32a75c74ee355edbbe262ccf96")))
