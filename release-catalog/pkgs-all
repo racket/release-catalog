@@ -687,7 +687,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6763c874434c5f32a75c74ee355edbbe262ccf96")
+(checksum . "93bac822da456d8683ca28aee942b9aaaca43f29")
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")
@@ -696,7 +696,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6763c874434c5f32a75c74ee355edbbe262ccf96")
+(checksum . "93bac822da456d8683ca28aee942b9aaaca43f29")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" "scribble-lib" "snip-lib" "string-constants-lib" "syntax-color-lib" "wxme-lib" "gui-lib" "pict-lib" "racket-doc" "string-constants-doc" "xrepl-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")
@@ -714,7 +714,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6763c874434c5f32a75c74ee355edbbe262ccf96")
+(checksum . "93bac822da456d8683ca28aee942b9aaaca43f29")
 (dependencies . ("srfi-lite-lib" "data-lib" "icons" ("base" #:version "7.0.0.19") "syntax-color-lib" ("draw-lib" #:version "1.13") ("snip-lib" #:version "1.2") "wxme-lib" "pict-lib" "scheme-lib" "scribble-lib" ("string-constants-lib" #:version "1.24") "option-contract-lib" "2d-lib" "compatibility-lib" "tex-table" ("gui-i386-macosx" #:platform "i386-macosx") ("gui-x86_64-macosx" #:platform "x86_64-macosx") ("gui-ppc-macosx" #:platform "ppc-macosx") ("gui-win32-i386" #:platform "win32\\i386") ("gui-win32-x86_64" #:platform "win32\\x86_64") ("gui-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"gui\"")
 (name . "gui-lib")
@@ -741,7 +741,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6763c874434c5f32a75c74ee355edbbe262ccf96")
+(checksum . "93bac822da456d8683ca28aee942b9aaaca43f29")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"gui\"")
 (name . "gui-test")
@@ -2261,7 +2261,7 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "6763c874434c5f32a75c74ee355edbbe262ccf96")
+(checksum . "93bac822da456d8683ca28aee942b9aaaca43f29")
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
