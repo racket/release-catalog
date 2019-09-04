@@ -40,6 +40,8 @@ it to the relevant pkgs, and make sure it's up to date:
 - racket scripts/filter.rkt -fi release-catalog main-distribution main-distribution-test distro-build
 - racket scripts/checksum.rkt -fi release-catalog
 
+(all three of these are handled by the init-catalog.sh script)
+
 During the release, periodically poll for new release branches and
 updates to existing release branches:
 
