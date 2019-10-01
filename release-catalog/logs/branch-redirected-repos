@@ -1,0 +1,9 @@
+;; ============================================================
+;; Appended 1564859557 : Saturday, August 3rd, 2019 12:12:37pm
+(("racket" "deinprogramm")
+ ("racket" "drracket")
+ ("racket" "gui")
+ ("racket" "htdp")
+ ("racket" "racket")
+ ("racket" "redex")
+ ("racket" "typed-racket"))
