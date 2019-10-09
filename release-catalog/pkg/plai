@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "b17cc66295b88193fdeb128da4af205034d7632d")
+(dependencies . ("plai-doc" "plai-lib" "base"))
+(description . "Teaching languages for _Programming Languages: Application and Interpretation_")
+(name . "plai")
+(source . "git://github.com/racket/plai?path=plai"))

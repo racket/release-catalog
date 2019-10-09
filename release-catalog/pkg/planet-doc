@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
+(checksum . "c3737f526d3c91859b0c2c4b8a5675c97838fa32")
+(dependencies . ("planet-lib" "scribble-lib" "base" "racket-doc" "scribble-doc"))
+(description . "documentation part of \"planet\"")
+(name . "planet-doc")
+(source . "git://github.com/racket/planet/?path=planet-doc"))

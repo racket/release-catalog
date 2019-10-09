@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "0bffbfa845094074045c5cfde9d1a4951ae7fb79")
+(dependencies . (("base" #:version "6.2.900.9") "ds-store-lib" "at-exp-lib"))
+(description . "client-side part of \"distro-build\"")
+(name . "distro-build-client")
+(source . "git://github.com/racket/distro-build/?path=distro-build-client"))
