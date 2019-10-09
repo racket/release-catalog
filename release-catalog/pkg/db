@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "658f1a6fc35c8fc5202497188c6f722db97d8d56")
-(dependencies . ("db-lib" "db-doc" "base"))
-(description . "Database connectivity")
-(name . "db")
-(source . "git://github.com/racket/db/?path=db"))

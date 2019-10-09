@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "c9b3149ca1555cbda4f8c8eab81b84e8d575c238")
-(dependencies . ("distro-build-lib" "distro-build-doc"))
-(description . "Tools for constructing a distribution of Racket")
-(name . "distro-build")
-(source . "git://github.com/racket/distro-build/?path=distro-build"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "d69b6513d738910b1d481c52da7726a3346e93d1")
-(dependencies . ("base" "racket-test" "compatibility-lib" "drracket-tool-lib" "rackunit-lib" ("pconvert-lib" #:version "1.1")))
-(description . "tests for \"compatibility-lib\"")
-(name . "compatibility-test")
-(source . "git://github.com/racket/compatibility/?path=compatibility-test"))
