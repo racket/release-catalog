@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "8bba9186723b968ad9f57ca1a88b5d1cde050532")
+(checksum . "d851d0988316cae7d4f0f8b65e0e4429fb2239c9")
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"net\"")
 (name . "net-lib")
