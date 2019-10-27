@@ -2,8 +2,8 @@
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "326d0745c101f2a3e4c2087383bf765228ee39ed")
+(checksum . "f5105b5cfdc7b72d9c7ffc053f884fc66677f861")
 (dependencies . (("base" #:version "6.2.900.6")))
 (description . "Implementation (no documentation) for \"class-iop\"")
 (name . "class-iop-lib")
-(source . "git://github.com/racket/class-iop?path=class-iop-lib"))
+(source . "git://github.com/racket/class-iop/?path=class-iop-lib#release"))

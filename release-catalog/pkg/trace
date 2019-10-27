@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "204c3306c27585d1c21c4903f80c6cb8fbae3cfe")
+(checksum . "79cd003036843121b09f7d89c4450df57103ee1c")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "scribble-lib" "racket-doc"))
 (description . "Instrumentation to show function calls")
 (name . "trace")
-(source . "git://github.com/racket/trace"))
+(source . "git://github.com/racket/trace#release"))

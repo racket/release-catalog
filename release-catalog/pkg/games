@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "e9d834f7d5ab4ad92d9839f114515c3c26b0a3b4")
+(checksum . "cec75654b0fb99dce5a1bce958119a833a59e290")
 (dependencies . ("base" "draw-lib" "drracket" ("gui-lib" #:version "1.16") "net-lib" "htdp-lib" "math-lib" "scribble-lib" "racket-index" "sgl" "srfi-lib" "string-constants-lib" ("data-enumerate-lib" #:version "1.2") "typed-racket-lib" "typed-racket-more" "draw-doc" "gui-doc" "racket-doc" "pict-lib" "rackunit-lib" "htdp-doc"))
 (description . "Games")
 (name . "games")
-(source . "git://github.com/racket/games/"))
+(source . "git://github.com/racket/games#release"))

@@ -2,8 +2,8 @@
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("base" "draw-lib" "typed-racket-lib" "scribble-lib"))
 (description . "Functions for constructing icons and logos")
 (name . "images-lib")
-(source . "git://github.com/racket/images/?path=images-lib"))
+(source . "git://github.com/racket/images/?path=images-lib#release"))

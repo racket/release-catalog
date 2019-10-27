@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "37208a2ca6df6b6a0535a98d890c5135ba7e38a1")
+(checksum . "3f319d170269e8d60483c22eaf9c5eb262bde30b")
 (dependencies . ("base" "2d-lib" "racket-index" "rackunit-lib" "option-contract-lib" "at-exp-lib" "gui-lib" "syntax-color-lib"))
 (description . "Tests for \"2d\"")
 (name . "2d-test")
-(source . "git://github.com/racket/2d?path=2d-test"))
+(source . "git://github.com/racket/2d/?path=2d-test#release"))

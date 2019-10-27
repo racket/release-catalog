@@ -2,8 +2,8 @@
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
 (authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "67d4d7246380ac7ab14f08ac5da078d8e744e5da")
+(checksum . "537e635fda6138c13475926355c2fd40fe69cabd")
 (dependencies . ("racket-index" "base" "html-lib" "rackunit-lib"))
 (description . "tests for \"html\"")
 (name . "html-test")
-(source . "git://github.com/racket/html/?path=html-test"))
+(source . "git://github.com/racket/html/?path=html-test#release"))

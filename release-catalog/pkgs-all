@@ -4,52 +4,52 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "37208a2ca6df6b6a0535a98d890c5135ba7e38a1")
+(checksum . "3f319d170269e8d60483c22eaf9c5eb262bde30b")
 (dependencies . ("2d-lib" "2d-doc"))
 (description . "2d syntax")
 (name . "2d")
-(source . "git://github.com/racket/2d?path=2d")))
+(source . "git://github.com/racket/2d/?path=2d#release")))
 ("2d-doc" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "37208a2ca6df6b6a0535a98d890c5135ba7e38a1")
+(checksum . "3f319d170269e8d60483c22eaf9c5eb262bde30b")
 (dependencies . ("base" "2d-lib" "scribble-lib" "racket-doc" "syntax-color-doc" "syntax-color-lib"))
 (description . "Documentation for \"2d\"")
 (name . "2d-doc")
-(source . "git://github.com/racket/2d?path=2d-doc")))
+(source . "git://github.com/racket/2d/?path=2d-doc#release")))
 ("2d-lib" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "37208a2ca6df6b6a0535a98d890c5135ba7e38a1")
+(checksum . "3f319d170269e8d60483c22eaf9c5eb262bde30b")
 (dependencies . (("base" #:version "6.90.0.19") "scribble-lib" "syntax-color-lib"))
 (description . "Implementation (no documentation) for \"2d\"")
 (name . "2d-lib")
-(source . "git://github.com/racket/2d?path=2d-lib")))
+(source . "git://github.com/racket/2d/?path=2d-lib#release")))
 ("2d-test" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "37208a2ca6df6b6a0535a98d890c5135ba7e38a1")
+(checksum . "3f319d170269e8d60483c22eaf9c5eb262bde30b")
 (dependencies . ("base" "2d-lib" "racket-index" "rackunit-lib" "option-contract-lib" "at-exp-lib" "gui-lib" "syntax-color-lib"))
 (description . "Tests for \"2d\"")
 (name . "2d-test")
-(source . "git://github.com/racket/2d?path=2d-test")))
+(source . "git://github.com/racket/2d/?path=2d-test#release")))
 ("algol60" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "905ff3ac8ecc273bf1fe4dd51c04a76ae3fdea52")
+(checksum . "8d74727f176ba6cc8db77e9e716e2f11c40e5c9b")
 (dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "parser-tools-lib" "string-constants-lib" "at-exp-lib" "rackunit-lib" "racket-doc" "scribble-doc" "scribble-lib" "drracket-tool-lib" "drracket-plugin-lib"))
 (description . "An implementation of the Algol60 language")
 (name . "algol60")
-(source . "git://github.com/racket/algol60")))
+(source . "git://github.com/racket/algol60#release")))
 ("at-exp-lib" . 
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
@@ -58,7 +58,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("racket-lib" ("racket" #:version "7.4.0.14")))
 (description . "Racket libraries that are currently always available")
 (name . "base")
@@ -67,20 +67,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7329f2bb8e3128a4ba655b8f9aa0f8b40d56df4")
+(checksum . "822f75898e810c4747dacdd743ff4a3004d5a290")
 (dependencies . ("base" "compiler-lib" "dynext-lib" "scheme-lib"))
 (description . "Tools for managing C extensions, such as `raco ctool`")
 (name . "cext-lib")
-(source . "git://github.com/racket/cext-lib?path=cext-lib")))
+(source . "git://github.com/racket/cext-lib/?path=cext-lib#release")))
 ("class-iop-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "326d0745c101f2a3e4c2087383bf765228ee39ed")
+(checksum . "f5105b5cfdc7b72d9c7ffc053f884fc66677f861")
 (dependencies . (("base" #:version "6.2.900.6")))
 (description . "Implementation (no documentation) for \"class-iop\"")
 (name . "class-iop-lib")
-(source . "git://github.com/racket/class-iop?path=class-iop-lib")))
+(source . "git://github.com/racket/class-iop/?path=class-iop-lib#release")))
 ("com-win32-i386" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -103,43 +103,43 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d69b6513d738910b1d481c52da7726a3346e93d1")
+(checksum . "b345c89c8e04d93c6792cc4290488920775701cf")
 (dependencies . ("compatibility-lib" "compatibility-doc"))
 (description . "Libraries that implement legacy interfaces")
 (name . "compatibility")
-(source . "git://github.com/racket/compatibility/?path=compatibility")))
+(source . "git://github.com/racket/compatibility/?path=compatibility#release")))
 ("compatibility-doc" . 
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d69b6513d738910b1d481c52da7726a3346e93d1")
+(checksum . "b345c89c8e04d93c6792cc4290488920775701cf")
 (dependencies . ("base" "scribble-lib" "compatibility-lib" "pconvert-lib" "sandbox-lib" "compiler-lib" "gui-lib" "racket-doc" "data-doc" "mzscheme-doc" "scheme-lib"))
 (description . "documentation part of \"compatibility\"")
 (name . "compatibility-doc")
-(source . "git://github.com/racket/compatibility/?path=compatibility-doc")))
+(source . "git://github.com/racket/compatibility/?path=compatibility-doc#release")))
 ("compatibility-lib" . 
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "d69b6513d738910b1d481c52da7726a3346e93d1")
+(checksum . "b345c89c8e04d93c6792cc4290488920775701cf")
 (dependencies . ("scheme-lib" "base" "net-lib" "sandbox-lib"))
 (description . "implementation (no documentation) part of \"compatibility\"")
 (name . "compatibility-lib")
-(source . "git://github.com/racket/compatibility/?path=compatibility-lib")))
+(source . "git://github.com/racket/compatibility/?path=compatibility-lib#release")))
 ("compatibility-test" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d69b6513d738910b1d481c52da7726a3346e93d1")
+(checksum . "b345c89c8e04d93c6792cc4290488920775701cf")
 (dependencies . ("base" "racket-test" "compatibility-lib" "drracket-tool-lib" "rackunit-lib" ("pconvert-lib" #:version "1.1")))
 (description . "tests for \"compatibility-lib\"")
 (name . "compatibility-test")
-(source . "git://github.com/racket/compatibility/?path=compatibility-test")))
+(source . "git://github.com/racket/compatibility/?path=compatibility-test#release")))
 ("compiler" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("compiler-lib"))
 (description . "Racket compilation tools, such as `raco exe'")
 (name . "compiler")
@@ -148,7 +148,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . (("base" #:version "6.5.0.2") "scheme-lib" "rackunit-lib" "zo-lib"))
 (description . "implementation (no documentation) part of \"compiler\"")
 (name . "compiler-lib")
@@ -157,7 +157,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "icons" "compiler-lib" "eli-tester" "rackunit-lib" "net-lib" "scheme-lib" "compatibility-lib" "gui-lib" "htdp-lib" "plai-lib" "rackunit-lib" "dynext-lib" "mzscheme-lib"))
 (description . "tests for \"compiler-lib\"")
 (name . "compiler-test")
@@ -166,65 +166,65 @@
 #hash(
 (author . "stamourv@racket-lang.org")
 (authors . ("stamourv@racket-lang.org"))
-(checksum . "886d7c3b091d77126124e8552580e9757bafcb37")
+(checksum . "8469bec20b096be090d03615498c6fb316d8ecea")
 (dependencies . (("base" #:version "6.3") "math-lib" ("profile-lib" #:version "1.1") "racket-doc" "scribble-lib" "rackunit-lib"))
 (description . "Profiling tool for contracts")
 (name . "contract-profile")
-(source . "git://github.com/racket/contract-profile")))
+(source . "git://github.com/racket/contract-profile#release")))
 ("data" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(checksum . "82f0fdd18eb6c9af1aa04859263abb0104207f52")
 (dependencies . ("data-lib" "data-enumerate-lib" "data-doc"))
 (description . "Data strucutures")
 (name . "data")
-(source . "git://github.com/racket/data/?path=data")))
+(source . "git://github.com/racket/data/?path=data#release")))
 ("data-doc" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(checksum . "82f0fdd18eb6c9af1aa04859263abb0104207f52")
 (dependencies . ("base" "data-lib" "data-enumerate-lib" "racket-doc" "scribble-lib" "plot-lib" "math-doc" "math-lib" "pict-doc" "pict-lib"))
 (description . "documentation part of \"data\"")
 (name . "data-doc")
-(source . "git://github.com/racket/data/?path=data-doc")))
+(source . "git://github.com/racket/data/?path=data-doc#release")))
 ("data-enumerate-lib" . 
 #hash(
 (author . "maxsnew@racket-lang.org jay@racket-lang.org")
 (authors . ("maxsnew@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(checksum . "82f0fdd18eb6c9af1aa04859263abb0104207f52")
 (dependencies . (("base" #:version "6.8.0.2") "data-lib" "math-lib" "rackunit-lib"))
 (description . "implementation (no documentation) of \"data/enumerate\"")
 (name . "data-enumerate-lib")
-(source . "git://github.com/racket/data/?path=data-enumerate-lib")))
+(source . "git://github.com/racket/data/?path=data-enumerate-lib#release")))
 ("data-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(checksum . "82f0fdd18eb6c9af1aa04859263abb0104207f52")
 (dependencies . (("base" #:version "6.2.900.6") "rackunit-lib"))
 (description . "implementation (no documentation) part of \"data\"")
 (name . "data-lib")
-(source . "git://github.com/racket/data/?path=data-lib")))
+(source . "git://github.com/racket/data/?path=data-lib#release")))
 ("data-test" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "a9b90061077d9cd7af545250339cd07851b99eeb")
+(checksum . "82f0fdd18eb6c9af1aa04859263abb0104207f52")
 (dependencies . ("base" "data-enumerate-lib" "racket-index" "data-lib" "rackunit-lib" "math-lib"))
 (description . "tests for \"data-lib\"")
 (name . "data-test")
-(source . "git://github.com/racket/data/?path=data-test")))
+(source . "git://github.com/racket/data/?path=data-test#release")))
 ("datalog" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "0e9ac8a96a7cf2b1a19594e1523313e639d40c80")
+(checksum . "a1d0809615c6fd71b13c254f0f8dd657ca1f256b")
 (dependencies . ("base" "parser-tools-lib" "syntax-color-lib" "racket-doc" "scribble-lib" "rackunit-lib"))
 (description . "An implementation of the Datalog language")
 (name . "datalog")
-(source . "git://github.com/racket/datalog")))
+(source . "git://github.com/racket/datalog#release")))
 ("db" . 
 #hash(
 (author . "ryanc@racket-lang.org")
@@ -301,47 +301,47 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "4d41ec58a5993c00c4650d37b45ae1811d04ddbc")
+(checksum . "93332f0e5fe33b87d6ac57748475b462ae669e56")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "drracket" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "string-constants-lib" "trace" "wxme-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "rackunit-lib" "scribble-lib"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#release")))
 ("deinprogramm-signature" . 
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "4d41ec58a5993c00c4650d37b45ae1811d04ddbc")
+(checksum . "93332f0e5fe33b87d6ac57748475b462ae669e56")
 (dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "htdp-lib" "scheme-lib" "srfi-lib" "string-constants-lib"))
 (description . "Signature support for teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm-signature")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm-signature")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release")))
 ("distributed-places" . 
 #hash(
 (author . "tewk@racket-lang.org")
 (authors . ("tewk@racket-lang.org"))
-(checksum . "e7974773661d2af43558f652983afa262ef64d23")
+(checksum . "3f4a1f43430216871e8cc7a6ecbd2a03530a9bfb")
 (dependencies . ("distributed-places-lib" "distributed-places-doc"))
 (description . "Libraries for distributed computations")
 (name . "distributed-places")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places")))
+(source . "git://github.com/racket/distributed-places/?path=distributed-places#release")))
 ("distributed-places-doc" . 
 #hash(
 (author . "tewk@racket-lang.org")
 (authors . ("tewk@racket-lang.org"))
-(checksum . "e7974773661d2af43558f652983afa262ef64d23")
+(checksum . "3f4a1f43430216871e8cc7a6ecbd2a03530a9bfb")
 (dependencies . ("base" "distributed-places-lib" "racket-doc" "sandbox-lib" "scribble-lib"))
 (description . "documentation part of \"distributed-places\"")
 (name . "distributed-places-doc")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places-doc")))
+(source . "git://github.com/racket/distributed-places/?path=distributed-places-doc#release")))
 ("distributed-places-lib" . 
 #hash(
 (author . "tewk@racket-lang.org")
 (authors . ("tewk@racket-lang.org"))
-(checksum . "e7974773661d2af43558f652983afa262ef64d23")
+(checksum . "3f4a1f43430216871e8cc7a6ecbd2a03530a9bfb")
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"distributed-places\"")
 (name . "distributed-places-lib")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places-lib")))
+(source . "git://github.com/racket/distributed-places/?path=distributed-places-lib#release")))
 ("distro-build" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -391,20 +391,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "fdbdc2a273cc19b6ad82e3bfc326fefd9e067e3d")
+(checksum . "d2023836192729a40b5ca504da7d852991930532")
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")
-(source . "git://github.com/racket/draw/?path=draw")))
+(source . "git://github.com/racket/draw/?path=draw#release")))
 ("draw-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "fdbdc2a273cc19b6ad82e3bfc326fefd9e067e3d")
+(checksum . "d2023836192729a40b5ca504da7d852991930532")
 (dependencies . ("gui-doc" "pict-doc" "at-exp-lib" "base" "gui-lib" "pict-lib" "scribble-lib" "draw-lib" "racket-doc"))
 (description . "documentation part of \"draw\"")
 (name . "draw-doc")
-(source . "git://github.com/racket/draw/?path=draw-doc")))
+(source . "git://github.com/racket/draw/?path=draw-doc#release")))
 ("draw-i386-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -418,11 +418,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "fdbdc2a273cc19b6ad82e3bfc326fefd9e067e3d")
+(checksum . "d2023836192729a40b5ca504da7d852991930532")
 (dependencies . (("base" #:version "6.10.1.2") ("draw-i386-macosx-3" #:platform "i386-macosx") ("draw-x86_64-macosx-3" #:platform "x86_64-macosx") ("draw-ppc-macosx-3" #:platform "ppc-macosx") ("draw-win32-i386-3" #:platform "win32\\i386") ("draw-win32-x86_64-3" #:platform "win32\\x86_64") ("draw-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
 (description . "implementation (no documentation) part of \"draw\"")
 (name . "draw-lib")
-(source . "git://github.com/racket/draw/?path=draw-lib")))
+(source . "git://github.com/racket/draw/?path=draw-lib#release")))
 ("draw-ppc-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -436,11 +436,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "fdbdc2a273cc19b6ad82e3bfc326fefd9e067e3d")
+(checksum . "d2023836192729a40b5ca504da7d852991930532")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"draw\"")
 (name . "draw-test")
-(source . "git://github.com/racket/draw/?path=draw-test")))
+(source . "git://github.com/racket/draw/?path=draw-test#release")))
 ("draw-ttf-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -562,127 +562,127 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a67866b9d99ed4f16bf149d2e6ceaa8cc6aac7bd")
+(checksum . "bb352d6c57a101aa0455db905e87bef7f121e9fc")
 (dependencies . ("ds-store-lib" "ds-store-doc" "base"))
 (description . "Libraries for manipulating \".DS_Store\" files")
 (name . "ds-store")
-(source . "git://github.com/racket/ds-store/?path=ds-store")))
+(source . "git://github.com/racket/ds-store/?path=ds-store#release")))
 ("ds-store-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a67866b9d99ed4f16bf149d2e6ceaa8cc6aac7bd")
+(checksum . "bb352d6c57a101aa0455db905e87bef7f121e9fc")
 (dependencies . ("base" "scribble-lib" "racket-doc" "ds-store-lib"))
 (description . "documentation part of \"ds-store\"")
 (name . "ds-store-doc")
-(source . "git://github.com/racket/ds-store/?path=ds-store-doc")))
+(source . "git://github.com/racket/ds-store/?path=ds-store-doc#release")))
 ("ds-store-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a67866b9d99ed4f16bf149d2e6ceaa8cc6aac7bd")
+(checksum . "bb352d6c57a101aa0455db905e87bef7f121e9fc")
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"ds-store\"")
 (name . "ds-store-lib")
-(source . "git://github.com/racket/ds-store/?path=ds-store-lib")))
+(source . "git://github.com/racket/ds-store/?path=ds-store-lib#release")))
 ("dynext-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7329f2bb8e3128a4ba655b8f9aa0f8b40d56df4")
+(checksum . "822f75898e810c4747dacdd743ff4a3004d5a290")
 (dependencies . ("base"))
 (description . "Library for running a C compiler/linker")
 (name . "dynext-lib")
-(source . "git://github.com/racket/cext-lib?path=dynext-lib")))
+(source . "git://github.com/racket/cext-lib/?path=dynext-lib#release")))
 ("eli-tester" . 
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "a92314913cf9988ab5080c2717c3385e79606507")
+(checksum . "2d7d78118b9fc36c37096be8908e63ac9572fe10")
 (dependencies . ("base" "rackunit-lib"))
 (description . "Testing framework")
 (name . "eli-tester")
-(source . "git://github.com/racket/eli-tester")))
+(source . "git://github.com/racket/eli-tester#release")))
 ("eopl" . 
 #hash(
 (author . "dvanhorn@racket-lang.org")
 (authors . ("dvanhorn@racket-lang.org"))
-(checksum . "fc2d1adf5d27f2ebb4bc77e0ff525325647da593")
+(checksum . "43575d6e95dc34ca6e49b305180f696565e16e0f")
 (dependencies . ("base" "compatibility-lib" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "Teaching language for _Essentials of Programming Languages_")
 (name . "eopl")
-(source . "git://github.com/racket/eopl")))
+(source . "git://github.com/racket/eopl#release")))
 ("errortrace" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org florence@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org" "florence@racket-lang.org"))
-(checksum . "cea390ea1b9755c5ae380557e752206f987bc88e")
+(checksum . "b7cacbe06850d1857790127f58cd5dac7a5600ed")
 (dependencies . ("errortrace-lib" "errortrace-doc"))
 (name . "errortrace")
-(source . "git://github.com/racket/errortrace/?path=errortrace")))
+(source . "git://github.com/racket/errortrace/?path=errortrace#release")))
 ("errortrace-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org florence@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org" "florence@racket-lang.org"))
-(checksum . "cea390ea1b9755c5ae380557e752206f987bc88e")
+(checksum . "b7cacbe06850d1857790127f58cd5dac7a5600ed")
 (dependencies . ("racket-doc" "base" "errortrace-lib" "scribble-lib"))
 (description . "documentation part of \"errortrace\"")
 (name . "errortrace-doc")
-(source . "git://github.com/racket/errortrace/?path=errortrace-doc")))
+(source . "git://github.com/racket/errortrace/?path=errortrace-doc#release")))
 ("errortrace-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org florence@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org" "florence@racket-lang.org"))
-(checksum . "cea390ea1b9755c5ae380557e752206f987bc88e")
+(checksum . "b7cacbe06850d1857790127f58cd5dac7a5600ed")
 (dependencies . (("base" #:version "6.6.0.3") "source-syntax"))
 (description . "implementation (no documentation) part of \"errortrace\"")
 (name . "errortrace-lib")
-(source . "git://github.com/racket/errortrace/?path=errortrace-lib")))
+(source . "git://github.com/racket/errortrace/?path=errortrace-lib#release")))
 ("errortrace-test" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org florence@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org" "florence@racket-lang.org"))
-(checksum . "cea390ea1b9755c5ae380557e752206f987bc88e")
+(checksum . "b7cacbe06850d1857790127f58cd5dac7a5600ed")
 (dependencies . ("errortrace-lib" "eli-tester" "rackunit-lib" "base" "compiler-lib" "at-exp-lib"))
 (description . "tests for \"errortrace\"")
 (name . "errortrace-test")
-(source . "git://github.com/racket/errortrace/?path=errortrace-test")))
+(source . "git://github.com/racket/errortrace/?path=errortrace-test#release")))
 ("frtime" . 
 #hash(
 (author . "jay@racket-lang.org gcooper@racket-lang.org")
 (authors . ("jay@racket-lang.org" "gcooper@racket-lang.org"))
-(checksum . "8e8483cba561e767086fcf78e2c09f50dfe89965")
+(checksum . "24d2efa197479660177112362c95f55b883106c0")
 (dependencies . ("srfi-lite-lib" "base" "compatibility-lib" "drracket" "gui-lib" "pict-lib" "string-constants-lib" "draw-doc" "gui-doc" "racket-doc" "scribble-lib"))
 (description . "The implementation of the FrTime language")
 (name . "frtime")
-(source . "git://github.com/racket/frtime")))
+(source . "git://github.com/racket/frtime#release")))
 ("future-visualizer" . 
 #hash(
 (author . "jamesswaine@racket-lang.org")
 (authors . ("jamesswaine@racket-lang.org"))
-(checksum . "73b5f64cd2db6928141560ae4da57516bbf45b01")
+(checksum . "d9ac5d04b1a47457ca52ac67024799ec8c6ac0e6")
 (dependencies . ("base" "data-lib" "draw-lib" "pict-lib" "gui-lib" "scheme-lib" "scribble-lib" "racket-doc" "rackunit-lib"))
 (description . "Graphical performance tools for using futures")
 (name . "future-visualizer")
-(source . "git://github.com/racket/future-visualizer/?path=future-visualizer")))
+(source . "git://github.com/racket/future-visualizer/?path=future-visualizer#release")))
 ("future-visualizer-typed" . 
 #hash(
 (author . "jamesswaine@racket-lang.org")
 (authors . ("jamesswaine@racket-lang.org"))
-(checksum . "73b5f64cd2db6928141560ae4da57516bbf45b01")
+(checksum . "d9ac5d04b1a47457ca52ac67024799ec8c6ac0e6")
 (dependencies . ("base" "future-visualizer" "typed-racket-lib"))
 (description . "type declarations for \"future-visualizer\"")
 (name . "future-visualizer-typed")
-(source . "git://github.com/racket/future-visualizer/?path=future-visualizer-typed")))
+(source . "git://github.com/racket/future-visualizer/?path=future-visualizer-typed#release")))
 ("games" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "e9d834f7d5ab4ad92d9839f114515c3c26b0a3b4")
+(checksum . "cec75654b0fb99dce5a1bce958119a833a59e290")
 (dependencies . ("base" "draw-lib" "drracket" ("gui-lib" #:version "1.16") "net-lib" "htdp-lib" "math-lib" "scribble-lib" "racket-index" "sgl" "srfi-lib" "string-constants-lib" ("data-enumerate-lib" #:version "1.2") "typed-racket-lib" "typed-racket-more" "draw-doc" "gui-doc" "racket-doc" "pict-lib" "rackunit-lib" "htdp-doc"))
 (description . "Games")
 (name . "games")
-(source . "git://github.com/racket/games/")))
+(source . "git://github.com/racket/games#release")))
 ("gui" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
@@ -723,11 +723,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "405ab6e5c7965ca511783ada639ddc6df33d0709")
+(checksum . "54d8ebd8c58a0974334e96e257db3b038cb20135")
 (dependencies . ("base" "gui-lib" ("string-constants-lib" #:version "1.29")))
 (description . "implementation (no documentation) part of \"gui-pkg-manager\"")
 (name . "gui-pkg-manager-lib")
-(source . "git://github.com/racket/gui-pkg-manager/?path=gui-pkg-manager-lib")))
+(source . "git://github.com/racket/gui-pkg-manager/?path=gui-pkg-manager-lib#release")))
 ("gui-ppc-macosx" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -822,38 +822,38 @@
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
 (authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "67d4d7246380ac7ab14f08ac5da078d8e744e5da")
+(checksum . "537e635fda6138c13475926355c2fd40fe69cabd")
 (dependencies . ("html-lib" "html-doc"))
 (description . "HTML parsing and generation")
 (name . "html")
-(source . "git://github.com/racket/html/?path=html")))
+(source . "git://github.com/racket/html/?path=html#release")))
 ("html-doc" . 
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
 (authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "67d4d7246380ac7ab14f08ac5da078d8e744e5da")
+(checksum . "537e635fda6138c13475926355c2fd40fe69cabd")
 (dependencies . ("base" "scribble-lib" "html-lib" "racket-doc"))
 (description . "documentation part of \"html\"")
 (name . "html-doc")
-(source . "git://github.com/racket/html/?path=html-doc")))
+(source . "git://github.com/racket/html/?path=html-doc#release")))
 ("html-lib" . 
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
 (authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "67d4d7246380ac7ab14f08ac5da078d8e744e5da")
+(checksum . "537e635fda6138c13475926355c2fd40fe69cabd")
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"html\"")
 (name . "html-lib")
-(source . "git://github.com/racket/html/?path=html-lib")))
+(source . "git://github.com/racket/html/?path=html-lib#release")))
 ("html-test" . 
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
 (authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "67d4d7246380ac7ab14f08ac5da078d8e744e5da")
+(checksum . "537e635fda6138c13475926355c2fd40fe69cabd")
 (dependencies . ("racket-index" "base" "html-lib" "rackunit-lib"))
 (description . "tests for \"html\"")
 (name . "html-test")
-(source . "git://github.com/racket/html/?path=html-test")))
+(source . "git://github.com/racket/html/?path=html-test#release")))
 ("icons" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
@@ -867,92 +867,92 @@
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("images-lib" "images-gui-lib" "images-doc"))
 (description . "Functions (and docs and tests) for constructing icons and logos")
 (name . "images")
-(source . "git://github.com/racket/images/?path=images")))
+(source . "git://github.com/racket/images/?path=images#release")))
 ("images-doc" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("base" "images-lib" "draw-doc" "gui-doc" "pict-doc" "slideshow-doc" "typed-racket-doc" "draw-lib" "gui-lib" "pict-lib" "racket-doc" "scribble-lib" "slideshow-lib" "typed-racket-lib"))
 (description . "Documentation for images-lib")
 (name . "images-doc")
-(source . "git://github.com/racket/images/?path=images-doc")))
+(source . "git://github.com/racket/images/?path=images-doc#release")))
 ("images-gui-lib" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("base" "draw-lib" "gui-lib" "string-constants-lib"))
 (description . "Functions for constructing icons and logos")
 (name . "images-gui-lib")
-(source . "git://github.com/racket/images/?path=images-gui-lib")))
+(source . "git://github.com/racket/images/?path=images-gui-lib#release")))
 ("images-lib" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("base" "draw-lib" "typed-racket-lib" "scribble-lib"))
 (description . "Functions for constructing icons and logos")
 (name . "images-lib")
-(source . "git://github.com/racket/images/?path=images-lib")))
+(source . "git://github.com/racket/images/?path=images-lib#release")))
 ("images-test" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "2d192b28f6ed26c0147fec3e49ff1997b34deb15")
+(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
 (dependencies . ("base" "images-lib" "pict-lib" "slideshow-lib" "racket-doc"))
 (description . "Tests for images-pkg")
 (name . "images-test")
-(source . "git://github.com/racket/images/?path=images-test")))
+(source . "git://github.com/racket/images/?path=images-test#release")))
 ("lazy" . 
 #hash(
 (author . "eli@racket-lang.org stchang@racket-lang.org")
 (authors . ("eli@racket-lang.org" "stchang@racket-lang.org"))
-(checksum . "f7ae8039fbd8140701261c5a81b187c2f73c1878")
+(checksum . "f5c0bf7fd2ce4149ecc11ba28a2d6ec5f1ec4a0b")
 (dependencies . ("base" "drracket-plugin-lib" "htdp-lib" "string-constants-lib" "compatibility-lib" "mzscheme-doc" "scheme-lib" "eli-tester" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Lazy Racket language")
 (name . "lazy")
-(source . "git://github.com/racket/lazy")))
+(source . "git://github.com/racket/lazy#release")))
 ("macro-debugger" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "8a396dd0a32c881462eb3448443de27fd70d2b2f")
+(checksum . "132a4dcb6871ea936d426d1397984debfaaad1e5")
 (dependencies . ("base" "class-iop-lib" "compatibility-lib" "data-lib" "gui-lib" "images-lib" "images-gui-lib" "parser-tools-lib" "macro-debugger-text-lib" ("draw-lib" #:version "1.7") "racket-index" "rackunit-lib" "scribble-lib" "racket-doc"))
 (description . "The macro debugger tool")
 (name . "macro-debugger")
-(source . "git://github.com/racket/macro-debugger/?path=macro-debugger")))
+(source . "git://github.com/racket/macro-debugger/?path=macro-debugger#release")))
 ("macro-debugger-text-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "8a396dd0a32c881462eb3448443de27fd70d2b2f")
+(checksum . "132a4dcb6871ea936d426d1397984debfaaad1e5")
 (dependencies . ("base" "db-lib" "class-iop-lib" "parser-tools-lib"))
 (description . "The macro debugger tool with a console interface")
 (name . "macro-debugger-text-lib")
-(source . "git://github.com/racket/macro-debugger/?path=macro-debugger-text-lib")))
+(source . "git://github.com/racket/macro-debugger/?path=macro-debugger-text-lib#release")))
 ("main-distribution" . 
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "386e8ad31cc798b775f24e4f3555613ffecf80cd")
+(checksum . "b7d1f1de4ca24b84a040bffade35fdc46227788d")
 (dependencies . ("2d" "algol60" "at-exp-lib" "compatibility" "contract-profile" "compiler" "data" "datalog" "db" "deinprogramm" "draw" "draw-doc" "draw-lib" "drracket" "drracket-tool" "eopl" "errortrace" "future-visualizer" "future-visualizer-typed" "frtime" "games" "gui" "htdp" "html" "icons" "images" "lazy" "macro-debugger" "macro-debugger-text-lib" "make" "math" "mysterx" "mzcom" "mzscheme" "net" "net-cookies" "optimization-coach" "option-contract" "parser-tools" "pconvert-lib" "pict" "pict-snip" "picturing-programs" "plai" "planet" "plot" "preprocessor" "profile" "r5rs" "r6rs" "racket-doc" "distributed-places" "racket-cheat" "racket-index" "racket-lib" "racklog" "rackunit" "rackunit-typed" "readline" "realm" "redex" "sandbox-lib" "sasl" "schemeunit" "scribble" "serialize-cstruct-lib" "sgl" "shell-completion" "slatex" "slideshow" "snip" "srfi" "string-constants" "swindle" "syntax-color" "trace" "typed-racket" "typed-racket-more" "unix-socket" "web-server" "wxme" "xrepl" "ds-store"))
 (description . "A package that combines all of the packages in the main Racket distribution")
 (name . "main-distribution")
-(source . "git://github.com/racket/main-distribution")))
+(source . "git://github.com/racket/main-distribution#release")))
 ("main-distribution-test" . 
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "e528e8225b67cc8e6d8dbf6458466b1b0b648ba0")
+(checksum . "e0043326ba39fdaa583e74378a9ee67df8fd7d0b")
 (dependencies . ("racket-test" "racket-test-extra" "rackunit-test" "draw-test" "gui-test" "db-test" "htdp-test" "html-test" "redex-test" "drracket-test" "profile-test" "srfi-test" "errortrace-test" "r6rs-test" "web-server-test" "typed-racket-test" "xrepl-test" "scribble-test" "compiler-test" "compatibility-test" "data-test" "net-test" "net-cookies-test" "pconvert-test" "planet-test" "syntax-color-test" "images-test" "plot-test" "pict-test" "pict-snip-test" "math-test" "racket-benchmarks" "drracket-tool-test" "2d-test" "option-contract-test" "sasl-test" "wxme-test" "unix-socket-test"))
 (description . "tests for \"main-distribution\"")
 (name . "main-distribution-test")
-(source . "git://github.com/racket/main-distribution-test")))
+(source . "git://github.com/racket/main-distribution-test#release")))
 ("make" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1056,11 +1056,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "e3d0099cc14ab2bdd29ce3711b5ce1f566088ea4")
+(checksum . "5a80a3fe569c9d2a859b810c1c3ba56eeb181307")
 (dependencies . ("scheme-lib" "base" "racket-doc" "at-exp-lib" "scribble-lib"))
 (description . "Legacy library for working with COM on Windows")
 (name . "mysterx")
-(source . "git://github.com/racket/mysterx")))
+(source . "git://github.com/racket/mysterx#release")))
 ("mzcom" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1074,34 +1074,34 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "897becf7ad227a7ea73804ba091be4601e6df9c0")
+(checksum . "39f323980a452aff1c3dd53003cdd661190ef698")
 (dependencies . ("mzscheme-lib" "mzscheme-doc"))
 (description . "The legacy MzScheme language")
 (name . "mzscheme")
-(source . "git://github.com/racket/mzscheme/?path=mzscheme")))
+(source . "git://github.com/racket/mzscheme/?path=mzscheme#release")))
 ("mzscheme-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "897becf7ad227a7ea73804ba091be4601e6df9c0")
+(checksum . "39f323980a452aff1c3dd53003cdd661190ef698")
 (dependencies . ("base" "compatibility-lib" "r5rs-doc" "r5rs-lib" "racket-doc" "scheme-lib" "scribble-lib"))
 (description . "documentation part of \"mzscheme\"")
 (name . "mzscheme-doc")
-(source . "git://github.com/racket/mzscheme/?path=mzscheme-doc")))
+(source . "git://github.com/racket/mzscheme/?path=mzscheme-doc#release")))
 ("mzscheme-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "897becf7ad227a7ea73804ba091be4601e6df9c0")
+(checksum . "39f323980a452aff1c3dd53003cdd661190ef698")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2")))
 (description . "implementation (no documentation) part of \"mzscheme\"")
 (name . "mzscheme-lib")
-(source . "git://github.com/racket/mzscheme/?path=mzscheme-lib")))
+(source . "git://github.com/racket/mzscheme/?path=mzscheme-lib#release")))
 ("net" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("net-lib" "net-doc"))
 (description . "Networking libraries")
 (name . "net")
@@ -1146,7 +1146,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "compatibility-lib" "net-lib" "racket-doc" "scribble-lib" "web-server-doc" "web-server-lib"))
 (description . "documentation part of \"net\"")
 (name . "net-doc")
@@ -1155,7 +1155,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"net\"")
 (name . "net-lib")
@@ -1164,7 +1164,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "at-exp-lib" "compatibility-lib" "eli-tester" "net-lib" "racket-test" "rackunit-lib" "sandbox-lib" "web-server-lib"))
 (description . "tests for \"net-lib\"")
 (name . "net-test")
@@ -1182,38 +1182,38 @@
 #hash(
 (author . "chrdimo@seas.harvard.edu robby@racket-lang.org")
 (authors . ("chrdimo@seas.harvard.edu" "robby@racket-lang.org"))
-(checksum . "20feaa543aa96e9dbe6ed6ad1435acd0f23d683b")
+(checksum . "399ad3351df83dee3dd2e8c4bec14ad5bcd2be8e")
 (dependencies . ("option-contract-lib" "option-contract-doc"))
 (description . "Experimental libraries for option contracts")
 (name . "option-contract")
-(source . "git://github.com/racket/option-contract?path=option-contract")))
+(source . "git://github.com/racket/option-contract/?path=option-contract#release")))
 ("option-contract-doc" . 
 #hash(
 (author . "chrdimo@seas.harvard.edu robby@racket-lang.org")
 (authors . ("chrdimo@seas.harvard.edu" "robby@racket-lang.org"))
-(checksum . "20feaa543aa96e9dbe6ed6ad1435acd0f23d683b")
+(checksum . "399ad3351df83dee3dd2e8c4bec14ad5bcd2be8e")
 (dependencies . (("base" #:version "6.2.900.17") "option-contract-lib" "scribble-lib" "racket-doc"))
 (description . "Documentation for \"option-contract\"")
 (name . "option-contract-doc")
-(source . "git://github.com/racket/option-contract?path=option-contract-doc")))
+(source . "git://github.com/racket/option-contract/?path=option-contract-doc#release")))
 ("option-contract-lib" . 
 #hash(
 (author . "chrdimo@seas.harvard.edu robby@racket-lang.org")
 (authors . ("chrdimo@seas.harvard.edu" "robby@racket-lang.org"))
-(checksum . "20feaa543aa96e9dbe6ed6ad1435acd0f23d683b")
+(checksum . "399ad3351df83dee3dd2e8c4bec14ad5bcd2be8e")
 (dependencies . (("base" #:version "6.2.900.17")))
 (description . "Implementation (no documentation) for \"option-contract\"")
 (name . "option-contract-lib")
-(source . "git://github.com/racket/option-contract?path=option-contract-lib")))
+(source . "git://github.com/racket/option-contract/?path=option-contract-lib#release")))
 ("option-contract-test" . 
 #hash(
 (author . "chrdimo@seas.harvard.edu robby@racket-lang.org")
 (authors . ("chrdimo@seas.harvard.edu" "robby@racket-lang.org"))
-(checksum . "20feaa543aa96e9dbe6ed6ad1435acd0f23d683b")
+(checksum . "399ad3351df83dee3dd2e8c4bec14ad5bcd2be8e")
 (dependencies . (("base" #:version "6.2.900.17") "rackunit-lib" "option-contract-lib"))
 (description . "Tests for \"option-contract\"")
 (name . "option-contract-test")
-(source . "git://github.com/racket/option-contract?path=option-contract-test")))
+(source . "git://github.com/racket/option-contract/?path=option-contract-test#release")))
 ("parser-tools" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1245,164 +1245,164 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "0cecf60d11187d3974bd5ce617ac1a73af8f69f5")
+(checksum . "c61fb3771251db295e1ef14f55f28f70d7e2982f")
 (dependencies . ("base" "compatibility-lib"))
 (description . "Legacy library for printing Racket values")
 (name . "pconvert-lib")
-(source . "git://github.com/racket/pconvert?path=pconvert-lib")))
+(source . "git://github.com/racket/pconvert/?path=pconvert-lib#release")))
 ("pconvert-test" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "0cecf60d11187d3974bd5ce617ac1a73af8f69f5")
+(checksum . "c61fb3771251db295e1ef14f55f28f70d7e2982f")
 (dependencies . ("base" "compatibility-lib"))
 (description . "Tests for \"pconvert-lib\"")
 (name . "pconvert-test")
-(source . "git://github.com/racket/pconvert?path=pconvert-test")))
+(source . "git://github.com/racket/pconvert/?path=pconvert-test#release")))
 ("pict" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "4a509cd06c67170ca521ab8fb514b02f76aaaa81")
+(checksum . "158d2e7ec55a815165f3c4eb82c960b3fa231b9d")
 (dependencies . ("pict-lib" "pict-doc"))
 (description . "Building pictures with functional combinators")
 (name . "pict")
-(source . "git://github.com/racket/pict/?path=pict")))
+(source . "git://github.com/racket/pict/?path=pict#release")))
 ("pict-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "4a509cd06c67170ca521ab8fb514b02f76aaaa81")
+(checksum . "158d2e7ec55a815165f3c4eb82c960b3fa231b9d")
 (dependencies . ("base" "mzscheme-doc" "draw-doc" "gui-doc" "slideshow-doc" "draw-lib" "gui-lib" "scribble-lib" "slideshow-lib" "pict-lib" "racket-doc" "scribble-doc"))
 (description . "documentation part of \"pict\"")
 (name . "pict-doc")
-(source . "git://github.com/racket/pict/?path=pict-doc")))
+(source . "git://github.com/racket/pict/?path=pict-doc#release")))
 ("pict-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "4a509cd06c67170ca521ab8fb514b02f76aaaa81")
+(checksum . "158d2e7ec55a815165f3c4eb82c960b3fa231b9d")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "syntax-color-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"pict\"")
 (name . "pict-lib")
-(source . "git://github.com/racket/pict/?path=pict-lib")))
+(source . "git://github.com/racket/pict/?path=pict-lib#release")))
 ("pict-snip" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "1f2c0838de6e5bf97095ff189f9553af85681dd8")
+(checksum . "baffbc28b0b8931242d63a125f5ac790bf349bf4")
 (dependencies . ("pict-snip-lib" "pict-snip-doc"))
 (description . "Build snips out of picts")
 (name . "pict-snip")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip")))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip#release")))
 ("pict-snip-doc" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "1f2c0838de6e5bf97095ff189f9553af85681dd8")
+(checksum . "baffbc28b0b8931242d63a125f5ac790bf349bf4")
 (dependencies . ("base" "pict-snip-lib" "gui-doc" "pict-doc" "pict-lib" "racket-doc" "scribble-lib" "snip-lib"))
 (description . "documentation part of \"pict\"")
 (name . "pict-snip-doc")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip-doc")))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-doc#release")))
 ("pict-snip-lib" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "1f2c0838de6e5bf97095ff189f9553af85681dd8")
+(checksum . "baffbc28b0b8931242d63a125f5ac790bf349bf4")
 (dependencies . ("draw-lib" "snip-lib" "pict-lib" "wxme-lib" "base" "rackunit-lib" "gui-lib"))
 (description . "implementation (no documentation) part of \"pict-snip\"")
 (name . "pict-snip-lib")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip-lib")))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-lib#release")))
 ("pict-snip-test" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "1f2c0838de6e5bf97095ff189f9553af85681dd8")
+(checksum . "baffbc28b0b8931242d63a125f5ac790bf349bf4")
 (dependencies . ("base" "pict-snip-lib" "draw-lib" "pict-lib" "rackunit-lib"))
 (description . "tests for \"pict-snip-lib\"")
 (name . "pict-snip-test")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip-test")))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-test#release")))
 ("pict-test" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "4a509cd06c67170ca521ab8fb514b02f76aaaa81")
+(checksum . "158d2e7ec55a815165f3c4eb82c960b3fa231b9d")
 (dependencies . ("base" "pict-lib" "rackunit-lib" "htdp-lib" "draw-lib"))
 (description . "tests for \"pict-lib\"")
 (name . "pict-test")
-(source . "git://github.com/racket/pict/?path=pict-test")))
+(source . "git://github.com/racket/pict/?path=pict-test#release")))
 ("picturing-programs" . 
 #hash(
 (author . "sbloch@racket-lang.org")
 (authors . ("sbloch@racket-lang.org"))
-(checksum . "b2be356e6ffbbc32eb052afe857993690e576c50")
+(checksum . "ebfc1fcfd94f8ec4fbd332e6c345ac63ab4fb6f6")
 (dependencies . ("base" "draw-lib" "gui-lib" "snip-lib" "htdp-lib" "racket-doc" "htdp-doc" "scribble-lib"))
 (description . "Teaching libraries for _Picturing Programs_")
 (name . "picturing-programs")
-(source . "git://github.com/racket/picturing-programs")))
+(source . "git://github.com/racket/picturing-programs#release")))
 ("plai" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "b17cc66295b88193fdeb128da4af205034d7632d")
+(checksum . "123e490a23b06968130e6bec0213a5ddb2587452")
 (dependencies . ("plai-doc" "plai-lib" "base"))
 (description . "Teaching languages for _Programming Languages: Application and Interpretation_")
 (name . "plai")
-(source . "git://github.com/racket/plai?path=plai")))
+(source . "git://github.com/racket/plai/?path=plai#release")))
 ("plai-doc" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "b17cc66295b88193fdeb128da4af205034d7632d")
+(checksum . "123e490a23b06968130e6bec0213a5ddb2587452")
 (dependencies . ("scheme-lib" "srfi-lite-lib" "base" "gui-lib" "sandbox-lib" "web-server-lib" "plai-lib" "at-exp-lib" "eli-tester" "pconvert-lib" "rackunit-lib" "racket-doc" "web-server-doc" "scribble-lib" "drracket-tool-lib"))
 (description . "Documentation for teaching languages for _Programming Languages: Application and Interpretation_")
 (name . "plai-doc")
-(source . "git://github.com/racket/plai?path=plai-doc")))
+(source . "git://github.com/racket/plai/?path=plai-doc#release")))
 ("plai-lib" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "b17cc66295b88193fdeb128da4af205034d7632d")
+(checksum . "123e490a23b06968130e6bec0213a5ddb2587452")
 (dependencies . ("scheme-lib" "srfi-lite-lib" "base" "gui-lib" "draw-lib" "sandbox-lib" "web-server-lib" "at-exp-lib" "eli-tester" "pconvert-lib" "rackunit-lib" "drracket-tool-lib"))
 (description . "Implementation (no documentation) for teaching languages for _Programming Languages: Application and Interpretation_")
 (name . "plai-lib")
-(source . "git://github.com/racket/plai?path=plai-lib")))
+(source . "git://github.com/racket/plai/?path=plai-lib#release")))
 ("planet" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "c3737f526d3c91859b0c2c4b8a5675c97838fa32")
+(checksum . "134fbf6dc312c46eb9f4790c2611d1cf5b34d6ec")
 (dependencies . ("planet-lib" "planet-doc"))
 (description . "Legacy support for automatic package distribution")
 (name . "planet")
-(source . "git://github.com/racket/planet/?path=planet")))
+(source . "git://github.com/racket/planet/?path=planet#release")))
 ("planet-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "c3737f526d3c91859b0c2c4b8a5675c97838fa32")
+(checksum . "134fbf6dc312c46eb9f4790c2611d1cf5b34d6ec")
 (dependencies . ("planet-lib" "scribble-lib" "base" "racket-doc" "scribble-doc"))
 (description . "documentation part of \"planet\"")
 (name . "planet-doc")
-(source . "git://github.com/racket/planet/?path=planet-doc")))
+(source . "git://github.com/racket/planet/?path=planet-doc#release")))
 ("planet-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "c3737f526d3c91859b0c2c4b8a5675c97838fa32")
+(checksum . "134fbf6dc312c46eb9f4790c2611d1cf5b34d6ec")
 (dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.6")))
 (description . "implementation (no documentation) part of \"planet\"")
 (name . "planet-lib")
-(source . "git://github.com/racket/planet/?path=planet-lib")))
+(source . "git://github.com/racket/planet/?path=planet-lib#release")))
 ("planet-test" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "c3737f526d3c91859b0c2c4b8a5675c97838fa32")
+(checksum . "134fbf6dc312c46eb9f4790c2611d1cf5b34d6ec")
 (dependencies . ("base" "racket-index" "eli-tester" "planet-lib" "rackunit-lib" "scheme-lib"))
 (description . "tests for \"planet-lib\"")
 (name . "planet-test")
-(source . "git://github.com/racket/planet/?path=planet-test")))
+(source . "git://github.com/racket/planet/?path=planet-test#release")))
 ("plot" . 
 #hash(
 (author . "ntoronto@racket-lang.org")
@@ -1461,56 +1461,56 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "5697a81d84117f9341686783b02299f74656918a")
+(checksum . "a964124dd29c9d855f45686480414ae5b1dc96fd")
 (dependencies . ("base" "at-exp-lib" "scribble-html-lib"))
 (description . "PLT web page style and generation")
 (name . "plt-web-lib")
-(source . "git://github.com/racket/plt-web/?path=plt-web-lib")))
+(source . "git://github.com/racket/plt-web/?path=plt-web-lib#release")))
 ("preprocessor" . 
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "d8b983738cd0b56300d21755dd2b6105a267502e")
+(checksum . "2739013da77cb4438aa194cf730fa498f272dc66")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-doc" "scribble-lib"))
 (description . "Preprocessors for text with embedded Racket code (mostly replaced by scribble/text)")
 (name . "preprocessor")
-(source . "git://github.com/racket/preprocessor")))
+(source . "git://github.com/racket/preprocessor#release")))
 ("profile" . 
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "cba44abd719741c80a89a7a529d651d2d9872d50")
+(checksum . "3e7dbceb19d8a52b3808a739160aa9a2bc4174af")
 (dependencies . ("profile-lib" "profile-doc"))
 (description . "Libraries for statistical performance profiling")
 (name . "profile")
-(source . "git://github.com/racket/profile/?path=profile")))
+(source . "git://github.com/racket/profile/?path=profile#release")))
 ("profile-doc" . 
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "cba44abd719741c80a89a7a529d651d2d9872d50")
+(checksum . "3e7dbceb19d8a52b3808a739160aa9a2bc4174af")
 (dependencies . ("base" "scribble-lib" "profile-lib" "errortrace-doc" "errortrace-lib" "racket-doc"))
 (description . "documentation part of \"profile\"")
 (name . "profile-doc")
-(source . "git://github.com/racket/profile/?path=profile-doc")))
+(source . "git://github.com/racket/profile/?path=profile-doc#release")))
 ("profile-lib" . 
 #hash(
 (author . "eli@racket-lang.org stamourv@racket-lang.org")
 (authors . ("eli@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "cba44abd719741c80a89a7a529d651d2d9872d50")
+(checksum . "3e7dbceb19d8a52b3808a739160aa9a2bc4174af")
 (dependencies . ("base" "errortrace-lib" "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"profile\"")
 (name . "profile-lib")
-(source . "git://github.com/racket/profile/?path=profile-lib")))
+(source . "git://github.com/racket/profile/?path=profile-lib#release")))
 ("profile-test" . 
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "cba44abd719741c80a89a7a529d651d2d9872d50")
+(checksum . "3e7dbceb19d8a52b3808a739160aa9a2bc4174af")
 (dependencies . ("base" "eli-tester" "profile-lib"))
 (description . "tests for \"profile\"")
 (name . "profile-test")
-(source . "git://github.com/racket/profile/?path=profile-test")))
+(source . "git://github.com/racket/profile/?path=profile-test#release")))
 ("quickscript" . 
 #hash(
 (author . "laurent.orseau@gmail.com")
@@ -1524,29 +1524,29 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "7020af4eecf7a434f6c7c6c1dd82ebb9c2b14273")
+(checksum . "905eb5dd53765eae8ed9a3ad3b6d3d4a859654e1")
 (dependencies . ("r5rs-lib" "r5rs-doc"))
 (description . "Legacy R5RS (Scheme) language")
 (name . "r5rs")
-(source . "git://github.com/racket/r5rs/?path=r5rs")))
+(source . "git://github.com/racket/r5rs/?path=r5rs#release")))
 ("r5rs-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "7020af4eecf7a434f6c7c6c1dd82ebb9c2b14273")
+(checksum . "905eb5dd53765eae8ed9a3ad3b6d3d4a859654e1")
 (dependencies . ("base" "mzscheme-doc" "scheme-lib" "scribble-lib" "r5rs-lib" "compatibility-lib" "racket-doc"))
 (description . "documentation part of \"r5rs\"")
 (name . "r5rs-doc")
-(source . "git://github.com/racket/r5rs/?path=r5rs-doc")))
+(source . "git://github.com/racket/r5rs/?path=r5rs-doc#release")))
 ("r5rs-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "7020af4eecf7a434f6c7c6c1dd82ebb9c2b14273")
+(checksum . "905eb5dd53765eae8ed9a3ad3b6d3d4a859654e1")
 (dependencies . ("scheme-lib" "base" "compatibility-lib"))
 (description . "implementation (no documentation) part of \"r5rs\"")
 (name . "r5rs-lib")
-(source . "git://github.com/racket/r5rs/?path=r5rs-lib")))
+(source . "git://github.com/racket/r5rs/?path=r5rs-lib#release")))
 ("r6rs" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1587,7 +1587,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "compatibility-lib" "r5rs-lib" "scheme-lib" "racket-test" "typed-racket-lib" "plot" "draw-lib" "gui-lib" "pict-lib"))
 (name . "racket-benchmarks")
 (source . "git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release")))
@@ -1604,7 +1604,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.14") "racket-index" "rackunit-doc" "compatibility" "errortrace-doc" "typed-racket-doc" "at-exp-lib" "rackunit-lib" "web-server-doc" "gui" "draw" "pict" "parser-tools-doc" "slideshow-doc" "r5rs-doc" "r6rs-doc" "xrepl" "readline" "syntax-color" "scribble-doc" "future-visualizer" "distributed-places" "serialize-cstruct-lib" "cext-lib" "data-doc" "net-doc" "planet-doc" "mzscheme-doc" "compiler-lib" "drracket" "math-doc" "math-lib"))
 (description . "Base Racket documentation")
 (name . "racket-doc")
@@ -1622,7 +1622,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "scribble-lib" "scheme-lib" "at-exp-lib"))
 (description . "Racket Documentation driver")
 (name . "racket-index")
@@ -1631,7 +1631,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . (("racket-win32-i386-3" #:platform "win32\\i386") ("racket-win32-x86_64-3" #:platform "win32\\x86_64") ("racket-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("racket-x86_64-macosx-3" #:platform "x86_64-macosx") ("racket-i386-macosx-3" #:platform "i386-macosx") ("racket-ppc-macosx-3" #:platform "ppc-macosx") ("db-ppc-macosx" #:platform "ppc-macosx") ("db-win32-i386" #:platform "win32\\i386") ("db-win32-x86_64" #:platform "win32\\x86_64") ("db-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("com-win32-i386" #:platform "win32\\i386") ("com-win32-x86_64" #:platform "win32\\x86_64")))
 (description . "Combines platform-specific native libraries that are useful for base Racket")
 (name . "racket-lib")
@@ -1649,7 +1649,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("compiler-lib" "sandbox-lib" "compatibility-lib" "eli-tester" "planet-lib" "net-lib" "net-test" "serialize-cstruct-lib" "cext-lib" "pconvert-lib" "racket-test-core" "web-server-lib" "rackunit-lib" "at-exp-lib" "option-contract-lib" "srfi-lib" "scribble-lib" "racket-index" "scheme-lib" "base" "data-lib"))
 (description . "Base Racket test suites")
 (name . "racket-test")
@@ -1658,7 +1658,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
@@ -1667,7 +1667,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base" "redex-lib" "scheme-lib" "rackunit-lib" "serialize-cstruct-lib"))
 (description . "Additional Racket test suites")
 (name . "racket-test-extra")
@@ -1712,65 +1712,65 @@
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "2f0894144f2e0962db558e1ff519c461bae29740")
+(checksum . "6db63a419c28a30066b7fcfbf53fc6435e07cc0a")
 (dependencies . ("base" "datalog" "eli-tester" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Racklog (embedded Prolog) language")
 (name . "racklog")
-(source . "git://github.com/racket/racklog")))
+(source . "git://github.com/racket/racklog#release")))
 ("rackunit" . 
 #hash(
 (author . "ryanc@racket-lang.org noel@racket-lang.org")
 (authors . ("ryanc@racket-lang.org" "noel@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("rackunit-lib" "rackunit-doc" "rackunit-gui" "rackunit-plugin-lib"))
 (description . "RackUnit testing framework")
 (name . "rackunit")
-(source . "git://github.com/racket/rackunit/?path=rackunit")))
+(source . "git://github.com/racket/rackunit/?path=rackunit#release")))
 ("rackunit-doc" . 
 #hash(
 (author . "noel@racket-lang.org ryanc@racket-lang.org")
 (authors . ("noel@racket-lang.org" "ryanc@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base" "racket-index" "racket-doc" "rackunit-gui" "rackunit-lib" "scribble-lib"))
 (description . "RackUnit documentation")
 (name . "rackunit-doc")
-(source . "git://github.com/racket/rackunit/?path=rackunit-doc")))
+(source . "git://github.com/racket/rackunit/?path=rackunit-doc#release")))
 ("rackunit-gui" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("rackunit-lib" "class-iop-lib" "data-lib" "gui-lib" "base"))
 (description . "RackUnit test runner GUI")
 (name . "rackunit-gui")
-(source . "git://github.com/racket/rackunit/?path=rackunit-gui")))
+(source . "git://github.com/racket/rackunit/?path=rackunit-gui#release")))
 ("rackunit-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org noel@racket-lang.org")
 (authors . ("ryanc@racket-lang.org" "noel@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base" "testing-util-lib"))
 (description . "RackUnit testing framework")
 (name . "rackunit-lib")
-(source . "git://github.com/racket/rackunit/?path=rackunit-lib")))
+(source . "git://github.com/racket/rackunit/?path=rackunit-lib#release")))
 ("rackunit-plugin-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org noel@racket-lang.org")
 (authors . ("ryanc@racket-lang.org" "noel@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base" "rackunit-lib" "rackunit-gui" "gui-lib" "drracket-plugin-lib"))
 (description . "RackUnit testing framework DrRacket plugin")
 (name . "rackunit-plugin-lib")
-(source . "git://github.com/racket/rackunit/?path=rackunit-plugin-lib")))
+(source . "git://github.com/racket/rackunit/?path=rackunit-plugin-lib#release")))
 ("rackunit-test" . 
 #hash(
 (author . "noel@racket-lang.org ryanc@racket-lang.org")
 (authors . ("noel@racket-lang.org" "ryanc@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base" "eli-tester" "rackunit-lib" "srfi-lite-lib"))
 (description . "RackUnit documentation")
 (name . "rackunit-test")
-(source . "git://github.com/racket/rackunit/?path=rackunit-test")))
+(source . "git://github.com/racket/rackunit/?path=rackunit-test#release")))
 ("rackunit-typed" . 
 #hash(
 (author . "jackhfirth@gmail.com samth@racket-lang.org")
@@ -1784,29 +1784,29 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a46e93d1690d14dc824222d8c9ddcb74e4937167")
+(checksum . "811cfde46459a76102f8c804ab5b5f17b3b71354")
 (dependencies . ("readline-lib" "readline-doc"))
 (description . "GNU Readline access from Racket")
 (name . "readline")
-(source . "git://github.com/racket/readline/?path=readline")))
+(source . "git://github.com/racket/readline/?path=readline#release")))
 ("readline-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a46e93d1690d14dc824222d8c9ddcb74e4937167")
+(checksum . "811cfde46459a76102f8c804ab5b5f17b3b71354")
 (dependencies . ("base" "scribble-lib" "readline-lib" "racket-doc"))
 (description . "documentation part of \"readline\"")
 (name . "readline-doc")
-(source . "git://github.com/racket/readline/?path=readline-doc")))
+(source . "git://github.com/racket/readline/?path=readline-doc#release")))
 ("readline-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a46e93d1690d14dc824222d8c9ddcb74e4937167")
+(checksum . "811cfde46459a76102f8c804ab5b5f17b3b71354")
 (dependencies . (("base" #:version "6.90")))
 (description . "implementation (no documentation) part of \"readline\"")
 (name . "readline-lib")
-(source . "git://github.com/racket/readline/?path=readline-lib")))
+(source . "git://github.com/racket/readline/?path=readline-lib#release")))
 ("realm" . 
 #hash(
 (author . "matthias@racket-lang.org")
@@ -1820,74 +1820,74 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("redex-doc" "redex-examples" "redex-lib" "redex-gui-lib"))
 (description . "PLT Redex libraries for practical semantics engineering")
 (name . "redex")
-(source . "git://github.com/racket/redex/?path=redex")))
+(source . "git://github.com/racket/redex/?path=redex#release")))
 ("redex-benchmark" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("base" "compiler-lib" "rackunit-lib" "redex-lib" "redex-examples" "math-lib" "plot-lib"))
 (description . "PLT Redex Benchmark")
 (name . "redex-benchmark")
-(source . "git://github.com/racket/redex/?path=redex-benchmark")))
+(source . "git://github.com/racket/redex/?path=redex-benchmark#release")))
 ("redex-doc" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("base" "racket-doc" "draw-doc" "gui-doc" "htdp-doc" "pict-doc" "slideshow-doc" "at-exp-lib" "data-doc" "data-enumerate-lib" ("scribble-lib" #:version "1.16") "gui-lib" "htdp-lib" "pict-lib" "redex-gui-lib" "redex-benchmark" "rackunit-lib" "sandbox-lib"))
 (description . "documentation part of \"redex\"")
 (name . "redex-doc")
-(source . "git://github.com/racket/redex/?path=redex-doc")))
+(source . "git://github.com/racket/redex/?path=redex-doc#release")))
 ("redex-examples" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("base" "compiler-lib" "rackunit-lib" "redex-gui-lib" "slideshow-lib" "math-lib" "plot-lib"))
 (description . "PLT Redex examples")
 (name . "redex-examples")
-(source . "git://github.com/racket/redex/?path=redex-examples")))
+(source . "git://github.com/racket/redex/?path=redex-examples#release")))
 ("redex-gui-lib" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("scheme-lib" "base" "draw-lib" "gui-lib" "data-lib" "profile-lib" "redex-lib" "redex-pict-lib" "pict-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\" gui")
 (name . "redex-gui-lib")
-(source . "git://github.com/racket/redex/?path=redex-gui-lib")))
+(source . "git://github.com/racket/redex/?path=redex-gui-lib#release")))
 ("redex-lib" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . (("data-enumerate-lib" #:version "1.3") "scheme-lib" ("base" #:version "6.2.900.6") "data-lib" "math-lib" "tex-table" "profile-lib" "typed-racket-lib" "testing-util-lib" "2d-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\"")
 (name . "redex-lib")
-(source . "git://github.com/racket/redex/?path=redex-lib")))
+(source . "git://github.com/racket/redex/?path=redex-lib#release")))
 ("redex-pict-lib" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("scheme-lib" "base" "draw-lib" "data-lib" "profile-lib" "redex-lib" "pict-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\" using picts")
 (name . "redex-pict-lib")
-(source . "git://github.com/racket/redex/?path=redex-pict-lib")))
+(source . "git://github.com/racket/redex/?path=redex-pict-lib#release")))
 ("redex-test" . 
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c1e941b0c3d577ec3e10083bcd3229d96e2b1224")
+(checksum . "9ed2787d3bafb4ffb83ba789ac20483ec4129297")
 (dependencies . ("base" "rackunit-lib" "at-exp-lib" "compatibility-lib" "drracket" "gui-lib" "pict-lib" "redex-gui-lib" "redex-examples" "data-enumerate-lib" "data-lib" "racket-index" "scheme-lib" "slideshow-lib"))
 (description . "tests for \"redex\"")
 (name . "redex-test")
-(source . "git://github.com/racket/redex/?path=redex-test")))
+(source . "git://github.com/racket/redex/?path=redex-test#release")))
 ("remote-shell-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1901,11 +1901,11 @@
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "7e50b99a8ca4c5ff222d02ab3b522e417fbe5a2e")
+(checksum . "592ed7d8c2f33db3d991336a7432100451f14a29")
 (dependencies . ("scheme-lib" "base" "errortrace-lib"))
 (description . "Library for sandboxing Racket programs")
 (name . "sandbox-lib")
-(source . "git://github.com/racket/sandbox-lib")))
+(source . "git://github.com/racket/sandbox-lib#release")))
 ("sasl" . 
 #hash(
 (author . "ryanc@racket-lang.org")
@@ -1946,20 +1946,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "5574d486c988f04ac4d2b2d15fe5d989341423a4")
+(checksum . "a36e729680818712820ee5269f5208c3c0715a6a")
 (dependencies . ("base"))
 (description . "Legacy (Scheme) libraries")
 (name . "scheme-lib")
-(source . "git://github.com/racket/scheme-lib")))
+(source . "git://github.com/racket/scheme-lib#release")))
 ("schemeunit" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base" "rackunit-lib" "rackunit-gui"))
 (description . "Legacy SchemeUnit testing framework")
 (name . "schemeunit")
-(source . "git://github.com/racket/rackunit/?path=schemeunit")))
+(source . "git://github.com/racket/rackunit/?path=schemeunit#release")))
 ("scribble" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -2018,101 +2018,101 @@
 #hash(
 (author . "tobias.hammer@dlr.de")
 (authors . ("tobias.hammer@dlr.de"))
-(checksum . "de104803e7a465b730db028d8e7891a5c747463c")
+(checksum . "1c2815c82a1ba89d618e5a8f81ad729b4cd024ee")
 (dependencies . ("base"))
 (description . "serialization support for C structs")
 (name . "serialize-cstruct-lib")
-(source . "git://github.com/racket/serialize-cstruct-lib")))
+(source . "git://github.com/racket/serialize-cstruct-lib#release")))
 ("sgl" . 
 #hash(
 (author . "jay@racket-lang.org")
 (authors . ("jay@racket-lang.org"))
-(checksum . "5148608da16227153deca05d83e1a17f585396c7")
+(checksum . "7999abdf79058cc709da0e49dee4ec0569249085")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "gui-lib" "draw-doc" "gui-doc" "racket-doc" "scribble-lib"))
 (description . "Legacy OpenGL library")
 (name . "sgl")
-(source . "git://github.com/racket/sgl")))
+(source . "git://github.com/racket/sgl#release")))
 ("shell-completion" . 
 #hash(
 (author . "samth@racket-lang.org sstrickl@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "sstrickl@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "7cd0bc0cc7d32c80a1f78f3d5633b3a9ec3fcb30")
+(checksum . "ee2b748e39504ea61296e7d747880e39b6a7e832")
 (dependencies . ("base"))
 (description . "Completion scribpts for bash and zsh")
 (name . "shell-completion")
-(source . "git://github.com/racket/shell-completion")))
+(source . "git://github.com/racket/shell-completion#release")))
 ("slatex" . 
 #hash(
 (author . "sstrickl@racket-lang.org")
 (authors . ("sstrickl@racket-lang.org"))
-(checksum . "51fa1edfa0f798a78b3e3d307a8fdf1cd9a10e7d")
+(checksum . "eb812b59e3b460ceabaf027fad8091866232b149")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-index" "eli-tester" "racket-doc" "scribble-lib"))
 (description . "SLaTeX (Scheme in LaTeX)")
 (name . "slatex")
-(source . "git://github.com/racket/slatex")))
+(source . "git://github.com/racket/slatex#release")))
 ("slideshow" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "7fe44726a95f79ebf4b620a2552b5e46115f5fcc")
+(checksum . "e694b70c08485828969790aad4ceb935ca0bff9e")
 (dependencies . ("slideshow-lib" "slideshow-exe" "slideshow-plugin" "slideshow-doc"))
 (description . "Slide-presentation tool")
 (name . "slideshow")
-(source . "git://github.com/racket/slideshow/?path=slideshow")))
+(source . "git://github.com/racket/slideshow/?path=slideshow#release")))
 ("slideshow-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "7fe44726a95f79ebf4b620a2552b5e46115f5fcc")
+(checksum . "e694b70c08485828969790aad4ceb935ca0bff9e")
 (dependencies . ("scheme-lib" "draw-doc" "gui-doc" "pict-doc" "scribble-doc" "web-server-doc" "base" "gui-lib" "pict-lib" "scribble-lib" "slideshow-lib" "racket-doc" "at-exp-lib"))
 (description . "documentation part of \"slideshow\"")
 (name . "slideshow-doc")
-(source . "git://github.com/racket/slideshow/?path=slideshow-doc")))
+(source . "git://github.com/racket/slideshow/?path=slideshow-doc#release")))
 ("slideshow-exe" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "7fe44726a95f79ebf4b620a2552b5e46115f5fcc")
+(checksum . "e694b70c08485828969790aad4ceb935ca0bff9e")
 (dependencies . ("base" "compatibility-lib" "gui-lib" "pict-lib" "slideshow-lib"))
 (description . "executables for \"slideshow\"")
 (name . "slideshow-exe")
-(source . "git://github.com/racket/slideshow/?path=slideshow-exe")))
+(source . "git://github.com/racket/slideshow/?path=slideshow-exe#release")))
 ("slideshow-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "7fe44726a95f79ebf4b620a2552b5e46115f5fcc")
+(checksum . "e694b70c08485828969790aad4ceb935ca0bff9e")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "gui-lib"))
 (description . "implementation (no documentation) part of \"slideshow\"")
 (name . "slideshow-lib")
-(source . "git://github.com/racket/slideshow/?path=slideshow-lib")))
+(source . "git://github.com/racket/slideshow/?path=slideshow-lib#release")))
 ("slideshow-plugin" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "7fe44726a95f79ebf4b620a2552b5e46115f5fcc")
+(checksum . "e694b70c08485828969790aad4ceb935ca0bff9e")
 (dependencies . ("base" "slideshow-lib" "pict-lib" "string-constants-lib" "compatibility-lib" "drracket-plugin-lib" "gui-lib"))
 (description . "Slideshow's DrRacket plugin")
 (name . "slideshow-plugin")
-(source . "git://github.com/racket/slideshow/?path=slideshow-plugin")))
+(source . "git://github.com/racket/slideshow/?path=slideshow-plugin#release")))
 ("snip" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "55c3ad6b6be93d03460d1340866253d8ff6858dd")
+(checksum . "023c3ac3d17f60891984d1cce982c3d87cf8d41e")
 (dependencies . ("snip-lib" "gui-doc"))
 (description . "Text and graphics editor extension protocol")
 (name . "snip")
-(source . "git://github.com/racket/snip/?path=snip")))
+(source . "git://github.com/racket/snip/?path=snip#release")))
 ("snip-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "55c3ad6b6be93d03460d1340866253d8ff6858dd")
+(checksum . "023c3ac3d17f60891984d1cce982c3d87cf8d41e")
 (dependencies . ("base" "draw-lib"))
 (description . "implementation (no documentation) part of \"snip\"")
 (name . "snip-lib")
-(source . "git://github.com/racket/snip/?path=snip-lib")))
+(source . "git://github.com/racket/snip/?path=snip-lib#release")))
 ("source-syntax" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
@@ -2207,56 +2207,56 @@
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "949d706838f15e4f6d9c86b573c8bed9083f2d64")
+(checksum . "122e38efb9842394ef6462053991efb4bd0edf3b")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "net-lib" "string-constants-lib" "compatibility-doc" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Swindle language")
 (name . "swindle")
-(source . "git://github.com/racket/swindle")))
+(source . "git://github.com/racket/swindle#release")))
 ("syntax-color" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "bbfb87536e9a7c13ae4032499af6c573401e0e4b")
+(checksum . "19e755ec03a78eb94e5a1327610f6e7b6678cb79")
 (dependencies . ("syntax-color-lib" "syntax-color-doc"))
 (description . "Program syntax coloring for editors and typesetting")
 (name . "syntax-color")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color")))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color#release")))
 ("syntax-color-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "bbfb87536e9a7c13ae4032499af6c573401e0e4b")
+(checksum . "19e755ec03a78eb94e5a1327610f6e7b6678cb79")
 (dependencies . ("base" "gui-doc" "scribble-doc" "gui-lib" "scribble-lib" "racket-doc" "syntax-color-lib"))
 (description . "documentation part of \"syntax-color\"")
 (name . "syntax-color-doc")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color-doc")))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-doc#release")))
 ("syntax-color-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "bbfb87536e9a7c13ae4032499af6c573401e0e4b")
+(checksum . "19e755ec03a78eb94e5a1327610f6e7b6678cb79")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "parser-tools-lib" "option-contract-lib"))
 (description . "implementation (no documentation) part of \"syntax-color\"")
 (name . "syntax-color-lib")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color-lib")))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-lib#release")))
 ("syntax-color-test" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "bbfb87536e9a7c13ae4032499af6c573401e0e4b")
+(checksum . "19e755ec03a78eb94e5a1327610f6e7b6678cb79")
 (dependencies . ("base" "rackunit-lib" "scheme-lib" "syntax-color-lib" "gui-lib"))
 (description . "tests for \"syntax-color-lib\"")
 (name . "syntax-color-test")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color-test")))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-test#release")))
 ("testing-util-lib" . 
 #hash(
 (author . "florence@racket-lang.org")
 (authors . ("florence@racket-lang.org"))
-(checksum . "36478654a555b5368f89902d50328c3cd35bedaf")
+(checksum . "a38caa0a24aea9fa2fefa3b968e810ed47e85180")
 (dependencies . ("base"))
 (description . "For tracking test results and displaying a summary message (used by RackUnit)")
 (name . "testing-util-lib")
-(source . "git://github.com/racket/rackunit/?path=testing-util-lib")))
+(source . "git://github.com/racket/rackunit/?path=testing-util-lib#release")))
 ("tex-table" . 
 #hash(
 (author . "robby@racket-lang.org")
@@ -2270,11 +2270,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "204c3306c27585d1c21c4903f80c6cb8fbae3cfe")
+(checksum . "79cd003036843121b09f7d89c4450df57103ee1c")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "scribble-lib" "racket-doc"))
 (description . "Instrumentation to show function calls")
 (name . "trace")
-(source . "git://github.com/racket/trace")))
+(source . "git://github.com/racket/trace#release")))
 ("typed-racket" . 
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
@@ -2468,7 +2468,7 @@
 #hash(
 (author . "mflatt@racket-lang.org jay@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "225573348c5b84359a5e70a8082b5487be6a52f6")
+(checksum . "f963219ba2e3d32ffab22eed5039f7f33df9046b")
 (dependencies . ("base"))
 (description . "Library for handling zo files")
 (name . "zo-lib")

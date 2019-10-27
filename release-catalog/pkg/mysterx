@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "e3d0099cc14ab2bdd29ce3711b5ce1f566088ea4")
+(checksum . "5a80a3fe569c9d2a859b810c1c3ba56eeb181307")
 (dependencies . ("scheme-lib" "base" "racket-doc" "at-exp-lib" "scribble-lib"))
 (description . "Legacy library for working with COM on Windows")
 (name . "mysterx")
-(source . "git://github.com/racket/mysterx"))
+(source . "git://github.com/racket/mysterx#release"))

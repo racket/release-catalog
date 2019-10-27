@@ -2,8 +2,8 @@
 #hash(
 (author . "samth@racket-lang.org sstrickl@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "sstrickl@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "7cd0bc0cc7d32c80a1f78f3d5633b3a9ec3fcb30")
+(checksum . "ee2b748e39504ea61296e7d747880e39b6a7e832")
 (dependencies . ("base"))
 (description . "Completion scribpts for bash and zsh")
 (name . "shell-completion")
-(source . "git://github.com/racket/shell-completion"))
+(source . "git://github.com/racket/shell-completion#release"))
