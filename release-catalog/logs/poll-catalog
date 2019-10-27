@@ -322,3 +322,53 @@
        .
        ("6c6bd3ca743120794a35391a9c624029ea41c125"
         "1d7023a1b9004be968f60fc66dccd5646b6cb984")))
+;; ============================================================
+;; Appended 1572152893 : Sunday, October 27th, 2019 1:08:13am
+#hash(("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("1d7023a1b9004be968f60fc66dccd5646b6cb984"
+        "8d2e5c06240781dcc6a3eaf42730c9d0122fb791"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("1d7023a1b9004be968f60fc66dccd5646b6cb984"
+        "8d2e5c06240781dcc6a3eaf42730c9d0122fb791"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("1d7023a1b9004be968f60fc66dccd5646b6cb984"
+        "8d2e5c06240781dcc6a3eaf42730c9d0122fb791"))
+      ("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("1d7023a1b9004be968f60fc66dccd5646b6cb984"
+        "8d2e5c06240781dcc6a3eaf42730c9d0122fb791"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("1d7023a1b9004be968f60fc66dccd5646b6cb984"
+        "8d2e5c06240781dcc6a3eaf42730c9d0122fb791"))
+      ("git://github.com/racket/unix-socket/?path=unix-socket#release"
+       .
+       ("888d8b5da5495b0008113b714bdcccc86d95a88e"
+        "705656937e1af92afe9caeb16263b23f0f57d0f2"))
+      ("git://github.com/racket/unix-socket/?path=unix-socket-doc#release"
+       .
+       ("888d8b5da5495b0008113b714bdcccc86d95a88e"
+        "705656937e1af92afe9caeb16263b23f0f57d0f2"))
+      ("git://github.com/racket/unix-socket/?path=unix-socket-lib#release"
+       .
+       ("888d8b5da5495b0008113b714bdcccc86d95a88e"
+        "705656937e1af92afe9caeb16263b23f0f57d0f2"))
+      ("git://github.com/racket/unix-socket/?path=unix-socket-test#release"
+       .
+       ("888d8b5da5495b0008113b714bdcccc86d95a88e"
+        "705656937e1af92afe9caeb16263b23f0f57d0f2"))
+      ("git://github.com/racket/wxme/?path=wxme#release"
+       .
+       ("0b7896e8d6d574d4cedf5aa4efa4dc3f0bbc70ec"
+        "2263ad6382cc9da87af33e4d03bdf08d51d55114"))
+      ("git://github.com/racket/wxme/?path=wxme-lib#release"
+       .
+       ("0b7896e8d6d574d4cedf5aa4efa4dc3f0bbc70ec"
+        "2263ad6382cc9da87af33e4d03bdf08d51d55114"))
+      ("git://github.com/racket/wxme/?path=wxme-test#release"
+       .
+       ("0b7896e8d6d574d4cedf5aa4efa4dc3f0bbc70ec"
+        "2263ad6382cc9da87af33e4d03bdf08d51d55114")))

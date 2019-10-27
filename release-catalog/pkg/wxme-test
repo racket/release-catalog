@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "0b7896e8d6d574d4cedf5aa4efa4dc3f0bbc70ec")
+(checksum . "2263ad6382cc9da87af33e4d03bdf08d51d55114")
 (dependencies . ("rackunit" "wxme-lib" "base" ("gui-lib" #:version "1.41") "snip-lib"))
 (description . "tests for \"wxme\"")
 (name . "wxme-test")
-(source . "git://github.com/racket/wxme?path=wxme-test"))
+(source . "git://github.com/racket/wxme/?path=wxme-test#release"))
