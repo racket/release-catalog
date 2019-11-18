@@ -6,4 +6,4 @@
 (dependencies . ("base" "parser-tools-lib" "syntax-color-lib" "racket-doc" "scribble-lib" "rackunit-lib"))
 (description . "An implementation of the Datalog language")
 (name . "datalog")
-(source . "git://github.com/racket/datalog#release"))
+(source . "git://github.com/racket/datalog#v7.5"))

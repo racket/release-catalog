@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "serialization support for C structs")
 (name . "serialize-cstruct-lib")
-(source . "git://github.com/racket/serialize-cstruct-lib#release"))
+(source . "git://github.com/racket/serialize-cstruct-lib#v7.5"))

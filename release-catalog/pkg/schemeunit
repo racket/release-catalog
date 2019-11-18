@@ -6,4 +6,4 @@
 (dependencies . ("base" "rackunit-lib" "rackunit-gui"))
 (description . "Legacy SchemeUnit testing framework")
 (name . "schemeunit")
-(source . "git://github.com/racket/rackunit/?path=schemeunit#release"))
+(source . "git://github.com/racket/rackunit/?path=schemeunit#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "images-lib" "pict-lib" "slideshow-lib" "racket-doc"))
 (description . "Tests for images-pkg")
 (name . "images-test")
-(source . "git://github.com/racket/images/?path=images-test#release"))
+(source . "git://github.com/racket/images/?path=images-test#v7.5"))

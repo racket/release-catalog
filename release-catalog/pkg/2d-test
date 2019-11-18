@@ -6,4 +6,4 @@
 (dependencies . ("base" "2d-lib" "racket-index" "rackunit-lib" "option-contract-lib" "at-exp-lib" "gui-lib" "syntax-color-lib"))
 (description . "Tests for \"2d\"")
 (name . "2d-test")
-(source . "git://github.com/racket/2d/?path=2d-test#release"))
+(source . "git://github.com/racket/2d/?path=2d-test#v7.5"))

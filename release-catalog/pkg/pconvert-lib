@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib"))
 (description . "Legacy library for printing Racket values")
 (name . "pconvert-lib")
-(source . "git://github.com/racket/pconvert/?path=pconvert-lib#release"))
+(source . "git://github.com/racket/pconvert/?path=pconvert-lib#v7.5"))

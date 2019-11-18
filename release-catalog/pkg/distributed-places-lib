@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"distributed-places\"")
 (name . "distributed-places-lib")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places-lib#release"))
+(source . "git://github.com/racket/distributed-places/?path=distributed-places-lib#v7.5"))

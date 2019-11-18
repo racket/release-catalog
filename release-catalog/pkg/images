@@ -6,4 +6,4 @@
 (dependencies . ("images-lib" "images-gui-lib" "images-doc"))
 (description . "Functions (and docs and tests) for constructing icons and logos")
 (name . "images")
-(source . "git://github.com/racket/images/?path=images#release"))
+(source . "git://github.com/racket/images/?path=images#v7.5"))

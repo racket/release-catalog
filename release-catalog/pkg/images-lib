@@ -6,4 +6,4 @@
 (dependencies . ("base" "draw-lib" "typed-racket-lib" "scribble-lib"))
 (description . "Functions for constructing icons and logos")
 (name . "images-lib")
-(source . "git://github.com/racket/images/?path=images-lib#release"))
+(source . "git://github.com/racket/images/?path=images-lib#v7.5"))

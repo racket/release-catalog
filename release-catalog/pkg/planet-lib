@@ -6,4 +6,4 @@
 (dependencies . ("srfi-lite-lib" ("base" #:version "6.2.900.6")))
 (description . "implementation (no documentation) part of \"planet\"")
 (name . "planet-lib")
-(source . "git://github.com/racket/planet/?path=planet-lib#release"))
+(source . "git://github.com/racket/planet/?path=planet-lib#v7.5"))

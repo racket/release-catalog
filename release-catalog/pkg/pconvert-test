@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib"))
 (description . "Tests for \"pconvert-lib\"")
 (name . "pconvert-test")
-(source . "git://github.com/racket/pconvert/?path=pconvert-test#release"))
+(source . "git://github.com/racket/pconvert/?path=pconvert-test#v7.5"))

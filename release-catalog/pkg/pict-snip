@@ -6,4 +6,4 @@
 (dependencies . ("pict-snip-lib" "pict-snip-doc"))
 (description . "Build snips out of picts")
 (name . "pict-snip")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip#release"))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip#v7.5"))

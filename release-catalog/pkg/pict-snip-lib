@@ -6,4 +6,4 @@
 (dependencies . ("draw-lib" "snip-lib" "pict-lib" "wxme-lib" "base" "rackunit-lib" "gui-lib"))
 (description . "implementation (no documentation) part of \"pict-snip\"")
 (name . "pict-snip-lib")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip-lib#release"))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-lib#v7.5"))

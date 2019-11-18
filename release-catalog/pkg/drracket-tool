@@ -6,4 +6,4 @@
 (dependencies . ("drracket-tool-lib" "drracket-tool-doc"))
 (description . "Programmatic interface to some IDE tools that DrRacket supports")
 (name . "drracket-tool")
-(source . "git://github.com/racket/drracket/?path=drracket-tool#release"))
+(source . "git://github.com/racket/drracket/?path=drracket-tool#v7.5"))

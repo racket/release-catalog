@@ -6,4 +6,4 @@
 (dependencies . ("racket-index" "base" "html-lib" "rackunit-lib"))
 (description . "tests for \"html\"")
 (name . "html-test")
-(source . "git://github.com/racket/html/?path=html-test#release"))
+(source . "git://github.com/racket/html/?path=html-test#v7.5"))

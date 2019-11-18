@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.6.0.3") "source-syntax"))
 (description . "implementation (no documentation) part of \"errortrace\"")
 (name . "errortrace-lib")
-(source . "git://github.com/racket/errortrace/?path=errortrace-lib#release"))
+(source . "git://github.com/racket/errortrace/?path=errortrace-lib#v7.5"))

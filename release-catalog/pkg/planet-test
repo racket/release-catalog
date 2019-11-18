@@ -6,4 +6,4 @@
 (dependencies . ("base" "racket-index" "eli-tester" "planet-lib" "rackunit-lib" "scheme-lib"))
 (description . "tests for \"planet-lib\"")
 (name . "planet-test")
-(source . "git://github.com/racket/planet/?path=planet-test#release"))
+(source . "git://github.com/racket/planet/?path=planet-test#v7.5"))

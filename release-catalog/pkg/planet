@@ -6,4 +6,4 @@
 (dependencies . ("planet-lib" "planet-doc"))
 (description . "Legacy support for automatic package distribution")
 (name . "planet")
-(source . "git://github.com/racket/planet/?path=planet#release"))
+(source . "git://github.com/racket/planet/?path=planet#v7.5"))

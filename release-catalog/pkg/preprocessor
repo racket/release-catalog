@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-doc" "scribble-lib"))
 (description . "Preprocessors for text with embedded Racket code (mostly replaced by scribble/text)")
 (name . "preprocessor")
-(source . "git://github.com/racket/preprocessor#release"))
+(source . "git://github.com/racket/preprocessor#v7.5"))

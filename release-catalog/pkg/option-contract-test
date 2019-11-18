@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.2.900.17") "rackunit-lib" "option-contract-lib"))
 (description . "Tests for \"option-contract\"")
 (name . "option-contract-test")
-(source . "git://github.com/racket/option-contract/?path=option-contract-test#release"))
+(source . "git://github.com/racket/option-contract/?path=option-contract-test#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "drracket-plugin-lib" "htdp-lib" "string-constants-lib" "compatibility-lib" "mzscheme-doc" "scheme-lib" "eli-tester" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Lazy Racket language")
 (name . "lazy")
-(source . "git://github.com/racket/lazy#release"))
+(source . "git://github.com/racket/lazy#v7.5"))

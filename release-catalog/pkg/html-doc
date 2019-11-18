@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "html-lib" "racket-doc"))
 (description . "documentation part of \"html\"")
 (name . "html-doc")
-(source . "git://github.com/racket/html/?path=html-doc#release"))
+(source . "git://github.com/racket/html/?path=html-doc#v7.5"))

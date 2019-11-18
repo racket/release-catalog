@@ -6,4 +6,4 @@
 (dependencies . ("base" "draw-lib" "gui-lib" "string-constants-lib"))
 (description . "Functions for constructing icons and logos")
 (name . "images-gui-lib")
-(source . "git://github.com/racket/images/?path=images-gui-lib#release"))
+(source . "git://github.com/racket/images/?path=images-gui-lib#v7.5"))

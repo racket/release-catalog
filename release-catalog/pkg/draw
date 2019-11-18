@@ -6,4 +6,4 @@
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")
-(source . "git://github.com/racket/draw/?path=draw#release"))
+(source . "git://github.com/racket/draw/?path=draw#v7.5"))

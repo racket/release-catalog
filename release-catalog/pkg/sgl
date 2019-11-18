@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "gui-lib" "draw-doc" "gui-doc" "racket-doc" "scribble-lib"))
 (description . "Legacy OpenGL library")
 (name . "sgl")
-(source . "git://github.com/racket/sgl#release"))
+(source . "git://github.com/racket/sgl#v7.5"))

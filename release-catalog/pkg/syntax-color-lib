@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "parser-tools-lib" "option-contract-lib"))
 (description . "implementation (no documentation) part of \"syntax-color\"")
 (name . "syntax-color-lib")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color-lib#release"))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-lib#v7.5"))

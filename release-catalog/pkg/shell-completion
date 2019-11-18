@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Completion scribpts for bash and zsh")
 (name . "shell-completion")
-(source . "git://github.com/racket/shell-completion#release"))
+(source . "git://github.com/racket/shell-completion#v7.5"))

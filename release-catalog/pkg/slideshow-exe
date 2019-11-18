@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib" "gui-lib" "pict-lib" "slideshow-lib"))
 (description . "executables for \"slideshow\"")
 (name . "slideshow-exe")
-(source . "git://github.com/racket/slideshow/?path=slideshow-exe#release"))
+(source . "git://github.com/racket/slideshow/?path=slideshow-exe#v7.5"))

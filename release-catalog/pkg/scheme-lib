@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Legacy (Scheme) libraries")
 (name . "scheme-lib")
-(source . "git://github.com/racket/scheme-lib#release"))
+(source . "git://github.com/racket/scheme-lib#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.2.900.17")))
 (description . "Implementation (no documentation) for \"option-contract\"")
 (name . "option-contract-lib")
-(source . "git://github.com/racket/option-contract/?path=option-contract-lib#release"))
+(source . "git://github.com/racket/option-contract/?path=option-contract-lib#v7.5"))

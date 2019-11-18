@@ -6,4 +6,4 @@
 (dependencies . ("base" "datalog" "eli-tester" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Racklog (embedded Prolog) language")
 (name . "racklog")
-(source . "git://github.com/racket/racklog#release"))
+(source . "git://github.com/racket/racklog#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" ("unix-socket-lib" #:version "1.2") "scribble-lib" "racket-doc"))
 (description . "Documentation for \"unix-socket\"")
 (name . "unix-socket-doc")
-(source . "git://github.com/racket/unix-socket/?path=unix-socket-doc#release"))
+(source . "git://github.com/racket/unix-socket/?path=unix-socket-doc#v7.5"))

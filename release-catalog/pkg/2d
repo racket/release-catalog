@@ -6,4 +6,4 @@
 (dependencies . ("2d-lib" "2d-doc"))
 (description . "2d syntax")
 (name . "2d")
-(source . "git://github.com/racket/2d/?path=2d#release"))
+(source . "git://github.com/racket/2d/?path=2d#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib" "rackunit-lib" "racket-doc" "scribble-lib"))
 (description . "Teaching language for _Essentials of Programming Languages_")
 (name . "eopl")
-(source . "git://github.com/racket/eopl#release"))
+(source . "git://github.com/racket/eopl#v7.5"))

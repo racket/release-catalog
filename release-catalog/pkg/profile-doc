@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "profile-lib" "errortrace-doc" "errortrace-lib" "racket-doc"))
 (description . "documentation part of \"profile\"")
 (name . "profile-doc")
-(source . "git://github.com/racket/profile/?path=profile-doc#release"))
+(source . "git://github.com/racket/profile/?path=profile-doc#v7.5"))

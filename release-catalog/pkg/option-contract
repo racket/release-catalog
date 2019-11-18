@@ -6,4 +6,4 @@
 (dependencies . ("option-contract-lib" "option-contract-doc"))
 (description . "Experimental libraries for option contracts")
 (name . "option-contract")
-(source . "git://github.com/racket/option-contract/?path=option-contract#release"))
+(source . "git://github.com/racket/option-contract/?path=option-contract#v7.5"))

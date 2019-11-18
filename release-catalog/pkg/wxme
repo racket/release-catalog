@@ -6,4 +6,4 @@
 (dependencies . ("wxme-lib" "gui-doc"))
 (description . "Decoding the WXME graphical file format in a text-only environment")
 (name . "wxme")
-(source . "git://github.com/racket/wxme/?path=wxme#release"))
+(source . "git://github.com/racket/wxme/?path=wxme#v7.5"))

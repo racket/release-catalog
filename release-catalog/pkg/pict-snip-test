@@ -6,4 +6,4 @@
 (dependencies . ("base" "pict-snip-lib" "draw-lib" "pict-lib" "rackunit-lib"))
 (description . "tests for \"pict-snip-lib\"")
 (name . "pict-snip-test")
-(source . "git://github.com/racket/pict-snip/?path=pict-snip-test#release"))
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-test#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "scribble-lib" "racket-doc"))
 (description . "Instrumentation to show function calls")
 (name . "trace")
-(source . "git://github.com/racket/trace#release"))
+(source . "git://github.com/racket/trace#v7.5"))

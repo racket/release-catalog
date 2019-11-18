@@ -6,4 +6,4 @@
 (dependencies . ("base" "draw-lib"))
 (description . "implementation (no documentation) part of \"snip\"")
 (name . "snip-lib")
-(source . "git://github.com/racket/snip/?path=snip-lib#release"))
+(source . "git://github.com/racket/snip/?path=snip-lib#v7.5"))

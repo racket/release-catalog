@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Library for running a C compiler/linker")
 (name . "dynext-lib")
-(source . "git://github.com/racket/cext-lib/?path=dynext-lib#release"))
+(source . "git://github.com/racket/cext-lib/?path=dynext-lib#v7.5"))

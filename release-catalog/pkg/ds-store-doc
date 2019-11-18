@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "racket-doc" "ds-store-lib"))
 (description . "documentation part of \"ds-store\"")
 (name . "ds-store-doc")
-(source . "git://github.com/racket/ds-store/?path=ds-store-doc#release"))
+(source . "git://github.com/racket/ds-store/?path=ds-store-doc#v7.5"))

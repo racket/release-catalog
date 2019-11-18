@@ -6,4 +6,4 @@
 (dependencies . ("html-lib" "html-doc"))
 (description . "HTML parsing and generation")
 (name . "html")
-(source . "git://github.com/racket/html/?path=html#release"))
+(source . "git://github.com/racket/html/?path=html#v7.5"))

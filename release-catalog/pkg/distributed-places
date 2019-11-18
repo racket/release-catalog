@@ -6,4 +6,4 @@
 (dependencies . ("distributed-places-lib" "distributed-places-doc"))
 (description . "Libraries for distributed computations")
 (name . "distributed-places")
-(source . "git://github.com/racket/distributed-places/?path=distributed-places#release"))
+(source . "git://github.com/racket/distributed-places/?path=distributed-places#v7.5"))

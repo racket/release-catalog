@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"html\"")
 (name . "html-lib")
-(source . "git://github.com/racket/html/?path=html-lib#release"))
+(source . "git://github.com/racket/html/?path=html-lib#v7.5"))

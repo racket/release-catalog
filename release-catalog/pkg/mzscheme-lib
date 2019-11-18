@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2")))
 (description . "implementation (no documentation) part of \"mzscheme\"")
 (name . "mzscheme-lib")
-(source . "git://github.com/racket/mzscheme/?path=mzscheme-lib#release"))
+(source . "git://github.com/racket/mzscheme/?path=mzscheme-lib#v7.5"))

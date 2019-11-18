@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "net-lib" "string-constants-lib" "compatibility-doc" "racket-doc" "scribble-lib"))
 (description . "The implementation of the Swindle language")
 (name . "swindle")
-(source . "git://github.com/racket/swindle#release"))
+(source . "git://github.com/racket/swindle#v7.5"))

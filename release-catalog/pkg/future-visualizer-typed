@@ -6,4 +6,4 @@
 (dependencies . ("base" "future-visualizer" "typed-racket-lib"))
 (description . "type declarations for \"future-visualizer\"")
 (name . "future-visualizer-typed")
-(source . "git://github.com/racket/future-visualizer/?path=future-visualizer-typed#release"))
+(source . "git://github.com/racket/future-visualizer/?path=future-visualizer-typed#v7.5"))

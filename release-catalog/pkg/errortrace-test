@@ -6,4 +6,4 @@
 (dependencies . ("errortrace-lib" "eli-tester" "rackunit-lib" "base" "compiler-lib" "at-exp-lib"))
 (description . "tests for \"errortrace\"")
 (name . "errortrace-test")
-(source . "git://github.com/racket/errortrace/?path=errortrace-test#release"))
+(source . "git://github.com/racket/errortrace/?path=errortrace-test#v7.5"))

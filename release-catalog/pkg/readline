@@ -6,4 +6,4 @@
 (dependencies . ("readline-lib" "readline-doc"))
 (description . "GNU Readline access from Racket")
 (name . "readline")
-(source . "git://github.com/racket/readline/?path=readline#release"))
+(source . "git://github.com/racket/readline/?path=readline#v7.5"))

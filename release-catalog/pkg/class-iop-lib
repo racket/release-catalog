@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.2.900.6")))
 (description . "Implementation (no documentation) for \"class-iop\"")
 (name . "class-iop-lib")
-(source . "git://github.com/racket/class-iop/?path=class-iop-lib#release"))
+(source . "git://github.com/racket/class-iop/?path=class-iop-lib#v7.5"))

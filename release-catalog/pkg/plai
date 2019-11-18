@@ -6,4 +6,4 @@
 (dependencies . ("plai-doc" "plai-lib" "base"))
 (description . "Teaching languages for _Programming Languages: Application and Interpretation_")
 (name . "plai")
-(source . "git://github.com/racket/plai/?path=plai#release"))
+(source . "git://github.com/racket/plai/?path=plai#v7.5"))

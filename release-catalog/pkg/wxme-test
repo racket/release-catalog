@@ -6,4 +6,4 @@
 (dependencies . ("rackunit" "wxme-lib" "base" ("gui-lib" #:version "1.41") "snip-lib"))
 (description . "tests for \"wxme\"")
 (name . "wxme-test")
-(source . "git://github.com/racket/wxme/?path=wxme-test#release"))
+(source . "git://github.com/racket/wxme/?path=wxme-test#v7.5"))

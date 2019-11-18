@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-index" "eli-tester" "racket-doc" "scribble-lib"))
 (description . "SLaTeX (Scheme in LaTeX)")
 (name . "slatex")
-(source . "git://github.com/racket/slatex#release"))
+(source . "git://github.com/racket/slatex#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . ("unix-socket-lib" "unix-socket-doc"))
 (description . "Unix Domain Sockets")
 (name . "unix-socket")
-(source . "git://github.com/racket/unix-socket/?path=unix-socket#release"))
+(source . "git://github.com/racket/unix-socket/?path=unix-socket#v7.5"))

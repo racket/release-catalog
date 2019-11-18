@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "implementation (no documentation) part of \"ds-store\"")
 (name . "ds-store-lib")
-(source . "git://github.com/racket/ds-store/?path=ds-store-lib#release"))
+(source . "git://github.com/racket/ds-store/?path=ds-store-lib#v7.5"))

@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.90")))
 (description . "implementation (no documentation) part of \"readline\"")
 (name . "readline-lib")
-(source . "git://github.com/racket/readline/?path=readline-lib#release"))
+(source . "git://github.com/racket/readline/?path=readline-lib#v7.5"))

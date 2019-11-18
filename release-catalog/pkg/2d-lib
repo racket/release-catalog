@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.90.0.19") "scribble-lib" "syntax-color-lib"))
 (description . "Implementation (no documentation) for \"2d\"")
 (name . "2d-lib")
-(source . "git://github.com/racket/2d/?path=2d-lib#release"))
+(source . "git://github.com/racket/2d/?path=2d-lib#v7.5"))
