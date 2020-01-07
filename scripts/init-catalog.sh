@@ -15,8 +15,8 @@ cd ..
 git pull
 
 # Delete old catalog, if it exists
-git rm -rf release-catalog
-git commit -o . -m "delete old catalog"
+# git rm -rf release-catalog
+# git commit -o . -m "delete old catalog"
 
 # Get the current catalog, remove irrelevant pkgs, get latest checksums
 raco pkg catalog-copy https://pkgs.racket-lang.org release-catalog

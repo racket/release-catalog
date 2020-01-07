@@ -1,0 +1,8 @@
+
+#hash(
+(author . "mflatt@racket-lang.org robby@racket-lang.org florence@racket-lang.org")
+(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org" "florence@racket-lang.org"))
+(checksum . "2839dffc9c8c47722a78bff34c0912fc59dc087b")
+(dependencies . ("errortrace-lib" "errortrace-doc"))
+(name . "errortrace")
+(source . "git://github.com/racket/errortrace/?path=errortrace"))

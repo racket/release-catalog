@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "305cfc752e4af66bc5082d324cf87b4847d4f1cb")
+(dependencies . ("base"))
+(description . "native libraries for \"base\" package")
+(name . "db-win32-i386")
+(source . "https://pkg-sources.racket-lang.org/pkgs/305cfc752e4af66bc5082d324cf87b4847d4f1cb/db-win32-i386.zip"))

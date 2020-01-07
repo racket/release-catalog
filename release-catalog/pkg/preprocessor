@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org")
+(authors . ("eli@racket-lang.org"))
+(checksum . "2739013da77cb4438aa194cf730fa498f272dc66")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "racket-doc" "scribble-lib"))
+(description . "Preprocessors for text with embedded Racket code (mostly replaced by scribble/text)")
+(name . "preprocessor")
+(source . "git://github.com/racket/preprocessor"))
