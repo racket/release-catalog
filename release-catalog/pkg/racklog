@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org")
-(authors . ("jay@racket-lang.org"))
-(checksum . "6db63a419c28a30066b7fcfbf53fc6435e07cc0a")
-(dependencies . ("base" "datalog" "eli-tester" "rackunit-lib" "racket-doc" "scribble-lib"))
-(description . "The implementation of the Racklog (embedded Prolog) language")
-(name . "racklog")
-(source . "git://github.com/racket/racklog#v7.5"))

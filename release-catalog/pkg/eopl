@@ -1,9 +1,0 @@
-
-#hash(
-(author . "dvanhorn@racket-lang.org")
-(authors . ("dvanhorn@racket-lang.org"))
-(checksum . "43575d6e95dc34ca6e49b305180f696565e16e0f")
-(dependencies . ("base" "compatibility-lib" "rackunit-lib" "racket-doc" "scribble-lib"))
-(description . "Teaching language for _Essentials of Programming Languages_")
-(name . "eopl")
-(source . "git://github.com/racket/eopl#v7.5"))

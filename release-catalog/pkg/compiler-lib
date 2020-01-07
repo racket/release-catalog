@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "b9d917a6740e8b73f64f8a11d1b247e9a0a03de7")
-(dependencies . (("base" #:version "6.5.0.2") "scheme-lib" "rackunit-lib" "zo-lib"))
-(description . "implementation (no documentation) part of \"compiler\"")
-(name . "compiler-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/compiler-lib#v7.5"))

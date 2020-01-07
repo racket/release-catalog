@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "54d8ebd8c58a0974334e96e257db3b038cb20135")
-(dependencies . ("base" "gui-lib" ("string-constants-lib" #:version "1.29")))
-(description . "implementation (no documentation) part of \"gui-pkg-manager\"")
-(name . "gui-pkg-manager-lib")
-(source . "git://github.com/racket/gui-pkg-manager/?path=gui-pkg-manager-lib#v7.5"))

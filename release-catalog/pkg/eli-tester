@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org")
-(authors . ("eli@racket-lang.org"))
-(checksum . "2d7d78118b9fc36c37096be8908e63ac9572fe10")
-(dependencies . ("base" "rackunit-lib"))
-(description . "Testing framework")
-(name . "eli-tester")
-(source . "git://github.com/racket/eli-tester#v7.5"))

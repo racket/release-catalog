@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org")
-(authors . ("jay@racket-lang.org"))
-(checksum . "a1d0809615c6fd71b13c254f0f8dd657ca1f256b")
-(dependencies . ("base" "parser-tools-lib" "syntax-color-lib" "racket-doc" "scribble-lib" "rackunit-lib"))
-(description . "An implementation of the Datalog language")
-(name . "datalog")
-(source . "git://github.com/racket/datalog#v7.5"))

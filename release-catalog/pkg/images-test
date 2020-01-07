@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "78814291b0832bbcb4219241d1c7750e870b8860")
-(dependencies . ("base" "images-lib" "pict-lib" "slideshow-lib" "racket-doc"))
-(description . "Tests for images-pkg")
-(name . "images-test")
-(source . "git://github.com/racket/images/?path=images-test#v7.5"))
