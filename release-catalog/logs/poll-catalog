@@ -308,3 +308,21 @@
        .
        ("cf7aaff94a89304adbfda71b1055e3a6ccb263af"
         "feb9d776488800a9773e56ef8fef7f153b6156ab")))
+;; ============================================================
+;; Appended 1579199149 : Thursday, January 16th, 2020 1:25:49pm
+#hash(("git://github.com/racket/web-server/?path=web-server#release"
+       .
+       ("a5bd21a385f86a425a22092e5297b5382b6ba7a4"
+        "a8fff992bd38a79e66c71b39e2af54b3e0498e5a"))
+      ("git://github.com/racket/web-server/?path=web-server-doc#release"
+       .
+       ("a5bd21a385f86a425a22092e5297b5382b6ba7a4"
+        "a8fff992bd38a79e66c71b39e2af54b3e0498e5a"))
+      ("git://github.com/racket/web-server/?path=web-server-lib#release"
+       .
+       ("a5bd21a385f86a425a22092e5297b5382b6ba7a4"
+        "a8fff992bd38a79e66c71b39e2af54b3e0498e5a"))
+      ("git://github.com/racket/web-server/?path=web-server-test#release"
+       .
+       ("a5bd21a385f86a425a22092e5297b5382b6ba7a4"
+        "a8fff992bd38a79e66c71b39e2af54b3e0498e5a")))
