@@ -346,47 +346,47 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf7aaff94a89304adbfda71b1055e3a6ccb263af")
+(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
 (dependencies . ("distro-build-lib" "distro-build-doc"))
 (description . "Tools for constructing a distribution of Racket")
 (name . "distro-build")
-(source . "git://github.com/racket/distro-build/?path=distro-build")))
+(source . "git://github.com/racket/distro-build/?path=distro-build#release")))
 ("distro-build-client" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf7aaff94a89304adbfda71b1055e3a6ccb263af")
+(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
 (dependencies . (("base" #:version "6.2.900.9") "ds-store-lib" "at-exp-lib"))
 (description . "client-side part of \"distro-build\"")
 (name . "distro-build-client")
-(source . "git://github.com/racket/distro-build/?path=distro-build-client")))
+(source . "git://github.com/racket/distro-build/?path=distro-build-client#release")))
 ("distro-build-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf7aaff94a89304adbfda71b1055e3a6ccb263af")
+(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
 (dependencies . (("base" #:version "6.1.1.6") "distro-build-server" "distro-build-client" "web-server-lib" "at-exp-lib" "racket-doc" "scribble-lib"))
 (description . "documentation part of \"distro-build\"")
 (name . "distro-build-doc")
-(source . "git://github.com/racket/distro-build/?path=distro-build-doc")))
+(source . "git://github.com/racket/distro-build/?path=distro-build-doc#release")))
 ("distro-build-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf7aaff94a89304adbfda71b1055e3a6ccb263af")
+(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
 (dependencies . ("distro-build-client" "distro-build-server"))
 (description . "implementation (no documentation) part of \"distro-build\"")
 (name . "distro-build-lib")
-(source . "git://github.com/racket/distro-build/?path=distro-build-lib")))
+(source . "git://github.com/racket/distro-build/?path=distro-build-lib#release")))
 ("distro-build-server" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf7aaff94a89304adbfda71b1055e3a6ccb263af")
+(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
 (dependencies . (("base" #:version "6.1.1.6") "distro-build-client" "web-server-lib" "ds-store-lib" "net-lib" "scribble-html-lib" "plt-web-lib" "remote-shell-lib" "at-exp-lib" "rackunit-lib"))
 (description . "server-side part of \"distro-build\"")
 (name . "distro-build-server")
-(source . "git://github.com/racket/distro-build/?path=distro-build-server")))
+(source . "git://github.com/racket/distro-build/?path=distro-build-server#release")))
 ("draw" . 
 #hash(
 (author . "mflatt@racket-lang.org")
