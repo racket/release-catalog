@@ -392,3 +392,21 @@
        .
        ("a8fff992bd38a79e66c71b39e2af54b3e0498e5a"
         "5df6099c170e64a042aef74fe5b35217274b857a")))
+;; ============================================================
+;; Appended 1579734034 : Wednesday, January 22nd, 2020 6:00:34pm
+#hash(("git://github.com/racket/db/?path=db#release"
+       .
+       ("7b5e16e1f43a84e037fdbe4d0e1a6f754363830d"
+        "c09ac23343cb465b010e7778a53a0e4d48901f16"))
+      ("git://github.com/racket/db/?path=db-doc#release"
+       .
+       ("7b5e16e1f43a84e037fdbe4d0e1a6f754363830d"
+        "c09ac23343cb465b010e7778a53a0e4d48901f16"))
+      ("git://github.com/racket/db/?path=db-lib#release"
+       .
+       ("7b5e16e1f43a84e037fdbe4d0e1a6f754363830d"
+        "c09ac23343cb465b010e7778a53a0e4d48901f16"))
+      ("git://github.com/racket/db/?path=db-test#release"
+       .
+       ("7b5e16e1f43a84e037fdbe4d0e1a6f754363830d"
+        "c09ac23343cb465b010e7778a53a0e4d48901f16")))

@@ -229,29 +229,29 @@
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "7b5e16e1f43a84e037fdbe4d0e1a6f754363830d")
+(checksum . "c09ac23343cb465b010e7778a53a0e4d48901f16")
 (dependencies . ("db-lib" "db-doc" "base"))
 (description . "Database connectivity")
 (name . "db")
-(source . "git://github.com/racket/db/?path=db")))
+(source . "git://github.com/racket/db/?path=db#release")))
 ("db-doc" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "7b5e16e1f43a84e037fdbe4d0e1a6f754363830d")
+(checksum . "c09ac23343cb465b010e7778a53a0e4d48901f16")
 (dependencies . ("base" "data-doc" "srfi-lite-lib" "web-server-doc" "base" "scribble-lib" "sandbox-lib" "web-server-lib" "db-lib" "racket-doc"))
 (description . "documentation part of \"db\"")
 (name . "db-doc")
-(source . "git://github.com/racket/db/?path=db-doc")))
+(source . "git://github.com/racket/db/?path=db-doc#release")))
 ("db-lib" . 
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "7b5e16e1f43a84e037fdbe4d0e1a6f754363830d")
+(checksum . "c09ac23343cb465b010e7778a53a0e4d48901f16")
 (dependencies . ("srfi-lite-lib" ("base" #:version "7.0.0.5") "unix-socket-lib" "sasl-lib"))
 (description . "implementation (no documentation) part of \"db\"")
 (name . "db-lib")
-(source . "git://github.com/racket/db/?path=db-lib")))
+(source . "git://github.com/racket/db/?path=db-lib#release")))
 ("db-ppc-macosx" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -265,11 +265,11 @@
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "7b5e16e1f43a84e037fdbe4d0e1a6f754363830d")
+(checksum . "c09ac23343cb465b010e7778a53a0e4d48901f16")
 (dependencies . ("base" "db-lib" "rackunit-lib" "web-server-lib" "srfi-lite-lib"))
 (description . "tests for \"db\"")
 (name . "db-test")
-(source . "git://github.com/racket/db/?path=db-test")))
+(source . "git://github.com/racket/db/?path=db-test#release")))
 ("db-win32-i386" . 
 #hash(
 (author . "mflatt@racket-lang.org")
