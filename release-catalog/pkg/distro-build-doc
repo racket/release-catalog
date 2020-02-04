@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "feb9d776488800a9773e56ef8fef7f153b6156ab")
+(checksum . "e5bf24fd8a4e4746b39f0f38868809eb35699126")
 (dependencies . (("base" #:version "6.1.1.6") "distro-build-server" "distro-build-client" "web-server-lib" "at-exp-lib" "racket-doc" "scribble-lib"))
 (description . "documentation part of \"distro-build\"")
 (name . "distro-build-doc")
