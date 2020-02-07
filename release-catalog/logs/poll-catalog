@@ -794,3 +794,25 @@
        .
        ("d2dacf90eeba0a6c89eea825291973f2dea8227f"
         "d65b71423534a6c486ae43f7a8f8e563218733c0")))
+;; ============================================================
+;; Appended 1581035116 : Thursday, February 6th, 2020 7:25:16pm
+#hash(("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("d65b71423534a6c486ae43f7a8f8e563218733c0"
+        "cf4b34f7cb82c167f64a0758de5476ee0fae9fba"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("d65b71423534a6c486ae43f7a8f8e563218733c0"
+        "cf4b34f7cb82c167f64a0758de5476ee0fae9fba"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("d65b71423534a6c486ae43f7a8f8e563218733c0"
+        "cf4b34f7cb82c167f64a0758de5476ee0fae9fba"))
+      ("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("d65b71423534a6c486ae43f7a8f8e563218733c0"
+        "cf4b34f7cb82c167f64a0758de5476ee0fae9fba"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("d65b71423534a6c486ae43f7a8f8e563218733c0"
+        "cf4b34f7cb82c167f64a0758de5476ee0fae9fba")))
