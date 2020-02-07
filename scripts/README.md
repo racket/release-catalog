@@ -53,3 +53,11 @@ redirect the catalog sources, and delete the release branches:
 - racket scripts/add-tags.rkt -i release-catalog --from-branch release --tag v$VERSION
 - racket scripts/redirect.rkt -fi release-catalog --from-branch release --branch v$VERSION
 - racket scripts/delete-branches.rkt -i release-catalog --from-branch v$VERSION --branch release
+
+## Updates to Precompiled libraries
+
+Some packages are not distributed as source, but instead as precompiled binaries.
+
+The scripts in this library do not update these catalog references. If it's necessary,
+for instance to include a new version of a library in a release, you must edit the
+release-catalog by hand.
