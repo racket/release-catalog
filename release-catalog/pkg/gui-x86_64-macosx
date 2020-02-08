@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "8532449b1041e69ed737c3b79f72f9d4c3b0c880")
+(checksum . "24d26fc4b3e7ffaa8f00349fa6ac4e205fe9140c")
 (dependencies . ("base"))
 (description . "native libraries for \"gui\" package")
 (name . "gui-x86_64-macosx")
-(source . "https://pkg-sources.racket-lang.org/pkgs/8532449b1041e69ed737c3b79f72f9d4c3b0c880/gui-x86_64-macosx.zip"))
+(source . "https://pkg-sources.racket-lang.org/pkgs/24d26fc4b3e7ffaa8f00349fa6ac4e205fe9140c/gui-x86_64-macosx.zip"))
