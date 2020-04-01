@@ -14,26 +14,26 @@
 ;; write access
 (define (check-repo-access who catalog verbose?)
   (define fail? #f)
-  (define (no-write-access user repo)
+  (define (no-write-access repo-owner repo)
     (set! fail? #t)
-    (eprintf "! no write access to ~a/~a\n" user repo))
+    (eprintf "! no write access to ~a/~a\n" repo-owner repo))
   (displayln "Checking access to repos....")
   (for ([(user+repo checksum) (in-hash (get-sources catalog))])
     (match user+repo
-      [(list user repo)
+      [(list repo-owner repo)
        (when verbose?
          (printf ". ~v\n" repo))
        (define contributors
          (get/github
           (format "https://api.github.com/repos/~a/~a/collaborators?per_page=~a"
-                  user repo results-per-page)
+                  repo-owner repo results-per-page)
           #:credential-style 'user
           #:fail (lambda _
-                   (no-write-access user repo)
+                   (no-write-access repo-owner repo)
                    '())))
        (when (not (member who (for/list ([c (in-list contributors)])
                                 (hash-ref c 'login))))
-         (no-write-access user repo))]))
+         (no-write-access repo-owner repo))]))
   (unless fail?
     (displayln "You have access to all release-relevant repos.")))
 
