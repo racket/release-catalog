@@ -3,6 +3,7 @@
          racket/port
          racket/match
          net/url
+         net/base64
          json
          "net.rkt"
          "util.rkt"
@@ -33,8 +34,8 @@
   (lambda (url #:headers [headers null] #:handle [handle read-json]
           #:fail [fail "failed"] #:who [who who0]
           #:credential-style [credential-style 'client])
-    (proc (add-credentials url credential-style)
-          #:headers (cons USER-AGENT headers)
+    (proc url
+          #:headers (list* USER-AGENT (credentials credential-style) headers)
           #:handle handle #:fail fail #:who who)))
 
 ;; wrap a generic data-accepting getter with a default "who"
@@ -44,8 +45,8 @@
           #:fail [fail "failed"] #:who [who who0]
           #:credential-style [credential-style 'client]
           #:data [data #f])
-    (proc (add-credentials url credential-style)
-          #:headers (cons USER-AGENT headers)
+    (proc url
+          #:headers (list* USER-AGENT (credentials credential-style) headers)
           #:handle handle #:fail fail #:who who #:data data)))
 
 (define get/github (wrap/no-data 'get/github get/url))
@@ -72,6 +73,44 @@
      (raise-argument-error 'add-credentials
                            "'client or 'user"
                            1 url credential-style)]))
+
+(define (credentials credential-style)
+  (cond
+    [(equal? credential-style 'user)
+     (cond [github-user-credentials
+            (format "Authorization: token ~a" github-user-credentials)]
+           [else
+            (error 'add-credentials "user credentials required but not available")])]
+    [(equal? credential-style 'client)
+     (error 'unimplemented)
+     ;; this is totally untested, just a guess
+     ;; per RFC 2617
+     (basic-auth-line (github-client_id) (github-client_secret))]
+    [else
+     (raise-argument-error 'add-credentials
+                           "'client or 'user"
+                           1 url credential-style)]))
+
+;; given userid and password, return the authorization header line as described
+;; by RFC 2617
+(define (basic-auth-line userid password)
+  (format "Authorization: Basic ~a"
+          (strip-trailing-crlf
+           (base64-encode
+            (string->bytes/utf-8 (format "~a:~a" userid password))))))
+
+;; trim the trailing CR/LF pair from a base64-encoded string
+(define (strip-trailing-crlf bstr)
+  (define bstr-len (bytes-length bstr))
+  (unless (equal? (subbytes bstr (- bstr-len 2)) #"\r\n")
+    (raise-argument-error 'strip-trailing-crlf
+                          "byte string ending with \\r\\n" 0 bstr))
+  (subbytes bstr 0 (- bstr-len 2)))
+
+;; example from RFC 2617:
+(require rackunit)
+(check-equal? (basic-auth-line "Aladdin" "open sesame")
+              "Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==")
 
 ;; a personal access token, obtained from github>settings>developer settings
 (define github-user-credentials
