@@ -62,7 +62,14 @@
                    (lambda (updates)
                      (unless (zero? (hash-count updates))
                        (call/write-log *dest-dir "checksum-updates"
-                                       (lambda () (pretty-write updates))))))))
+                                       (lambda () (pretty-write updates)))))))
+
+  ;; gross, use system* instead...
+  (system+ "git add release-catalog")
+  (system+ (~a "git commit -o . -m \"begin release catalog for "version"\""))
+  (system+ "git push")
+
+  )
 
 #|
 # Get to top-level directory of release catalog
