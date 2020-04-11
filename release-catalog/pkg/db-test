@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "848eaf261088c92af0880f5d0b34f7771d1e059b")
+(dependencies . ("base" "db-lib" "rackunit-lib" "web-server-lib" "srfi-lite-lib"))
+(description . "tests for \"db\"")
+(name . "db-test")
+(source . "git://github.com/racket/db/?path=db-test"))

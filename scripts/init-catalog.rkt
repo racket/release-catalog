@@ -38,7 +38,7 @@
   ;; an error check?
 
   (printf "copy catalog...\n")
-  (pkg-catalog-copy "https://pkgs.racket-lang.org"
+  (pkg-catalog-copy '("https://pkgs.racket-lang.org")
                     ;; NB dependency on current directory:
                     release-catalog-path)
   (printf "filtering catalog...\n")

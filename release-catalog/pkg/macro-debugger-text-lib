@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "d207aff6b96088485a8735142a21b4e7308d720f")
+(dependencies . ("base" "db-lib" "class-iop-lib" "parser-tools-lib"))
+(description . "The macro debugger tool with a console interface")
+(name . "macro-debugger-text-lib")
+(source . "git://github.com/racket/macro-debugger/?path=macro-debugger-text-lib"))
