@@ -82,9 +82,7 @@
            [else
             (error 'add-credentials "user credentials required but not available")])]
     [(equal? credential-style 'client)
-     (error 'unimplemented)
-     ;; this is totally untested, just a guess
-     ;; per RFC 2617
+     ;; this appears to work. It's build according to RFC 2617
      (basic-auth-line (github-client_id) (github-client_secret))]
     [else
      (raise-argument-error 'add-credentials
@@ -95,17 +93,9 @@
 ;; by RFC 2617
 (define (basic-auth-line userid password)
   (format "Authorization: Basic ~a"
-          (strip-trailing-crlf
-           (base64-encode
-            (string->bytes/utf-8 (format "~a:~a" userid password))))))
-
-;; trim the trailing CR/LF pair from a base64-encoded string
-(define (strip-trailing-crlf bstr)
-  (define bstr-len (bytes-length bstr))
-  (unless (equal? (subbytes bstr (- bstr-len 2)) #"\r\n")
-    (raise-argument-error 'strip-trailing-crlf
-                          "byte string ending with \\r\\n" 0 bstr))
-  (subbytes bstr 0 (- bstr-len 2)))
+          (base64-encode
+           (string->bytes/utf-8 (format "~a:~a" userid password))
+           #"")))
 
 ;; example from RFC 2617:
 (require rackunit)
@@ -196,3 +186,7 @@
                         (hash-ref (car res) 'sha)) ; rest of range
                    d?)))
        (values repo commits-since-last-release)])))
+
+;; WIP testing failure:
+(check-not-exn
+ (λ () (get/github "https://api.github.com/repos/racket/db/branches")))
