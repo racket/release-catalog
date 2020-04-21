@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "f2da376030d16d957edf0a68aba3967675f9544f")
+(checksum . "1ddbba0d16a75da741ca88fabc8a3b1cd29e2a84")
 (dependencies . ("compiler-lib"))
 (description . "Racket compilation tools, such as `raco exe'")
 (name . "compiler")
