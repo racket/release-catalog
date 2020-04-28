@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "1ddbba0d16a75da741ca88fabc8a3b1cd29e2a84")
+(checksum . "b351ac28b6de004261f283a6c09fca9ec0992db3")
 (dependencies . ("racket-lib" ("racket" #:version "7.6.0.19")))
 (description . "Racket libraries that are currently always available")
 (name . "base")
