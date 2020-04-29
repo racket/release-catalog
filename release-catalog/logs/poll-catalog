@@ -370,3 +370,49 @@
        .
        ("d37e93b25ef12815cfbc0adc299a6ac16a74c7e4"
         "ef9b3b1dea8928d759f35a94d02fe5796295bab7")))
+;; ============================================================
+;; Appended 1588132836 : Wednesday, April 29th, 2020 12:00:36am
+#hash(("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("ef9b3b1dea8928d759f35a94d02fe5796295bab7"
+        "8b8c19d2ba7e2170ccd1b3cf60c3f02190f8cd0c"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("ef9b3b1dea8928d759f35a94d02fe5796295bab7"
+        "8b8c19d2ba7e2170ccd1b3cf60c3f02190f8cd0c"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("ef9b3b1dea8928d759f35a94d02fe5796295bab7"
+        "8b8c19d2ba7e2170ccd1b3cf60c3f02190f8cd0c"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("ef9b3b1dea8928d759f35a94d02fe5796295bab7"
+        "8b8c19d2ba7e2170ccd1b3cf60c3f02190f8cd0c"))
+      ("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("0bd9f5c0ed5cd9e43e6707f25ad64d84419a82ba"
+        "cb0fc5a222f66e3152d9c46e0b3ed9e431e45b10")))
