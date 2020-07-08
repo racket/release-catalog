@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org")
-(authors . ("eli@racket-lang.org"))
-(checksum . "3e7dbceb19d8a52b3808a739160aa9a2bc4174af")
-(dependencies . ("profile-lib" "profile-doc"))
-(description . "Libraries for statistical performance profiling")
-(name . "profile")
-(source . "git://github.com/racket/profile/?path=profile"))
