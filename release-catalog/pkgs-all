@@ -1977,7 +1977,7 @@
 (dependencies . ("scribble-lib" "scribble-doc"))
 (description . "Racket documentatation and typesetting tool")
 (name . "scribble")
-(source . "git://github.com/racket/scribble/?path=scribble")))
+(source . "git://github.com/racket/scribble/?path=scribble#release")))
 ("scribble-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -1986,7 +1986,7 @@
 (dependencies . ("racket-index" "mzscheme-doc" "net-doc" "scheme-lib" "draw-doc" "gui-doc" "slideshow-doc" "pict-doc" "typed-racket-doc" "at-exp-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "sandbox-lib" "slideshow-lib" "scribble-lib" "scribble-text-lib" "racket-doc"))
 (description . "documentation part of \"scribble\"")
 (name . "scribble-doc")
-(source . "git://github.com/racket/scribble/?path=scribble-doc")))
+(source . "git://github.com/racket/scribble/?path=scribble-doc#release")))
 ("scribble-html-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -1995,7 +1995,7 @@
 (dependencies . ("scheme-lib" "base" "at-exp-lib" "scribble-text-lib"))
 (description . "Language for HTML with embedded Racket code")
 (name . "scribble-html-lib")
-(source . "git://github.com/racket/scribble/?path=scribble-html-lib")))
+(source . "git://github.com/racket/scribble/?path=scribble-html-lib#release")))
 ("scribble-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -2004,7 +2004,7 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "scribble-text-lib" "scribble-html-lib" "planet-lib" "net-lib" "at-exp-lib" "draw-lib" "syntax-color-lib" "sandbox-lib" "typed-racket-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"scribble\"")
 (name . "scribble-lib")
-(source . "git://github.com/racket/scribble/?path=scribble-lib")))
+(source . "git://github.com/racket/scribble/?path=scribble-lib#release")))
 ("scribble-test" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -2013,7 +2013,7 @@
 (dependencies . ("at-exp-lib" "base" "eli-tester" "rackunit-lib" "sandbox-lib" "scribble-doc" "scribble-lib" "scribble-text-lib" "racket-index"))
 (description . "tests for \"scribble\"")
 (name . "scribble-test")
-(source . "git://github.com/racket/scribble/?path=scribble-test")))
+(source . "git://github.com/racket/scribble/?path=scribble-test#release")))
 ("scribble-text-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org eli@racket-lang.org")
@@ -2022,7 +2022,7 @@
 (dependencies . ("scheme-lib" "base" "at-exp-lib"))
 (description . "Language for text with embedded Racket code")
 (name . "scribble-text-lib")
-(source . "git://github.com/racket/scribble/?path=scribble-text-lib")))
+(source . "git://github.com/racket/scribble/?path=scribble-text-lib#release")))
 ("serialize-cstruct-lib" . 
 #hash(
 (author . "tobias.hammer@dlr.de")
