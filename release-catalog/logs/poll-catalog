@@ -330,3 +330,33 @@
        .
        ("e9c54b03aab6e30104e25434ec7da0db3b5bc32a"
         "87bd7b18e47d1e3730b3384b2af9ada0af28c34a")))
+;; ============================================================
+;; Appended 1595364050 : Tuesday, July 21st, 2020 4:40:50pm
+#hash(("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
+        "6b260ab415fde33c056fc12ac49ff11bd9a86a85")))
