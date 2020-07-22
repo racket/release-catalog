@@ -360,3 +360,17 @@
        .
        ("4fbe25b4bef3420e625a0fcf66f330b994358d05"
         "6b260ab415fde33c056fc12ac49ff11bd9a86a85")))
+;; ============================================================
+;; Appended 1595455239 : Wednesday, July 22nd, 2020 6:00:39pm
+#hash(("git://github.com/racket/string-constants/?path=string-constants#release"
+       .
+       ("f89ab67db1e98dad9a84d83932a75e14f9cd0d1f"
+        "9e291799384bf77a984696f5ae25525719df4619"))
+      ("git://github.com/racket/string-constants/?path=string-constants-doc#release"
+       .
+       ("f89ab67db1e98dad9a84d83932a75e14f9cd0d1f"
+        "9e291799384bf77a984696f5ae25525719df4619"))
+      ("git://github.com/racket/string-constants/?path=string-constants-lib#release"
+       .
+       ("f89ab67db1e98dad9a84d83932a75e14f9cd0d1f"
+        "9e291799384bf77a984696f5ae25525719df4619")))
