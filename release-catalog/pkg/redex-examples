@@ -6,4 +6,4 @@
 (dependencies . ("base" "compiler-lib" "rackunit-lib" "redex-gui-lib" "slideshow-lib" "math-lib" "plot-lib"))
 (description . "PLT Redex examples")
 (name . "redex-examples")
-(source . "git://github.com/racket/redex/?path=redex-examples#release"))
+(source . "git://github.com/racket/redex/?path=redex-examples#v7.8"))
