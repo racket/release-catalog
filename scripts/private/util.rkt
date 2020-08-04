@@ -195,10 +195,8 @@
 
 (define (normalize-dest src dest force?)
   (or dest
-      (cond [force?
-             src]
-            [else
-             (raise-user-error myself-sym "destination not give and force? not set")])))
+      (and force? src)
+      (raise-user-error myself-sym "destination not given and force? not set")))
 
 ;; get-sources : Catalog -> Hash[ (List String String) => String ]
 (define (get-sources catalog)

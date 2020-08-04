@@ -18,9 +18,10 @@
   (printf "cmd: ~v\n" str)
   (system str))
 
-(define release-catalog-path "release-catalog")
-
 (define-runtime-path release-catalog-dir "..")
+
+(define release-catalog-path
+  (build-path release-catalog-dir "release-catalog"))
 
 (module+ main
   (current-directory release-catalog-dir)
@@ -39,12 +40,10 @@
 
   (printf "copy catalog...\n")
   (pkg-catalog-copy '("https://pkgs.racket-lang.org")
-                    ;; NB dependency on current directory:
                     release-catalog-path)
   (printf "filtering catalog...\n")
   (let ()
     (define *force? #t)
-    ;; NB current directory dependency
     (define *src-dir release-catalog-path)
     (define *roots '("main-distribution" "main-distribution-test" "distro-build"))
     (copy-catalog *src-dir *src-dir *force?
