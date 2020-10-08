@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "293021e17b50ca0e9747b277469e6d349823e74b")
+(dependencies . ("base" "at-exp-lib" "math-lib" "plot-doc" "plot-gui-lib" "racket-doc" "sandbox-lib" "scribble-lib" "typed-racket-doc" "typed-racket-lib" "2d-lib"))
+(description . "Math library documentation")
+(name . "math-doc")
+(source . "git://github.com/racket/math/?path=math-doc"))
