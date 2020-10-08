@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "a36e729680818712820ee5269f5208c3c0715a6a")
-(dependencies . ("base"))
-(description . "Legacy (Scheme) libraries")
-(name . "scheme-lib")
-(source . "git://github.com/racket/scheme-lib"))

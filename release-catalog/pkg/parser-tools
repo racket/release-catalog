@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "d776c66a319fe44b9d72832270eef2f0ffc5ed5f")
-(dependencies . ("parser-tools-lib" "parser-tools-doc"))
-(description . "Lex- and Yacc-style parsing tools")
-(name . "parser-tools")
-(source . "git://github.com/racket/parser-tools/?path=parser-tools"))
