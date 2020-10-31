@@ -6,4 +6,4 @@
 (dependencies . ("rackunit-lib" "rackunit-doc" "rackunit-gui" "rackunit-plugin-lib"))
 (description . "RackUnit testing framework")
 (name . "rackunit")
-(source . "git://github.com/racket/rackunit/?path=rackunit#release"))
+(source . "git://github.com/racket/rackunit/?path=rackunit#v7.9"))

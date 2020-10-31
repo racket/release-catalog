@@ -6,4 +6,4 @@
 (dependencies . ("base" "rackunit-lib" "drracket-tool-lib"))
 (description . "Tests for IDE tools that DrRacket supports")
 (name . "drracket-tool-test")
-(source . "git://github.com/racket/drracket/?path=drracket-tool-test#release"))
+(source . "git://github.com/racket/drracket/?path=drracket-tool-test#v7.9"))

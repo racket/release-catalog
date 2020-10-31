@@ -6,4 +6,4 @@
 (dependencies . ("base" "eli-tester" "rackunit-lib"))
 (description . "RackUnit documentation")
 (name . "rackunit-test")
-(source . "git://github.com/racket/rackunit/?path=rackunit-test#release"))
+(source . "git://github.com/racket/rackunit/?path=rackunit-test#v7.9"))
