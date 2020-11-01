@@ -36,7 +36,7 @@ TODO: add redirect option like get-pure-port
       (lambda (in)
         (let ([response-header (purify-port in)])
           (cond [(regexp-match? ok-rx response-header)
-                 (handle in)]
+                 (handle response-header in)]
                 [else
                  (if (string? fail)
                      (error who "~a\n  url: ~e\n  response: ~e" fail (url->string url)
