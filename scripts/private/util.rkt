@@ -2,8 +2,12 @@
 (require racket/file
          racket/path
          racket/date
-         racket/match)
-(provide (all-defined-out))
+         racket/match
+         racket/contract)
+(provide
+ (contract-out [get-sources (-> any/c
+                                (hash/c any/c string?))])
+ (except-out (all-defined-out) get-sources))
 
 ;; ============================================================
 ;; Utilities
@@ -103,6 +107,9 @@
                     path-part-rx)))
 
 (define native-pkg-source-rx #rx"^http://racket-packages\\.s3") ;; currently unused
+
+
+(parse-repo-url "https://github.com/Metaxal/quickscript.git")
 
 
 ;; ============================================================
