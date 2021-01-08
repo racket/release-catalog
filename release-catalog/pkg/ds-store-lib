@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "bb352d6c57a101aa0455db905e87bef7f121e9fc")
+(dependencies . ("base"))
+(description . "implementation (no documentation) part of \"ds-store\"")
+(name . "ds-store-lib")
+(source . "git://github.com/racket/ds-store/?path=ds-store-lib"))
