@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "f27fb987f6e9268ce28892d269eb21b5a66677f8")
-(dependencies . ("racket-index" "r5rs-doc" "base" "scribble-lib" "r6rs-lib" "racket-doc"))
-(description . "documentation part of \"r6rs\"")
-(name . "r6rs-doc")
-(source . "git://github.com/racket/r6rs/?path=r6rs-doc"))

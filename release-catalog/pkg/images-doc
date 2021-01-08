@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "975f011d41aea2f1d83885cefe333d271b788a62")
-(dependencies . ("base" "images-lib" "draw-doc" "gui-doc" "pict-doc" "slideshow-doc" "typed-racket-doc" "draw-lib" "gui-lib" "pict-lib" "racket-doc" "scribble-lib" "slideshow-lib" "typed-racket-lib"))
-(description . "Documentation for images-lib")
-(name . "images-doc")
-(source . "git://github.com/racket/images/?path=images-doc"))

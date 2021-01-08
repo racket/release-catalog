@@ -1,9 +1,0 @@
-
-#hash(
-(author . "sperber@racket-lang.org")
-(authors . ("sperber@racket-lang.org"))
-(checksum . "4a83a258a75053a028b4b637a01760b5a73bf5e4")
-(dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "htdp-lib" "scheme-lib" "srfi-lib" "string-constants-lib"))
-(description . "Signature support for teaching languages for _Die Macht der Abstraktion_")
-(name . "deinprogramm-signature")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm-signature"))
