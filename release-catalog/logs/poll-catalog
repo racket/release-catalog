@@ -506,3 +506,25 @@
        .
        ("8605b609c6582ea70d0e135a41948716a063a384"
         "c5b1dc4adabb074f8748852c107fa9a76ac1d244")))
+;; ============================================================
+;; Appended 1610838039 : Saturday, January 16th, 2021 6:00:39pm
+#hash(("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("e995f5b083d318bacfb0ccf64bd0b6142cc79828"
+        "2b8c3191b5c955c8af49b0e1c37f77b03eaf77fe"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("e995f5b083d318bacfb0ccf64bd0b6142cc79828"
+        "2b8c3191b5c955c8af49b0e1c37f77b03eaf77fe"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("e995f5b083d318bacfb0ccf64bd0b6142cc79828"
+        "2b8c3191b5c955c8af49b0e1c37f77b03eaf77fe"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("e995f5b083d318bacfb0ccf64bd0b6142cc79828"
+        "2b8c3191b5c955c8af49b0e1c37f77b03eaf77fe"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("e995f5b083d318bacfb0ccf64bd0b6142cc79828"
+        "2b8c3191b5c955c8af49b0e1c37f77b03eaf77fe")))
