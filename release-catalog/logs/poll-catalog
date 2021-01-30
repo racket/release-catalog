@@ -632,3 +632,9 @@
        .
        ("36bb0de45a04494a8070b5796d9399bb08480d6d"
         "dcb206756816334afba143afe70bb19f3e4782e2")))
+;; ============================================================
+;; Appended 1611993168 : Saturday, January 30th, 2021 2:52:48am
+#hash(("git://github.com/racket/frtime#release"
+       .
+       ("24d2efa197479660177112362c95f55b883106c0"
+        "80aff73f0d226591228caff7477cb425efeafd41")))
