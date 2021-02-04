@@ -6,4 +6,4 @@
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")
-(source . "git://github.com/racket/gui/?path=gui#release"))
+(source . "git://github.com/racket/gui/?path=gui#v8.0"))

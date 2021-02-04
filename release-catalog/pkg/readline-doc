@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "readline-lib" "racket-doc"))
 (description . "documentation part of \"readline\"")
 (name . "readline-doc")
-(source . "git://github.com/racket/readline/?path=readline-doc#release"))
+(source . "git://github.com/racket/readline/?path=readline-doc#v8.0"))

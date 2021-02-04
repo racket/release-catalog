@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
-(source . "git://github.com/racket/typed-racket/?path=source-syntax#release"))
+(source . "git://github.com/racket/typed-racket/?path=source-syntax#v8.0"))
