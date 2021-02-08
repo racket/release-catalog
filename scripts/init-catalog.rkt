@@ -8,12 +8,16 @@
          "private/util.rkt"
          "checksums.rkt")
 
-(define version
+(define new-version
   (command-line
    #:args (version)
    version))
 
+(unless (regexp-match? #px"^[.0-9]+$" new-version)
+  (error 'new-version
+         "expected version containing only digits and periods, got: ~e" new-version))
 
+;; like "system", but display the command before running it.
 (define (system+ str)
   (printf "cmd: ~v\n" str)
   (system str))
@@ -33,7 +37,7 @@
     (system+ "git commit -o . -m \"delete old catalog\""))
 
   (when (directory-exists? "release-catalog")
-    (error "git rm did not remove directory, clean it up manually"))
+    (error "git rm did not remove directory, clean it up manually. Re-run when it's gone."))
 
   ;; or maybe the real problem is that raco pkg catalog-copy now includes
   ;; an error check?
@@ -65,7 +69,7 @@
 
   ;; gross, use system* instead...
   (system+ "git add release-catalog")
-  (system+ (~a "git commit -o . -m \"begin release catalog for "version"\""))
+  (system+ (~a "git commit -o . -m \"begin release catalog for "new-version"\""))
   (system+ "git push")
 
   )

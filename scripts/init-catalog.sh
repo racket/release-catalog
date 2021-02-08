@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# REPLACED BY INIT-CATALOG.RKT
+
 # Initializes the release catalog for a release
 
 set -e  # abort on statement error
