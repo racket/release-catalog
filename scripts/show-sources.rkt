@@ -20,16 +20,14 @@
   ;; repos : Hash[ User/Repo-String => #t ]
   (define repos (make-hash))
   (for ([(pkg-name info) (in-hash catalog)])
-    (fprintf (current-error-port) "pkg-name: ~v\n" pkg-name)
     (define src (hash-ref info 'source))
-    (fprintf (current-error-port) "pkg-src: ~v\n" src)
     (match (parse-repo-url src)
       [(list user repo branch path)
        (when (or (not from-branch) (equal? branch from-branch))
          (hash-set! repos (format "~a/~a" user repo) #t))]
       [other
        (fprintf (current-error-port)
-                "ignoring parsed source: ~e\n" other)
+                "ignoring source and parse: ~e\n" (list src other))
        (void)]))
   (hash-keys repos))
 

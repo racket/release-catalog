@@ -94,6 +94,8 @@
   "(?:[?]path=([^?#]*))?")
 
 ;; produce (list user repo branch path)
+;; FIXME this may be seriously out-of-date and should use a parser
+;; built into racket, not hanging out here in this repo.
 (define github-source-parsers
   (list (rx->parser '(1 2 4 3)
                     "git://github\\.com/([^?/#]+)/([^/?#]+)/?"
@@ -102,15 +104,15 @@
         (rx->parser '(1 2 3 4)
                     "github://github\\.com/([^?/#]+)/([^/?#]+)/([^/?#]+)/?" ;; optimization coach
                     path-part-rx)
+        (rx->parser '(1 2 4 3)
+                    "https://github\\.com/([^?/#]+)/([^/?#]+)\\.git/?"
+                    path-part-rx
+                    "(?:#([^/?#]+))?")
         (rx->parser '(1 2 3 4)
                     "http://github\\.com/([^?/#]+)/([^/?#]+)/tree/([^/?#]+)/?"
                     path-part-rx)))
 
 (define native-pkg-source-rx #rx"^http://racket-packages\\.s3") ;; currently unused
-
-
-(parse-repo-url "https://github.com/Metaxal/quickscript.git")
-
 
 ;; ============================================================
 ;; Catalog Reading and Writing
@@ -224,3 +226,10 @@
 (define myself (path->string (file-name-from-path (find-system-path 'run-file))))
 (define myself-sym (string->symbol myself))
 (define (subcommand sub) (format "~a ~a" myself sub))
+
+
+(module+ test
+  (require rackunit)
+  (check-equal?
+   (parse-repo-url "https://github.com/Metaxal/quickscript.git")
+   '("Metaxal" "quickscript" #f #f)))
