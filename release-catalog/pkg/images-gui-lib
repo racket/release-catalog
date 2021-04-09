@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "975f011d41aea2f1d83885cefe333d271b788a62")
+(dependencies . ("base" "draw-lib" "gui-lib" "string-constants-lib"))
+(description . "Functions for constructing icons and logos")
+(name . "images-gui-lib")
+(source . "git://github.com/racket/images/?path=images-gui-lib"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "samth@ccs.neu.edu")
+(authors . ("samth@ccs.neu.edu"))
+(checksum . "87b83c0eb720247b5ad8222f0c9b0f07b226e0bb")
+(dependencies . ("base" "data-lib" "draw-lib" "pict-lib"))
+(description . "The drawing and data representation portions of the future visualizer")
+(name . "future-visualizer-pict")
+(source . "https://github.com/racket/future-visualizer.git?path=future-visualizer-pict"))
