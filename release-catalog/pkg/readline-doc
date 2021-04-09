@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "ad5bb54cbc4bf3dcfaaa3632c1f884a848ba2386")
-(dependencies . ("base" "scribble-lib" "readline-lib" "racket-doc"))
-(description . "documentation part of \"readline\"")
-(name . "readline-doc")
-(source . "git://github.com/racket/readline/?path=readline-doc#v8.0"))

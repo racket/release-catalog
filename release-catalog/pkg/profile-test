@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org")
-(authors . ("eli@racket-lang.org"))
-(checksum . "e822d13c593d80ede0b7f145069ddae633d1580c")
-(dependencies . ("base" "eli-tester" "profile-lib"))
-(description . "tests for \"profile\"")
-(name . "profile-test")
-(source . "git://github.com/racket/profile/?path=profile-test"))

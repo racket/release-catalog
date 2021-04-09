@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "c25baac1189c7df1de5c7fdb8aaf386d6903012a")
-(dependencies . ("srfi-lite-lib" ("base" #:version "7.7.0.9") "unix-socket-lib" ("sasl-lib" #:version "1.1")))
-(description . "implementation (no documentation) part of \"db\"")
-(name . "db-lib")
-(source . "git://github.com/racket/db/?path=db-lib#v8.0"))

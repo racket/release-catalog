@@ -1,9 +1,0 @@
-
-#hash(
-(author . "florence@racket-lang.org")
-(authors . ("florence@racket-lang.org"))
-(checksum . "856ab043bf7e25dd904d6eaccdd3a560c89b018a")
-(dependencies . ("base"))
-(description . "For tracking test results and displaying a summary message (used by RackUnit)")
-(name . "testing-util-lib")
-(source . "git://github.com/racket/rackunit/?path=testing-util-lib"))
