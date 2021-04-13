@@ -2,8 +2,8 @@
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "a207a6d3be4f0a494db3659f56f5b2621f6ccfff")
+(checksum . "0a7d5e9372ec0c813fc0b68e1baa5a7819032d00")
 (dependencies . ("base" ("sasl-lib" #:version "1.1") "rackunit-lib"))
 (description . "SASL authentication client support")
 (name . "sasl-test")
-(source . "git://github.com/racket/sasl/?path=sasl-test#release"))
+(source . "https://github.com/racket/sasl.git?path=sasl-test"))
