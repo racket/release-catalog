@@ -88,3 +88,49 @@
        .
        ("ebb4ce990e8bab934590e9dfb16e64dc53610700"
         "8bd55f9a678f8d4152900e24f3faf6c142d2a3a1")))
+;; ============================================================
+;; Appended 1618351237 : Tuesday, April 13th, 2021 6:00:37pm
+#hash(("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("97a715070df3a16cf7fae3637da6c68ca682e455"
+        "362779fb6af4cebfc09f7a3b44533aae99638c0e"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("c417b0c1c70b1e08b1be5e19e0dcc066ee06bd68"
+        "374899bc959576029e2c0d285d9b37674c2d4e15"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("c417b0c1c70b1e08b1be5e19e0dcc066ee06bd68"
+        "374899bc959576029e2c0d285d9b37674c2d4e15"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("c417b0c1c70b1e08b1be5e19e0dcc066ee06bd68"
+        "374899bc959576029e2c0d285d9b37674c2d4e15"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("c417b0c1c70b1e08b1be5e19e0dcc066ee06bd68"
+        "374899bc959576029e2c0d285d9b37674c2d4e15")))

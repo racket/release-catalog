@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "97a715070df3a16cf7fae3637da6c68ca682e455")
+(checksum . "362779fb6af4cebfc09f7a3b44533aae99638c0e")
 (dependencies . (("base" #:version "6.2.900.10") "scribble-lib" ("string-constants-lib" #:version "1.12") "scribble-lib" "racket-index" "gui-lib" "at-exp-lib" "rackunit-lib"))
 (description . "Code implementing programmatic interfaces to some IDE tools that DrRacket supports")
 (name . "drracket-tool-lib")
-(source . "git://github.com/racket/drracket/?path=drracket-tool-lib"))
+(source . "git://github.com/racket/drracket/?path=drracket-tool-lib#release"))
