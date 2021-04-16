@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "b8ba3857e66d58e757073f3b6c88ab46296b4460")
+(checksum . "245f347e2e3adfb1c604e76e872f0306a922a548")
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")

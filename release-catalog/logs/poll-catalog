@@ -290,3 +290,29 @@
        .
        ("0ba4fe0287e9df405b73cc9e3a19127428e25365"
         "738a7197db3bd2eb00ce816bb07af605fa6be9b6")))
+;; ============================================================
+;; Appended 1618610437 : Friday, April 16th, 2021 6:00:37pm
+#hash(("git://github.com/Metaxal/quickscript#release"
+       .
+       ("20f2fc595415f50afc8adb1a4be5428e5ce9f4ef"
+        "a72b7be1a51487ed00be878a6e846cca09870a6f"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("b8ba3857e66d58e757073f3b6c88ab46296b4460"
+        "245f347e2e3adfb1c604e76e872f0306a922a548"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("b8ba3857e66d58e757073f3b6c88ab46296b4460"
+        "245f347e2e3adfb1c604e76e872f0306a922a548"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("b8ba3857e66d58e757073f3b6c88ab46296b4460"
+        "245f347e2e3adfb1c604e76e872f0306a922a548"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("b8ba3857e66d58e757073f3b6c88ab46296b4460"
+        "245f347e2e3adfb1c604e76e872f0306a922a548"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("b8ba3857e66d58e757073f3b6c88ab46296b4460"
+        "245f347e2e3adfb1c604e76e872f0306a922a548")))
