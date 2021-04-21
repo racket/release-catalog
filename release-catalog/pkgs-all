@@ -391,11 +391,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "253dbf895966fd8179d4b8c3620c60190647cfd0")
+(checksum . "43565f4f742aec2a92054dfbe204fd38b04b5dbe")
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")
-(source . "git://github.com/racket/draw/?path=draw")))
+(source . "git://github.com/racket/draw/?path=draw#release")))
 ("draw-aarch64-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -409,11 +409,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "253dbf895966fd8179d4b8c3620c60190647cfd0")
+(checksum . "43565f4f742aec2a92054dfbe204fd38b04b5dbe")
 (dependencies . ("gui-doc" "pict-doc" "at-exp-lib" "base" "gui-lib" "pict-lib" "scribble-lib" "draw-lib" "racket-doc"))
 (description . "documentation part of \"draw\"")
 (name . "draw-doc")
-(source . "git://github.com/racket/draw/?path=draw-doc")))
+(source . "git://github.com/racket/draw/?path=draw-doc#release")))
 ("draw-i386-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -427,11 +427,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "253dbf895966fd8179d4b8c3620c60190647cfd0")
+(checksum . "43565f4f742aec2a92054dfbe204fd38b04b5dbe")
 (dependencies . (("base" #:version "7.6.0.13") ("draw-i386-macosx-3" #:platform "i386-macosx") ("draw-x86_64-macosx-3" #:platform "x86_64-macosx") ("draw-ppc-macosx-3" #:platform "ppc-macosx") ("draw-aarch64-macosx-3" #:platform "aarch64-macosx") ("draw-win32-i386-3" #:platform "win32\\i386") ("draw-win32-x86_64-3" #:platform "win32\\x86_64") ("draw-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
 (description . "implementation (no documentation) part of \"draw\"")
 (name . "draw-lib")
-(source . "git://github.com/racket/draw/?path=draw-lib")))
+(source . "git://github.com/racket/draw/?path=draw-lib#release")))
 ("draw-ppc-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -445,11 +445,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "253dbf895966fd8179d4b8c3620c60190647cfd0")
+(checksum . "43565f4f742aec2a92054dfbe204fd38b04b5dbe")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"draw\"")
 (name . "draw-test")
-(source . "git://github.com/racket/draw/?path=draw-test")))
+(source . "git://github.com/racket/draw/?path=draw-test#release")))
 ("draw-ttf-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -2198,7 +2198,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
@@ -2360,7 +2360,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("typed-racket-lib" "typed-racket-doc"))
 (description . "The implementation of the Typed Racket language")
 (name . "typed-racket")
@@ -2369,7 +2369,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("scheme-lib" "typed-racket-lib" "base"))
 (description . "compatibility library for older Typed Racket-based languages")
 (name . "typed-racket-compatibility")
@@ -2378,7 +2378,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("base" "net-doc" "net-cookies-doc" "scheme-lib" "srfi-lite-lib" "r6rs-doc" "srfi-doc" "r6rs-lib" "sandbox-lib" "at-exp-lib" ("scribble-lib" #:version "1.16") "pict-lib" ("typed-racket-lib" #:version "1.11") "typed-racket-compatibility" ("typed-racket-more" #:version "1.10") "racket-doc" "draw-lib" "web-server-doc"))
 (description . "documentation part of \"typed-racket\"")
 (name . "typed-racket-doc")
@@ -2387,7 +2387,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . (("base" #:version "7.5.0.15") "source-syntax" "pconvert-lib" "compatibility-lib" "string-constants-lib"))
 (description . "implementation (no documentation) part of \"typed-racket\"")
 (name . "typed-racket-lib")
@@ -2396,7 +2396,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "net-cookies-lib" ("web-server-lib" #:version "1.6") ("db-lib" #:version "1.5") "draw-lib" "rackunit-lib" "rackunit-gui" "rackunit-typed" "snip-lib" "typed-racket-lib" ("gui-lib" #:version "1.49") "pict-lib" "images-lib" "racket-index" "sandbox-lib" "pconvert-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
@@ -2405,7 +2405,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "b9ad48a68e363efac7333894ddd505fc9f9c11f4")
+(checksum . "12908e46360da33e45ce5d2963334818766d6ecf")
 (dependencies . ("redex-lib" "sandbox-lib" ("base" #:version "6.2.900.16") ("typed-racket-lib" #:version "1.10") "typed-racket-more" "typed-racket-compatibility" "2d" "rackunit-lib" "racket-index" "compatibility-lib" "math-lib" "racket-test-core" "scheme-lib" "base" "racket-benchmarks" "rackunit-lib" "compiler-lib" "redex-lib" "htdp-lib" "sandbox-lib"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")

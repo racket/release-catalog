@@ -416,3 +416,49 @@
        .
        ("e5ad790fdf376309c643714cdbae797a199f4463"
         "3833a5befdcd4d8b596e3ded1e7631fe8d2b5bbd")))
+;; ============================================================
+;; Appended 1619042438 : Wednesday, April 21st, 2021 6:00:38pm
+#hash(("git://github.com/racket/draw/?path=draw#release"
+       .
+       ("253dbf895966fd8179d4b8c3620c60190647cfd0"
+        "43565f4f742aec2a92054dfbe204fd38b04b5dbe"))
+      ("git://github.com/racket/draw/?path=draw-doc#release"
+       .
+       ("253dbf895966fd8179d4b8c3620c60190647cfd0"
+        "43565f4f742aec2a92054dfbe204fd38b04b5dbe"))
+      ("git://github.com/racket/draw/?path=draw-lib#release"
+       .
+       ("253dbf895966fd8179d4b8c3620c60190647cfd0"
+        "43565f4f742aec2a92054dfbe204fd38b04b5dbe"))
+      ("git://github.com/racket/draw/?path=draw-test#release"
+       .
+       ("253dbf895966fd8179d4b8c3620c60190647cfd0"
+        "43565f4f742aec2a92054dfbe204fd38b04b5dbe"))
+      ("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
+        "12908e46360da33e45ce5d2963334818766d6ecf")))
