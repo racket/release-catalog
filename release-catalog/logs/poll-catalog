@@ -462,3 +462,25 @@
        .
        ("b9ad48a68e363efac7333894ddd505fc9f9c11f4"
         "12908e46360da33e45ce5d2963334818766d6ecf")))
+;; ============================================================
+;; Appended 1619344845 : Sunday, April 25th, 2021 6:00:45am
+#hash(("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("245f347e2e3adfb1c604e76e872f0306a922a548"
+        "2011d5297607f3fd2292616089fa3204cd27a91e"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("245f347e2e3adfb1c604e76e872f0306a922a548"
+        "2011d5297607f3fd2292616089fa3204cd27a91e"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("245f347e2e3adfb1c604e76e872f0306a922a548"
+        "2011d5297607f3fd2292616089fa3204cd27a91e"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("245f347e2e3adfb1c604e76e872f0306a922a548"
+        "2011d5297607f3fd2292616089fa3204cd27a91e"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("245f347e2e3adfb1c604e76e872f0306a922a548"
+        "2011d5297607f3fd2292616089fa3204cd27a91e")))
