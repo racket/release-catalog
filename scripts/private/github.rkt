@@ -283,13 +283,13 @@
                          "expected list of length 1 from fetch-commits, got: ~e"
                          other)]))
        ;; this is a messy problem. We're essentially finding the merge base,
-       ;; and identifying all commits that are reachable from the release branch
-       ;; that aren't reachable from the old-tag. The problem is that we have
+       ;; and identifying all commits that are ancestors of the release branch
+       ;; that aren't ancestors of the old-tag. The problem is that we have
        ;; no idea how big each set is. What we do is gradually expand our pool by
        ;; adding another page from each query (reachable-from-tag, reachable-from-release).
        ;; Each time we expand the pool, we start the search over again (because searching
        ;; should be more or less instant compared to fetching. So, for a given pool,
-       ;; we first identify all commits reachable from the old-tag, ignoring loose ends
+       ;; we first identify all ancestor commits reachable from the old-tag, ignoring loose ends
        ;; that point outside our set. These are our stops.
        ;; Then, we identify all commits reachable from the
        ;; release branch, halting the search on every path that reaches the stop pool.
