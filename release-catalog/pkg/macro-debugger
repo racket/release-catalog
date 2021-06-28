@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org")
-(authors . ("ryanc@racket-lang.org"))
-(checksum . "141e9231649d90fb50aa4b3d5feb7c4b6178d1e6")
-(dependencies . ("base" "class-iop-lib" "compatibility-lib" "data-lib" "gui-lib" "images-lib" "images-gui-lib" "parser-tools-lib" "macro-debugger-text-lib" "snip-lib" "wxme-lib" ("draw-lib" #:version "1.7") "racket-index" "rackunit-lib" "scribble-lib" "racket-doc"))
-(description . "The macro debugger tool")
-(name . "macro-debugger")
-(source . "git://github.com/racket/macro-debugger/?path=macro-debugger"))
