@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "0874b76de4f147ada46607857d8acf8445a1073d")
+(checksum . "f23623bcf088f37ccce847d57293d7aa6bcb1cf2")
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
