@@ -2,7 +2,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "a31cd16d54db9f06da7ec75b48641b848c4c3d67")
+(checksum . "6204368f04ee526551d3df483bf84060e1777e59")
 (dependencies . ("redex-lib" "sandbox-lib" ("base" #:version "6.2.900.16") ("typed-racket-lib" #:version "1.10") "typed-racket-more" "typed-racket-compatibility" "2d" "rackunit-lib" "racket-index" "compatibility-lib" "math-lib" "racket-test-core" "scheme-lib" "base" "racket-benchmarks" "rackunit-lib" "compiler-lib" "redex-lib" "htdp-lib" "sandbox-lib"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")
