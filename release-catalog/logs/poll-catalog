@@ -570,3 +570,29 @@
        .
        ("265ff205b27ee4de2f8fdfbab1fd5200ca89491c"
         "ea54d1e5cd889b0c6de4ef32f12436c70e900c8d")))
+;; ============================================================
+;; Appended 1626108656 : Monday, July 12th, 2021 12:50:56pm
+#hash(("git://github.com/racket/deinprogramm/?path=deinprogramm#release"
+       .
+       ("92ea8cce5efc4540038c87bb06e90a4627deeb03"
+        "2c5a50c7c5a73bea6c2cc947e5d19b71830444f2"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release"
+       .
+       ("92ea8cce5efc4540038c87bb06e90a4627deeb03"
+        "2c5a50c7c5a73bea6c2cc947e5d19b71830444f2"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("f25ea9bb7779fca922096dfaec87e70fcfe1cfe8"
+        "b602e6c97c319407bf862cfb487c2d89904faf66"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("f25ea9bb7779fca922096dfaec87e70fcfe1cfe8"
+        "b602e6c97c319407bf862cfb487c2d89904faf66"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("f25ea9bb7779fca922096dfaec87e70fcfe1cfe8"
+        "b602e6c97c319407bf862cfb487c2d89904faf66"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("f25ea9bb7779fca922096dfaec87e70fcfe1cfe8"
+        "b602e6c97c319407bf862cfb487c2d89904faf66")))
