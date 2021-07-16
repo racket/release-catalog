@@ -6,4 +6,4 @@
 (dependencies . ("base" "rackunit-lib" "rackunit-gui" "gui-lib" "drracket-plugin-lib"))
 (description . "RackUnit testing framework DrRacket plugin")
 (name . "rackunit-plugin-lib")
-(source . "git://github.com/racket/rackunit/?path=rackunit-plugin-lib#release"))
+(source . "git://github.com/racket/rackunit/?path=rackunit-plugin-lib#v8.2"))

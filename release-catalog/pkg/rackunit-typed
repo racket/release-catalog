@@ -6,4 +6,4 @@
 (dependencies . ("racket-index" "rackunit-gui" "rackunit-lib" "typed-racket-lib" "base" "testing-util-lib"))
 (description . "Typed Racket interface to the RackUnit testing framework")
 (name . "rackunit-typed")
-(source . "git://github.com/racket/rackunit/?path=rackunit-typed#release"))
+(source . "git://github.com/racket/rackunit/?path=rackunit-typed#v8.2"))

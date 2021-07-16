@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "errortrace-lib"))
 (description . "Library for sandboxing Racket programs")
 (name . "sandbox-lib")
-(source . "git://github.com/racket/sandbox-lib#release"))
+(source . "git://github.com/racket/sandbox-lib#v8.2"))
