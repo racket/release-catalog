@@ -8,6 +8,8 @@
 
 (define pref-dir (find-system-path 'pref-dir))
 
+"these test cases verify access:"
+
 (run-tests
 (test-suite
  "access check"
