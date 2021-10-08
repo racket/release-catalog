@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "26fc6cef717d40a72f4bb8b6f0c61a483d9575ee")
-(dependencies . (("base" #:version "6.11.0.6") "r6rs-lib" "typed-racket-lib" "typed-racket-more" ("math-i386-macosx" #:platform "i386-macosx") ("math-x86_64-macosx" #:platform "x86_64-macosx") ("math-ppc-macosx" #:platform "ppc-macosx") ("math-aarch64-macosx" #:platform "aarch64-macosx") ("math-win32-i386" #:platform "win32\\i386") ("math-win32-x86_64" #:platform "win32\\x86_64") ("math-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
-(description . "Math library")
-(name . "math-lib")
-(source . "git://github.com/racket/math/?path=math-lib"))
