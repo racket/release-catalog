@@ -230,3 +230,17 @@
        .
        ("5212720bd3341acace6630bce21241512c41f103"
         "bec2058263d2d3f4dc7a2dc4a220d6317e2287ec")))
+;; ============================================================
+;; Appended 1634076040 : Tuesday, October 12th, 2021 6:00:40pm
+#hash(("git://github.com/racket/string-constants/?path=string-constants#release"
+       .
+       ("ee7dd3c207c999e3c8a42092dcbca9dfb2d1132a"
+        "3ef87bf4e16793935eb98fdc60d6fdd93b658725"))
+      ("git://github.com/racket/string-constants/?path=string-constants-doc#release"
+       .
+       ("ee7dd3c207c999e3c8a42092dcbca9dfb2d1132a"
+        "3ef87bf4e16793935eb98fdc60d6fdd93b658725"))
+      ("git://github.com/racket/string-constants/?path=string-constants-lib#release"
+       .
+       ("ee7dd3c207c999e3c8a42092dcbca9dfb2d1132a"
+        "3ef87bf4e16793935eb98fdc60d6fdd93b658725")))
