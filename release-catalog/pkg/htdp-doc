@@ -2,7 +2,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "bbc78923626b79e47b18aa54d52b409ef786e835")
+(checksum . "ba68566566223a8523486831af7c3bae00cf66b4")
 (dependencies . ("base" "scribble-lib" "at-exp-lib" "draw-lib" ("gui-lib" #:version "1.37") "htdp-lib" "plai" "sandbox-lib" "pict-lib" "mzscheme-doc" "scheme-lib" "compatibility-doc" "draw-doc" "drracket" "gui-doc" "pict-doc" "racket-doc"))
 (description . "documentation part of \"htdp\"")
 (name . "htdp-doc")
