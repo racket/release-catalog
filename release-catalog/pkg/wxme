@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "ae9f05300768c1b81e0cf1c7357eeff69cb2d4bf")
+(checksum . "ed4ea5ec54268753ae3958b410c190a98c3338d3")
 (dependencies . ("wxme-lib" "gui-doc"))
 (description . "Decoding the WXME graphical file format in a text-only environment")
 (name . "wxme")
-(source . "git://github.com/racket/wxme/?path=wxme"))
+(source . "git://github.com/racket/wxme/?path=wxme#release"))

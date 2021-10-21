@@ -424,3 +424,17 @@
        .
        ("ba68566566223a8523486831af7c3bae00cf66b4"
         "ff465e9040e7161fd4b5e2ce73f14156f3713be6")))
+;; ============================================================
+;; Appended 1634845780 : Thursday, October 21st, 2021 3:49:40pm
+#hash(("git://github.com/racket/wxme/?path=wxme#release"
+       .
+       ("ae9f05300768c1b81e0cf1c7357eeff69cb2d4bf"
+        "ed4ea5ec54268753ae3958b410c190a98c3338d3"))
+      ("git://github.com/racket/wxme/?path=wxme-lib#release"
+       .
+       ("ae9f05300768c1b81e0cf1c7357eeff69cb2d4bf"
+        "ed4ea5ec54268753ae3958b410c190a98c3338d3"))
+      ("git://github.com/racket/wxme/?path=wxme-test#release"
+       .
+       ("ae9f05300768c1b81e0cf1c7357eeff69cb2d4bf"
+        "ed4ea5ec54268753ae3958b410c190a98c3338d3")))
