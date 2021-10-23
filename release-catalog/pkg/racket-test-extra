@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "1ac0ef912e40853531a3017f8ddbce3715c96d0c")
+(checksum . "69ff36f50db3b22541b67c26095f79328b76800b")
 (dependencies . ("base" "redex-lib" "scheme-lib" "rackunit-lib" "serialize-cstruct-lib"))
 (description . "Additional Racket test suites")
 (name . "racket-test-extra")
