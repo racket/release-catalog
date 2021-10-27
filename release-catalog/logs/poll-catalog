@@ -542,3 +542,13 @@
        .
        ("edfee5bbdd81d89119316176efd9db411ef5bc1b"
         "e94de0064e5ec0cf01d0edf6f7f2e98d902981db")))
+;; ============================================================
+;; Appended 1635358115 : Wednesday, October 27th, 2021 2:08:35pm
+#hash(("git://github.com/racket/deinprogramm/?path=deinprogramm#release"
+       .
+       ("e53ac8f33ef99a43449cdf6dcd66a108b9a2a2f9"
+        "64c414f6c49e0ae4342f3e82443901b1fdbcbd42"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release"
+       .
+       ("e53ac8f33ef99a43449cdf6dcd66a108b9a2a2f9"
+        "64c414f6c49e0ae4342f3e82443901b1fdbcbd42")))
