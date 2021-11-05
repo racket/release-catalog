@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "snip-lib"))
 (description . "implementation (no documentation) part of \"wxme\"")
 (name . "wxme-lib")
-(source . "git://github.com/racket/wxme/?path=wxme-lib#release"))
+(source . "git://github.com/racket/wxme/?path=wxme-lib#v8.3"))

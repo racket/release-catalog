@@ -6,4 +6,4 @@
 (dependencies . ("scribble-lib" "scribble-doc"))
 (description . "Racket documentatation and typesetting tool")
 (name . "scribble")
-(source . "git://github.com/racket/scribble/?path=scribble#release"))
+(source . "git://github.com/racket/scribble/?path=scribble#v8.3"))
