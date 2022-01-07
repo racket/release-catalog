@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org gcooper@racket-lang.org")
-(authors . ("jay@racket-lang.org" "gcooper@racket-lang.org"))
-(checksum . "21b603596c2c81bf68a3d92412910d2557832fb9")
-(dependencies . ("srfi-lite-lib" "base" "compatibility-lib" "drracket" "gui-lib" "pict-lib" "string-constants-lib" "draw-doc" "gui-doc" "racket-doc" "scribble-lib" "rackunit"))
-(description . "The implementation of the FrTime language")
-(name . "frtime")
-(source . "git://github.com/racket/frtime"))

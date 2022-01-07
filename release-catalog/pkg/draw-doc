@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "501b7aba22b024ca01ed93bcff07b2bc1030079e")
-(dependencies . ("gui-doc" "pict-doc" "at-exp-lib" "base" "gui-lib" "pict-lib" "scribble-lib" "draw-lib" "racket-doc"))
-(description . "documentation part of \"draw\"")
-(name . "draw-doc")
-(source . "git://github.com/racket/draw/?path=draw-doc"))
