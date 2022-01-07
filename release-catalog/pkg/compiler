@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "abc259abdaa2529e69f5fb0e468a564dae0a75fd")
+(dependencies . ("compiler-lib"))
+(description . "Racket compilation tools, such as `raco exe'")
+(name . "compiler")
+(source . "git://github.com/racket/racket?path=pkgs/compiler"))

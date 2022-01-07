@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org bfetscher@racket-lang.org")
+(authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
+(checksum . "817c18d61e72b9d2f6b58de65d97181ac8da2009")
+(dependencies . ("scheme-lib" "base" "draw-lib" "gui-lib" "data-lib" "profile-lib" "redex-lib" "redex-pict-lib" "pict-lib" "rackunit-lib"))
+(description . "implementation (no documentation) part of \"redex\" gui")
+(name . "redex-gui-lib")
+(source . "git://github.com/racket/redex/?path=redex-gui-lib"))

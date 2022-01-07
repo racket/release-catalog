@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "9519bb9102389fb8716703176540ba3949770b82")
+(dependencies . ("2d-lib" "2d-doc"))
+(description . "2d syntax")
+(name . "2d")
+(source . "git://github.com/racket/2d?path=2d"))

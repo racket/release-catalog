@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org")
+(authors . ("eli@racket-lang.org"))
+(checksum . "122e38efb9842394ef6462053991efb4bd0edf3b")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "net-lib" "string-constants-lib" "compatibility-doc" "racket-doc" "scribble-lib"))
+(description . "The implementation of the Swindle language")
+(name . "swindle")
+(source . "git://github.com/racket/swindle"))

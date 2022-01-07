@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "34973c081bdf6ffec0c69c0126d8849a00e012a3")
+(dependencies . ("expeditor-lib" "expeditor-doc"))
+(description . "Terminal expression editor")
+(name . "expeditor")
+(source . "https://github.com/racket/expeditor.git?path=expeditor"))
