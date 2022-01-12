@@ -2,7 +2,7 @@
 #hash(
 (author . "ntoronto@racket-lang.org")
 (authors . ("ntoronto@racket-lang.org"))
-(checksum . "297d01a7a949ca872ffa4800ee5a6c1bff60ddd8")
+(checksum . "6da78b761a6005fdfe771318097513adf38c9564")
 (dependencies . ("base" "plot-lib" "plot-gui-lib" "db-doc" "db-lib" "draw-doc" "draw-lib" "gui-doc" "gui-lib" "pict-doc" "pict-lib" "plot-compat" "racket-doc" "scribble-lib" "slideshow-doc" "slideshow-lib" "srfi-doc"))
 (description . "Documentation for plot")
 (name . "plot-doc")
