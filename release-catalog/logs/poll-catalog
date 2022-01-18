@@ -438,3 +438,21 @@
        .
        ("1811f16d3cc1527e3baed046f2d721243c67a5a4"
         "edbb73bcd02e671d95af8202fe37ab5ced71f7ff")))
+;; ============================================================
+;; Appended 1642546841 : Tuesday, January 18th, 2022 6:00:41pm
+#hash(("git://github.com/racket/xrepl/?path=xrepl#release"
+       .
+       ("3f3d7c2619ca73df982dc1dc67ed8040709b6d38"
+        "45802b292f67d3382149ab7ed92d049b611d3467"))
+      ("git://github.com/racket/xrepl/?path=xrepl-doc#release"
+       .
+       ("3f3d7c2619ca73df982dc1dc67ed8040709b6d38"
+        "45802b292f67d3382149ab7ed92d049b611d3467"))
+      ("git://github.com/racket/xrepl/?path=xrepl-lib#release"
+       .
+       ("3f3d7c2619ca73df982dc1dc67ed8040709b6d38"
+        "45802b292f67d3382149ab7ed92d049b611d3467"))
+      ("git://github.com/racket/xrepl/?path=xrepl-test#release"
+       .
+       ("3f3d7c2619ca73df982dc1dc67ed8040709b6d38"
+        "45802b292f67d3382149ab7ed92d049b611d3467")))
