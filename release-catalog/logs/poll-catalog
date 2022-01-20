@@ -490,3 +490,21 @@
        .
        ("c98c36ebef37b4f597fbc89e1c0e34a6d292cde8"
         "7dba094bcec23ae88674748fbf73287fa0b34aa1")))
+;; ============================================================
+;; Appended 1642719642 : Thursday, January 20th, 2022 6:00:42pm
+#hash(("git://github.com/racket/syntax-color/?path=syntax-color#release"
+       .
+       ("29698b7291e453f4715d076ea876f901b8b1c0f6"
+        "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-doc#release"
+       .
+       ("29698b7291e453f4715d076ea876f901b8b1c0f6"
+        "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-lib#release"
+       .
+       ("29698b7291e453f4715d076ea876f901b8b1c0f6"
+        "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-test#release"
+       .
+       ("29698b7291e453f4715d076ea876f901b8b1c0f6"
+        "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")))
