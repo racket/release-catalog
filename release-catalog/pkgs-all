@@ -669,29 +669,29 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "34973c081bdf6ffec0c69c0126d8849a00e012a3")
+(checksum . "a40c5a6b58a7eeea902004d4242fe5956607196a")
 (dependencies . ("expeditor-lib" "expeditor-doc"))
 (description . "Terminal expression editor")
 (name . "expeditor")
-(source . "https://github.com/racket/expeditor.git?path=expeditor")))
+(source . "git://github.com/racket/expeditor/?path=expeditor#release")))
 ("expeditor-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "34973c081bdf6ffec0c69c0126d8849a00e012a3")
+(checksum . "a40c5a6b58a7eeea902004d4242fe5956607196a")
 (dependencies . ("base" "scribble-lib" "expeditor-lib" "racket-doc"))
 (description . "documentation part of \"expeditor\"")
 (name . "expeditor-doc")
-(source . "https://github.com/racket/expeditor.git?path=expeditor-doc")))
+(source . "git://github.com/racket/expeditor/?path=expeditor-doc#release")))
 ("expeditor-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "34973c081bdf6ffec0c69c0126d8849a00e012a3")
+(checksum . "a40c5a6b58a7eeea902004d4242fe5956607196a")
 (dependencies . (("base" #:version "8.3.0.11") ("syntax-color-lib" #:version "1.3")))
 (description . "implementation (no documentation) part of \"expeditor\"")
 (name . "expeditor-lib")
-(source . "https://github.com/racket/expeditor.git?path=expeditor-lib")))
+(source . "git://github.com/racket/expeditor/?path=expeditor-lib#release")))
 ("frtime" . 
 #hash(
 (author . "jay@racket-lang.org gcooper@racket-lang.org")
@@ -741,11 +741,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "1a7eac48ea7990e30ad175505f2d3ed86ee0cab8")
+(checksum . "078c19703f59212551c254825e3e398b17b64f5a")
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")
-(source . "git://github.com/racket/gui/?path=gui")))
+(source . "git://github.com/racket/gui/?path=gui#release")))
 ("gui-aarch64-macosx" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -759,11 +759,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "1a7eac48ea7990e30ad175505f2d3ed86ee0cab8")
+(checksum . "078c19703f59212551c254825e3e398b17b64f5a")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" ("scribble-lib" #:version "1.42") "snip-lib" "string-constants-lib" ("syntax-color-lib" #:version "1.3") "wxme-lib" "gui-lib" "pict-lib" "racket-doc" "string-constants-doc" "simple-tree-text-markup-doc" "xrepl-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")
-(source . "git://github.com/racket/gui/?path=gui-doc")))
+(source . "git://github.com/racket/gui/?path=gui-doc#release")))
 ("gui-i386-macosx" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -777,11 +777,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "1a7eac48ea7990e30ad175505f2d3ed86ee0cab8")
+(checksum . "078c19703f59212551c254825e3e398b17b64f5a")
 (dependencies . ("srfi-lite-lib" "data-lib" ("icons" #:version "1.3") ("base" #:version "8.3.0.3") ("syntax-color-lib" #:version "1.4") ("draw-lib" #:version "1.18") ("snip-lib" #:version "1.3") "wxme-lib" "pict-lib" "scheme-lib" ("scribble-lib" #:version "1.36") ("string-constants-lib" #:version "1.41") "option-contract-lib" "2d-lib" "compatibility-lib" "tex-table" "simple-tree-text-markup-lib" ("gui-i386-macosx" #:platform "i386-macosx") ("gui-x86_64-macosx" #:platform "x86_64-macosx" #:version "1.3") ("gui-ppc-macosx" #:platform "ppc-macosx") ("gui-aarch64-macosx" #:platform "aarch64-macosx") ("gui-win32-i386" #:platform "win32\\i386") ("gui-win32-x86_64" #:platform "win32\\x86_64") ("gui-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"gui\"")
 (name . "gui-lib")
-(source . "git://github.com/racket/gui/?path=gui-lib")))
+(source . "git://github.com/racket/gui/?path=gui-lib#release")))
 ("gui-pkg-manager-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
@@ -804,11 +804,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "1a7eac48ea7990e30ad175505f2d3ed86ee0cab8")
+(checksum . "078c19703f59212551c254825e3e398b17b64f5a")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "syntax-color-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib" "simple-tree-text-markup-lib" "pict-lib" "pict-snip-lib"))
 (description . "tests for \"gui\"")
 (name . "gui-test")
-(source . "git://github.com/racket/gui/?path=gui-test")))
+(source . "git://github.com/racket/gui/?path=gui-test#release")))
 ("gui-win32-i386" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -2333,7 +2333,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")
+(checksum . "e670e2d71da4aca87b1e2465a4ef769770833168")
 (dependencies . ("syntax-color-lib" "syntax-color-doc"))
 (description . "Program syntax coloring for editors and typesetting")
 (name . "syntax-color")
@@ -2342,7 +2342,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")
+(checksum . "e670e2d71da4aca87b1e2465a4ef769770833168")
 (dependencies . ("base" "gui-doc" "scribble-doc" "gui-lib" "scribble-lib" "racket-doc" "syntax-color-lib"))
 (description . "documentation part of \"syntax-color\"")
 (name . "syntax-color-doc")
@@ -2351,7 +2351,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")
+(checksum . "e670e2d71da4aca87b1e2465a4ef769770833168")
 (dependencies . ("base" "parser-tools-lib" "option-contract-lib"))
 (description . "implementation (no documentation) part of \"syntax-color\"")
 (name . "syntax-color-lib")
@@ -2360,7 +2360,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")
+(checksum . "e670e2d71da4aca87b1e2465a4ef769770833168")
 (dependencies . ("base" "rackunit-lib" "scheme-lib" "syntax-color-lib" "gui-lib"))
 (description . "tests for \"syntax-color-lib\"")
 (name . "syntax-color-test")
@@ -2378,11 +2378,11 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "1a7eac48ea7990e30ad175505f2d3ed86ee0cab8")
+(checksum . "078c19703f59212551c254825e3e398b17b64f5a")
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
-(source . "git://github.com/racket/gui/?path=tex-table")))
+(source . "git://github.com/racket/gui/?path=tex-table#release")))
 ("trace" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")

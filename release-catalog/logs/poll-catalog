@@ -508,3 +508,53 @@
        .
        ("29698b7291e453f4715d076ea876f901b8b1c0f6"
         "d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833")))
+;; ============================================================
+;; Appended 1642806041 : Friday, January 21st, 2022 6:00:41pm
+#hash(("git://github.com/racket/expeditor/?path=expeditor#release"
+       .
+       ("34973c081bdf6ffec0c69c0126d8849a00e012a3"
+        "a40c5a6b58a7eeea902004d4242fe5956607196a"))
+      ("git://github.com/racket/expeditor/?path=expeditor-doc#release"
+       .
+       ("34973c081bdf6ffec0c69c0126d8849a00e012a3"
+        "a40c5a6b58a7eeea902004d4242fe5956607196a"))
+      ("git://github.com/racket/expeditor/?path=expeditor-lib#release"
+       .
+       ("34973c081bdf6ffec0c69c0126d8849a00e012a3"
+        "a40c5a6b58a7eeea902004d4242fe5956607196a"))
+      ("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("1a7eac48ea7990e30ad175505f2d3ed86ee0cab8"
+        "078c19703f59212551c254825e3e398b17b64f5a"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("1a7eac48ea7990e30ad175505f2d3ed86ee0cab8"
+        "078c19703f59212551c254825e3e398b17b64f5a"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("1a7eac48ea7990e30ad175505f2d3ed86ee0cab8"
+        "078c19703f59212551c254825e3e398b17b64f5a"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("1a7eac48ea7990e30ad175505f2d3ed86ee0cab8"
+        "078c19703f59212551c254825e3e398b17b64f5a"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("1a7eac48ea7990e30ad175505f2d3ed86ee0cab8"
+        "078c19703f59212551c254825e3e398b17b64f5a"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color#release"
+       .
+       ("d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"
+        "e670e2d71da4aca87b1e2465a4ef769770833168"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-doc#release"
+       .
+       ("d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"
+        "e670e2d71da4aca87b1e2465a4ef769770833168"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-lib#release"
+       .
+       ("d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"
+        "e670e2d71da4aca87b1e2465a4ef769770833168"))
+      ("git://github.com/racket/syntax-color/?path=syntax-color-test#release"
+       .
+       ("d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"
+        "e670e2d71da4aca87b1e2465a4ef769770833168")))
