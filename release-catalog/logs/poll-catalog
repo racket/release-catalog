@@ -558,3 +558,21 @@
        .
        ("d7cd5ae40ad8370d7c1eeee869b2bf9636e9b833"
         "e670e2d71da4aca87b1e2465a4ef769770833168")))
+;; ============================================================
+;; Appended 1642892440 : Saturday, January 22nd, 2022 6:00:40pm
+#hash(("git://github.com/racket/pict/?path=pict#release"
+       .
+       ("68543c21142d4e87f3b4657003adfbdd684bc1b4"
+        "ba40960fa69bf384c86a5235d75fa37ead8019ae"))
+      ("git://github.com/racket/pict/?path=pict-doc#release"
+       .
+       ("68543c21142d4e87f3b4657003adfbdd684bc1b4"
+        "ba40960fa69bf384c86a5235d75fa37ead8019ae"))
+      ("git://github.com/racket/pict/?path=pict-lib#release"
+       .
+       ("68543c21142d4e87f3b4657003adfbdd684bc1b4"
+        "ba40960fa69bf384c86a5235d75fa37ead8019ae"))
+      ("git://github.com/racket/pict/?path=pict-test#release"
+       .
+       ("68543c21142d4e87f3b4657003adfbdd684bc1b4"
+        "ba40960fa69bf384c86a5235d75fa37ead8019ae")))

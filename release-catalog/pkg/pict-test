@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "68543c21142d4e87f3b4657003adfbdd684bc1b4")
+(checksum . "ba40960fa69bf384c86a5235d75fa37ead8019ae")
 (dependencies . ("base" "pict-lib" "rackunit-lib" "htdp-lib" "draw-lib"))
 (description . "tests for \"pict-lib\"")
 (name . "pict-test")
-(source . "git://github.com/racket/pict/?path=pict-test"))
+(source . "git://github.com/racket/pict/?path=pict-test#release"))

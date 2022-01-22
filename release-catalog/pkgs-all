@@ -1335,29 +1335,29 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "68543c21142d4e87f3b4657003adfbdd684bc1b4")
+(checksum . "ba40960fa69bf384c86a5235d75fa37ead8019ae")
 (dependencies . ("pict-lib" "pict-doc"))
 (description . "Building pictures with functional combinators")
 (name . "pict")
-(source . "git://github.com/racket/pict/?path=pict")))
+(source . "git://github.com/racket/pict/?path=pict#release")))
 ("pict-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "68543c21142d4e87f3b4657003adfbdd684bc1b4")
+(checksum . "ba40960fa69bf384c86a5235d75fa37ead8019ae")
 (dependencies . ("base" "mzscheme-doc" "draw-doc" "gui-doc" "slideshow-doc" "draw-lib" "gui-lib" "scribble-lib" "slideshow-lib" "pict-lib" "racket-doc" "scribble-doc"))
 (description . "documentation part of \"pict\"")
 (name . "pict-doc")
-(source . "git://github.com/racket/pict/?path=pict-doc")))
+(source . "git://github.com/racket/pict/?path=pict-doc#release")))
 ("pict-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "68543c21142d4e87f3b4657003adfbdd684bc1b4")
+(checksum . "ba40960fa69bf384c86a5235d75fa37ead8019ae")
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "syntax-color-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"pict\"")
 (name . "pict-lib")
-(source . "git://github.com/racket/pict/?path=pict-lib")))
+(source . "git://github.com/racket/pict/?path=pict-lib#release")))
 ("pict-snip" . 
 #hash(
 (author . "robby@racket-lang.org")
@@ -1398,11 +1398,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "68543c21142d4e87f3b4657003adfbdd684bc1b4")
+(checksum . "ba40960fa69bf384c86a5235d75fa37ead8019ae")
 (dependencies . ("base" "pict-lib" "rackunit-lib" "htdp-lib" "draw-lib"))
 (description . "tests for \"pict-lib\"")
 (name . "pict-test")
-(source . "git://github.com/racket/pict/?path=pict-test")))
+(source . "git://github.com/racket/pict/?path=pict-test#release")))
 ("picturing-programs" . 
 #hash(
 (author . "sbloch@racket-lang.org")
