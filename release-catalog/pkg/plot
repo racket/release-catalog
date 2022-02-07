@@ -6,4 +6,4 @@
 (dependencies . ("plot-lib" "plot-gui-lib" "plot-doc"))
 (description . "Functions (and docs and tests) for plotting")
 (name . "plot")
-(source . "git://github.com/racket/plot/?path=plot#release"))
+(source . "git://github.com/racket/plot/?path=plot#v8.4"))

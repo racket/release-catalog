@@ -6,4 +6,4 @@
 (dependencies . ("base" "sandbox-lib" "scribble-lib" "errortrace-doc" "macro-debugger" "profile-doc" "readline-doc" "macro-debugger-text-lib" "profile-lib" "readline-lib" "xrepl-lib" "racket-doc"))
 (description . "documentation part of \"xrepl\"")
 (name . "xrepl-doc")
-(source . "git://github.com/racket/xrepl/?path=xrepl-doc#release"))
+(source . "git://github.com/racket/xrepl/?path=xrepl-doc#v8.4"))

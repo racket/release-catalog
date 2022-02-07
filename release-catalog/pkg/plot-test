@@ -6,4 +6,4 @@
 (dependencies . ("base" "plot-compat" "plot-gui-lib" "plot-lib" "plot-doc" "draw-lib" "pict-lib" "rackunit-lib" "slideshow-lib" "typed-racket-lib" "typed-racket-more" "contract-profile"))
 (description . "Plot tests")
 (name . "plot-test")
-(source . "git://github.com/racket/plot/?path=plot-test#release"))
+(source . "git://github.com/racket/plot/?path=plot-test#v8.4"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "expeditor-lib" "racket-doc"))
 (description . "documentation part of \"expeditor\"")
 (name . "expeditor-doc")
-(source . "git://github.com/racket/expeditor/?path=expeditor-doc#release"))
+(source . "git://github.com/racket/expeditor/?path=expeditor-doc#v8.4"))

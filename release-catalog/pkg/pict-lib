@@ -6,4 +6,4 @@
 (dependencies . ("scheme-lib" "base" "compatibility-lib" "draw-lib" "syntax-color-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"pict\"")
 (name . "pict-lib")
-(source . "git://github.com/racket/pict/?path=pict-lib#release"))
+(source . "git://github.com/racket/pict/?path=pict-lib#v8.4"))

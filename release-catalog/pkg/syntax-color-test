@@ -6,4 +6,4 @@
 (dependencies . ("base" "rackunit-lib" "scheme-lib" "syntax-color-lib" "gui-lib"))
 (description . "tests for \"syntax-color-lib\"")
 (name . "syntax-color-test")
-(source . "git://github.com/racket/syntax-color/?path=syntax-color-test#release"))
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-test#v8.4"))

@@ -6,4 +6,4 @@
 (dependencies . ("expeditor-lib" "expeditor-doc"))
 (description . "Terminal expression editor")
 (name . "expeditor")
-(source . "git://github.com/racket/expeditor/?path=expeditor#release"))
+(source . "git://github.com/racket/expeditor/?path=expeditor#v8.4"))

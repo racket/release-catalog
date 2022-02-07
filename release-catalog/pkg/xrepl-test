@@ -6,4 +6,4 @@
 (dependencies . ("at-exp-lib" "base" "eli-tester" "xrepl-lib"))
 (description . "tests for \"xrepl\"")
 (name . "xrepl-test")
-(source . "git://github.com/racket/xrepl/?path=xrepl-test#release"))
+(source . "git://github.com/racket/xrepl/?path=xrepl-test#v8.4"))

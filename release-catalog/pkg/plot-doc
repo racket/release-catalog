@@ -6,4 +6,4 @@
 (dependencies . ("base" "plot-lib" "plot-gui-lib" "db-doc" "db-lib" "draw-doc" "draw-lib" "gui-doc" "gui-lib" "pict-doc" "pict-lib" "plot-compat" "racket-doc" "scribble-lib" "slideshow-doc" "slideshow-lib" "srfi-doc"))
 (description . "Documentation for plot")
 (name . "plot-doc")
-(source . "git://github.com/racket/plot/?path=plot-doc#release"))
+(source . "git://github.com/racket/plot/?path=plot-doc#v8.4"))
