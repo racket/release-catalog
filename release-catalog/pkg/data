@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "e32d012b394e32e102e8a9adfcc885bb0541ab51")
+(dependencies . ("data-lib" "data-enumerate-lib" "data-doc"))
+(description . "Data strucutures")
+(name . "data")
+(source . "git://github.com/racket/data/?path=data"))

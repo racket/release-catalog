@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "c34a316586d54e025daca1e88a903977c3c413f3")
+(dependencies . ("base"))
+(description . "native libraries for \"gui\" package")
+(name . "gui-aarch64-macosx")
+(source . "https://pkg-sources.racket-lang.org/pkgs/c34a316586d54e025daca1e88a903977c3c413f3/gui-aarch64-macosx.zip"))

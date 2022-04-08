@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "67e19384a0923ccbf2ed9e8b7ce55ff92fdefe0e")
+(dependencies . ("base" "math-lib" "racket-test" "rackunit-lib" "typed-racket-lib" "typed-racket-more"))
+(description . "Math library tests")
+(name . "math-test")
+(source . "git://github.com/racket/math/?path=math-test"))
