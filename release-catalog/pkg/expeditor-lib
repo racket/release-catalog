@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "a40c5a6b58a7eeea902004d4242fe5956607196a")
-(dependencies . (("base" #:version "8.3.0.11") ("syntax-color-lib" #:version "1.3")))
-(description . "implementation (no documentation) part of \"expeditor\"")
-(name . "expeditor-lib")
-(source . "git://github.com/racket/expeditor/?path=expeditor-lib#v8.4"))

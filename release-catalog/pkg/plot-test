@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "6da78b761a6005fdfe771318097513adf38c9564")
-(dependencies . ("base" "plot-compat" "plot-gui-lib" "plot-lib" "plot-doc" "draw-lib" "pict-lib" "rackunit-lib" "slideshow-lib" "typed-racket-lib" "typed-racket-more" "contract-profile"))
-(description . "Plot tests")
-(name . "plot-test")
-(source . "git://github.com/racket/plot/?path=plot-test#v8.4"))

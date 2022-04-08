@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "093c5571bd7b6d3635b3520580da0cb6f6170d17")
-(dependencies . ("net-lib" "net-doc"))
-(description . "Networking libraries")
-(name . "net")
-(source . "git://github.com/racket/racket/?path=pkgs/net#v8.4"))

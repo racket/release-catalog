@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ryanc@racket-lang.org noel@racket-lang.org")
-(authors . ("ryanc@racket-lang.org" "noel@racket-lang.org"))
-(checksum . "6c04ee267d258a13f9c5cbc437dac60234e54ef4")
-(dependencies . ("base" "testing-util-lib"))
-(description . "RackUnit testing framework")
-(name . "rackunit-lib")
-(source . "git://github.com/racket/rackunit/?path=rackunit-lib"))

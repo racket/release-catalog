@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "b2f23dc27e4c152ecb93cc3ae5570f053f1f90b7")
-(dependencies . ("base"))
-(description . "native libraries for \"math\" package")
-(name . "math-x86_64-macosx")
-(source . "https://pkg-sources.racket-lang.org/pkgs/b2f23dc27e4c152ecb93cc3ae5570f053f1f90b7/math-x86_64-macosx.zip"))
