@@ -214,3 +214,41 @@
        .
        ("7c7258b32fa4abc4dd7a69299b2bcc28029a0ff4"
         "5e1004a7a8b494672d7f6757605980ca652a4aee")))
+;; ============================================================
+;; Appended 1649973641 : Thursday, April 14th, 2022 6:00:41pm
+#hash(("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("ca5c44699d6e650ba121b5afe613e6118b454e86"
+        "d655aaacde705cc4e118413041efb7337eef0231"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("ca5c44699d6e650ba121b5afe613e6118b454e86"
+        "d655aaacde705cc4e118413041efb7337eef0231"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("ca5c44699d6e650ba121b5afe613e6118b454e86"
+        "d655aaacde705cc4e118413041efb7337eef0231"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("ca5c44699d6e650ba121b5afe613e6118b454e86"
+        "d655aaacde705cc4e118413041efb7337eef0231"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("ca5c44699d6e650ba121b5afe613e6118b454e86"
+        "d655aaacde705cc4e118413041efb7337eef0231"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("07c1bcbdd802e2268911d6dadb8900eeddb0fa29"
+        "16ab32c833e54ca250cd637c061c6815eee5c1f8"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("07c1bcbdd802e2268911d6dadb8900eeddb0fa29"
+        "16ab32c833e54ca250cd637c061c6815eee5c1f8"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("07c1bcbdd802e2268911d6dadb8900eeddb0fa29"
+        "16ab32c833e54ca250cd637c061c6815eee5c1f8"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("07c1bcbdd802e2268911d6dadb8900eeddb0fa29"
+        "16ab32c833e54ca250cd637c061c6815eee5c1f8")))
