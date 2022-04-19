@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "5e1004a7a8b494672d7f6757605980ca652a4aee")
+(checksum . "7408887809ec83bea065a8a27999ad6177745de1")
 (dependencies . ("scheme-lib" "base" "errortrace-lib"))
 (description . "Library for sandboxing Racket programs")
 (name . "sandbox-lib")
