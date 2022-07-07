@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "5f3a96425927d2befaad96b999cf253064e6f1d5")
+(dependencies . ("base"))
+(description . "shared files for \"draw\" package")
+(name . "draw-ttf-x86_64-linux-natipkg")
+(source . "https://pkg-sources.racket-lang.org/pkgs/5f3a96425927d2befaad96b999cf253064e6f1d5/draw-ttf-x86_64-linux-natipkg.zip"))
