@@ -72,3 +72,29 @@
        .
        ("83106c3c1792ba2716f8ac5fd0f921477e3ad039"
         "6ef43da80cc2b84c05f7409646745d971aa8c379")))
+;; ============================================================
+;; Appended 1657404044 : Saturday, July 9th, 2022 6:00:44pm
+#hash(("git://github.com/racket/scribble/?path=scribble#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b"))
+      ("git://github.com/racket/scribble/?path=scribble-doc#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b"))
+      ("git://github.com/racket/scribble/?path=scribble-html-lib#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b"))
+      ("git://github.com/racket/scribble/?path=scribble-lib#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b"))
+      ("git://github.com/racket/scribble/?path=scribble-test#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b"))
+      ("git://github.com/racket/scribble/?path=scribble-text-lib#release"
+       .
+       ("6673013e7f1f2b9feca0b3d1f2dec4e1ebe88012"
+        "0f9c21fc3ce3ff087e469b465fae51149a4cf05b")))
