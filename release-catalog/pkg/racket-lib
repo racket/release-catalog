@@ -2,7 +2,7 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "6ef43da80cc2b84c05f7409646745d971aa8c379")
+(checksum . "552028f6f771048d6e2d44f337db549e60e9b675")
 (dependencies . ("base" ("racket-win32-i386-3" #:platform "win32\\i386") ("racket-win32-x86_64-3" #:platform "win32\\x86_64") ("racket-win32-arm64-3" #:platform "win32\\arm64") ("racket-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("racket-x86_64-macosx-3" #:platform "x86_64-macosx") ("racket-i386-macosx-3" #:platform "i386-macosx") ("racket-ppc-macosx-3" #:platform "ppc-macosx") ("racket-aarch64-macosx-3" #:platform "aarch64-macosx") ("db-ppc-macosx" #:platform "ppc-macosx") ("db-win32-i386" #:platform "win32\\i386") ("db-win32-x86_64" #:platform "win32\\x86_64") ("db-win32-arm64" #:platform "win32\\arm64") ("db-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("com-win32-i386" #:platform "win32\\i386") ("com-win32-x86_64" #:platform "win32\\x86_64")))
 (description . "Combines platform-specific native libraries that are useful for base Racket")
 (name . "racket-lib")
