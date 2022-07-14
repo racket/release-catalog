@@ -310,20 +310,20 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "6d7b236491c1a82dafae449de763d4f551502344")
+(checksum . "98e2826b20cee94c8fc709006e8a562bfc760a65")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "drracket" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "wxme-lib" "snip-lib" "draw-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "rackunit-lib" "scribble-lib"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#release")))
 ("deinprogramm-signature" . 
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "6d7b236491c1a82dafae449de763d4f551502344")
+(checksum . "98e2826b20cee94c8fc709006e8a562bfc760a65")
 (dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "htdp-lib" "scheme-lib" "srfi-lib" "string-constants-lib"))
 (description . "Signature support for teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm-signature")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm-signature")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release")))
 ("distributed-places" . 
 #hash(
 (author . "tewk@racket-lang.org")
