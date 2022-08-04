@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "Library for handling zo files")
 (name . "zo-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/zo-lib#release"))
+(source . "git://github.com/racket/racket/?path=pkgs/zo-lib#v8.6"))

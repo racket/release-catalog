@@ -6,4 +6,4 @@
 (dependencies . ("base" "compatibility-lib"))
 (description . "DrRacket's plugin API")
 (name . "drracket-plugin-lib")
-(source . "git://github.com/racket/drracket/?path=drracket-plugin-lib#release"))
+(source . "git://github.com/racket/drracket/?path=drracket-plugin-lib#v8.6"))

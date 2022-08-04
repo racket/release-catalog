@@ -6,4 +6,4 @@
 (dependencies . ("srfi-lite-lib" "base" "net-lib" "net-cookies-lib" ("web-server-lib" #:version "1.6") ("db-lib" #:version "1.5") "draw-lib" "rackunit-lib" "rackunit-gui" "rackunit-typed" "snip-lib" ("typed-racket-lib" #:version "1.14") ("gui-lib" #:version "1.49") "pict-lib" "images-lib" "racket-index" "sandbox-lib" "pconvert-lib"))
 (description . "Types for various libraries")
 (name . "typed-racket-more")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-more#release"))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-more#v8.6"))
