@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "19a7755c9391ef03e4c580a183f3b611724e909d")
+(dependencies . ("base" ("draw-lib" #:version "1.17")))
+(description . "implementation (no documentation) part of \"snip\"")
+(name . "snip-lib")
+(source . "git://github.com/racket/snip/?path=snip-lib"))

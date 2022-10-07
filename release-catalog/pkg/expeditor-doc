@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "86bad7e267e6a1e894fb4dbc4ade8032f507d084")
+(dependencies . ("base" "scribble-lib" "expeditor-lib" "racket-doc"))
+(description . "documentation part of \"expeditor\"")
+(name . "expeditor-doc")
+(source . "https://github.com/racket/expeditor.git?path=expeditor-doc"))

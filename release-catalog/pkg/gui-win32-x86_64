@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "be065ad69717de3363451c92679c97979e5f11ac")
+(dependencies . ("base"))
+(description . "native libraries for \"gui\" package")
+(name . "gui-win32-x86_64")
+(source . "https://pkg-sources.racket-lang.org/pkgs/be065ad69717de3363451c92679c97979e5f11ac/gui-win32-x86_64.zip"))
