@@ -6,7 +6,7 @@
          racket/contract)
 (provide
  (contract-out [get-sources (-> any/c
-                                (hash/c any/c string?))])
+                                (hash/c (list/c string? string?) string?))])
  (except-out (all-defined-out) get-sources))
 
 ;; ============================================================

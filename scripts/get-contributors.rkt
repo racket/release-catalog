@@ -7,16 +7,26 @@
          racket/runtime-path
          racket/set
          racket/system
+         racket/list
          json
          "private/util.rkt"
          "private/github.rkt")
 
 ;; get-contributors : Catalog Tag -> Void
 (define (get-contributors catalog since-tag)
+  (define sources (get-sources catalog))
+  ;; ensure there are no duplicated repo names:
+  (define possible-duplicate (check-duplicates (map second (hash-keys sources))))
+  (when possible-duplicate
+    (error 'get-commits-since-last-release
+           "the list of sources contains more than one repository with the name ~e"
+           possible-duplicate))
   (define all-contributors
-    (for/fold ([all-contributors (set)])
-        ([(repo commits-since-last-release)
-          (in-hash (get-commits-since-last-release catalog since-tag))])
+    (for/fold ([all-contribut4ors (set)])
+              ([(user+repo checksum)
+                (in-hash sources)])
+      (define commits-since-last-release
+        (get-repo-commits-since-last-release user+repo checksum since-tag))
       (define contributor-names
         (for/set ([c commits-since-last-release])
           (hash-ref (hash-ref (hash-ref c 'commit) 'author) 'name)))
