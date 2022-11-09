@@ -1128,20 +1128,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "6aad56ee73eb76ad0f12433380f04f7bb02159ad")
+(checksum . "60f9666566d1d5ec7c030add9d547941a4e28009")
 (dependencies . ("base"))
 (description . "native libraries for \"math\" package")
 (name . "math-win32-i386")
-(source . "https://pkg-sources.racket-lang.org/pkgs/6aad56ee73eb76ad0f12433380f04f7bb02159ad/math-win32-i386.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/60f9666566d1d5ec7c030add9d547941a4e28009/math-win32-i386.zip")))
 ("math-win32-x86_64" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "ed120b3dbdfc063c35221a0b178fc7e6453ce1c8")
+(checksum . "1e0828cacc62660ebed10579a12e4dc80f2ed54e")
 (dependencies . ("base"))
 (description . "native libraries for \"math\" package")
 (name . "math-win32-x86_64")
-(source . "https://pkg-sources.racket-lang.org/pkgs/ed120b3dbdfc063c35221a0b178fc7e6453ce1c8/math-win32-x86_64.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/1e0828cacc62660ebed10579a12e4dc80f2ed54e/math-win32-x86_64.zip")))
 ("math-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
