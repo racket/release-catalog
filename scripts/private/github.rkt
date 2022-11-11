@@ -28,7 +28,7 @@
          results-per-page
          (contract-out
           [get-repo-commits-since-last-release
-           (-> (list/c string? string?) string? string? (listof string?))])
+           (-> string? string? string? string? (listof (hash/c symbol? any/c)))])
          )
 
 
@@ -304,93 +304,86 @@
   (for/hash ([commit (in-list commits)])
     (values (commit-sha commit) commit)))
 
-;; get-commits-since-last-release : Catalog Tag -> [Hashof repo [Listof commit]]
+;; get-commits-since-last-release : Catalog Tag -> [Hashof user+repo [Listof commit]]
 ;;   where commit is in github's json format
 ;; Returns a hash table mapping the repos in `catalog` to the list of the
 ;; commits that appear in them since `tag`.
 (define (get-commits-since-last-release catalog since-tag)
   (define sources (get-sources catalog))
-  ;; ensure there are no duplicated repo names:
-  (define possible-duplicate (check-duplicates (map second (hash-keys sources))))
-  (when possible-duplicate
-    (error 'get-commits-since-last-release
-           "the list of sources contains more than one repository with the name ~e"
-           possible-duplicate))
   (for/hash ([(user+repo checksum) (in-hash (get-sources catalog))])
-    (define repo (second user+repo))
-    (values repo (get-repo-commits-since-last-release user+repo checksum since-tag))))
+    (values user+repo (get-repo-commits-since-last-release user+repo checksum since-tag))))
 
-
-(define (get-repo-commits-since-last-release user+repo checksum since-tag)
-  (eprintf "user+repo: ~v\n" user+repo)
-  (match user+repo
-    [(list user repo)
-     (cond
-       [(tag-exists? user repo since-tag)
+;; given a github user, a repo associated with that user, the commit of a
+;; candidate release, and a tag representing the prior release, return
+;; a list of all of the commits which are ancestors of the given candidate
+;; commit but are not ancestors of the prior release tag.
+(define (get-repo-commits-since-last-release user repo release-commit since-tag)
+  (eprintf "user+repo: ~v\n" (list user repo))
+  (cond
+    [(tag-exists? user repo since-tag)
           
-        (define old-tag-sha
-          (match (fetch-commits user repo since-tag 1 1)
-            [(list commit) (commit-sha commit)]
-            [other (error 'get-commits-since-last-release
-                          "expected list of length 1 from fetch-commits, got: ~e"
-                          other)]))
-        ;; this is a messy problem. We're essentially finding the merge base,
-        ;; and identifying all commits that are ancestors of the release branch
-        ;; that aren't ancestors of the old-tag. The problem is that we have
-        ;; no idea how big each set is. What we do is gradually expand our pool by
-        ;; adding another page from each query (reachable-from-tag, reachable-from-release).
-        ;; Each time we expand the pool, we start the search over again (because searching
-        ;; should be more or less instant compared to fetching. So, for a given pool,
-        ;; we first identify all ancestor commits reachable from the old-tag, ignoring loose ends
-        ;; that point outside our set. These are our stops.
-        ;; Then, we identify all commits reachable from the
-        ;; release branch, halting the search on every path that reaches the stop pool.
-        ;; if this search has loose ends, it means that we needed more commits in the
-        ;; hash, so we fetch another page on each query and start over again.
-        (cond
-          ;; no fetch necessary for this short-cut case:
-          [(equal? old-tag-sha checksum) (values repo '())]
-          [else
-           (define unreleased-commits
-            
-             (let loop ([page 1] ;; in theory we should be following "Link" headers...
-                        [commits-table (hash)])
-               (define old-tag-commit-batch
-                 (fetch-commits user repo since-tag results-per-page page))
-               (define new-tag-commit-batch
-                 (fetch-commits user repo checksum results-per-page page))
-               (define new-commits-table
-                 (hash-union commits-table
-                             (commits->table old-tag-commit-batch)
-                             (commits->table new-tag-commit-batch)
-                             #:combine/key
-                             (λ (k v0 v)
-                               (cond [(equal? v0 v) v0]
-                                     [else (error 'get-commits-since-last-release
-                                                  "key ~v has maps to two different values: ~e and ~e"
-                                                  k v0 v)]))))
-               (define-values (stops _)
-                 (reachable (set old-tag-sha) new-commits-table (set) (set) (set)))
-               (define-values (unreleased-shas loose-ends)
-                 (reachable (set checksum) new-commits-table (set) stops (set)))
-               (cond [(set-empty? loose-ends)
-                      (set-map unreleased-shas (λ (sha) (hash-ref new-commits-table sha)))]
-                     [else
-                      ;; try again with another page on each query...
-                      (loop (add1 page) new-commits-table)])))
-           (set->list unreleased-commits)])]
+     (define old-tag-sha
+       (match (fetch-commits user repo since-tag 1 1)
+         [(list commit) (commit-sha commit)]
+         [other (error 'get-commits-since-last-release
+                       "expected list of length 1 from fetch-commits, got: ~e"
+                       other)]))
+     ;; this is a messy problem. We're essentially finding the merge base,
+     ;; and identifying all commits that are ancestors of the release branch
+     ;; that aren't ancestors of the old-tag. The problem is that we have
+     ;; no idea how big each set is. What we do is gradually expand our pool by
+     ;; adding another page from each query (reachable-from-tag, reachable-from-release).
+     ;; Each time we expand the pool, we start the search over again (because searching
+     ;; should be more or less instant compared to fetching. So, for a given pool,
+     ;; we first identify all ancestor commits reachable from the old-tag, ignoring loose ends
+     ;; that point outside our set. These are our stops.
+     ;; Then, we identify all commits reachable from the
+     ;; release branch, halting the search on every path that reaches the stop pool.
+     ;; if this search has loose ends, it means that we needed more commits in the
+     ;; hash, so we fetch another page on each query and start over again.
+     (cond
+       ;; no fetch necessary for this short-cut case:
+       [(equal? old-tag-sha release-commit) '()]
        [else
-        (eprintf "! repo ~a/~a does not contain a tag with name ~a. Assuming It's a new repo\n"
-                 user repo since-tag)
-        ;; just keep going until you get zero? This seems sketchy.
-        (let loop ([page 1])
-          (define commits
-            (fetch-commits user repo checksum results-per-page page))
-          (cond [(empty? commits)
-                 '()]
-                [else (append commits (loop (add1 page)))]))])]))
+        (define unreleased-commits
+            
+          (let loop ([page 1] ;; in theory we should be following "Link" headers...
+                     [commits-table (hash)])
+            (define old-tag-commit-batch
+              (fetch-commits user repo since-tag results-per-page page))
+            (define new-tag-commit-batch
+              (fetch-commits user repo release-commit results-per-page page))
+            (define new-commits-table
+              (hash-union commits-table
+                          (commits->table old-tag-commit-batch)
+                          (commits->table new-tag-commit-batch)
+                          #:combine/key
+                          (λ (k v0 v)
+                            (cond [(equal? v0 v) v0]
+                                  [else (error 'get-commits-since-last-release
+                                               "key ~v has maps to two different values: ~e and ~e"
+                                               k v0 v)]))))
+            (define-values (stops _)
+              (reachable (set old-tag-sha) new-commits-table (set) (set) (set)))
+            (define-values (unreleased-shas loose-ends)
+              (reachable (set release-commit) new-commits-table (set) stops (set)))
+            (cond [(set-empty? loose-ends)
+                   (set-map unreleased-shas (λ (sha) (hash-ref new-commits-table sha)))]
+                  [else
+                   ;; try again with another page on each query...
+                   (loop (add1 page) new-commits-table)])))
+        (set->list unreleased-commits)])]
+    [else
+     (eprintf "! repo ~a/~a does not contain a tag with name ~a. Assuming It's a new repo\n"
+              user repo since-tag)
+     ;; just keep going until you get zero? This seems sketchy.
+     (let loop ([page 1])
+       (define commits
+         (fetch-commits user repo release-commit results-per-page page))
+       (cond [(empty? commits)
+              '()]
+             [else (append commits (loop (add1 page)))]))]))
 
-;; WIP testing failure:
 (module+ test
   (check-not-exn
    (λ () (get/github "https://api.github.com/repos/racket/db/branches")))

@@ -16,11 +16,13 @@
 
 ;; get-commit-messages : Catalog Tag -> Void
 (define (get-commit-messages catalog since-tag)
-  (define all-commits (get-commits-since-last-release catalog since-tag))
-  (for ([(repo commits) (in-hash all-commits)])
+  (define sources (get-sources catalog))
+  (for ([(user+repo commit) (in-hash sources)])
+    (match-define (list user repo) user+repo)
+    (define commits (get-repo-commits-since-last-release user repo commit since-tag))
     (when (not (null? commits))
       (displayln (make-string 80 #\=))
-      (displayln repo)
+      (displayln user+repo)
       (for ([c (in-list commits)])
         (define commit  (hash-ref c 'commit))
         (define author  (hash-ref commit 'author))
@@ -36,7 +38,8 @@
         (newline)
         (displayln message)
         (newline))
-      (newline))))
+      (newline)
+      (flush-output))))
 
 ;; ------------------------------------------------------------
 
