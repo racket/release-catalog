@@ -6,4 +6,4 @@
 (dependencies . ("base" "compiler-lib" "rackunit-lib" "redex-lib" "redex-examples" "math-lib" "plot-lib"))
 (description . "PLT Redex Benchmark")
 (name . "redex-benchmark")
-(source . "git://github.com/racket/redex/?path=redex-benchmark#release"))
+(source . "git://github.com/racket/redex/?path=redex-benchmark#v8.7"))

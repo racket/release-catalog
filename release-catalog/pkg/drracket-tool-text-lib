@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.2.900.10") "scribble-lib" ("string-constants-lib" #:version "1.12") "scribble-lib" "racket-index" "at-exp-lib" "rackunit-lib"))
 (description . "Code implementing non-GUI programmatic interfaces to some IDE tools that DrRacket supports")
 (name . "drracket-tool-text-lib")
-(source . "git://github.com/racket/drracket/?path=drracket-tool-text-lib#release"))
+(source . "git://github.com/racket/drracket/?path=drracket-tool-text-lib#v8.7"))
