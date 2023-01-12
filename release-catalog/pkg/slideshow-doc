@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "1c0876ae17c96e95f40ffc23feae72134078a03d")
-(dependencies . ("scheme-lib" "draw-doc" "gui-doc" "pict-doc" "scribble-doc" "base" "gui-lib" "pict-lib" "scribble-lib" "slideshow-lib" ("racket-doc" #:version "1.3") "at-exp-lib"))
-(description . "documentation part of \"slideshow\"")
-(name . "slideshow-doc")
-(source . "git://github.com/racket/slideshow/?path=slideshow-doc"))

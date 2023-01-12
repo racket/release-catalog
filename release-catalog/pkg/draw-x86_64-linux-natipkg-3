@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "61e87b982fe0512b4562251fa66b868482c5b3b2")
-(dependencies . ("base"))
-(description . "native libraries for \"draw\" package")
-(name . "draw-x86_64-linux-natipkg-3")
-(source . "https://pkg-sources.racket-lang.org/pkgs/61e87b982fe0512b4562251fa66b868482c5b3b2/draw-x86_64-linux-natipkg-3.zip"))

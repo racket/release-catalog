@@ -1,9 +1,0 @@
-
-#hash(
-(author . "ntoronto@racket-lang.org")
-(authors . ("ntoronto@racket-lang.org"))
-(checksum . "f589ef63b3b0272b452dc16b9164ddc2f05a6a18")
-(dependencies . ("base" "plot-lib" "plot-gui-lib" "db-doc" "db-lib" "draw-doc" "draw-lib" "gui-doc" "gui-lib" "pict-doc" "pict-lib" "plot-compat" "racket-doc" "scribble-lib" "slideshow-doc" "slideshow-lib" "srfi-doc" "math-lib" "math-doc"))
-(description . "Documentation for plot")
-(name . "plot-doc")
-(source . "git://github.com/racket/plot/?path=plot-doc"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "34645ec63e2ea2a013514646aeaf5533017780bf")
-(dependencies . ("base"))
-(description . "native libraries for \"draw\" package")
-(name . "draw-win32-i386-3")
-(source . "https://pkg-sources.racket-lang.org/pkgs/34645ec63e2ea2a013514646aeaf5533017780bf/draw-win32-i386-3.zip"))
