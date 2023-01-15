@@ -110,7 +110,8 @@
            #"")))
 
 ;; example from RFC 2617:
-(module+ test
+;; FIXME put these tests in a separate file to remove dependency on rackunit...
+#;(module+ test
   (require rackunit)
   (check-equal? (basic-auth-line "Aladdin" "open sesame")
                 "Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ=="))
@@ -201,7 +202,7 @@
     (cond [(pred val) (values (set-add yes val) no)]
           [else (values yes (set-add no val))])))
 
-(module+ test
+#;(module+ test
   (define-values (evens odds)
     (set-partition even? (set 3 24 -242 33 9 12)))
 
@@ -384,7 +385,7 @@
               '()]
              [else (append commits (loop (add1 page)))]))]))
 
-(module+ test
+#;(module+ test
   (check-not-exn
    (λ () (get/github "https://api.github.com/repos/racket/db/branches")))
   (check-equal? (tag-exists? "racket" "racket" "v8.3") #t))

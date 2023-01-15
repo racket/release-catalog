@@ -227,8 +227,8 @@
 (define myself-sym (string->symbol myself))
 (define (subcommand sub) (format "~a ~a" myself sub))
 
-
-(module+ test
+;; rackunit require creates a big dependency chain...
+#;(module+ test
   (require rackunit)
   (check-equal?
    (parse-repo-url "https://github.com/Metaxal/quickscript.git")
