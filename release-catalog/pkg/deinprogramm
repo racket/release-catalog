@@ -2,7 +2,7 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "0e26aebd0fc6539348ff467dd5467b325d692f7a")
+(checksum . "a19c24b04206af4affe399f55f0d27b57750addc")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "drracket" "drracket-plugin-lib" "errortrace-lib" "gui-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "wxme-lib" "snip-lib" "draw-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "rackunit-lib" "scribble-lib"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
