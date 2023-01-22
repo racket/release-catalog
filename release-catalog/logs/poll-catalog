@@ -176,3 +176,13 @@
        .
        ("19915eecbc6e8a79deea0c959208a3afc518825f"
         "1796b30e81e2b63e50caa8411625d7b4d954f4c0")))
+;; ============================================================
+;; Appended 1674428440 : Sunday, January 22nd, 2023 6:00:40pm
+#hash(("git://github.com/racket/deinprogramm/?path=deinprogramm#release"
+       .
+       ("a19c24b04206af4affe399f55f0d27b57750addc"
+        "5cdce0401e44db3b4629f7efb8ca71678fed70e6"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release"
+       .
+       ("a19c24b04206af4affe399f55f0d27b57750addc"
+        "5cdce0401e44db3b4629f7efb8ca71678fed70e6")))
