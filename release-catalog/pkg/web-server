@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "6a655c1bbf5d9b89880f319c96b98d0a1f3ac6c3")
+(dependencies . ("web-server-lib" "web-server-doc"))
+(description . "An HTTP server")
+(name . "web-server")
+(source . "git://github.com/racket/web-server/?path=web-server"))
