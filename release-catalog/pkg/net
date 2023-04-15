@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "c8d4c6a537e1ffb5d7de4f6695ebe0a1ddddaabe")
+(checksum . "d44d5085cdb5473ac75161870abd483bccb48b7d")
 (dependencies . ("net-lib" "net-doc"))
 (description . "Networking libraries")
 (name . "net")
