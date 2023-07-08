@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org eli@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "d0cfdab69758e6de681efcfce587b8ff69967c0d")
-(dependencies . ("scheme-lib" ("base" #:version "8.2.0.7") "at-exp-lib"))
-(description . "Language for text with embedded Racket code")
-(name . "scribble-text-lib")
-(source . "git://github.com/racket/scribble/?path=scribble-text-lib"))
