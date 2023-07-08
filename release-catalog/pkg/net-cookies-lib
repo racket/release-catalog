@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay.mccarthy@gmail.com jmj@fellowhuman.com")
+(authors . ("jay.mccarthy@gmail.com" "jmj@fellowhuman.com"))
+(checksum . "c4ce9abc8f9de9270bd2655aafaa711b992dbe0e")
+(dependencies . ("srfi-lite-lib" "base"))
+(description . "RFC6265-compliant cookie handling for client and server (lib)")
+(name . "net-cookies-lib")
+(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies-lib"))

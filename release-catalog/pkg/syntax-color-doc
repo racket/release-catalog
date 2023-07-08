@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "7b0c37a13a8a5548a770c5bd4812b18220aefda7")
+(dependencies . ("base" "gui-doc" "scribble-doc" "gui-lib" "scribble-lib" "racket-doc" "syntax-color-lib"))
+(description . "documentation part of \"syntax-color\"")
+(name . "syntax-color-doc")
+(source . "git://github.com/racket/syntax-color/?path=syntax-color-doc"))
