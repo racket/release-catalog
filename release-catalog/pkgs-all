@@ -409,11 +409,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "ea22dc3814be6e0701f7ce0fd9f9a5c75c535026")
+(checksum . "e4191eab21b7b1a3945d5dc7f99fad05b0ebe2c7")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-aarch64-macosx-3")
-(source . "https://pkg-sources.racket-lang.org/pkgs/ea22dc3814be6e0701f7ce0fd9f9a5c75c535026/draw-aarch64-macosx-3.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/e4191eab21b7b1a3945d5dc7f99fad05b0ebe2c7/draw-aarch64-macosx-3.zip")))
 ("draw-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -517,11 +517,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "58c60e9654cbad44680edab43b202d6fb51600fc")
+(checksum . "b979d7fecd16e8c408c0d405b87eb831f56fa839")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-x86_64-macosx-3")
-(source . "https://pkg-sources.racket-lang.org/pkgs/58c60e9654cbad44680edab43b202d6fb51600fc/draw-x86_64-macosx-3.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/b979d7fecd16e8c408c0d405b87eb831f56fa839/draw-x86_64-macosx-3.zip")))
 ("drracket" . 
 #hash(
 (author . "robby@racket-lang.org")
