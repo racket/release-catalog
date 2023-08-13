@@ -644,3 +644,33 @@
        .
        ("7348547eea2a9c7d5e6db205143553d4cf911b4b"
         "52f3106b4050da316c689fa36e8e90a5b0479ab3")))
+;; ============================================================
+;; Appended 1691889996 : Saturday, August 12th, 2023 9:26:36pm
+#hash(("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("3a6d1761015d1d35bec2876391579897cb0d400a"
+        "4aaa9069cb2f4d4d4016b6e76233fcdbef72b35e")))
