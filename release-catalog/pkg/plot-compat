@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "2417c228b0ce4708c796b4cb0a22cc818932a605")
+(dependencies . ("base" "plot-gui-lib" "draw-lib" "plot-lib" "snip-lib"))
+(description . "Compatibility library for Plot 5.1.3 and earlier")
+(name . "plot-compat")
+(source . "git://github.com/racket/plot/?path=plot-compat"))
