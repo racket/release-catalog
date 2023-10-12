@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "76a1acc368f585b0f77f0b5377dcf66f835371e5")
-(dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
-(description . "tests for \"draw\"")
-(name . "draw-test")
-(source . "git://github.com/racket/draw/?path=draw-test"))
