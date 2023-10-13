@@ -76,3 +76,53 @@
        .
        ("3659405be04f35bc1026602b8aeb572849fd0e0e"
         "4777e1d3cecd2c76683eb2420b78a873a8c86788")))
+;; ============================================================
+;; Appended 1697234431 : Friday, October 13th, 2023 6:00:31pm
+#hash(("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-text-lib#release"
+       .
+       ("7c6d289a736fddeacc2f27e4b588320f109fe094"
+        "5e40cc0857b33da2c86ddd6f7330462c8016551b"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("addba76a102738b727522ab39a456befe87d5459"
+        "5f45285ae67b0ae014631c42cb9d68b5b01d5621"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("addba76a102738b727522ab39a456befe87d5459"
+        "5f45285ae67b0ae014631c42cb9d68b5b01d5621"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("addba76a102738b727522ab39a456befe87d5459"
+        "5f45285ae67b0ae014631c42cb9d68b5b01d5621"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("addba76a102738b727522ab39a456befe87d5459"
+        "5f45285ae67b0ae014631c42cb9d68b5b01d5621")))
