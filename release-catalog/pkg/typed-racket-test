@@ -2,8 +2,8 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "76a1970b6d37d4a3a477c7d8ad9df91add3aef80")
+(checksum . "ad740d4a640e5dffa589be2f34e2255d289e4ce1")
 (dependencies . ("redex-lib" "sandbox-lib" ("base" #:version "6.2.900.16") ("typed-racket-lib" #:version "1.10") "typed-racket-more" "2d" "typed-racket-compatibility" "racket-index" "rackunit-lib" "compatibility-lib" "racket-test-core" "scheme-lib" "base" "racket-benchmarks" "compiler-lib" "htdp-lib"))
 (description . "tests for \"typed-racket\"")
 (name . "typed-racket-test")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-test"))
+(source . "git://github.com/racket/typed-racket/?path=typed-racket-test#release"))
