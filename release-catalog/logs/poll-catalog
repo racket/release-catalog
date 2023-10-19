@@ -226,3 +226,25 @@
        .
        ("ecc39c5aa27a0ab4d5ab9407825371529a5bce10"
         "ff8e84aec03784f3318c53ea8f0b6acc381fb2e5")))
+;; ============================================================
+;; Appended 1697709634 : Thursday, October 19th, 2023 6:00:34am
+#hash(("git://github.com/Metaxal/quickscript#release"
+       .
+       ("1ada405d220a7cff7cadab392272ab3cb93fc781"
+        "9adf62fd1113d04ee002de55a41725819a55074d"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("5f45285ae67b0ae014631c42cb9d68b5b01d5621"
+        "881aeb1a0332158ecfb2b80e11de65aeceac3285"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("5f45285ae67b0ae014631c42cb9d68b5b01d5621"
+        "881aeb1a0332158ecfb2b80e11de65aeceac3285"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("5f45285ae67b0ae014631c42cb9d68b5b01d5621"
+        "881aeb1a0332158ecfb2b80e11de65aeceac3285"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("5f45285ae67b0ae014631c42cb9d68b5b01d5621"
+        "881aeb1a0332158ecfb2b80e11de65aeceac3285")))

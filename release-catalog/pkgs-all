@@ -876,7 +876,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "5f45285ae67b0ae014631c42cb9d68b5b01d5621")
+(checksum . "881aeb1a0332158ecfb2b80e11de65aeceac3285")
 (dependencies . ("htdp-lib" "htdp-doc"))
 (description . "Teaching languages for _How to Design Programs_")
 (name . "htdp")
@@ -885,7 +885,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "5f45285ae67b0ae014631c42cb9d68b5b01d5621")
+(checksum . "881aeb1a0332158ecfb2b80e11de65aeceac3285")
 (dependencies . ("base" "scribble-lib" "at-exp-lib" "draw-lib" ("gui-lib" #:version "1.37") "htdp-lib" "plai" "sandbox-lib" "pict-lib" "mzscheme-doc" "scheme-lib" "compatibility-doc" "draw-doc" "drracket" "gui-doc" "pict-doc" "racket-doc"))
 (description . "documentation part of \"htdp\"")
 (name . "htdp-doc")
@@ -894,7 +894,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "5f45285ae67b0ae014631c42cb9d68b5b01d5621")
+(checksum . "881aeb1a0332158ecfb2b80e11de65aeceac3285")
 (dependencies . (("base" #:version "6.8.0.2") "compatibility-lib" "draw-lib" ("drracket-plugin-lib" #:version "1.1") "errortrace-lib" "html-lib" "images-gui-lib" "images-lib" "net-lib" "pconvert-lib" "plai-lib" "r5rs-lib" "sandbox-lib" "scheme-lib" "scribble-lib" ("simple-tree-text-markup-lib" #:version "1.1") "slideshow-lib" "snip-lib" "srfi-lite-lib" ("string-constants-lib" #:version "1.20") "typed-racket-lib" "typed-racket-more" "web-server-lib" "wxme-lib" ("gui-lib" #:version "1.52") "deinprogramm-signature" "pict-lib" "racket-index" "at-exp-lib" ("rackunit-lib" #:version "1.10")))
 (description . "implementation (no documentation) part of \"htdp\"")
 (name . "htdp-lib")
@@ -903,7 +903,7 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "5f45285ae67b0ae014631c42cb9d68b5b01d5621")
+(checksum . "881aeb1a0332158ecfb2b80e11de65aeceac3285")
 (dependencies . ("base" "htdp-lib" "lazy" "deinprogramm" "pict-lib" "redex-lib" "racket-index" "scheme-lib" "srfi-lite-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib" "at-exp-lib" "drracket-tool-lib"))
 (description . "tests for \"htdp\"")
 (name . "htdp-test")
@@ -1623,11 +1623,11 @@
 #hash(
 (author . "laurent.orseau@gmail.com")
 (authors . ("laurent.orseau@gmail.com"))
-(checksum . "1ada405d220a7cff7cadab392272ab3cb93fc781")
+(checksum . "9adf62fd1113d04ee002de55a41725819a55074d")
 (dependencies . ("base" "drracket-plugin-lib" "drracket" "gui-lib" "net-lib" "scribble-lib" "at-exp-lib" "drracket" "gui-doc" "racket-doc" "draw-doc" "rackunit-lib"))
 (description . "Scripting engine for DrRacket.\r\nExtends DrRacket with scripting capabilities and menu items. The package quickscript-extra contains additional sample scripts.")
 (name . "quickscript")
-(source . "https://github.com/Metaxal/quickscript.git")))
+(source . "git://github.com/Metaxal/quickscript#release")))
 ("quickscript-test" . 
 #hash(
 (author . "laurent.orseau@gmail.com")
