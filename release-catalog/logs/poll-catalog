@@ -356,3 +356,25 @@
        .
        ("4777e1d3cecd2c76683eb2420b78a873a8c86788"
         "ab24b3ea98759c810d7f6588eff2c0a17cf19e8b")))
+;; ============================================================
+;; Appended 1698789632 : Tuesday, October 31st, 2023 6:00:32pm
+#hash(("git://github.com/racket/distro-build/?path=distro-build#release"
+       .
+       ("70b8f8e89bed429fe70e43952bc02aaf6c08b388"
+        "d294b229a1fb2f899e107562d253e87e6be2fb97"))
+      ("git://github.com/racket/distro-build/?path=distro-build-client#release"
+       .
+       ("70b8f8e89bed429fe70e43952bc02aaf6c08b388"
+        "d294b229a1fb2f899e107562d253e87e6be2fb97"))
+      ("git://github.com/racket/distro-build/?path=distro-build-doc#release"
+       .
+       ("70b8f8e89bed429fe70e43952bc02aaf6c08b388"
+        "d294b229a1fb2f899e107562d253e87e6be2fb97"))
+      ("git://github.com/racket/distro-build/?path=distro-build-lib#release"
+       .
+       ("70b8f8e89bed429fe70e43952bc02aaf6c08b388"
+        "d294b229a1fb2f899e107562d253e87e6be2fb97"))
+      ("git://github.com/racket/distro-build/?path=distro-build-server#release"
+       .
+       ("70b8f8e89bed429fe70e43952bc02aaf6c08b388"
+        "d294b229a1fb2f899e107562d253e87e6be2fb97")))
