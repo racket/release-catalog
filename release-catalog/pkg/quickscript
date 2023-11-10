@@ -6,4 +6,4 @@
 (dependencies . ("base" "drracket-plugin-lib" "drracket" "gui-lib" "net-lib" "scribble-lib" "at-exp-lib" "drracket" "gui-doc" "racket-doc" "draw-doc" "rackunit-lib"))
 (description . "Scripting engine for DrRacket.\r\nExtends DrRacket with scripting capabilities and menu items. The package quickscript-extra contains additional sample scripts.")
 (name . "quickscript")
-(source . "git://github.com/Metaxal/quickscript#release"))
+(source . "git://github.com/Metaxal/quickscript#v8.11"))

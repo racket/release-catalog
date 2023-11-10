@@ -6,4 +6,4 @@
 (dependencies . (("base" #:version "6.1.1.6") "distro-build-client" ("web-server-lib" #:version "1.6") "ds-store-lib" "net-lib" "scribble-html-lib" "plt-web-lib" ("remote-shell-lib" #:version "1.6") "at-exp-lib" "rackunit-lib"))
 (description . "server-side part of \"distro-build\"")
 (name . "distro-build-server")
-(source . "git://github.com/racket/distro-build/?path=distro-build-server#release"))
+(source . "git://github.com/racket/distro-build/?path=distro-build-server#v8.11"))
