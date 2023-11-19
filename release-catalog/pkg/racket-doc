@@ -2,8 +2,8 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "c3a502c0ae9f4d615bfd85fc7d88b781826bbb09")
+(checksum . "b367e3ef6cca7d0e14aa54fa2c714f96b8c82c48")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.34") "racket-index" "rackunit-doc" "errortrace-doc" "at-exp-lib" "rackunit-lib" "gui-doc" "gui-lib" "draw-doc" "draw-lib" "pict-lib" "readline-lib" "readline-doc" "syntax-color-doc" "syntax-color-lib" "scribble-doc" ("future-visualizer" #:version "1.1") "distributed-places-doc" "distributed-places-lib" "serialize-cstruct-lib" "cext-lib" "net-doc" "planet-doc" "compiler-lib" "compatibility-lib" "xrepl-lib" "xrepl-doc"))
 (description . "Base Racket documentation")
 (name . "racket-doc")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-doc#v8.11"))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-doc#release"))
