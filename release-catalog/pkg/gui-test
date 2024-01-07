@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "5a8c93a08fdec30de2eb72b5f5a65c20f0e3f0e0")
-(dependencies . ("base" "string-constants-lib" "racket-index" "scheme-lib" "draw-lib" "data-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "syntax-color-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib" "simple-tree-text-markup-lib" "pict-lib" "pict-snip-lib"))
-(description . "tests for \"gui\"")
-(name . "gui-test")
-(source . "git://github.com/racket/gui/?path=gui-test"))

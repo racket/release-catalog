@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jmj@fellowhuman.com jay.mccarthy@gmail.com")
-(authors . ("jmj@fellowhuman.com" "jay.mccarthy@gmail.com"))
-(checksum . "c4ce9abc8f9de9270bd2655aafaa711b992dbe0e")
-(dependencies . ("net-cookies-lib" "net-cookies-doc"))
-(description . "RFC6265-compliant cookie handling for client and server")
-(name . "net-cookies")
-(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org")
-(authors . ("robby@racket-lang.org"))
-(checksum . "5a8c93a08fdec30de2eb72b5f5a65c20f0e3f0e0")
-(dependencies . ("base"))
-(description . "Table of TeX-style abbreviations")
-(name . "tex-table")
-(source . "git://github.com/racket/gui/?path=tex-table"))

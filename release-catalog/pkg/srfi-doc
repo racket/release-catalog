@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org noel@racket-lang.org chongkai@racket-lang.org jay@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "noel@racket-lang.org" "chongkai@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "45ae4cd9aae085c8c5e4c106ff430bf704bf3296")
-(dependencies . ("base" "mzscheme-doc" "scheme-doc" "scheme-lib" "base" "scribble-lib" "srfi-lib" "racket-doc" "racket-index" "compatibility-lib"))
-(description . "documentation part of \"srfi\"")
-(name . "srfi-doc")
-(source . "git://github.com/racket/srfi/?path=srfi-doc"))
