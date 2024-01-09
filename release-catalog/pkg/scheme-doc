@@ -2,7 +2,7 @@
 #hash(
 (author . "jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "4c0b5e1be87138a23c3a981eda333a4b0683e537")
+(checksum . "4b9960b0279e3131c445ff611fef5d8c44fca6e2")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.34") "racket-index" "racket-doc" "gui-lib" "gui-doc" "compatibility-doc"))
 (description . "Documentation for scheme languages.")
 (name . "scheme-doc")
