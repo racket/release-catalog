@@ -326,3 +326,9 @@
        .
        ("4b9960b0279e3131c445ff611fef5d8c44fca6e2"
         "a54d232db762d6c54c9d90d711a5b3820e81e9cf")))
+;; ============================================================
+;; Appended 1705057231 : Friday, January 12th, 2024 6:00:31am
+#hash(("git://github.com/Metaxal/quickscript#release"
+       .
+       ("837921c7623b7156b6fb0208b1cd3027caa245fc"
+        "4fad06f1c98b7f4b1af88779ea76e76a41281353")))
