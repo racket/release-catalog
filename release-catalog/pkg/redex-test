@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "8f2c2ba489b890a190ec5ffa26bea49dac102cd5")
+(checksum . "7c41ec4b5559e5babb280e5a7594943d0c320d3d")
 (dependencies . ("base" "rackunit-lib" "at-exp-lib" "compatibility-lib" "drracket" "gui-lib" "pict-lib" "redex-gui-lib" "redex-examples" "data-enumerate-lib" "data-lib" "racket-index" "scheme-lib" "slideshow-lib"))
 (description . "tests for \"redex\"")
 (name . "redex-test")

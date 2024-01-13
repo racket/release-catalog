@@ -2,7 +2,7 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "8f2c2ba489b890a190ec5ffa26bea49dac102cd5")
+(checksum . "7c41ec4b5559e5babb280e5a7594943d0c320d3d")
 (dependencies . (("data-enumerate-lib" #:version "1.3") "scheme-lib" ("base" #:version "8.2.0.8") "data-lib" "math-lib" "tex-table" "profile-lib" "typed-racket-lib" "testing-util-lib" "2d-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\"")
 (name . "redex-lib")
