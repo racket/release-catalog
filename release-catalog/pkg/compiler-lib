@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "a54d232db762d6c54c9d90d711a5b3820e81e9cf")
+(checksum . "f4316e9808aa1074fd64d9c5ff0973d899805be1")
 (dependencies . (("base" #:version "8.1.0.2") "scheme-lib" "rackunit-lib" ("zo-lib" #:version "1.3")))
 (description . "implementation (no documentation) part of \"compiler\"")
 (name . "compiler-lib")
