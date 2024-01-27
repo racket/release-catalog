@@ -540,3 +540,29 @@
        .
        ("f4316e9808aa1074fd64d9c5ff0973d899805be1"
         "0d6acae7e3daee15a245284d0e074660e2a0b788")))
+;; ============================================================
+;; Appended 1706331628 : Saturday, January 27th, 2024 12:00:28am
+#hash(("git://github.com/racket/plot/?path=plot#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7"))
+      ("git://github.com/racket/plot/?path=plot-compat#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7"))
+      ("git://github.com/racket/plot/?path=plot-doc#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7"))
+      ("git://github.com/racket/plot/?path=plot-gui-lib#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7"))
+      ("git://github.com/racket/plot/?path=plot-lib#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7"))
+      ("git://github.com/racket/plot/?path=plot-test#release"
+       .
+       ("2417c228b0ce4708c796b4cb0a22cc818932a605"
+        "5de549063f037c230cf86e963dc6323b948a0fb7")))
