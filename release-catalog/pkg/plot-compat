@@ -6,4 +6,4 @@
 (dependencies . ("base" "plot-gui-lib" "draw-lib" "plot-lib" "snip-lib"))
 (description . "Compatibility library for Plot 5.1.3 and earlier")
 (name . "plot-compat")
-(source . "git://github.com/racket/plot/?path=plot-compat#release"))
+(source . "git://github.com/racket/plot/?path=plot-compat#v8.12"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "plot-lib" "math-lib" ("gui-lib" #:version "1.18") "snip-lib" "typed-racket-lib" "typed-racket-more"))
 (description . "Plot GUI interface")
 (name . "plot-gui-lib")
-(source . "git://github.com/racket/plot/?path=plot-gui-lib#release"))
+(source . "git://github.com/racket/plot/?path=plot-gui-lib#v8.12"))

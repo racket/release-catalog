@@ -6,4 +6,4 @@
 (dependencies . ("base" "draw-lib" "pict-lib" "db-lib" "srfi-lite-lib" "typed-racket-lib" "typed-racket-more" "compatibility-lib" "math-lib"))
 (description . "Plot non-GUI interface")
 (name . "plot-lib")
-(source . "git://github.com/racket/plot/?path=plot-lib#release"))
+(source . "git://github.com/racket/plot/?path=plot-lib#v8.12"))
