@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "57b2e050a287e4f0c7e26662d4850c6ac62935c3")
-(dependencies . (("base" #:version "8.6.0.2") ("draw-i386-macosx-3" #:platform "i386-macosx") ("draw-x86_64-macosx-3" #:platform "x86_64-macosx") ("draw-ppc-macosx-3" #:platform "ppc-macosx") ("draw-aarch64-macosx-3" #:platform "aarch64-macosx") ("draw-win32-i386-3" #:platform "win32\\i386") ("draw-win32-x86_64-3" #:platform "win32\\x86_64") ("draw-win32-arm64-3" #:platform "win32\\arm64") ("draw-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg")))
-(description . "implementation (no documentation) part of \"draw\"")
-(name . "draw-lib")
-(source . "git://github.com/racket/draw/?path=draw-lib"))
