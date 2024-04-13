@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "c1cb520b2600f76a4f208833351fe046773492c3")
+(dependencies . ("base" "scribble-lib" "drracket-tool-lib" "racket-doc" "gui-doc" "gui-lib" "drracket"))
+(description . "Docs for the programmatic interface to some IDE tools that DrRacket supports")
+(name . "drracket-tool-doc")
+(source . "git://github.com/racket/drracket/?path=drracket-tool-doc"))

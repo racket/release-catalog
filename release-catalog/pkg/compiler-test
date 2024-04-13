@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "f6fe40dde18004d71ece98a2d22de84e42e90bcf")
+(dependencies . ("base" "icons" "compiler-lib" "eli-tester" "rackunit-lib" "net-lib" "scheme-lib" "compatibility-lib" "gui-lib" "htdp-lib" "plai-lib" "rackunit-lib" "dynext-lib" "mzscheme-lib"))
+(description . "tests for \"compiler-lib\"")
+(name . "compiler-test")
+(source . "git://github.com/racket/racket?path=pkgs/compiler-test"))
