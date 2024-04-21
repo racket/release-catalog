@@ -1,9 +1,0 @@
-
-#hash(
-(author . "bogdan@defn.io")
-(authors . ("bogdan@defn.io"))
-(checksum . "21dcda3edf86c28d9594887e92c5d7bef589897c")
-(dependencies . ("base" "rackunit-lib" "rackunit-lib"))
-(description . "A property-based testing library with shrinking support. (implementation)")
-(name . "rackcheck-lib")
-(source . "https://github.com/Bogdanp/rackcheck.git?path=rackcheck-lib"))

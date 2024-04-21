@@ -3,7 +3,7 @@
 (author . "jay.mccarthy@gmail.com jmj@fellowhuman.com")
 (authors . ("jay.mccarthy@gmail.com" "jmj@fellowhuman.com"))
 (checksum . "385dc11eab1eea82992c28611666abd6f01a57de")
-(dependencies . ("base" "net-cookies-lib" "rackcheck-lib" "rackunit-lib"))
+(dependencies . ("base" "net-cookies-lib" "rackunit-lib"))
 (description . "RFC6265-compliant cookie handling for client and server (test)")
 (name . "net-cookies-test")
 (source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-test#release"))
