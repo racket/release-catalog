@@ -1218,38 +1218,38 @@
 #hash(
 (author . "jmj@fellowhuman.com jay.mccarthy@gmail.com")
 (authors . ("jmj@fellowhuman.com" "jay.mccarthy@gmail.com"))
-(checksum . "13fb536e72bba270501d441007565e2f23242cc1")
+(checksum . "385dc11eab1eea82992c28611666abd6f01a57de")
 (dependencies . ("net-cookies-lib" "net-cookies-doc"))
 (description . "RFC6265-compliant cookie handling for client and server")
 (name . "net-cookies")
-(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies")))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies#release")))
 ("net-cookies-doc" . 
 #hash(
 (author . "jay.mccarthy@gmail.com jmj@fellowhuman.com")
 (authors . ("jay.mccarthy@gmail.com" "jmj@fellowhuman.com"))
-(checksum . "13fb536e72bba270501d441007565e2f23242cc1")
+(checksum . "385dc11eab1eea82992c28611666abd6f01a57de")
 (dependencies . ("base" "net-cookies-lib" "racket-doc" "web-server-lib" "web-server-doc" "net-doc" "scribble-lib"))
 (description . "RFC6265-compliant cookie handling for client and server (doc)")
 (name . "net-cookies-doc")
-(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies-doc")))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-doc#release")))
 ("net-cookies-lib" . 
 #hash(
 (author . "jay.mccarthy@gmail.com jmj@fellowhuman.com")
 (authors . ("jay.mccarthy@gmail.com" "jmj@fellowhuman.com"))
-(checksum . "13fb536e72bba270501d441007565e2f23242cc1")
+(checksum . "385dc11eab1eea82992c28611666abd6f01a57de")
 (dependencies . ("base"))
 (description . "RFC6265-compliant cookie handling for client and server (lib)")
 (name . "net-cookies-lib")
-(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies-lib")))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-lib#release")))
 ("net-cookies-test" . 
 #hash(
 (author . "jay.mccarthy@gmail.com jmj@fellowhuman.com")
 (authors . ("jay.mccarthy@gmail.com" "jmj@fellowhuman.com"))
-(checksum . "13fb536e72bba270501d441007565e2f23242cc1")
+(checksum . "385dc11eab1eea82992c28611666abd6f01a57de")
 (dependencies . ("base" "net-cookies-lib" "rackcheck-lib" "rackunit-lib"))
 (description . "RFC6265-compliant cookie handling for client and server (test)")
 (name . "net-cookies-test")
-(source . "git://github.com/RenaissanceBug/racket-cookies?path=net-cookies-test")))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-test#release")))
 ("net-doc" . 
 #hash(
 (author . "mflatt@racket-lang.org")
