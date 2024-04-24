@@ -188,3 +188,37 @@
        .
        ("ec751b4442b122e339dbc6d4c978f2d516424326"
         "dd68b45bf290d3c45303811193eb643d090ab33c")))
+;; ============================================================
+;; Appended 1713931231 : Wednesday, April 24th, 2024 12:00:31am
+#hash(("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-text-lib#release"
+       .
+       ("c1cb520b2600f76a4f208833351fe046773492c3"
+        "f7a4a7705bd466176065a2e5277467a214518dc2")))
