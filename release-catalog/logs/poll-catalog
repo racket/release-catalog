@@ -274,3 +274,33 @@
        .
        ("61fa7b0f131af5c2e61c2219548ecf816c91e139"
         "e918dfacdb4fc913c2b0eee74acc86f4f2216290")))
+;; ============================================================
+;; Appended 1715378428 : Friday, May 10th, 2024 6:00:28pm
+#hash(("git://github.com/racket/typed-racket/?path=source-syntax#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-compatibility#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-doc#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-lib#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-more#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3"))
+      ("git://github.com/racket/typed-racket/?path=typed-racket-test#release"
+       .
+       ("449e77c870ac2240a6e51f6745700755c941ed02"
+        "53bfb6d50a2116c828240746fd8ba29fc9706fb3")))
