@@ -2,7 +2,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "53bfb6d50a2116c828240746fd8ba29fc9706fb3")
+(checksum . "7d85d9f25d1e1fe7a6451a1ecae2f9be3e3b7386")
 (dependencies . ("typed-racket-lib" "typed-racket-doc"))
 (description . "The implementation of the Typed Racket language")
 (name . "typed-racket")
