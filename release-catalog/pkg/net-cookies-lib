@@ -6,4 +6,4 @@
 (dependencies . ("base"))
 (description . "RFC6265-compliant cookie handling for client and server (lib)")
 (name . "net-cookies-lib")
-(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-lib#release"))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-lib#v8.13"))

@@ -6,4 +6,4 @@
 (dependencies . ("base" "net-cookies-lib" "rackunit-lib"))
 (description . "RFC6265-compliant cookie handling for client and server (test)")
 (name . "net-cookies-test")
-(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-test#release"))
+(source . "git://github.com/RenaissanceBug/racket-cookies/?path=net-cookies-test#v8.13"))
