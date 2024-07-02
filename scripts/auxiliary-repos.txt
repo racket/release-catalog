@@ -1,0 +1,6 @@
+https://github.com/stamourv/optimization-coach
+https://github.com/jeapostrophe/racket-cheat
+https://github.com/RenaissanceBug/racket-cookies
+https://github.com/Metaxal/quickscript
+https://github.com/Metaxal/quickscript-test
+https://github.com/rmculpepper/repo-manager-app
