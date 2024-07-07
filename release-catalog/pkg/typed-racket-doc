@@ -1,9 +1,0 @@
-
-#hash(
-(author . "samth@racket-lang.org stamourv@racket-lang.org")
-(authors . ("samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "7d85d9f25d1e1fe7a6451a1ecae2f9be3e3b7386")
-(dependencies . (("base" #:version "8.5.0.3") "net-doc" "net-cookies-doc" "scheme-lib" "srfi-lite-lib" "r6rs-doc" "srfi-doc" "r6rs-lib" "sandbox-lib" "at-exp-lib" ("scribble-lib" #:version "1.16") "pict-lib" ("typed-racket-lib" #:version "1.11") "typed-racket-compatibility" ("typed-racket-more" #:version "1.10") "racket-doc" "draw-lib" "web-server-doc" "scheme-doc"))
-(description . "documentation part of \"typed-racket\"")
-(name . "typed-racket-doc")
-(source . "git://github.com/racket/typed-racket/?path=typed-racket-doc#v8.13"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org")
-(authors . ("robby@racket-lang.org"))
-(checksum . "f7a4a7705bd466176065a2e5277467a214518dc2")
-(dependencies . ("scheme-lib" "data-lib" "compiler-lib" ("base" #:version "8.2.0.8") "planet-lib" "compatibility-lib" ("draw-lib" #:version "1.7") ("errortrace-lib" #:version "1.5") "macro-debugger-text-lib" "parser-tools-lib" "pconvert-lib" "pict-lib" "profile-lib" "sandbox-lib" ("scribble-lib" #:version "1.11") ("snip-lib" #:version "1.2") ("string-constants-lib" #:version "1.45") "typed-racket-lib" "wxme-lib" ("gui-lib" #:version "1.70") ("racket-index" #:version "1.2") ("racket-doc" #:version "1.1") "html-lib" "images-lib" ("icons" #:version "1.2") ("typed-racket-more" #:version "1.12") "trace" ("macro-debugger" #:version "1.1") "net-lib" "tex-table" ("htdp-lib" #:version "1.7") ("drracket-plugin-lib" #:version "1.1") "gui-pkg-manager-lib" "drracket-tool-lib" "drracket-tool-doc" "pict-snip-lib" "option-contract-lib" ("syntax-color-lib" #:version "1.4") "quickscript" "simple-tree-text-markup-lib" "mzscheme-doc" "net-doc" "planet-doc" "compatibility-doc" "string-constants-doc" "draw-doc" "errortrace-doc" "gui-doc" "pict-doc" "profile-doc" "r5rs-doc" "at-exp-lib" "rackunit-lib" "scheme-doc" "syntax-color-doc"))
-(description . "The DrRacket programming environment")
-(name . "drracket")
-(source . "git://github.com/racket/drracket/?path=drracket#v8.13"))
