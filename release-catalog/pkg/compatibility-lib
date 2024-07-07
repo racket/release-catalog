@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org")
+(authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org"))
+(checksum . "8d0b435cf0cc46476b7bafe2a507817c26058d0f")
+(dependencies . ("scheme-lib" "base" "net-lib" "sandbox-lib"))
+(description . "implementation (no documentation) part of \"compatibility\"")
+(name . "compatibility-lib")
+(source . "git://github.com/racket/compatibility/?path=compatibility-lib"))

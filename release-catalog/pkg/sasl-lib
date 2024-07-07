@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "961c9f07287c963236aec8f541ddb1335782db48")
+(dependencies . (("base" #:version "6.10")))
+(description . "SASL authentication client support")
+(name . "sasl-lib")
+(source . "https://github.com/racket/sasl.git?path=sasl-lib"))
