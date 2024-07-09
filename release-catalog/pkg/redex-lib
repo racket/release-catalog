@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "a2bbb6edf2374bfddfd516ca75e0e173e662fb40")
+(checksum . "193fe5068b4ad216a8c98fef09409503457d536d")
 (dependencies . (("data-enumerate-lib" #:version "1.3") "scheme-lib" ("base" #:version "8.2.0.8") "data-lib" "math-lib" "tex-table" "profile-lib" "typed-racket-lib" "testing-util-lib" "2d-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"redex\"")
 (name . "redex-lib")
-(source . "git://github.com/racket/redex/?path=redex-lib"))
+(source . "git://github.com/racket/redex/?path=redex-lib#release"))
