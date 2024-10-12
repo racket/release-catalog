@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org bfetscher@racket-lang.org")
+(authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
+(checksum . "39d9b4b888a11e767ebab092bbe9908573b025cf")
+(dependencies . ("redex-doc" "redex-examples" "redex-lib" "redex-gui-lib"))
+(description . "PLT Redex libraries for practical semantics engineering")
+(name . "redex")
+(source . "git://github.com/racket/redex/?path=redex"))

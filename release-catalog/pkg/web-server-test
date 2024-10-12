@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "87a1e58a9b92c621f7d96c76de1da39587f04140")
+(dependencies . ("base" "compatibility-lib" "eli-tester" "htdp-lib" "rackunit-lib" "web-server-lib" "net-cookies"))
+(description . "tests for \"web-server\"")
+(name . "web-server-test")
+(source . "git://github.com/racket/web-server/?path=web-server-test"))

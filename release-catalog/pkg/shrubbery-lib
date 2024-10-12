@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "c81ec54bde9d0294980cefe0798d76e714d6f0bc")
+(dependencies . (("base" #:version "8.8.0.5") "syntax-color-lib" "parser-tools-lib" "testing-util-lib"))
+(description . "implementation (no documentation) part of \"shrubbery\"")
+(name . "shrubbery-lib")
+(source . "https://github.com/racket/rhombus.git?path=shrubbery-lib"))
