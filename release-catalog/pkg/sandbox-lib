@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org")
-(authors . ("eli@racket-lang.org"))
-(checksum . "f5acb4b7c68dcb5ee5f94c761fedd4da3cc074bb")
-(dependencies . ("scheme-lib" "base" "errortrace-lib"))
-(description . "Library for sandboxing Racket programs")
-(name . "sandbox-lib")
-(source . "git://github.com/racket/racket/?path=pkgs%2Fsandbox-lib#v8.14"))
