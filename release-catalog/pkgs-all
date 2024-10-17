@@ -49,20 +49,20 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/at-exp-lib")))
+(source . "git://github.com/racket/racket/?path=pkgs/at-exp-lib#release")))
 ("base" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("racket-lib" ("racket" #:version "8.14.0.7")))
 (description . "Racket libraries that are currently always available")
 (name . "base")
-(source . "git://github.com/racket/racket/?path=pkgs/base")))
+(source . "git://github.com/racket/racket/?path=pkgs/base#release")))
 ("cext-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -139,29 +139,29 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("compiler-lib"))
 (description . "Racket compilation tools, such as `raco exe'")
 (name . "compiler")
-(source . "git://github.com/racket/racket?path=pkgs/compiler")))
+(source . "git://github.com/racket/racket/?path=pkgs/compiler#release")))
 ("compiler-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . (("base" #:version "8.13.0.6") "scheme-lib" ("zo-lib" #:version "1.3")))
 (description . "implementation (no documentation) part of \"compiler\"")
 (name . "compiler-lib")
-(source . "git://github.com/racket/racket?path=pkgs/compiler-lib")))
+(source . "git://github.com/racket/racket/?path=pkgs/compiler-lib#release")))
 ("compiler-test" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" "icons" "compiler-lib" "eli-tester" "rackunit-lib" "net-lib" "scheme-lib" "compatibility-lib" "gui-lib" "htdp-lib" "plai-lib" "rackunit-lib" "dynext-lib" "mzscheme-lib"))
 (description . "tests for \"compiler-lib\"")
 (name . "compiler-test")
-(source . "git://github.com/racket/racket?path=pkgs/compiler-test")))
+(source . "git://github.com/racket/racket/?path=pkgs/compiler-test#release")))
 ("contract-profile" . 
 #hash(
 (author . "stamourv@racket-lang.org")
@@ -1209,11 +1209,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("net-lib" "net-doc"))
 (description . "Networking libraries")
 (name . "net")
-(source . "git://github.com/racket/racket?path=pkgs/net")))
+(source . "git://github.com/racket/racket/?path=pkgs/net#release")))
 ("net-cookies" . 
 #hash(
 (author . "jmj@fellowhuman.com jay.mccarthy@gmail.com")
@@ -1254,29 +1254,29 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" "compatibility-lib" "net-lib" "racket-doc" "scribble-lib"))
 (description . "documentation part of \"net\"")
 (name . "net-doc")
-(source . "git://github.com/racket/racket?path=pkgs/net-doc")))
+(source . "git://github.com/racket/racket/?path=pkgs/net-doc#release")))
 ("net-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("srfi-lite-lib" "base"))
 (description . "implementation (no documentation) part of \"net\"")
 (name . "net-lib")
-(source . "git://github.com/racket/racket?path=pkgs/net-lib")))
+(source . "git://github.com/racket/racket/?path=pkgs/net-lib#release")))
 ("net-test" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" "at-exp-lib" "compatibility-lib" "eli-tester" "net-lib" "racket-test" "rackunit-lib" "sandbox-lib" "web-server-lib"))
 (description . "tests for \"net-lib\"")
 (name . "net-test")
-(source . "git://github.com/racket/racket?path=pkgs/net-test")))
+(source . "git://github.com/racket/racket/?path=pkgs/net-test#release")))
 ("optimization-coach" . 
 #hash(
 (author . "stamourv@racket-lang.org")
@@ -1713,10 +1713,10 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org samth@racket-lang.org stamourv@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "samth@racket-lang.org" "stamourv@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" "compatibility-lib" "r5rs-lib" "scheme-lib" "racket-test" "typed-racket-lib" "plot" "draw-lib" "gui-lib" "pict-lib" "data-lib"))
 (name . "racket-benchmarks")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-benchmarks")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-benchmarks#release")))
 ("racket-cheat" . 
 #hash(
 (author . "jay.mccarthy@gmail.com")
@@ -1730,11 +1730,11 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.52") "racket-index" "rackunit-doc" "errortrace-doc" "at-exp-lib" "rackunit-lib" "gui-doc" "gui-lib" "draw-doc" "draw-lib" "pict-lib" "readline-lib" "readline-doc" "syntax-color-doc" "syntax-color-lib" "scribble-doc" ("future-visualizer" #:version "1.1") "distributed-places-doc" "distributed-places-lib" "serialize-cstruct-lib" "cext-lib" "net-doc" "planet-doc" "compiler-lib" "compatibility-lib" "xrepl-lib" "xrepl-doc"))
 (description . "Base Racket documentation")
 (name . "racket-doc")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-doc")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-doc#release")))
 ("racket-i386-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1748,20 +1748,20 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" ("scribble-lib" #:version "1.54") "scheme-lib" "at-exp-lib"))
 (description . "Racket Documentation driver")
 (name . "racket-index")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-index")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-index#release")))
 ("racket-lib" . 
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" ("racket-win32-i386-3" #:platform "win32\\i386") ("racket-win32-x86_64-3" #:platform "win32\\x86_64") ("racket-win32-arm64-3" #:platform "win32\\arm64") ("racket-x86_64-linux-natipkg-3" #:platform "x86_64-linux-natipkg") ("racket-x86_64-macosx-3" #:platform "x86_64-macosx") ("racket-i386-macosx-3" #:platform "i386-macosx") ("racket-ppc-macosx-3" #:platform "ppc-macosx") ("racket-aarch64-macosx-3" #:platform "aarch64-macosx") ("db-ppc-macosx" #:platform "ppc-macosx") ("db-win32-i386" #:platform "win32\\i386") ("db-win32-x86_64" #:platform "win32\\x86_64") ("db-win32-arm64" #:platform "win32\\arm64") ("db-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("com-win32-i386" #:platform "win32\\i386") ("com-win32-x86_64" #:platform "win32\\x86_64")))
 (description . "Combines platform-specific native libraries that are useful for base Racket")
 (name . "racket-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-lib")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-lib#release")))
 ("racket-ppc-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -1775,29 +1775,29 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("compiler-lib" "sandbox-lib" "compatibility-lib" "eli-tester" "planet-lib" "net-lib" "net-test" "serialize-cstruct-lib" "cext-lib" "pconvert-lib" "racket-test-core" "web-server-lib" "rackunit-lib" "at-exp-lib" "option-contract-lib" "srfi-lib" "scribble-lib" "racket-index" "scheme-lib" "base" "data-lib"))
 (description . "Base Racket test suites")
 (name . "racket-test")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test#release")))
 ("racket-test-core" . 
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core#release")))
 ("racket-test-extra" . 
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . (("base" #:version "8.4") "drracket-tool-text-lib" "redex-lib" "scheme-lib" "rackunit-lib" "serialize-cstruct-lib"))
 (description . "Additional Racket test suites")
 (name . "racket-test-extra")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-extra")))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test-extra#release")))
 ("racket-win32-arm64-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -2036,11 +2036,11 @@
 #hash(
 (author . "eli@racket-lang.org")
 (authors . ("eli@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("scheme-lib" "base" "errortrace-lib"))
 (description . "Library for sandboxing Racket programs")
 (name . "sandbox-lib")
-(source . "https://github.com/racket/racket.git?path=pkgs%2Fsandbox-lib")))
+(source . "git://github.com/racket/racket/?path=pkgs%2Fsandbox-lib#release")))
 ("sasl" . 
 #hash(
 (author . "ryanc@racket-lang.org")
@@ -2081,11 +2081,11 @@
 #hash(
 (author . "jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("scheme-lib" ("base" #:version "6.5.0.2") "net-lib" "sandbox-lib" ("scribble-lib" #:version "1.34") "racket-index" "racket-doc" "gui-lib" "gui-doc" "compatibility-doc"))
 (description . "Documentation for scheme languages.")
 (name . "scheme-doc")
-(source . "https://github.com/racket/racket.git?path=pkgs%2Fscheme-doc")))
+(source . "git://github.com/racket/racket/?path=pkgs%2Fscheme-doc#release")))
 ("scheme-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -2648,8 +2648,8 @@
 #hash(
 (author . "mflatt@racket-lang.org jay@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "jay@racket-lang.org"))
-(checksum . "44c1952a65ebb1ecfb55cea23bbd6da1b392371c")
+(checksum . "e3b67d19ae8edc92f7d2510a2d12e0f1ff8aed40")
 (dependencies . ("base"))
 (description . "Library for handling zo files")
 (name . "zo-lib")
-(source . "git://github.com/racket/racket?path=pkgs/zo-lib"))))
+(source . "git://github.com/racket/racket/?path=pkgs/zo-lib#release"))))
