@@ -2360,29 +2360,29 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "2f5680fd12e0c26d23bab8705813416a0496d621")
+(checksum . "ebf2ac6d3ce2278b573b14c3723caab712a04357")
 (dependencies . ("string-constants-lib" "string-constants-doc"))
 (description . "String constants to support internationalization, especially in DrRacket")
 (name . "string-constants")
-(source . "git://github.com/racket/string-constants/?path=string-constants")))
+(source . "git://github.com/racket/string-constants/?path=string-constants#release")))
 ("string-constants-doc" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "2f5680fd12e0c26d23bab8705813416a0496d621")
+(checksum . "ebf2ac6d3ce2278b573b14c3723caab712a04357")
 (dependencies . ("string-constants-lib" "base" "racket-doc" "scribble-lib"))
 (description . "String constants documentation")
 (name . "string-constants-doc")
-(source . "git://github.com/racket/string-constants/?path=string-constants-doc")))
+(source . "git://github.com/racket/string-constants/?path=string-constants-doc#release")))
 ("string-constants-lib" . 
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "2f5680fd12e0c26d23bab8705813416a0496d621")
+(checksum . "ebf2ac6d3ce2278b573b14c3723caab712a04357")
 (dependencies . ("base"))
 (description . "String constants to support internationalization, especially in DrRacket")
 (name . "string-constants-lib")
-(source . "git://github.com/racket/string-constants/?path=string-constants-lib")))
+(source . "git://github.com/racket/string-constants/?path=string-constants-lib#release")))
 ("swindle" . 
 #hash(
 (author . "eli@racket-lang.org")
