@@ -8,6 +8,7 @@
          racket/set
          racket/system
          racket/list
+         racket/pretty
          json
          "private/util.rkt"
          "private/github.rkt")
@@ -24,8 +25,9 @@
        (define commits-since-last-release
          (get-repo-commits-since-last-release user repo checksum since-tag))
        (for/set ([c commits-since-last-release])
-         (hash-ref (hash-ref (hash-ref c 'commit) 'author) 'name)))))
-  (for-each displayln (sort (set->list all-contributors) string-ci<?)))
+         (list (hash-ref (hash-ref (hash-ref c 'commit) 'author) 'name)
+               (hash-ref (hash-ref (hash-ref c 'commit) 'author) 'email))))))
+  (pretty-print (sort (set->list all-contributors) string-ci<? #:key first)))
 
 ;; ------------------------------------------------------------
 
