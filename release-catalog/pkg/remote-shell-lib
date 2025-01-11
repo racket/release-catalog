@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "6ddcb78eea71cf5a87c83f5a0229edfb16620c28")
+(dependencies . ("base"))
+(description . "implementation (no documentation) part of \"remote-shell\"")
+(name . "remote-shell-lib")
+(source . "git://github.com/racket/remote-shell/?path=remote-shell-lib"))

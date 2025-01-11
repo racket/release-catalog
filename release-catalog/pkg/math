@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "f69552c38622b46823341db1a2fd7a097b236007")
+(dependencies . ("math-lib" "math-doc"))
+(description . "Functions and data structures useful for working with numbers and collections of numbers, along with docs and tests")
+(name . "math")
+(source . "git://github.com/racket/math/?path=math"))

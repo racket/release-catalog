@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "0a09c615441004773c75edebcb91b35fc9a5243b")
+(dependencies . ("base" "pconvert-lib" "rackunit-lib" "compatibility-lib"))
+(description . "Tests for \"pconvert-lib\"")
+(name . "pconvert-test")
+(source . "git://github.com/racket/pconvert?path=pconvert-test"))
