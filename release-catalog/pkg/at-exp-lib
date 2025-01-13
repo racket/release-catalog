@@ -2,8 +2,8 @@
 #hash(
 (author . "eli@racket-lang.org mflatt@racket-lang.org")
 (authors . ("eli@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "342d37bfd840183c22fe72e5f734c1c4c16f50d8")
+(checksum . "fd9ce5223611e84a128d517a304c8bc25f7478b7")
 (dependencies . ("base"))
 (description . "Libraries for @-expressions")
 (name . "at-exp-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/at-exp-lib"))
+(source . "git://github.com/racket/racket/?path=pkgs/at-exp-lib#release"))
