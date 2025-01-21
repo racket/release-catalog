@@ -236,3 +236,21 @@
        .
        ("fd9ce5223611e84a128d517a304c8bc25f7478b7"
         "cb92439b7655bd8d519f7b0489ab516e7daa4d51")))
+;; ============================================================
+;; Appended 1737435631 : Tuesday, January 21st, 2025 12:00:31am
+#hash(("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("f8e2d4a659cef7c5ddfafbe6ac9ff1debe7dfdb5"
+        "b05d449ace25c5a93d3e48f974cc2ab1fcf81732"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("f8e2d4a659cef7c5ddfafbe6ac9ff1debe7dfdb5"
+        "b05d449ace25c5a93d3e48f974cc2ab1fcf81732"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("f8e2d4a659cef7c5ddfafbe6ac9ff1debe7dfdb5"
+        "b05d449ace25c5a93d3e48f974cc2ab1fcf81732"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("f8e2d4a659cef7c5ddfafbe6ac9ff1debe7dfdb5"
+        "b05d449ace25c5a93d3e48f974cc2ab1fcf81732")))
