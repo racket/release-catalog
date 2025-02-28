@@ -41,8 +41,6 @@
 ;; poll-pkg : InfoHash Cache -> InfoHash/#f
 (define (poll-pkg info cache)
   (define source (hash-ref info 'source))
-    (printf "source: ~e\n" source)
-
   (define old-checksum (hash-ref info 'checksum))
   (match (parse-repo-url source)
     [(list user repo old-branch path)
