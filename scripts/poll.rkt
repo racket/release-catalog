@@ -76,7 +76,9 @@
 
 (define (poll-source** user repo kind)
   (define ref-infos
-    (get/github (format "https://api.github.com/repos/~a/~a/~a" user repo kind)))
+    (apply
+     append
+     (get/github/allpages (format "https://api.github.com/repos/~a/~a/~a" user repo kind))))
   (unless (and (list? ref-infos)
                (for/and ([ref-info ref-infos])
                  (and (hash? ref-info)

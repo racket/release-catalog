@@ -8,6 +8,7 @@
          racket/contract
          net/url
          net/base64
+         net/head
          json
          "net.rkt"
          "util.rkt"
@@ -18,6 +19,7 @@
 (provide package-url->checksum
          USER-AGENT
          get/github
+         get/github/allpages
          head/github
          delete/github
          post/github
@@ -29,6 +31,12 @@
          (contract-out
           [get-repo-commits-since-last-release
            (-> string? string? string? string? (listof (hash/c symbol? any/c)))])
+         ;; exporting to allow testing.
+         ;; can't use interior module+ mechanism because then the file won't compile
+         ;; on a machine without rackunit?
+         set-partition
+         basic-auth-line
+         tag-exists?
          )
 
 
@@ -67,6 +75,51 @@
 
 (define post/github (wrap/data 'post/github post/url))
 (define put/github (wrap/data 'put/github put/url))
+
+;; use the "link" field of the header to get all pages of
+;; the response. Parses each page using read-json.
+;; returns a list of jsexprs (which is in fact a valid jsexpr...)
+(define (get/github/allpages url)
+  (get/github url
+              #:handle (λ (headers body-port)
+                         (cons (read-json body-port)
+                               (get/github/allpages/k headers)))))
+
+;; given the headers, call get/github/allpages with the link called "next" in the link header,
+;; or just return '() if it is not found.
+
+;; I'm not astonishingly confident in my parsing of the link header, though
+;; for the record I did consult https://datatracker.ietf.org/doc/html/rfc3986
+;; and I did some work parsing link headers elsewhere recently. Ugh. I know
+;; this will fail for links that have multiple params (e.g. a "rel" param and
+;; also another param, sigh. 
+(define (get/github/allpages/k headers)
+  (define link-field (extract-field "Link" headers))
+  ;; search for the "next" link
+  (let loop ([link-field link-field])
+    (match link-field
+      [#f '()]
+      [(regexp #px"^ *$") '()]
+      ;; this will fail for quoted strings containing quoted double-quotes, if
+      ;; that's allowed
+      [(regexp #px"^[ \n\t]*<([^;]+)>;[ \n\t]*rel[ \n\t]*=[ \n\t]*(\"[^\"]*\"|[^,]*)(.*)$" (list _ uri
+                                                                      rel
+                                                                      rest))
+       (cond [(or (equal? rel "next")
+                  (equal? rel "\"next\""))
+              ;; don't care about the rest of the links, we found the "next" link:
+              (get/github/allpages uri)]
+             [else
+              (match rest
+                [(regexp #px"^,(.*)$" (list _ rest))
+                 (loop rest)]
+                [(regexp #px"^[ \n\t]*$") '()]
+                [other (error 'get/github/allpages/k
+                              ;; this error will arise when e.g. a link has multiple
+                              ;; link-params
+                              "unexpected link header tail: ~e" other)])])]
+      [other (error 'get/github/allpages
+                    "couldn't parse remainder of link header: ~e" other)])))
 
 ;; ----------------------------------------
 
@@ -109,12 +162,6 @@
            (string->bytes/utf-8 (format "~a:~a" userid password))
            #"")))
 
-;; example from RFC 2617:
-;; FIXME put these tests in a separate file to remove dependency on rackunit...
-#;(module+ test
-  (require rackunit)
-  (check-equal? (basic-auth-line "Aladdin" "open sesame")
-                "Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ=="))
 
 ;; a personal access token, obtained from github>settings>developer settings
 (define github-user-credentials
@@ -201,13 +248,6 @@
             ([val (in-set the-set)])
     (cond [(pred val) (values (set-add yes val) no)]
           [else (values yes (set-add no val))])))
-
-#;(module+ test
-  (define-values (evens odds)
-    (set-partition even? (set 3 24 -242 33 9 12)))
-
-  (check-equal? evens (set 24 -242 12))
-  (check-equal? odds (set 3 33 9)))
 
 
 (define results-per-page 250) ; github API says so
@@ -385,7 +425,4 @@
               '()]
              [else (append commits (loop (add1 page)))]))]))
 
-#;(module+ test
-  (check-not-exn
-   (λ () (get/github "https://api.github.com/repos/racket/db/branches")))
-  (check-equal? (tag-exists? "racket" "racket" "v8.3") #t))
+
