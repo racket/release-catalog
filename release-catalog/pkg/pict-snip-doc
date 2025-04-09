@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "cd389ba6471a045c791e2dd6e483e356017499d8")
+(dependencies . ("base" "pict-snip-lib" "gui-doc" "pict-doc" "pict-lib" "racket-doc" "scribble-lib" "snip-lib"))
+(description . "documentation part of \"pict\"")
+(name . "pict-snip-doc")
+(source . "git://github.com/racket/pict-snip/?path=pict-snip-doc"))
