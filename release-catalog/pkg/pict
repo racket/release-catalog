@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "0948ecd79f58338d571d17ce4f724dbf2356ebf6")
-(dependencies . ("pict-lib" "pict-doc"))
-(description . "Building pictures with functional combinators")
-(name . "pict")
-(source . "git://github.com/racket/pict/?path=pict"))
