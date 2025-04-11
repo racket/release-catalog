@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "f9f912874e25e62428bffb69848780aedbf43c15")
+(checksum . "ea849204d5f2fd65b17affe2f0b031dabb7c3ff8")
 (dependencies . ("base" "rackunit-lib"))
 (description . "Extends the standard racket sequence libraries (list, stream, etc) to include more algorithms")
 (name . "sequence-tools-lib")
-(source . "https://github.com/racket/racket.git?path=pkgs%2Fsequence-tools-lib"))
+(source . "git://github.com/racket/racket/?path=pkgs%2Fsequence-tools-lib#release"))
