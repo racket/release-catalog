@@ -2,8 +2,8 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "dc985b3ccbb2a49c2a9483bbb783ebd514a7df11")
+(checksum . "9f5128d0c54f379f77e8bd659fa2e179d92a6bad")
 (dependencies . ("base" "htdp-lib" "lazy" "deinprogramm" "pict-lib" "simple-tree-text-markup-lib" "redex-lib" "racket-index" "scheme-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib" "at-exp-lib" "drracket-tool-lib"))
 (description . "tests for \"htdp\"")
 (name . "htdp-test")
-(source . "git://github.com/racket/htdp/?path=htdp-test"))
+(source . "git://github.com/racket/htdp/?path=htdp-test#release"))
