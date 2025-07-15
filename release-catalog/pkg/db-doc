@@ -2,7 +2,7 @@
 #hash(
 (author . "ryanc@racket-lang.org")
 (authors . ("ryanc@racket-lang.org"))
-(checksum . "5c2a00cde45b0da381d8e63cdbc761a1275ecf10")
+(checksum . "55501f54c569949f5a8b6705d0c1ee3482b1445c")
 (dependencies . ("base" "srfi-lite-lib" "web-server-doc" "base" "scribble-lib" "sandbox-lib" "web-server-lib" "db-lib" "data-doc" "racket-doc"))
 (description . "documentation part of \"db\"")
 (name . "db-doc")

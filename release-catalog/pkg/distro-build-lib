@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "dc7a0c38652763febbd43b69d27314f221cd3b19")
+(checksum . "3df11a9eeba69b66bde9431d7a09f06e161c4dd6")
 (dependencies . ("distro-build-client" "distro-build-server"))
 (description . "implementation (no documentation) part of \"distro-build\"")
 (name . "distro-build-lib")

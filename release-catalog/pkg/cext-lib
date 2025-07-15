@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "6c32f1c8365fbce7232f7fb35f8e68cd7619f007")
+(checksum . "246b41505050004119f25d66fe00de73aafb0f6f")
 (dependencies . ("base" "compiler-lib" "dynext-lib" "scheme-lib"))
 (description . "Tools for managing C extensions, such as `raco ctool`")
 (name . "cext-lib")

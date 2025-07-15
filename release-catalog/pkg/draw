@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "364dc9db4a2df7f8ca06539313f603d29b03c0fd")
+(checksum . "55819da32ae19b9c900bb2c64edb8600dd8c720d")
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")

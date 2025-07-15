@@ -2,7 +2,7 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "19b387829072ebdade8c77ada0ef4fbd7cc53cfc")
+(checksum . "78a7fc916ef930fd25cbacdd5a5e8403bca44796")
 (dependencies . ("deinprogramm-lib" "deinprogramm-doc" "deinprogramm-tool"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
