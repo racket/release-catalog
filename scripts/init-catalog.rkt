@@ -17,10 +17,11 @@
   (error 'new-version
          "expected version containing only digits and periods, got: ~e" new-version))
 
-;; like "system", but display the command before running it.
+;; like "system", but display the command before running it, and halt on any error
 (define (system+ str)
   (printf "cmd: ~v\n" str)
-  (system str))
+  (or (system str)
+      (error 'system+ "call to (system ...) returned #f")))
 
 (define-runtime-path release-catalog-dir "..")
 
