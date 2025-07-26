@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org bfetscher@racket-lang.org")
 (authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "f145860436fc5b1be091dc3334e170f2358d23b5")
+(checksum . "0b67a368f4916adadacb38c3be213539cc5a5c7e")
 (dependencies . ("base" "compiler-lib" "rackunit-lib" "redex-gui-lib" "slideshow-lib" "math-lib" "plot-lib"))
 (description . "PLT Redex examples")
 (name . "redex-examples")
-(source . "git://github.com/racket/redex/?path=redex-examples"))
+(source . "git://github.com/racket/redex/?path=redex-examples#release"))
