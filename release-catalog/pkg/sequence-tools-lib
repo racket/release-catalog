@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "211c85dfbdb5e0985dfa55dbd6fa9167f4fa408e")
+(checksum . "fa9a291badf05c5974a5f7b46e7f0e69f9d76277")
 (dependencies . ("base" "rackunit-lib"))
 (description . "Extends the standard racket sequence libraries (list, stream, etc) to include more algorithms")
 (name . "sequence-tools-lib")
