@@ -6,4 +6,4 @@
 (dependencies . ("racket-index" "net-doc" "scheme-lib" "draw-doc" "at-exp-lib" "base" "compatibility-lib" "draw-lib" "pict-lib" "pict-doc" "sandbox-lib" "scribble-lib" "scribble-text-lib" "racket-doc"))
 (description . "documentation part of \"scribble\"")
 (name . "scribble-doc")
-(source . "git://github.com/racket/scribble/?path=scribble-doc#release"))
+(source . "git://github.com/racket/scribble/?path=scribble-doc#v8.18"))
