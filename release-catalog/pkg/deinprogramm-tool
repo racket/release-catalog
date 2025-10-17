@@ -1,9 +1,0 @@
-
-#hash(
-(author . "sperber@deinprogramm.de")
-(authors . ("sperber@deinprogramm.de"))
-(checksum . "78a7fc916ef930fd25cbacdd5a5e8403bca44796")
-(dependencies . ("base" "scribble-lib" "deinprogramm-lib" "drracket-plugin-lib" "scheme-lib" "string-constants-lib" "gui-lib" "compatibility-lib" "htdp-lib" "pconvert-lib" "errortrace-lib" "trace" "wxme-lib" "at-exp-lib"))
-(description . "Tool for menu-based DeinProgramm teaching languages")
-(name . "deinprogramm-tool")
-(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-tool"))

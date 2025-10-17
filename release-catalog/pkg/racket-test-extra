@@ -1,9 +1,0 @@
-
-#hash(
-(author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
-(authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "657a006747c199241b2569b56e07f26585eb0437")
-(dependencies . (("base" #:version "8.4") "drracket-tool-text-lib" "redex-lib" "scheme-lib" "rackunit-lib" "serialize-cstruct-lib"))
-(description . "Additional Racket test suites")
-(name . "racket-test-extra")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-extra#v8.18"))

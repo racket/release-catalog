@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "657a006747c199241b2569b56e07f26585eb0437")
-(dependencies . ("srfi-lite-lib" "base"))
-(description . "implementation (no documentation) part of \"net\"")
-(name . "net-lib")
-(source . "git://github.com/racket/racket/?path=pkgs/net-lib#v8.18"))
