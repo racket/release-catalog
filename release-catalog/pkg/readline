@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "df55a811d57d6677959fde479106bc43b99d6bdd")
+(dependencies . ("readline-lib" "readline-doc"))
+(description . "GNU Readline access from Racket")
+(name . "readline")
+(source . "git://github.com/racket/readline/?path=readline"))

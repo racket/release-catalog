@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "12213e013937b0c1532de2238cf04906f589b302")
+(dependencies . ("base"))
+(description . "implementation of the most widely used \"srfi\" libraries")
+(name . "srfi-lite-lib")
+(source . "git://github.com/racket/srfi/?path=srfi-lite-lib"))

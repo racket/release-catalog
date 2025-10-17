@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org")
+(authors . ("eli@racket-lang.org"))
+(checksum . "9abad640b1a335c04656f9de975f41e76b89608e")
+(dependencies . ("base" "scribble-lib" "profile-lib" "errortrace-doc" "errortrace-lib" "racket-doc"))
+(description . "documentation part of \"profile\"")
+(name . "profile-doc")
+(source . "git://github.com/racket/profile/?path=profile-doc"))
