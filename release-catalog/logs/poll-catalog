@@ -202,3 +202,37 @@
        .
        ("9f1d94810724d6a0c6f721cdc4c41edcf7a1bed5"
         "5fa97748a38b5fe0409eda94badf7313a1a66f31")))
+;; ============================================================
+;; Appended 1761170445 : Wednesday, October 22nd, 2025 6:00:45pm
+#hash(("git://github.com/racket/redex/?path=redex#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-benchmark#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-doc#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-examples#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-gui-lib#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-lib#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-pict-lib#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d"))
+      ("git://github.com/racket/redex/?path=redex-test#release"
+       .
+       ("0fb24919041acb30a8c80d25fbebb49bb153a9db"
+        "c6468d312c72de1b1c000a179320aea0228ea42d")))
