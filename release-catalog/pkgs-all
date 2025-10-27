@@ -508,11 +508,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf6f965dd72b9c8146b7720a217ec0d9897c34c3")
+(checksum . "cab23a7803c2312d1b6190fda2c12697f6ffe389")
 (dependencies . ("base"))
 (description . "shared files for \"draw\" package")
 (name . "draw-ttf-aarch64-linux-natipkg")
-(source . "https://pkg-sources.racket-lang.org/pkgs/cf6f965dd72b9c8146b7720a217ec0d9897c34c3/draw-ttf-aarch64-linux-natipkg.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/cab23a7803c2312d1b6190fda2c12697f6ffe389/draw-ttf-aarch64-linux-natipkg.zip")))
 ("draw-ttf-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
