@@ -14,6 +14,11 @@
          "private/util.rkt"
          "private/github.rkt")
 
+;; there are many commits from the resyntax bot; these
+;; should not appeear in the extracted list of commits
+;; used to prepare the release.
+(define authors-to-ignore '("resyntax-ci[bot]"))
+
 ;; get-commit-messages : Catalog Tag -> Void
 (define (get-commit-messages catalog since-tag)
   (define sources (get-sources catalog))
@@ -23,7 +28,14 @@
     (when (not (null? commits))
       (displayln (make-string 80 #\=))
       (displayln user+repo)
-      (for ([c (in-list commits)])
+      (define-values (ignored-commits interesting-commits)
+        (partition (λ (c)
+                     (member (hash-ref (hash-ref (hash-ref c 'commit) 'author) 'name)
+                             authors-to-ignore))
+                   commits))
+      (printf "(ignoring ~v commits from authors (e.g. resyntax-ci[bot]) in ignore list)\n"
+              (length ignored-commits))
+      (for ([c (in-list interesting-commits)])
         (define commit  (hash-ref c 'commit))
         (define author  (hash-ref commit 'author))
         (define message (hash-ref commit 'message))
