@@ -400,3 +400,41 @@
        .
        ("622d9ac68a395e55a2cfc4823e94f428b85522d7"
         "66bcf0f49bdf898e4d87d303cf5ebd9caaf4bfba")))
+;; ============================================================
+;; Appended 1763126576 : Friday, November 14th, 2025 8:22:56am
+#hash(("git://github.com/racket/gui/?path=gui#release"
+       .
+       ("63997735c0f9d56ee216f11bcadc5a2ffc0cd814"
+        "58b909b96b74b818674b2b354aff1f702d832a84"))
+      ("git://github.com/racket/gui/?path=gui-doc#release"
+       .
+       ("63997735c0f9d56ee216f11bcadc5a2ffc0cd814"
+        "58b909b96b74b818674b2b354aff1f702d832a84"))
+      ("git://github.com/racket/gui/?path=gui-lib#release"
+       .
+       ("63997735c0f9d56ee216f11bcadc5a2ffc0cd814"
+        "58b909b96b74b818674b2b354aff1f702d832a84"))
+      ("git://github.com/racket/gui/?path=gui-test#release"
+       .
+       ("63997735c0f9d56ee216f11bcadc5a2ffc0cd814"
+        "58b909b96b74b818674b2b354aff1f702d832a84"))
+      ("git://github.com/racket/gui/?path=tex-table#release"
+       .
+       ("63997735c0f9d56ee216f11bcadc5a2ffc0cd814"
+        "58b909b96b74b818674b2b354aff1f702d832a84"))
+      ("git://github.com/racket/htdp/?path=htdp#release"
+       .
+       ("01eb4de03a6a23acb98d8eb48241083d280f3491"
+        "275d357c71d5e34fe5da0aa0e69916a7b19023ba"))
+      ("git://github.com/racket/htdp/?path=htdp-doc#release"
+       .
+       ("01eb4de03a6a23acb98d8eb48241083d280f3491"
+        "275d357c71d5e34fe5da0aa0e69916a7b19023ba"))
+      ("git://github.com/racket/htdp/?path=htdp-lib#release"
+       .
+       ("01eb4de03a6a23acb98d8eb48241083d280f3491"
+        "275d357c71d5e34fe5da0aa0e69916a7b19023ba"))
+      ("git://github.com/racket/htdp/?path=htdp-test#release"
+       .
+       ("01eb4de03a6a23acb98d8eb48241083d280f3491"
+        "275d357c71d5e34fe5da0aa0e69916a7b19023ba")))

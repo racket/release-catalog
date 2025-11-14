@@ -840,11 +840,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "63997735c0f9d56ee216f11bcadc5a2ffc0cd814")
+(checksum . "58b909b96b74b818674b2b354aff1f702d832a84")
 (dependencies . ("gui-lib" "gui-doc"))
 (description . "Graphical user interface toolkit")
 (name . "gui")
-(source . "git://github.com/racket/gui/?path=gui")))
+(source . "git://github.com/racket/gui/?path=gui#release")))
 ("gui-aarch64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -867,11 +867,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "63997735c0f9d56ee216f11bcadc5a2ffc0cd814")
+(checksum . "58b909b96b74b818674b2b354aff1f702d832a84")
 (dependencies . ("base" "scheme-lib" "syntax-color-doc" "at-exp-lib" "draw-doc" "draw-lib" ("scribble-lib" #:version "1.42") ("snip-lib" #:version "1.5") "string-constants-lib" ("syntax-color-lib" #:version "1.3") "wxme-lib" "gui-lib" "pict-lib" "racket-doc" "string-constants-doc" "simple-tree-text-markup-doc"))
 (description . "documentation part of \"gui\"")
 (name . "gui-doc")
-(source . "git://github.com/racket/gui/?path=gui-doc")))
+(source . "git://github.com/racket/gui/?path=gui-doc#release")))
 ("gui-i386-macosx" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -885,11 +885,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "63997735c0f9d56ee216f11bcadc5a2ffc0cd814")
+(checksum . "58b909b96b74b818674b2b354aff1f702d832a84")
 (dependencies . ("srfi-lite-lib" "data-lib" ("icons" #:version "1.3") ("base" #:version "8.3.0.3") ("syntax-color-lib" #:version "1.7") ("draw-lib" #:version "1.18") ("snip-lib" #:version "1.6") "wxme-lib" "pict-lib" "scheme-lib" ("scribble-lib" #:version "1.36") ("string-constants-lib" #:version "1.41") "option-contract-lib" "2d-lib" "compatibility-lib" "tex-table" "simple-tree-text-markup-lib" ("gui-i386-macosx" #:platform "i386-macosx") ("gui-x86_64-macosx" #:platform "x86_64-macosx" #:version "1.3") ("gui-ppc-macosx" #:platform "ppc-macosx") ("gui-aarch64-macosx" #:platform "aarch64-macosx") ("gui-win32-i386" #:platform "win32\\i386") ("gui-win32-x86_64" #:platform "win32\\x86_64") ("gui-win32-arm64" #:platform "win32\\arm64") ("gui-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("gui-aarch64-linux-natipkg" #:platform "aarch64-linux-natipkg") "at-exp-lib" "rackunit-lib"))
 (description . "implementation (no documentation) part of \"gui\"")
 (name . "gui-lib")
-(source . "git://github.com/racket/gui/?path=gui-lib")))
+(source . "git://github.com/racket/gui/?path=gui-lib#release")))
 ("gui-pkg-manager-lib" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
@@ -912,11 +912,11 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "63997735c0f9d56ee216f11bcadc5a2ffc0cd814")
+(checksum . "58b909b96b74b818674b2b354aff1f702d832a84")
 (dependencies . ("base" "string-constants-lib" "racket-index" "scheme-lib" "draw-lib" "data-lib" "racket-test" "sgl" "snip-lib" "wxme-lib" "gui-lib" "syntax-color-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib" "simple-tree-text-markup-lib" "pict-lib" "pict-snip-lib"))
 (description . "tests for \"gui\"")
 (name . "gui-test")
-(source . "git://github.com/racket/gui/?path=gui-test")))
+(source . "git://github.com/racket/gui/?path=gui-test#release")))
 ("gui-win32-arm64" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -966,38 +966,38 @@
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "01eb4de03a6a23acb98d8eb48241083d280f3491")
+(checksum . "275d357c71d5e34fe5da0aa0e69916a7b19023ba")
 (dependencies . ("htdp-lib" "htdp-doc"))
 (description . "Teaching languages for _How to Design Programs_")
 (name . "htdp")
-(source . "git://github.com/racket/htdp/?path=htdp")))
+(source . "git://github.com/racket/htdp/?path=htdp#release")))
 ("htdp-doc" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "01eb4de03a6a23acb98d8eb48241083d280f3491")
+(checksum . "275d357c71d5e34fe5da0aa0e69916a7b19023ba")
 (dependencies . ("base" "scribble-lib" "at-exp-lib" "draw-lib" ("gui-lib" #:version "1.37") "htdp-lib" "plai" "sandbox-lib" "pict-lib" "mzscheme-doc" "scheme-lib" "compatibility-doc" "draw-doc" "drracket" "gui-doc" "pict-doc" "racket-doc"))
 (description . "documentation part of \"htdp\"")
 (name . "htdp-doc")
-(source . "git://github.com/racket/htdp/?path=htdp-doc")))
+(source . "git://github.com/racket/htdp/?path=htdp-doc#release")))
 ("htdp-lib" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "01eb4de03a6a23acb98d8eb48241083d280f3491")
+(checksum . "275d357c71d5e34fe5da0aa0e69916a7b19023ba")
 (dependencies . (("base" #:version "6.8.0.2") "compatibility-lib" "draw-lib" ("drracket-plugin-lib" #:version "1.1") "errortrace-lib" "html-lib" "images-gui-lib" "images-lib" "net-lib" ("pconvert-lib" #:version "1.2") "plai-lib" "r5rs-lib" "sandbox-lib" "scheme-lib" "scribble-lib" ("simple-tree-text-markup-lib" #:version "1.1") "slideshow-lib" "snip-lib" "srfi-lite-lib" ("string-constants-lib" #:version "1.20") "typed-racket-lib" "typed-racket-more" "web-server-lib" "wxme-lib" ("gui-lib" #:version "1.72") "deinprogramm-signature" "pict-lib" "racket-index" "at-exp-lib" ("rackunit-lib" #:version "1.10")))
 (description . "implementation (no documentation) part of \"htdp\"")
 (name . "htdp-lib")
-(source . "git://github.com/racket/htdp/?path=htdp-lib")))
+(source . "git://github.com/racket/htdp/?path=htdp-lib#release")))
 ("htdp-test" . 
 #hash(
 (author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "01eb4de03a6a23acb98d8eb48241083d280f3491")
+(checksum . "275d357c71d5e34fe5da0aa0e69916a7b19023ba")
 (dependencies . ("base" "htdp-lib" "lazy" "deinprogramm" "pict-lib" "simple-tree-text-markup-lib" "redex-lib" "racket-index" "scheme-lib" "compatibility-lib" "gui-lib" "racket-test" "rackunit-lib" "profile-lib" "wxme-lib" "pconvert-lib" "at-exp-lib" "drracket-tool-lib"))
 (description . "tests for \"htdp\"")
 (name . "htdp-test")
-(source . "git://github.com/racket/htdp/?path=htdp-test")))
+(source . "git://github.com/racket/htdp/?path=htdp-test#release")))
 ("html" . 
 #hash(
 (author . "jay@racket-lang.org mflatt@racket-lang.org")
@@ -2558,11 +2558,11 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "63997735c0f9d56ee216f11bcadc5a2ffc0cd814")
+(checksum . "58b909b96b74b818674b2b354aff1f702d832a84")
 (dependencies . ("base"))
 (description . "Table of TeX-style abbreviations")
 (name . "tex-table")
-(source . "git://github.com/racket/gui/?path=tex-table")))
+(source . "git://github.com/racket/gui/?path=tex-table#release")))
 ("trace" . 
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
