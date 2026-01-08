@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ryanc@racket-lang.org")
+(authors . ("ryanc@racket-lang.org"))
+(checksum . "795694c40ac8d9a40a2bcce06150d5d783b613cf")
+(dependencies . ("base" "net-lib" "rackunit-lib" ("unix-socket-lib" #:version "1.3")))
+(description . "Tests for \"unix-socket\"")
+(name . "unix-socket-test")
+(source . "git://github.com/racket/unix-socket?path=unix-socket-test"))

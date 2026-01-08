@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "e845408e9da00673f1dc886b5ec7133e0056638d")
+(dependencies . ("r6rs-lib" "r6rs-doc"))
+(description . "Legacy R6RS (Scheme) language")
+(name . "r6rs")
+(source . "git://github.com/racket/r6rs/?path=r6rs"))

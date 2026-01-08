@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org")
+(authors . ("eli@racket-lang.org"))
+(checksum . "977777072e1bbdaf38d23654e281781f26d20488")
+(dependencies . ("base" "sandbox-lib" "scribble-lib" "errortrace-doc" "profile-doc" "readline-doc" "profile-lib" "readline-lib" "xrepl-lib" "racket-doc"))
+(description . "documentation part of \"xrepl\"")
+(name . "xrepl-doc")
+(source . "git://github.com/racket/xrepl/?path=xrepl-doc"))
