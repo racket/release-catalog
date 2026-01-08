@@ -1,9 +1,0 @@
-
-#hash(
-(author . "robby@racket-lang.org bfetscher@racket-lang.org")
-(authors . ("robby@racket-lang.org" "bfetscher@racket-lang.org"))
-(checksum . "c6468d312c72de1b1c000a179320aea0228ea42d")
-(dependencies . ("scheme-lib" "base" "draw-lib" "gui-lib" "data-lib" "profile-lib" "redex-lib" "redex-pict-lib" "rackunit-lib"))
-(description . "implementation (no documentation) part of \"redex\" gui")
-(name . "redex-gui-lib")
-(source . "git://github.com/racket/redex/?path=redex-gui-lib#v9.0"))

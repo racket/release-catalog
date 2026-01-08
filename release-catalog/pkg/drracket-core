@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "2c0ced32b9d2c326711d77bb25a6ed269de42607")
-(dependencies . ("base" "drracket-core-lib" "at-exp-lib" "draw-doc" "drracket-plugin-lib" "drracket-tool-text-lib" "errortrace-doc" "errortrace-lib" "gui-doc" "gui-lib" "net-doc" "pconvert-doc" "pconvert-lib" "pict-doc" "pict-lib" "planet-doc" "profile-doc" "racket-doc" "scheme-lib" "scribble-lib" "snip-lib" "string-constants-lib" "string-constants-doc" "syntax-color-doc" "syntax-color-lib" "tex-table"))
-(description . "The core of the DrRacket programming environment")
-(name . "drracket-core")
-(source . "git://github.com/racket/drracket/?path=drracket-core#v9.0"))
