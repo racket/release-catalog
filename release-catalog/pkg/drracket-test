@@ -2,8 +2,8 @@
 #hash(
 (author . "robby@racket-lang.org")
 (authors . ("robby@racket-lang.org"))
-(checksum . "e5678c249e546cc9378a2f6e43df0d1e36b56d8c")
+(checksum . "de2dd68ef96a4694892502a533e0ca6ef1345ba1")
 (dependencies . ("base" "htdp" "drracket" "racket-index" "scheme-lib" "at-exp-lib" "rackunit-lib" "compatibility-lib" "gui-lib" "htdp" "compiler-lib" "cext-lib" "string-constants-lib" "drracket-core"))
 (description . "tests for \"drracket\"")
 (name . "drracket-test")
-(source . "git://github.com/racket/drracket/?path=drracket-test"))
+(source . "git://github.com/racket/drracket/?path=drracket-test#release"))
