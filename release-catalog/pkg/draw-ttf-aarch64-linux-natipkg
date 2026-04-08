@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "cab23a7803c2312d1b6190fda2c12697f6ffe389")
-(dependencies . ("base"))
-(description . "shared files for \"draw\" package")
-(name . "draw-ttf-aarch64-linux-natipkg")
-(source . "https://pkg-sources.racket-lang.org/pkgs/cab23a7803c2312d1b6190fda2c12697f6ffe389/draw-ttf-aarch64-linux-natipkg.zip"))

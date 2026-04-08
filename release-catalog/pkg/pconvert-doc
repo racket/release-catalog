@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org robby@racket-lang.org")
-(authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "afc2e8466306a3c708902e9d0d3891568b1d2ba4")
-(dependencies . ("base" "pconvert-lib" "pconvert-lib" "racket-doc" "scribble-lib"))
-(description . "documentation for the \"pconvert-lib\" package")
-(name . "pconvert-doc")
-(source . "https://github.com/racket/pconvert.git?path=pconvert-doc"))

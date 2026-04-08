@@ -1,9 +1,0 @@
-
-#hash(
-(author . "jay@racket-lang.org mflatt@racket-lang.org")
-(authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
-(checksum . "9331d4f7169f8c5932f8d2ae721b2a96515ac895")
-(dependencies . ("racket-index" "base" "html-lib" "rackunit-lib"))
-(description . "tests for \"html\"")
-(name . "html-test")
-(source . "git://github.com/racket/html/?path=html-test"))
