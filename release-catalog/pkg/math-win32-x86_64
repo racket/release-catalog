@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "3b90f17aa3c3b3e6376d0aa619e60e68dd6e7795")
+(dependencies . ("base"))
+(description . "native libraries for \"math\" package")
+(name . "math-win32-x86_64")
+(source . "https://pkg-sources.racket-lang.org/pkgs/3b90f17aa3c3b3e6376d0aa619e60e68dd6e7795/math-win32-x86_64.zip"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "b2672d845419893d69e96453fe4d6d3d587ae22f")
+(dependencies . ("scheme-lib" "base" "compatibility-lib"))
+(description . "implementation (no documentation) part of \"r5rs\"")
+(name . "r5rs-lib")
+(source . "git://github.com/racket/r5rs/?path=r5rs-lib"))
