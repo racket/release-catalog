@@ -319,47 +319,47 @@
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "f399363885269a4c956869ef697605980820d63d")
+(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
 (dependencies . ("deinprogramm-lib" "deinprogramm-doc" "deinprogramm-tool"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#release")))
 ("deinprogramm-doc" . 
 #hash(
 (author . "sperber@deinprogramm.de")
 (authors . ("sperber@deinprogramm.de"))
-(checksum . "f399363885269a4c956869ef697605980820d63d")
+(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "errortrace-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "wxme-lib" "snip-lib" "draw-lib" "deinprogramm-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "scribble-lib" "gui-lib"))
 (description . "documentation part of \"deinprogramm\"")
 (name . "deinprogramm-doc")
-(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-doc")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-doc#release")))
 ("deinprogramm-lib" . 
 #hash(
 (author . "sperber@deinprogramm.de")
 (authors . ("sperber@deinprogramm.de"))
-(checksum . "f399363885269a4c956869ef697605980820d63d")
+(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
 (dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "errortrace-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "gui-lib" "wxme-lib" "snip-lib" "draw-lib" "at-exp-lib" "racket-index" "rackunit-lib"))
 (description . "implementation part of \"deinprogramm\"")
 (name . "deinprogramm-lib")
-(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-lib")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-lib#release")))
 ("deinprogramm-signature" . 
 #hash(
 (author . "sperber@racket-lang.org")
 (authors . ("sperber@racket-lang.org"))
-(checksum . "f399363885269a4c956869ef697605980820d63d")
+(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
 (dependencies . ("base" "compatibility-lib" "drracket-plugin-lib" "gui-lib" "htdp-lib" "scheme-lib" "srfi-lib" "string-constants-lib"))
 (description . "Signature support for teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm-signature")
-(source . "git://github.com/racket/deinprogramm?path=deinprogramm-signature")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release")))
 ("deinprogramm-tool" . 
 #hash(
 (author . "sperber@deinprogramm.de")
 (authors . ("sperber@deinprogramm.de"))
-(checksum . "f399363885269a4c956869ef697605980820d63d")
+(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
 (dependencies . ("base" "scribble-lib" "deinprogramm-lib" "drracket-plugin-lib" "scheme-lib" "string-constants-lib" "gui-lib" "compatibility-lib" "htdp-lib" "pconvert-lib" "errortrace-lib" "trace" "wxme-lib" "at-exp-lib"))
 (description . "Tool for menu-based DeinProgramm teaching languages")
 (name . "deinprogramm-tool")
-(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-tool")))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-tool#release")))
 ("distributed-places" . 
 #hash(
 (author . "tewk@racket-lang.org")

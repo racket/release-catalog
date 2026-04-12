@@ -176,3 +176,25 @@
        .
        ("ce9985d78ca20015acb709ea8f6df72b69979f89"
         "2e2f65b9b5bf36d51411049232e6ad9839f48220")))
+;; ============================================================
+;; Appended 1776031243 : Sunday, April 12th, 2026 6:00:43pm
+#hash(("git://github.com/racket/deinprogramm/?path=deinprogramm#release"
+       .
+       ("f399363885269a4c956869ef697605980820d63d"
+        "9a6539cd5c911849c51dc8d0ef5b57953470d373"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-doc#release"
+       .
+       ("f399363885269a4c956869ef697605980820d63d"
+        "9a6539cd5c911849c51dc8d0ef5b57953470d373"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-lib#release"
+       .
+       ("f399363885269a4c956869ef697605980820d63d"
+        "9a6539cd5c911849c51dc8d0ef5b57953470d373"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-signature#release"
+       .
+       ("f399363885269a4c956869ef697605980820d63d"
+        "9a6539cd5c911849c51dc8d0ef5b57953470d373"))
+      ("git://github.com/racket/deinprogramm/?path=deinprogramm-tool#release"
+       .
+       ("f399363885269a4c956869ef697605980820d63d"
+        "9a6539cd5c911849c51dc8d0ef5b57953470d373")))
