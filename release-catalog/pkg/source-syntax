@@ -2,7 +2,7 @@
 #hash(
 (author . "samth@racket-lang.org stamourv@racket-lang.org eli@racket-lang.org")
 (authors . ("samth@racket-lang.org" "stamourv@racket-lang.org" "eli@racket-lang.org"))
-(checksum . "cdd5fc3a95ccd0f57976ae55b1cfcb0c34e14c6b")
+(checksum . "b2e1e8b66ea4f8cb93a98415584d19184611cc87")
 (dependencies . ("base"))
 (description . "find mappings from expanded to source syntax")
 (name . "source-syntax")
