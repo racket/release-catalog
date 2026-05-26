@@ -6,4 +6,4 @@
 (dependencies . ("base" "scribble-lib" "deinprogramm-lib" "drracket-plugin-lib" "scheme-lib" "string-constants-lib" "gui-lib" "compatibility-lib" "htdp-lib" "pconvert-lib" "errortrace-lib" "trace" "wxme-lib" "at-exp-lib"))
 (description . "Tool for menu-based DeinProgramm teaching languages")
 (name . "deinprogramm-tool")
-(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-tool#release"))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-tool#v9.2"))

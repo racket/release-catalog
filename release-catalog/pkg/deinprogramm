@@ -6,4 +6,4 @@
 (dependencies . ("deinprogramm-lib" "deinprogramm-doc" "deinprogramm-tool"))
 (description . "Teaching languages for _Die Macht der Abstraktion_")
 (name . "deinprogramm")
-(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#release"))
+(source . "git://github.com/racket/deinprogramm/?path=deinprogramm#v9.2"))
