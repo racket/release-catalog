@@ -1,9 +1,0 @@
-
-#hash(
-(author . "sperber@deinprogramm.de")
-(authors . ("sperber@deinprogramm.de"))
-(checksum . "9a6539cd5c911849c51dc8d0ef5b57953470d373")
-(dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "errortrace-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "gui-lib" "wxme-lib" "snip-lib" "draw-lib" "at-exp-lib" "racket-index" "rackunit-lib"))
-(description . "implementation part of \"deinprogramm\"")
-(name . "deinprogramm-lib")
-(source . "git://github.com/racket/deinprogramm/?path=deinprogramm-lib#v9.2"))

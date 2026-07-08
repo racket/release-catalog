@@ -1,9 +1,0 @@
-
-#hash(
-(author . "sperber@deinprogramm.de")
-(authors . ("sperber@deinprogramm.de"))
-(checksum . "06bbcd3651e518a53cffa5f8484fe127574fed06")
-(dependencies . ("simple-tree-text-markup-lib" "simple-tree-text-markup-doc"))
-(description . "This is a tree-based combinator library for simple markup, mainly for\r\ndisplaying messages in a REPL.\r\n\r\nThis is a meta-package, containing simple-tree-text-markup-lib and simple-tree-text-markup-doc.")
-(name . "simple-tree-text-markup")
-(source . "https://github.com/racket/simple-tree-text-markup.git?path=simple-tree-text-markup"))

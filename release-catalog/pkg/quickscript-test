@@ -1,9 +1,0 @@
-
-#hash(
-(author . "laurent.orseau@gmail.com")
-(authors . ("laurent.orseau@gmail.com"))
-(checksum . "0fd791a57c6e746f53ca0ecc6c870490cee783be")
-(dependencies . ("drracket-test" "gui-lib" "quickscript" "rackunit-lib" "base" "scribble-lib" "racket-doc" "rackunit-lib"))
-(description . "Tests for the quickscript package")
-(name . "quickscript-test")
-(source . "https://github.com/Metaxal/quickscript-test.git"))

@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "98b92f8ba3eda0481551e63ffd7702850c079870")
-(dependencies . ("base" "scribble-lib" "racket-index" "scheme-lib"))
-(description . "Racket Documentation executables")
-(name . "racket-index-exe")
-(source . "git://github.com/racket/racket/?path=pkgs%2Fracket-index-exe#v9.2"))

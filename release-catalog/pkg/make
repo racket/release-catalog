@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "7493795aba151f7164caf497003746dd049b8ae4")
-(dependencies . ("scheme-lib" "base" "cext-lib" "compiler-lib" "compatibility-lib" "racket-doc" "scribble-lib"))
-(description . "Simple timestamp- and dependency-triggered actions")
-(name . "make")
-(source . "git://github.com/racket/make"))
