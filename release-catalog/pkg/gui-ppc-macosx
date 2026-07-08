@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "751a7a00c1d9f77b511adbf08d256687f444f6ec")
+(dependencies . ("base"))
+(description . "native libraries for \"gui\" package")
+(name . "gui-ppc-macosx")
+(source . "https://pkg-sources.racket-lang.org/pkgs/751a7a00c1d9f77b511adbf08d256687f444f6ec/gui-ppc-macosx.zip"))

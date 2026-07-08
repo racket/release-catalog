@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "34fafaee876f85307f71eec0895e5d4e35c20c6a")
+(dependencies . ("base" "scribble-lib" "racket-doc" "ds-store-lib"))
+(description . "documentation part of \"ds-store\"")
+(name . "ds-store-doc")
+(source . "git://github.com/racket/ds-store/?path=ds-store-doc"))

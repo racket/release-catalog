@@ -1,0 +1,9 @@
+
+#hash(
+(author . "robby@racket-lang.org")
+(authors . ("robby@racket-lang.org"))
+(checksum . "111d03ffacce3e4a1b1ca99ed50ad6199be9854e")
+(dependencies . ("base" "compatibility-lib"))
+(description . "DrRacket's plugin API")
+(name . "drracket-plugin-lib")
+(source . "git://github.com/racket/drracket/?path=drracket-plugin-lib"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "eli@racket-lang.org mflatt@racket-lang.org samth@racket-lang.org")
+(authors . ("eli@racket-lang.org" "mflatt@racket-lang.org" "samth@racket-lang.org"))
+(checksum . "48e27157e9f00ee3b40542eb64d70704e8119622")
+(dependencies . ("base" "at-exp-lib" "scribble-html-lib"))
+(description . "PLT web page style and generation")
+(name . "plt-web-lib")
+(source . "git://github.com/racket/plt-web/?path=plt-web-lib"))

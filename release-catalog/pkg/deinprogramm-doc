@@ -1,0 +1,9 @@
+
+#hash(
+(author . "sperber@deinprogramm.de")
+(authors . ("sperber@deinprogramm.de"))
+(checksum . "883e25d9e7911b960904b12bf99bd16ffa002eda")
+(dependencies . ("base" "compatibility-lib" "deinprogramm-signature" "errortrace-lib" "htdp-lib" "pconvert-lib" "scheme-lib" "simple-tree-text-markup-lib" "string-constants-lib" "trace" "wxme-lib" "snip-lib" "draw-lib" "deinprogramm-lib" "at-exp-lib" "htdp-doc" "racket-doc" "racket-index" "scribble-lib" "gui-lib"))
+(description . "documentation part of \"deinprogramm\"")
+(name . "deinprogramm-doc")
+(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-doc"))
