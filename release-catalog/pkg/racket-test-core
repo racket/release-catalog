@@ -2,8 +2,8 @@
 #hash(
 (author . "eli@racket-lang.org jay@racket-lang.org matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org ryanc@racket-lang.org samth@racket-lang.org")
 (authors . ("eli@racket-lang.org" "jay@racket-lang.org" "matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "ryanc@racket-lang.org" "samth@racket-lang.org"))
-(checksum . "aaef7e7014f2858be893aee892aaca6e56073990")
+(checksum . "92873974f85e76ed5a25f027923f9e5276e152b6")
 (dependencies . ("base" "zo-lib" "at-exp-lib" "serialize-cstruct-lib" "dynext-lib" "sandbox-lib"))
 (description . "Minimal core version of Racket test suites")
 (name . "racket-test-core")
-(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core"))
+(source . "git://github.com/racket/racket/?path=pkgs/racket-test-core#release"))
