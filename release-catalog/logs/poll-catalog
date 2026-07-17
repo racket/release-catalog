@@ -84,3 +84,45 @@
        .
        ("aaef7e7014f2858be893aee892aaca6e56073990"
         "92873974f85e76ed5a25f027923f9e5276e152b6")))
+;; ============================================================
+;; Appended 1784260847 : Friday, July 17th, 2026 12:00:47am
+#hash(("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-core#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-core-lib#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-text-lib#release"
+       .
+       ("111d03ffacce3e4a1b1ca99ed50ad6199be9854e"
+        "1b8a16c916eb36a43d1eb54c905e4ecfc02e99e6")))
