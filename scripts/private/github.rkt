@@ -278,7 +278,8 @@
 
 ;; does the given tag exist for a repository?
 (define (tag-exists? user repo tag)
-  (define tags-fetched 100)
+  ;; on 2026-07-25, there are 100 tags on the racket/racket repo. Bumping this to 200:
+  (define tags-fetched 200)
   (define url-string
     (url->string
      (url "https" #f "api.github.com" #f #t
