@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "246b41505050004119f25d66fe00de73aafb0f6f")
-(dependencies . ("base"))
-(description . "Library for running a C compiler/linker")
-(name . "dynext-lib")
-(source . "git://github.com/racket/cext-lib?path=dynext-lib"))

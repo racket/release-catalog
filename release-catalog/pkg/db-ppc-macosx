@@ -1,9 +1,0 @@
-
-#hash(
-(author . "mflatt@racket-lang.org")
-(authors . ("mflatt@racket-lang.org"))
-(checksum . "6a1009748d2286cff1a3d2064e0bf32412c3d295")
-(dependencies . ("base"))
-(description . "native libraries for \"db\" package")
-(name . "db-ppc-macosx")
-(source . "https://pkg-sources.racket-lang.org/pkgs/6a1009748d2286cff1a3d2064e0bf32412c3d295/db-ppc-macosx.zip"))
