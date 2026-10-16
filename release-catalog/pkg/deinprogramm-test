@@ -1,0 +1,9 @@
+
+#hash(
+(author . "sperber@deinprogramm.de")
+(authors . ("sperber@deinprogramm.de"))
+(checksum . "883e25d9e7911b960904b12bf99bd16ffa002eda")
+(dependencies . ("base" "htdp-test" "deinprogramm-lib" "deinprogramm-signature" "at-exp-lib" "racket-index" "rackunit-lib" "scheme-lib" "htdp-lib"))
+(description . "tests for \"deinprogramm\"")
+(name . "deinprogramm-test")
+(source . "https://github.com/racket/deinprogramm.git?path=deinprogramm-test"))

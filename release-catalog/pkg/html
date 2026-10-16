@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org mflatt@racket-lang.org")
+(authors . ("jay@racket-lang.org" "mflatt@racket-lang.org"))
+(checksum . "9331d4f7169f8c5932f8d2ae721b2a96515ac895")
+(dependencies . ("html-lib" "html-doc"))
+(description . "HTML parsing and generation")
+(name . "html")
+(source . "git://github.com/racket/html/?path=html"))

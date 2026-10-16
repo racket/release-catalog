@@ -1,0 +1,9 @@
+
+#hash(
+(author . "jay@racket-lang.org")
+(authors . ("jay@racket-lang.org"))
+(checksum . "d1906923a74a362a2bfb32f3b9bfe1351f4d1534")
+(dependencies . ("scheme-lib" "base" "compatibility-lib" "gui-lib" "draw-doc" "gui-doc" "racket-doc" "scribble-lib"))
+(description . "Legacy OpenGL library")
+(name . "sgl")
+(source . "git://github.com/racket/sgl"))

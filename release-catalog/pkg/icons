@@ -1,0 +1,9 @@
+
+#hash(
+(author . "ntoronto@racket-lang.org")
+(authors . ("ntoronto@racket-lang.org"))
+(checksum . "14b164c20e1214ffa1e7585d0b6597d5c3f0351a")
+(dependencies . ("base"))
+(description . "An assortment of images")
+(name . "icons")
+(source . "git://github.com/racket/icons"))

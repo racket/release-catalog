@@ -1,0 +1,9 @@
+
+#hash(
+(author . "matthias@racket-lang.org mflatt@racket-lang.org robby@racket-lang.org shhyou@u.northwestern.edu")
+(authors . ("matthias@racket-lang.org" "mflatt@racket-lang.org" "robby@racket-lang.org" "shhyou@u.northwestern.edu"))
+(checksum . "3f68014cf719b50d7ac39ef2e2d674833d078cc0")
+(dependencies . ("base" "htdp-lib" "at-exp-lib" "rackunit" "gui-lib" "drracket"))
+(description . "Extra tests for \"htdp\" that depend on DrRacket integration")
+(name . "htdp-drracket-test")
+(source . "https://github.com/racket/htdp.git?path=htdp-drracket-test"))

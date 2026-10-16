@@ -1,0 +1,9 @@
+
+#hash(
+(author . "laurent.orseau@gmail.com")
+(authors . ("laurent.orseau@gmail.com"))
+(checksum . "566448a887e51107bf7e5e6d86a33bf802b482a3")
+(dependencies . ("base" "drracket-plugin-lib" "drracket" "gui-lib" "net-lib" "scribble-lib" ("string-constants-lib" #:version "1.50") "at-exp-lib" "drracket" "gui-doc" "racket-doc" "draw-doc" "rackunit-lib"))
+(description . "Scripting engine for DrRacket.\r\nExtends DrRacket with scripting capabilities and menu items. The package quickscript-extra contains additional sample scripts.")
+(name . "quickscript")
+(source . "https://github.com/Metaxal/quickscript.git"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@cs.utah.edu")
+(authors . ("mflatt@cs.utah.edu"))
+(checksum . "5760b54c6d8cea8484822f9304be889588c7ef6b")
+(dependencies . ("base"))
+(description . "implementation (no documentation) part of \"raco-cross\"")
+(name . "raco-cross-lib")
+(source . "https://github.com/racket/raco-cross.git?path=raco-cross-lib"))

@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "36e4cf36cddb195bc5fe56603bf2f3b4c7877c49")
+(dependencies . ("base"))
+(description . "native libraries for \"draw\" package")
+(name . "draw-ppc-macosx-3")
+(source . "https://pkg-sources.racket-lang.org/pkgs/36e4cf36cddb195bc5fe56603bf2f3b4c7877c49/draw-ppc-macosx-3.zip"))

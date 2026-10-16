@@ -1,0 +1,9 @@
+
+#hash(
+(author . "mflatt@racket-lang.org")
+(authors . ("mflatt@racket-lang.org"))
+(checksum . "363947defe00f4709cbd54ef38b86a26d88b7bc9")
+(dependencies . ("base"))
+(description . "native libraries for \"draw\" package")
+(name . "draw-aarch64-macosx-4")
+(source . "https://pkg-sources.racket-lang.org/pkgs/363947defe00f4709cbd54ef38b86a26d88b7bc9/draw-aarch64-macosx-4.zip"))
