@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "e1c5ac5115ed3e6c52430390e6bf9b39c8c7e3df")
+(checksum . "1172893ab42440cad4c52865ddf4ff9898a1b146")
 (dependencies . ("syntax-color-lib" "syntax-color-doc"))
 (description . "Program syntax coloring for editors and typesetting")
 (name . "syntax-color")

@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "6d6dd7bbd59b9d431f83b683b19b37da05a42608")
+(checksum . "4a50ce2a08960487590c6d9880a180f7aeed7732")
 (dependencies . ("base" "compatibility-lib" "gui-lib" "pict-lib" "slideshow-lib"))
 (description . "executables for \"slideshow\"")
 (name . "slideshow-exe")

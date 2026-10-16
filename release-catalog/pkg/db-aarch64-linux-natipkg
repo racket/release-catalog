@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "edbdae83a93c0902024cd56f02f821ad8fc02d95")
+(checksum . "9bb6b3f7d94255f6dcc193bb55c28977f2d53d49")
 (dependencies . ("base"))
 (description . "native libraries for \"base\" package")
 (name . "db-aarch64-linux-natipkg")
-(source . "https://pkg-sources.racket-lang.org/pkgs/edbdae83a93c0902024cd56f02f821ad8fc02d95/db-aarch64-linux-natipkg.zip"))
+(source . "https://pkg-sources.racket-lang.org/pkgs/9bb6b3f7d94255f6dcc193bb55c28977f2d53d49/db-aarch64-linux-natipkg.zip"))

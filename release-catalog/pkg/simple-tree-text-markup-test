@@ -2,7 +2,7 @@
 #hash(
 (author . "sperber@deinprogramm.de")
 (authors . ("sperber@deinprogramm.de"))
-(checksum . "06bbcd3651e518a53cffa5f8484fe127574fed06")
+(checksum . "74c828e9320c61da8198483d71bac9f9fb0bb0a4")
 (dependencies . ("base" "simple-tree-text-markup-lib" "rackunit-lib"))
 (description . "This is a tree-based combinator library for simple markup, mainly for\r\ndisplaying messages in a REPL.\r\n\r\nThis package contains the tests for the library.")
 (name . "simple-tree-text-markup-test")

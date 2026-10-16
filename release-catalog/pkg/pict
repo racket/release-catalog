@@ -2,7 +2,7 @@
 #hash(
 (author . "mflatt@racket-lang.org robby@racket-lang.org")
 (authors . ("mflatt@racket-lang.org" "robby@racket-lang.org"))
-(checksum . "19ad27917c8530faddfaaba9328e781320a38606")
+(checksum . "4826d40e021a0ae6310a6499dd71e5e297e509a8")
 (dependencies . ("pict-lib" "pict-doc"))
 (description . "Building pictures with functional combinators")
 (name . "pict")

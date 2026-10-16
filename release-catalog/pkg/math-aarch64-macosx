@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "30990a7d356654f8ddc849a6662b6aa937e47f3a")
+(checksum . "7c8860567b82d2109c042a1fdffcdb879a94702d")
 (dependencies . ("base"))
 (description . "native libraries for \"math\" package")
 (name . "math-aarch64-macosx")
-(source . "https://pkg-sources.racket-lang.org/pkgs/30990a7d356654f8ddc849a6662b6aa937e47f3a/math-aarch64-macosx.zip"))
+(source . "https://pkg-sources.racket-lang.org/pkgs/7c8860567b82d2109c042a1fdffcdb879a94702d/math-aarch64-macosx.zip"))
