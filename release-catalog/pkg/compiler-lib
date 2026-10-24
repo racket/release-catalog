@@ -2,8 +2,8 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "921d37ecd874a366edd631f3a7343a026f2ecac3")
+(checksum . "24b78e0fc1611915e177426e2b3a1416136438be")
 (dependencies . (("base" #:version "8.13.0.6") "scheme-lib" ("zo-lib" #:version "1.3")))
 (description . "implementation (no documentation) part of \"compiler\"")
 (name . "compiler-lib")
-(source . "git://github.com/racket/racket?path=pkgs/compiler-lib"))
+(source . "git://github.com/racket/racket/?path=pkgs/compiler-lib#release"))
