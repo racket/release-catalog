@@ -118,3 +118,45 @@
        .
        ("712aac20c775138a5edeca51beded09515804cde"
         "53f77b66af0875c779004fe8a1341dbac366dde5")))
+;; ============================================================
+;; Appended 1793772112 : Wednesday, November 4th, 2026 6:01:52am
+#hash(("git://github.com/racket/drracket/?path=drracket#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-core#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-core-lib#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-plugin-lib#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-test#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-tool#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-doc#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-lib#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-test#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf"))
+      ("git://github.com/racket/drracket/?path=drracket-tool-text-lib#release"
+       .
+       ("05e05cb74fc6adc740a7841d258e1f942f12d701"
+        "d01660e05c20052e2fbe76555f8e6c2a391f0dcf")))
