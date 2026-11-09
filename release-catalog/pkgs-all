@@ -454,11 +454,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "f0e40aa22dd56efe29d4044a14a721014ea42687")
+(checksum . "3ba4af8ec86d7f5bb2ebefcb3b4959e0366a37f9")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-aarch64-linux-natipkg-4")
-(source . "https://pkg-sources.racket-lang.org/pkgs/f0e40aa22dd56efe29d4044a14a721014ea42687/draw-aarch64-linux-natipkg-4.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/3ba4af8ec86d7f5bb2ebefcb3b4959e0366a37f9/draw-aarch64-linux-natipkg-4.zip")))
 ("draw-aarch64-macosx-4" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -517,20 +517,20 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "cf6f965dd72b9c8146b7720a217ec0d9897c34c3")
+(checksum . "cab23a7803c2312d1b6190fda2c12697f6ffe389")
 (dependencies . ("base"))
 (description . "shared files for \"draw\" package")
 (name . "draw-ttf-aarch64-linux-natipkg")
-(source . "https://pkg-sources.racket-lang.org/pkgs/cf6f965dd72b9c8146b7720a217ec0d9897c34c3/draw-ttf-aarch64-linux-natipkg.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/cab23a7803c2312d1b6190fda2c12697f6ffe389/draw-ttf-aarch64-linux-natipkg.zip")))
 ("draw-ttf-x86_64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "73f0dc5acb5d9554da8b9c971aca14ed03ed29ef")
+(checksum . "6db9d52431921aef9a9fc997158d90478f052eed")
 (dependencies . ("base"))
 (description . "shared files for \"draw\" package")
 (name . "draw-ttf-x86_64-linux-natipkg")
-(source . "https://pkg-sources.racket-lang.org/pkgs/73f0dc5acb5d9554da8b9c971aca14ed03ed29ef/draw-ttf-x86_64-linux-natipkg.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/6db9d52431921aef9a9fc997158d90478f052eed/draw-ttf-x86_64-linux-natipkg.zip")))
 ("draw-win32-arm64-4" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -580,11 +580,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "f5d3a6b4edf35c1a84857efe8de9e71fc7e43cc6")
+(checksum . "3b97f6e3f811bb13196499cbbbf061ac9ccc81e8")
 (dependencies . ("base"))
 (description . "native libraries for \"draw\" package")
 (name . "draw-x86_64-linux-natipkg-4")
-(source . "https://pkg-sources.racket-lang.org/pkgs/f5d3a6b4edf35c1a84857efe8de9e71fc7e43cc6/draw-x86_64-linux-natipkg-4.zip")))
+(source . "https://pkg-sources.racket-lang.org/pkgs/3b97f6e3f811bb13196499cbbbf061ac9ccc81e8/draw-x86_64-linux-natipkg-4.zip")))
 ("draw-x86_64-macosx-4" . 
 #hash(
 (author . "mflatt@racket-lang.org")
