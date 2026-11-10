@@ -445,11 +445,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "b7338af16c11183dffffd113e6bc9376d20bbdd1")
+(checksum . "072550c2d7a885dd45f780628fb1d24631663a65")
 (dependencies . ("draw-lib" "draw-doc"))
 (description . "Drawing libraries")
 (name . "draw")
-(source . "git://github.com/racket/draw/?path=draw")))
+(source . "git://github.com/racket/draw/?path=draw#release")))
 ("draw-aarch64-linux-natipkg-4" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -472,11 +472,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "b7338af16c11183dffffd113e6bc9376d20bbdd1")
+(checksum . "072550c2d7a885dd45f780628fb1d24631663a65")
 (dependencies . ("gui-doc" "pict-doc" "at-exp-lib" ("base" #:version "8.15") "gui-lib" "pict-lib" "scribble-lib" "draw-lib" "racket-doc"))
 (description . "documentation part of \"draw\"")
 (name . "draw-doc")
-(source . "git://github.com/racket/draw/?path=draw-doc")))
+(source . "git://github.com/racket/draw/?path=draw-doc#release")))
 ("draw-i386-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -490,11 +490,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "b7338af16c11183dffffd113e6bc9376d20bbdd1")
+(checksum . "072550c2d7a885dd45f780628fb1d24631663a65")
 (dependencies . (("base" #:version "9.3.0.2") ("draw-i386-macosx-3" #:platform "i386-macosx") ("draw-x86_64-macosx-4" #:platform "x86_64-macosx") ("draw-ppc-macosx-3" #:platform "ppc-macosx") ("draw-aarch64-macosx-4" #:platform "aarch64-macosx") ("draw-win32-i386-3" #:platform "win32\\i386") ("draw-win32-x86_64-4" #:platform "win32\\x86_64") ("draw-win32-arm64-4" #:platform "win32\\arm64") ("draw-x86_64-linux-natipkg-4" #:platform "x86_64-linux-natipkg") ("draw-x11-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-ttf-x86_64-linux-natipkg" #:platform "x86_64-linux-natipkg") ("draw-aarch64-linux-natipkg-4" #:platform "aarch64-linux-natipkg") ("draw-x11-aarch64-linux-natipkg" #:platform "aarch64-linux-natipkg") ("draw-ttf-aarch64-linux-natipkg" #:platform "aarch64-linux-natipkg")))
 (description . "implementation (no documentation) part of \"draw\"")
 (name . "draw-lib")
-(source . "git://github.com/racket/draw/?path=draw-lib")))
+(source . "git://github.com/racket/draw/?path=draw-lib#release")))
 ("draw-ppc-macosx-3" . 
 #hash(
 (author . "mflatt@racket-lang.org")
@@ -508,11 +508,11 @@
 #hash(
 (author . "mflatt@racket-lang.org")
 (authors . ("mflatt@racket-lang.org"))
-(checksum . "b7338af16c11183dffffd113e6bc9376d20bbdd1")
+(checksum . "072550c2d7a885dd45f780628fb1d24631663a65")
 (dependencies . ("base" "racket-index" "scheme-lib" "draw-lib" "racket-test" "sgl" "gui-lib" "rackunit-lib" "pconvert-lib" "compatibility-lib" "sandbox-lib"))
 (description . "tests for \"draw\"")
 (name . "draw-test")
-(source . "git://github.com/racket/draw/?path=draw-test")))
+(source . "git://github.com/racket/draw/?path=draw-test#release")))
 ("draw-ttf-aarch64-linux-natipkg" . 
 #hash(
 (author . "mflatt@racket-lang.org")
